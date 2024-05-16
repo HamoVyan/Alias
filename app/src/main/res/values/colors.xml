@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="gray">#808080</color>
+
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <color name="pure_gold">#E5B80B</color>
+    <color name="dark_emerald_green">#105E26</color>
+
+    <color name="yellow">#FFFF00</color>
+
+    <color name="red">#B00000</color>
+
+    <color name="coral">#FF7F50</color>
+    <color name="teal">#00A8A8</color>
+
+    <color name="purple">#571182</color>
+    <color name="blooming_dahlia">#EC9968</color>
+
+    <color name="orange">#FFA500</color>
+    <color name="light_blue">#00A2E8</color>
+</resources>

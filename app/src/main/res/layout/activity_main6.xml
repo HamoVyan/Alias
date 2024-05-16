@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main6"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".MainActivity6">
+
+    <ImageButton
+        android:id="@+id/back"
+        android:layout_width="@dimen/_46sdp"
+        android:layout_height="@dimen/_38sdp"
+        android:layout_marginTop="-10dp"
+        android:background="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.01"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/back_black" />
+
+    <TextView
+        android:id="@+id/language"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Choose the language"
+        android:textColor="@color/black"
+        android:textSize="@dimen/_30sdp"
+        android:textStyle="bold|italic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.05"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/back"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <RadioButton
+        android:id="@+id/armenian"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Armenian"
+        android:textColor="@color/black"
+        android:textSize="@dimen/_15sdp"
+        app:buttonTint="@color/black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.01"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/language"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <RadioButton
+        android:id="@+id/russian"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="1dp"
+        android:text="Russian"
+        android:textColor="@color/black"
+        android:textSize="@dimen/_15sdp"
+        app:buttonTint="@color/black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.01"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/armenian"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <RadioButton
+        android:id="@+id/english"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="English"
+        android:textColor="@color/black"
+        android:textSize="@dimen/_15sdp"
+        app:buttonTint="@color/black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.01"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/russian"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/color"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Choose the color"
+        android:textColor="@color/black"
+        android:textSize="40dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.05"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/english"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <Button
+        android:id="@+id/next"
+        android:layout_width="@dimen/_115sdp"
+        android:layout_height="@dimen/_53sdp"
+        android:text="Next"
+        android:textColor="@color/white"
+        android:backgroundTint="@color/black"
+        android:textSize="@dimen/_23sdp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.98"
+        tools:ignore="MissingConstraints" />
+
+    <RadioButton
+        android:id="@+id/color1"
+        android:layout_width="@dimen/_61sdp"
+        android:layout_height="@dimen/_61sdp"
+        android:drawableLeft="@drawable/color1"
+        android:layoutDirection="rtl"
+        app:buttonTint="@color/black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.98"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/color"
+        app:layout_constraintVertical_bias="0.0"
+        tools:ignore="MissingConstraints" />
+
+    <RadioButton
+        android:id="@+id/color2"
+        android:layout_width="@dimen/_61sdp"
+        android:layout_height="@dimen/_61sdp"
+        android:drawableLeft="@drawable/color2"
+        android:layoutDirection="rtl"
+        app:buttonTint="@color/black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.98"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/color1"
+        app:layout_constraintVertical_bias="0.0"
+        tools:ignore="MissingConstraints" />
+
+    <RadioButton
+        android:id="@+id/color3"
+        android:layout_width="@dimen/_61sdp"
+        android:layout_height="@dimen/_61sdp"
+        android:drawableLeft="@drawable/color3"
+        android:layoutDirection="rtl"
+        app:buttonTint="@color/black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.98"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/color2"
+        app:layout_constraintVertical_bias="0.0"
+        tools:ignore="MissingConstraints" />
+
+    <RadioButton
+        android:id="@+id/color4"
+        android:layout_width="@dimen/_61sdp"
+        android:layout_height="@dimen/_61sdp"
+        android:drawableLeft="@drawable/color4"
+        android:layoutDirection="rtl"
+        app:buttonTint="@color/black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.98"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/color3"
+        app:layout_constraintVertical_bias="0.0"
+        tools:ignore="MissingConstraints" />
+
+    <RadioButton
+        android:id="@+id/color5"
+        android:layout_width="@dimen/_61sdp"
+        android:layout_height="@dimen/_61sdp"
+        android:drawableLeft="@drawable/color5"
+        android:layoutDirection="rtl"
+        app:buttonTint="@color/black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.6"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/color"
+        app:layout_constraintVertical_bias="0.0"
+        tools:ignore="MissingConstraints" />
+
+    <RadioButton
+        android:id="@+id/color6"
+        android:layout_width="@dimen/_61sdp"
+        android:layout_height="@dimen/_61sdp"
+        android:drawableLeft="@drawable/color6"
+        android:layoutDirection="rtl"
+        app:buttonTint="@color/black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.6"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/color5"
+        app:layout_constraintVertical_bias="0.0"
+        tools:ignore="MissingConstraints" />
+
+    <RadioButton
+        android:id="@+id/color7"
+        android:layout_width="@dimen/_61sdp"
+        android:layout_height="@dimen/_61sdp"
+        android:drawableLeft="@drawable/color7"
+        android:layoutDirection="rtl"
+        app:buttonTint="@color/black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.6"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/color6"
+        app:layout_constraintVertical_bias="0.0"
+        tools:ignore="MissingConstraints" />
+
+    <RadioButton
+        android:id="@+id/color8"
+        android:layout_width="@dimen/_61sdp"
+        android:layout_height="@dimen/_61sdp"
+        android:drawableLeft="@drawable/color8"
+        android:layoutDirection="rtl"
+        app:buttonTint="@color/black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.6"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/color7"
+        tools:ignore="MissingConstraints" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

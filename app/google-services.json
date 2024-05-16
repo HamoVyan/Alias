@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "1009393681324",
+    "firebase_url": "https://common-words-arm-default-rtdb.firebaseio.com",
+    "project_id": "common-words-arm",
+    "storage_bucket": "common-words-arm.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1009393681324:android:c38c79e7fec4421ffeb009",
+        "android_client_info": {
+          "package_name": "com.example.alias"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBpPxvWCoBKsSuHX7rB-nDuZzMLFp4uCJc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
