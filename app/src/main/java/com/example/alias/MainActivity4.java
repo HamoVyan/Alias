@@ -39,6 +39,7 @@ public class MainActivity4 extends AppCompatActivity {
     int count = 0;
     boolean team1_win = false;
     boolean team2_win = false;
+    private int win_score_4 = 0;
 
     @SuppressLint("MissingInflatedId")
     @Override
@@ -119,9 +120,125 @@ public class MainActivity4 extends AppCompatActivity {
         String score1 = team1_score.getText().toString();
         int score1_int = Integer.parseInt(score1);
         String score2 = team2_score.getText().toString();
-        int score2_int = Integer.parseInt(score1);
+        int score2_int = Integer.parseInt(score2);
 
-        if ( score1_int == win_score_int || score1_int > win_score_int ) {
+        if ( MainActivity5.isScore25Selected ) {
+            win_score_4 = 25;
+        } else if ( MainActivity5.isScore50Selected ) {
+            win_score_4 = 50;
+        } else if ( MainActivity5.isScore75Selected ) {
+            win_score_4 = 75;
+        } else if ( MainActivity5.isScore100Selected ) {
+            win_score_4 = 100;
+        }
+
+        int itemCount1 = RecView1.getAdapter().getItemCount();
+        int itemCount2 = RecView2.getAdapter().getItemCount();
+
+        if ( itemCount1 == itemCount2 ) {
+            if ( "25".equals(best_score.getText().toString()) ) {
+                if ( score1_int == 25 || score1_int > 25 ) {
+                    Intent intent = new Intent(MainActivity4.this, MainActivity7.class);
+                    startActivity(intent);
+                    team1_win = true;
+                    intent.putExtra("team1_win", team1_win);
+                } else if ( score2_int == 25 || score2_int > 25 ) {
+                    Intent intent = new Intent(MainActivity4.this, MainActivity7.class);
+                    startActivity(intent);
+                    team2_win = true;
+                    intent.putExtra("team2_win", team2_win);
+                }
+            } else if ( "50".equals(best_score.getText().toString()) ) {
+                if ( score1_int == 50 || score1_int > 50 ) {
+                    Intent intent = new Intent(MainActivity4.this, MainActivity7.class);
+                    startActivity(intent);
+                    team1_win = true;
+                    intent.putExtra("team1_win", team1_win);
+                } else if ( score2_int == 50 || score2_int > 50 ) {
+                    Intent intent = new Intent(MainActivity4.this, MainActivity7.class);
+                    startActivity(intent);
+                    team2_win = true;
+                    intent.putExtra("team2_win", team2_win);
+                }
+            } else if ( "75".equals(best_score.getText().toString()) ) {
+                if ( score1_int == 75 || score1_int > 75 ) {
+                    Intent intent = new Intent(MainActivity4.this, MainActivity7.class);
+                    startActivity(intent);
+                    team1_win = true;
+                    intent.putExtra("team1_win", team1_win);
+                } else if ( score2_int == 75 || score2_int > 75 ) {
+                    Intent intent = new Intent(MainActivity4.this, MainActivity7.class);
+                    startActivity(intent);
+                    team2_win = true;
+                    intent.putExtra("team2_win", team2_win);
+                }
+            } else if ( "100".equals(best_score.getText().toString()) ) {
+                if ( score1_int == 100 || score1_int > 100 ) {
+                    Intent intent = new Intent(MainActivity4.this, MainActivity7.class);
+                    startActivity(intent);
+                    team1_win = true;
+                    intent.putExtra("team1_win", team1_win);
+                } else if ( score2_int == 100 || score2_int > 100 ) {
+                    Intent intent = new Intent(MainActivity4.this, MainActivity7.class);
+                    startActivity(intent);
+                    team2_win = true;
+                    intent.putExtra("team2_win", team2_win);
+                }
+            }
+        } else {}
+
+
+        if ( "25".equals(best_score.getText().toString()) ) {
+            if ( score1_int == 25 || score1_int > 25 ) {
+                Intent intent = new Intent(MainActivity4.this, MainActivity7.class);
+                startActivity(intent);
+                team1_win = true;
+                intent.putExtra("team1_win", team1_win);
+            } else if ( score2_int == 25 || score2_int > 25 ) {
+                Intent intent = new Intent(MainActivity4.this, MainActivity7.class);
+                startActivity(intent);
+                team2_win = true;
+                intent.putExtra("team2_win", team2_win);
+            }
+        } else if ( "50".equals(best_score.getText().toString()) ) {
+            if ( score1_int == 50 || score1_int > 50 ) {
+                Intent intent = new Intent(MainActivity4.this, MainActivity7.class);
+                startActivity(intent);
+                team1_win = true;
+                intent.putExtra("team1_win", team1_win);
+            } else if ( score2_int == 50 || score2_int > 50 ) {
+                Intent intent = new Intent(MainActivity4.this, MainActivity7.class);
+                startActivity(intent);
+                team2_win = true;
+                intent.putExtra("team2_win", team2_win);
+            }
+        } else if ( "75".equals(best_score.getText().toString()) ) {
+            if ( score1_int == 75 || score1_int > 75 ) {
+                Intent intent = new Intent(MainActivity4.this, MainActivity7.class);
+                startActivity(intent);
+                team1_win = true;
+                intent.putExtra("team1_win", team1_win);
+            } else if ( score2_int == 75 || score2_int > 75 ) {
+                Intent intent = new Intent(MainActivity4.this, MainActivity7.class);
+                startActivity(intent);
+                team2_win = true;
+                intent.putExtra("team2_win", team2_win);
+            }
+        } else if ( "100".equals(best_score.getText().toString()) ) {
+            if ( score1_int == 100 || score1_int > 100 ) {
+                Intent intent = new Intent(MainActivity4.this, MainActivity7.class);
+                startActivity(intent);
+                team1_win = true;
+                intent.putExtra("team1_win", team1_win);
+            } else if ( score2_int == 100 || score2_int > 100 ) {
+                Intent intent = new Intent(MainActivity4.this, MainActivity7.class);
+                startActivity(intent);
+                team2_win = true;
+                intent.putExtra("team2_win", team2_win);
+            }
+        }
+
+        /*if ( score1_int == win_score_int || score1_int > win_score_int ) {
             Intent intent = new Intent(MainActivity4.this, MainActivity7.class);
             startActivity(intent);
             team1_win = true;
@@ -131,7 +248,7 @@ public class MainActivity4 extends AppCompatActivity {
             startActivity(intent);
             team2_win = true;
             intent.putExtra("team2_win", team2_win);
-        }
+        }*/
         /*Points*/
 
         play.setOnClickListener(new View.OnClickListener() {

@@ -77,7 +77,7 @@ public class MainActivity2 extends AppCompatActivity {
         LinearLayout linearlayout = findViewById(R.id.linearlayout);
         ConstraintLayout main2 = findViewById(R.id.main2);
 
-        db.collection("Common Words-arm").get()
+        /*db.collection("Common Words-arm").get()
                 .addOnCompleteListener(new OnCompleteListener<QuerySnapshot>() {
                     @Override
                     public void onComplete(@NonNull Task<QuerySnapshot> task) {
@@ -102,7 +102,27 @@ public class MainActivity2 extends AppCompatActivity {
                             Toast.makeText(MainActivity2.this, "error", Toast.LENGTH_SHORT).show();
                         }
                     }
+                });*/
+
+        db.collection("New")
+                .get()
+                .addOnCompleteListener(task -> {
+                    if (task.isSuccessful()) {
+                        List<String> wordsList = new ArrayList<>();
+                        for (QueryDocumentSnapshot document : task.getResult()) {
+                            String word = document.getString("ccc");
+                            if (word != null) {
+                                wordsList.add(word);
+                            }
+                        }
+                        Random random = new Random();
+                        String randomWord = wordsList.get(random.nextInt(wordsList.size()));
+
+                        word1.setText(randomWord);
+                    } else {
+                    }
                 });
+
 
         int black = ContextCompat.getColor(this, R.color.black);
         int white = ContextCompat.getColor(this, R.color.white);
