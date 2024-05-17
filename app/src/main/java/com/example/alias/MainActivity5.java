@@ -30,6 +30,12 @@ public class MainActivity5 extends AppCompatActivity {
     public static boolean isScore50Selected = false;
     public static boolean isScore75Selected = false;
     public static boolean isScore100Selected = false;
+    public static boolean is_common_words_selected = false;
+    public static boolean is_famous_peoples_selected = false;
+    public static boolean is_city_countries_selected = false;
+    public static boolean is_pantomime_selected = false;
+    public static boolean is_films_selected = false;
+    public static boolean is_all_selected = false;
 
     @SuppressLint("MissingInflatedId")
     @Override
@@ -80,10 +86,19 @@ public class MainActivity5 extends AppCompatActivity {
                 isTime60Selected = time60.isChecked();
                 isTime75Selected = time75.isChecked();
                 isTime90Selected = time90.isChecked();
+
                 isScore25Selected = score25.isChecked();
                 isScore50Selected = score50.isChecked();
                 isScore75Selected = score75.isChecked();
                 isScore100Selected = score100.isChecked();
+
+                is_common_words_selected = sec1.isChecked();
+                is_famous_peoples_selected = sec2.isChecked();
+                is_city_countries_selected = sec3.isChecked();
+                is_pantomime_selected = sec4.isChecked();
+                is_films_selected = sec5.isChecked();
+                is_all_selected = sec6.isChecked();
+
                 Intent intent = new Intent(MainActivity5.this, MainActivity4.class);
                 startActivity(intent);
                 finish();

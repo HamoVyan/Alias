@@ -49,6 +49,8 @@ public class MainActivity2 extends AppCompatActivity {
     private int clickcount = 0;
     private FirebaseFirestore db = FirebaseFirestore.getInstance();
     ArrayList<String> words_cwa = new ArrayList<>();
+    ArrayList<String> words_cwr = new ArrayList<>();
+    ArrayList<String> words_cwe = new ArrayList<>();
     Map<String, Object> data;
 
     @SuppressLint("MissingInflatedId")
@@ -59,7 +61,7 @@ public class MainActivity2 extends AppCompatActivity {
         this.getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN, WindowManager.LayoutParams.FLAG_FULLSCREEN);
         setContentView(R.layout.activity_main2);
 
-        word1 = findViewById(R.id.word1);
+        TextView word1 = findViewById(R.id.word1);
         TextView word2 = findViewById(R.id.word2);
         TextView word3 = findViewById(R.id.word3);
         TextView word4 = findViewById(R.id.word4);
@@ -77,52 +79,90 @@ public class MainActivity2 extends AppCompatActivity {
         LinearLayout linearlayout = findViewById(R.id.linearlayout);
         ConstraintLayout main2 = findViewById(R.id.main2);
 
-        /*db.collection("Common Words-arm").get()
-                .addOnCompleteListener(new OnCompleteListener<QuerySnapshot>() {
-                    @Override
-                    public void onComplete(@NonNull Task<QuerySnapshot> task) {
-                        if (task.isSuccessful()) {
-                            for (QueryDocumentSnapshot document : task.getResult()) {
-                                Log.d(TAG,  "" + document.getData());
-                                data = document.getData();
-                                words_cwa.add((String) data.get("cwa"));
+        if ( MainActivity5.is_common_words_selected ) {
+            if ( MainActivity6.Armenian ) {
+                db.collection("Common Words-arm").get()
+                        .addOnCompleteListener(new OnCompleteListener<QuerySnapshot>() {
+                            @Override
+                            public void onComplete(@NonNull Task<QuerySnapshot> task) {
+                                if (task.isSuccessful()) {
+                                    for (QueryDocumentSnapshot document : task.getResult()) {
+                                        Log.d(TAG,  "" + document.getData());
+                                        data = document.getData();
+                                        words_cwa.add((String) data.get("cwa"));
+                                    }
+                                    word1.setText(getRandomArray(words_cwa));
+                                    word2.setText(getRandomArray(words_cwa));
+                                    word3.setText(getRandomArray(words_cwa));
+                                    word4.setText(getRandomArray(words_cwa));
+                                    word5.setText(getRandomArray(words_cwa));
+                                    word6.setText(getRandomArray(words_cwa));
+                                    word7.setText(getRandomArray(words_cwa));
+                                    word8.setText(getRandomArray(words_cwa));
+                                    word9.setText(getRandomArray(words_cwa));
+                                    word10.setText(getRandomArray(words_cwa));
+                                } else {
+                                    Log.w(TAG, "Error getting documents.", task.getException());
+                                    Toast.makeText(MainActivity2.this, "error", Toast.LENGTH_SHORT).show();
+                                }
                             }
-                            word1.setText(getRandomArray(words_cwa));
-                            word2.setText(getRandomArray(words_cwa));
-                            word3.setText(getRandomArray(words_cwa));
-                            word4.setText(getRandomArray(words_cwa));
-                            word5.setText(getRandomArray(words_cwa));
-                            word6.setText(getRandomArray(words_cwa));
-                            word7.setText(getRandomArray(words_cwa));
-                            word8.setText(getRandomArray(words_cwa));
-                            word9.setText(getRandomArray(words_cwa));
-                            word10.setText(getRandomArray(words_cwa));
-                        } else {
-                            Log.w(TAG, "Error getting documents.", task.getException());
-                            Toast.makeText(MainActivity2.this, "error", Toast.LENGTH_SHORT).show();
-                        }
-                    }
-                });*/
-
-        db.collection("New")
-                .get()
-                .addOnCompleteListener(task -> {
-                    if (task.isSuccessful()) {
-                        List<String> wordsList = new ArrayList<>();
-                        for (QueryDocumentSnapshot document : task.getResult()) {
-                            String word = document.getString("ccc");
-                            if (word != null) {
-                                wordsList.add(word);
+                        });
+            } else if ( MainActivity6.Russian ) {
+                db.collection("Common Words-rus").get()
+                        .addOnCompleteListener(new OnCompleteListener<QuerySnapshot>() {
+                            @Override
+                            public void onComplete(@NonNull Task<QuerySnapshot> task) {
+                                if (task.isSuccessful()) {
+                                    for (QueryDocumentSnapshot document : task.getResult()) {
+                                        Log.d(TAG,  "" + document.getData());
+                                        data = document.getData();
+                                        words_cwr.add((String) data.get("cwr"));
+                                    }
+                                    word1.setText(getRandomArray(words_cwr));
+                                    word2.setText(getRandomArray(words_cwr));
+                                    word3.setText(getRandomArray(words_cwr));
+                                    word4.setText(getRandomArray(words_cwr));
+                                    word5.setText(getRandomArray(words_cwr));
+                                    word6.setText(getRandomArray(words_cwr));
+                                    word7.setText(getRandomArray(words_cwr));
+                                    word8.setText(getRandomArray(words_cwr));
+                                    word9.setText(getRandomArray(words_cwr));
+                                    word10.setText(getRandomArray(words_cwr));
+                                } else {
+                                    Log.w(TAG, "Error getting documents.", task.getException());
+                                    Toast.makeText(MainActivity2.this, "error", Toast.LENGTH_SHORT).show();
+                                }
                             }
-                        }
-                        Random random = new Random();
-                        String randomWord = wordsList.get(random.nextInt(wordsList.size()));
-
-                        word1.setText(randomWord);
-                    } else {
-                    }
-                });
-
+                        });
+            } else if ( MainActivity6.English ) {
+                db.collection("Common Words-eng").get()
+                        .addOnCompleteListener(new OnCompleteListener<QuerySnapshot>() {
+                            @Override
+                            public void onComplete(@NonNull Task<QuerySnapshot> task) {
+                                if (task.isSuccessful()) {
+                                    for (QueryDocumentSnapshot document : task.getResult()) {
+                                        Log.d(TAG,  "" + document.getData());
+                                        data = document.getData();
+                                        words_cwe.add((String) data.get("cwe"));
+                                    }
+                                    word1.setText(getRandomArray(words_cwe));
+                                    word2.setText(getRandomArray(words_cwe));
+                                    word3.setText(getRandomArray(words_cwe));
+                                    word4.setText(getRandomArray(words_cwe));
+                                    word5.setText(getRandomArray(words_cwe));
+                                    word6.setText(getRandomArray(words_cwe));
+                                    word7.setText(getRandomArray(words_cwe));
+                                    word8.setText(getRandomArray(words_cwe));
+                                    word9.setText(getRandomArray(words_cwe));
+                                    word10.setText(getRandomArray(words_cwe));
+                                } else {
+                                    Log.w(TAG, "Error getting documents.", task.getException());
+                                    Toast.makeText(MainActivity2.this, "error", Toast.LENGTH_SHORT).show();
+                                }
+                            }
+                        });
+            }
+        }
 
         int black = ContextCompat.getColor(this, R.color.black);
         int white = ContextCompat.getColor(this, R.color.white);
