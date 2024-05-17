@@ -339,7 +339,7 @@ public class MainActivity2 extends AppCompatActivity {
                 }
             }
 
-            private void resetWordsColor1() {
+            private void resetWordsColor1_Common_Words_Armenian() {
                 word1.setText(getRandomArray(words_cwa)); word1.setBackgroundColor(white);
                 word2.setText(getRandomArray(words_cwa)); word2.setBackgroundColor(white);
                 word3.setText(getRandomArray(words_cwa)); word3.setBackgroundColor(white);
@@ -352,7 +352,33 @@ public class MainActivity2 extends AppCompatActivity {
                 word10.setText(getRandomArray(words_cwa)); word10.setBackgroundColor(white);
             }
 
-            private void resetWordsColor2() {
+            private void resetWordsColor1_Common_Words_Russian() {
+                word1.setText(getRandomArray(words_cwr)); word1.setBackgroundColor(white);
+                word2.setText(getRandomArray(words_cwr)); word2.setBackgroundColor(white);
+                word3.setText(getRandomArray(words_cwr)); word3.setBackgroundColor(white);
+                word4.setText(getRandomArray(words_cwr)); word4.setBackgroundColor(white);
+                word5.setText(getRandomArray(words_cwr)); word5.setBackgroundColor(white);
+                word6.setText(getRandomArray(words_cwr)); word6.setBackgroundColor(white);
+                word7.setText(getRandomArray(words_cwr)); word7.setBackgroundColor(white);
+                word8.setText(getRandomArray(words_cwr)); word8.setBackgroundColor(white);
+                word9.setText(getRandomArray(words_cwr)); word9.setBackgroundColor(white);
+                word10.setText(getRandomArray(words_cwr)); word10.setBackgroundColor(white);
+            }
+
+            private void resetWordsColor1_Common_Words_English() {
+                word1.setText(getRandomArray(words_cwe)); word1.setBackgroundColor(white);
+                word2.setText(getRandomArray(words_cwe)); word2.setBackgroundColor(white);
+                word3.setText(getRandomArray(words_cwe)); word3.setBackgroundColor(white);
+                word4.setText(getRandomArray(words_cwe)); word4.setBackgroundColor(white);
+                word5.setText(getRandomArray(words_cwe)); word5.setBackgroundColor(white);
+                word6.setText(getRandomArray(words_cwe)); word6.setBackgroundColor(white);
+                word7.setText(getRandomArray(words_cwe)); word7.setBackgroundColor(white);
+                word8.setText(getRandomArray(words_cwe)); word8.setBackgroundColor(white);
+                word9.setText(getRandomArray(words_cwe)); word9.setBackgroundColor(white);
+                word10.setText(getRandomArray(words_cwe)); word10.setBackgroundColor(white);
+            }
+
+            private void resetWordsColor2_Common_Words_Armenian() {
                 word1.setText(getRandomArray(words_cwa)); word1.setBackgroundColor(dark_emerald_green);
                 word2.setText(getRandomArray(words_cwa)); word2.setBackgroundColor(dark_emerald_green);
                 word3.setText(getRandomArray(words_cwa)); word3.setBackgroundColor(dark_emerald_green);
@@ -365,7 +391,33 @@ public class MainActivity2 extends AppCompatActivity {
                 word10.setText(getRandomArray(words_cwa)); word10.setBackgroundColor(dark_emerald_green);
             }
 
-            private void resetWordsColor3() {
+            private void resetWordsColor2_Common_Words_Russian() {
+                word1.setText(getRandomArray(words_cwr)); word1.setBackgroundColor(dark_emerald_green);
+                word2.setText(getRandomArray(words_cwr)); word2.setBackgroundColor(dark_emerald_green);
+                word3.setText(getRandomArray(words_cwr)); word3.setBackgroundColor(dark_emerald_green);
+                word4.setText(getRandomArray(words_cwr)); word4.setBackgroundColor(dark_emerald_green);
+                word5.setText(getRandomArray(words_cwr)); word5.setBackgroundColor(dark_emerald_green);
+                word6.setText(getRandomArray(words_cwr)); word6.setBackgroundColor(dark_emerald_green);
+                word7.setText(getRandomArray(words_cwr)); word7.setBackgroundColor(dark_emerald_green);
+                word8.setText(getRandomArray(words_cwr)); word8.setBackgroundColor(dark_emerald_green);
+                word9.setText(getRandomArray(words_cwr)); word9.setBackgroundColor(dark_emerald_green);
+                word10.setText(getRandomArray(words_cwr)); word10.setBackgroundColor(dark_emerald_green);
+            }
+
+            private void resetWordsColor2_Common_Words_English() {
+                word1.setText(getRandomArray(words_cwe)); word1.setBackgroundColor(dark_emerald_green);
+                word2.setText(getRandomArray(words_cwe)); word2.setBackgroundColor(dark_emerald_green);
+                word3.setText(getRandomArray(words_cwe)); word3.setBackgroundColor(dark_emerald_green);
+                word4.setText(getRandomArray(words_cwe)); word4.setBackgroundColor(dark_emerald_green);
+                word5.setText(getRandomArray(words_cwe)); word5.setBackgroundColor(dark_emerald_green);
+                word6.setText(getRandomArray(words_cwe)); word6.setBackgroundColor(dark_emerald_green);
+                word7.setText(getRandomArray(words_cwe)); word7.setBackgroundColor(dark_emerald_green);
+                word8.setText(getRandomArray(words_cwe)); word8.setBackgroundColor(dark_emerald_green);
+                word9.setText(getRandomArray(words_cwe)); word9.setBackgroundColor(dark_emerald_green);
+                word10.setText(getRandomArray(words_cwe)); word10.setBackgroundColor(dark_emerald_green);
+            }
+
+            private void resetWordsColor3_Common_Words_Armenian() {
                 word1.setText(getRandomArray(words_cwa)); word1.setBackgroundColor(yellow);
                 word2.setText(getRandomArray(words_cwa)); word2.setBackgroundColor(yellow);
                 word3.setText(getRandomArray(words_cwa)); word3.setBackgroundColor(yellow);
@@ -378,7 +430,33 @@ public class MainActivity2 extends AppCompatActivity {
                 word10.setText(getRandomArray(words_cwa)); word10.setBackgroundColor(yellow);
             }
 
-            private void resetWordsColor4() {
+            private void resetWordsColor3_Common_Words_Russian() {
+                word1.setText(getRandomArray(words_cwr)); word1.setBackgroundColor(yellow);
+                word2.setText(getRandomArray(words_cwr)); word2.setBackgroundColor(yellow);
+                word3.setText(getRandomArray(words_cwr)); word3.setBackgroundColor(yellow);
+                word4.setText(getRandomArray(words_cwr)); word4.setBackgroundColor(yellow);
+                word5.setText(getRandomArray(words_cwr)); word5.setBackgroundColor(yellow);
+                word6.setText(getRandomArray(words_cwr)); word6.setBackgroundColor(yellow);
+                word7.setText(getRandomArray(words_cwr)); word7.setBackgroundColor(yellow);
+                word8.setText(getRandomArray(words_cwr)); word8.setBackgroundColor(yellow);
+                word9.setText(getRandomArray(words_cwr)); word9.setBackgroundColor(yellow);
+                word10.setText(getRandomArray(words_cwr)); word10.setBackgroundColor(yellow);
+            }
+
+            private void resetWordsColor3_Common_Words_English() {
+                word1.setText(getRandomArray(words_cwe)); word1.setBackgroundColor(yellow);
+                word2.setText(getRandomArray(words_cwe)); word2.setBackgroundColor(yellow);
+                word3.setText(getRandomArray(words_cwe)); word3.setBackgroundColor(yellow);
+                word4.setText(getRandomArray(words_cwe)); word4.setBackgroundColor(yellow);
+                word5.setText(getRandomArray(words_cwe)); word5.setBackgroundColor(yellow);
+                word6.setText(getRandomArray(words_cwe)); word6.setBackgroundColor(yellow);
+                word7.setText(getRandomArray(words_cwe)); word7.setBackgroundColor(yellow);
+                word8.setText(getRandomArray(words_cwe)); word8.setBackgroundColor(yellow);
+                word9.setText(getRandomArray(words_cwe)); word9.setBackgroundColor(yellow);
+                word10.setText(getRandomArray(words_cwe)); word10.setBackgroundColor(yellow);
+            }
+
+            private void resetWordsColor4_Common_Words_Armenian() {
                 word1.setText(getRandomArray(words_cwa)); word1.setBackgroundColor(red);
                 word2.setText(getRandomArray(words_cwa)); word2.setBackgroundColor(red);
                 word3.setText(getRandomArray(words_cwa)); word3.setBackgroundColor(red);
@@ -391,7 +469,33 @@ public class MainActivity2 extends AppCompatActivity {
                 word10.setText(getRandomArray(words_cwa)); word10.setBackgroundColor(red);
             }
 
-            private void resetWordsColor5() {
+            private void resetWordsColor4_Common_Words_Russian() {
+                word1.setText(getRandomArray(words_cwr)); word1.setBackgroundColor(red);
+                word2.setText(getRandomArray(words_cwr)); word2.setBackgroundColor(red);
+                word3.setText(getRandomArray(words_cwr)); word3.setBackgroundColor(red);
+                word4.setText(getRandomArray(words_cwr)); word4.setBackgroundColor(red);
+                word5.setText(getRandomArray(words_cwr)); word5.setBackgroundColor(red);
+                word6.setText(getRandomArray(words_cwr)); word6.setBackgroundColor(red);
+                word7.setText(getRandomArray(words_cwr)); word7.setBackgroundColor(red);
+                word8.setText(getRandomArray(words_cwr)); word8.setBackgroundColor(red);
+                word9.setText(getRandomArray(words_cwr)); word9.setBackgroundColor(red);
+                word10.setText(getRandomArray(words_cwr)); word10.setBackgroundColor(red);
+            }
+
+            private void resetWordsColor4_Common_Words_English() {
+                word1.setText(getRandomArray(words_cwe)); word1.setBackgroundColor(red);
+                word2.setText(getRandomArray(words_cwe)); word2.setBackgroundColor(red);
+                word3.setText(getRandomArray(words_cwe)); word3.setBackgroundColor(red);
+                word4.setText(getRandomArray(words_cwe)); word4.setBackgroundColor(red);
+                word5.setText(getRandomArray(words_cwe)); word5.setBackgroundColor(red);
+                word6.setText(getRandomArray(words_cwe)); word6.setBackgroundColor(red);
+                word7.setText(getRandomArray(words_cwe)); word7.setBackgroundColor(red);
+                word8.setText(getRandomArray(words_cwe)); word8.setBackgroundColor(red);
+                word9.setText(getRandomArray(words_cwe)); word9.setBackgroundColor(red);
+                word10.setText(getRandomArray(words_cwe)); word10.setBackgroundColor(red);
+            }
+
+            private void resetWordsColor5_Common_Words_Armenian() {
                 word1.setText(getRandomArray(words_cwa)); word1.setBackgroundColor(teal);
                 word2.setText(getRandomArray(words_cwa)); word2.setBackgroundColor(teal);
                 word3.setText(getRandomArray(words_cwa)); word3.setBackgroundColor(teal);
@@ -404,7 +508,33 @@ public class MainActivity2 extends AppCompatActivity {
                 word10.setText(getRandomArray(words_cwa)); word10.setBackgroundColor(teal);
             }
 
-            private void resetWordsColor6() {
+            private void resetWordsColor5_Common_Words_Russian() {
+                word1.setText(getRandomArray(words_cwr)); word1.setBackgroundColor(teal);
+                word2.setText(getRandomArray(words_cwr)); word2.setBackgroundColor(teal);
+                word3.setText(getRandomArray(words_cwr)); word3.setBackgroundColor(teal);
+                word4.setText(getRandomArray(words_cwr)); word4.setBackgroundColor(teal);
+                word5.setText(getRandomArray(words_cwr)); word5.setBackgroundColor(teal);
+                word6.setText(getRandomArray(words_cwr)); word6.setBackgroundColor(teal);
+                word7.setText(getRandomArray(words_cwr)); word7.setBackgroundColor(teal);
+                word8.setText(getRandomArray(words_cwr)); word8.setBackgroundColor(teal);
+                word9.setText(getRandomArray(words_cwr)); word9.setBackgroundColor(teal);
+                word10.setText(getRandomArray(words_cwr)); word10.setBackgroundColor(teal);
+            }
+
+            private void resetWordsColor5_Common_Words_English() {
+                word1.setText(getRandomArray(words_cwe)); word1.setBackgroundColor(teal);
+                word2.setText(getRandomArray(words_cwe)); word2.setBackgroundColor(teal);
+                word3.setText(getRandomArray(words_cwe)); word3.setBackgroundColor(teal);
+                word4.setText(getRandomArray(words_cwe)); word4.setBackgroundColor(teal);
+                word5.setText(getRandomArray(words_cwe)); word5.setBackgroundColor(teal);
+                word6.setText(getRandomArray(words_cwe)); word6.setBackgroundColor(teal);
+                word7.setText(getRandomArray(words_cwe)); word7.setBackgroundColor(teal);
+                word8.setText(getRandomArray(words_cwe)); word8.setBackgroundColor(teal);
+                word9.setText(getRandomArray(words_cwe)); word9.setBackgroundColor(teal);
+                word10.setText(getRandomArray(words_cwe)); word10.setBackgroundColor(teal);
+            }
+
+            private void resetWordsColor6_Common_Words_Armenian() {
                 word1.setText(getRandomArray(words_cwa)); word1.setBackgroundColor(blooming_dahlia);
                 word2.setText(getRandomArray(words_cwa)); word2.setBackgroundColor(blooming_dahlia);
                 word3.setText(getRandomArray(words_cwa)); word3.setBackgroundColor(blooming_dahlia);
@@ -417,7 +547,33 @@ public class MainActivity2 extends AppCompatActivity {
                 word10.setText(getRandomArray(words_cwa)); word10.setBackgroundColor(blooming_dahlia);
             }
 
-            private void resetWordsColor7() {
+            private void resetWordsColor6_Common_Words_Russian() {
+                word1.setText(getRandomArray(words_cwr)); word1.setBackgroundColor(blooming_dahlia);
+                word2.setText(getRandomArray(words_cwr)); word2.setBackgroundColor(blooming_dahlia);
+                word3.setText(getRandomArray(words_cwr)); word3.setBackgroundColor(blooming_dahlia);
+                word4.setText(getRandomArray(words_cwr)); word4.setBackgroundColor(blooming_dahlia);
+                word5.setText(getRandomArray(words_cwr)); word5.setBackgroundColor(blooming_dahlia);
+                word6.setText(getRandomArray(words_cwr)); word6.setBackgroundColor(blooming_dahlia);
+                word7.setText(getRandomArray(words_cwr)); word7.setBackgroundColor(blooming_dahlia);
+                word8.setText(getRandomArray(words_cwr)); word8.setBackgroundColor(blooming_dahlia);
+                word9.setText(getRandomArray(words_cwr)); word9.setBackgroundColor(blooming_dahlia);
+                word10.setText(getRandomArray(words_cwr)); word10.setBackgroundColor(blooming_dahlia);
+            }
+
+            private void resetWordsColor6_Common_Words_English() {
+                word1.setText(getRandomArray(words_cwe)); word1.setBackgroundColor(blooming_dahlia);
+                word2.setText(getRandomArray(words_cwe)); word2.setBackgroundColor(blooming_dahlia);
+                word3.setText(getRandomArray(words_cwe)); word3.setBackgroundColor(blooming_dahlia);
+                word4.setText(getRandomArray(words_cwe)); word4.setBackgroundColor(blooming_dahlia);
+                word5.setText(getRandomArray(words_cwe)); word5.setBackgroundColor(blooming_dahlia);
+                word6.setText(getRandomArray(words_cwe)); word6.setBackgroundColor(blooming_dahlia);
+                word7.setText(getRandomArray(words_cwe)); word7.setBackgroundColor(blooming_dahlia);
+                word8.setText(getRandomArray(words_cwe)); word8.setBackgroundColor(blooming_dahlia);
+                word9.setText(getRandomArray(words_cwe)); word9.setBackgroundColor(blooming_dahlia);
+                word10.setText(getRandomArray(words_cwe)); word10.setBackgroundColor(blooming_dahlia);
+            }
+
+            private void resetWordsColor7_Common_Words_Armenian() {
                 word1.setText(getRandomArray(words_cwa)); word1.setBackgroundColor(orange);
                 word2.setText(getRandomArray(words_cwa)); word2.setBackgroundColor(orange);
                 word3.setText(getRandomArray(words_cwa)); word3.setBackgroundColor(orange);
@@ -430,7 +586,33 @@ public class MainActivity2 extends AppCompatActivity {
                 word10.setText(getRandomArray(words_cwa)); word10.setBackgroundColor(orange);
             }
 
-            private void resetWordsColor8() {
+            private void resetWordsColor7_Common_Words_Russian() {
+                word1.setText(getRandomArray(words_cwr)); word1.setBackgroundColor(orange);
+                word2.setText(getRandomArray(words_cwr)); word2.setBackgroundColor(orange);
+                word3.setText(getRandomArray(words_cwr)); word3.setBackgroundColor(orange);
+                word4.setText(getRandomArray(words_cwr)); word4.setBackgroundColor(orange);
+                word5.setText(getRandomArray(words_cwr)); word5.setBackgroundColor(orange);
+                word6.setText(getRandomArray(words_cwr)); word6.setBackgroundColor(orange);
+                word7.setText(getRandomArray(words_cwr)); word7.setBackgroundColor(orange);
+                word8.setText(getRandomArray(words_cwr)); word8.setBackgroundColor(orange);
+                word9.setText(getRandomArray(words_cwr)); word9.setBackgroundColor(orange);
+                word10.setText(getRandomArray(words_cwr)); word10.setBackgroundColor(orange);
+            }
+
+            private void resetWordsColor7_Common_Words_English() {
+                word1.setText(getRandomArray(words_cwe)); word1.setBackgroundColor(orange);
+                word2.setText(getRandomArray(words_cwe)); word2.setBackgroundColor(orange);
+                word3.setText(getRandomArray(words_cwe)); word3.setBackgroundColor(orange);
+                word4.setText(getRandomArray(words_cwe)); word4.setBackgroundColor(orange);
+                word5.setText(getRandomArray(words_cwe)); word5.setBackgroundColor(orange);
+                word6.setText(getRandomArray(words_cwe)); word6.setBackgroundColor(orange);
+                word7.setText(getRandomArray(words_cwe)); word7.setBackgroundColor(orange);
+                word8.setText(getRandomArray(words_cwe)); word8.setBackgroundColor(orange);
+                word9.setText(getRandomArray(words_cwe)); word9.setBackgroundColor(orange);
+                word10.setText(getRandomArray(words_cwe)); word10.setBackgroundColor(orange);
+            }
+
+            private void resetWordsColor8_Common_Words_Armenian() {
                 word1.setText(getRandomArray(words_cwa)); word1.setBackgroundColor(light_blue);
                 word2.setText(getRandomArray(words_cwa)); word2.setBackgroundColor(light_blue);
                 word3.setText(getRandomArray(words_cwa)); word3.setBackgroundColor(light_blue);
@@ -443,53 +625,176 @@ public class MainActivity2 extends AppCompatActivity {
                 word10.setText(getRandomArray(words_cwa)); word10.setBackgroundColor(light_blue);
             }
 
+            private void resetWordsColor8_Common_Words_Russian() {
+                word1.setText(getRandomArray(words_cwr)); word1.setBackgroundColor(light_blue);
+                word2.setText(getRandomArray(words_cwr)); word2.setBackgroundColor(light_blue);
+                word3.setText(getRandomArray(words_cwr)); word3.setBackgroundColor(light_blue);
+                word4.setText(getRandomArray(words_cwr)); word4.setBackgroundColor(light_blue);
+                word5.setText(getRandomArray(words_cwr)); word5.setBackgroundColor(light_blue);
+                word6.setText(getRandomArray(words_cwr)); word6.setBackgroundColor(light_blue);
+                word7.setText(getRandomArray(words_cwr)); word7.setBackgroundColor(light_blue);
+                word8.setText(getRandomArray(words_cwr)); word8.setBackgroundColor(light_blue);
+                word9.setText(getRandomArray(words_cwr)); word9.setBackgroundColor(light_blue);
+                word10.setText(getRandomArray(words_cwr)); word10.setBackgroundColor(light_blue);
+            }
+
+            private void resetWordsColor8_Common_Words_English() {
+                word1.setText(getRandomArray(words_cwe)); word1.setBackgroundColor(light_blue);
+                word2.setText(getRandomArray(words_cwe)); word2.setBackgroundColor(light_blue);
+                word3.setText(getRandomArray(words_cwe)); word3.setBackgroundColor(light_blue);
+                word4.setText(getRandomArray(words_cwe)); word4.setBackgroundColor(light_blue);
+                word5.setText(getRandomArray(words_cwe)); word5.setBackgroundColor(light_blue);
+                word6.setText(getRandomArray(words_cwe)); word6.setBackgroundColor(light_blue);
+                word7.setText(getRandomArray(words_cwe)); word7.setBackgroundColor(light_blue);
+                word8.setText(getRandomArray(words_cwe)); word8.setBackgroundColor(light_blue);
+                word9.setText(getRandomArray(words_cwe)); word9.setBackgroundColor(light_blue);
+                word10.setText(getRandomArray(words_cwe)); word10.setBackgroundColor(light_blue);
+            }
+
             private void pageChangingColor1() {
-                if (clickcount == 10 || clickcount == 20 || clickcount == 30  || clickcount == 40 || clickcount == 50) {
-                    resetWordsColor1();
+                if ( MainActivity5.is_common_words_selected ) {
+                    if ( MainActivity6.Armenian ) {
+                        if (clickcount == 10 || clickcount == 20 || clickcount == 30  || clickcount == 40 || clickcount == 50) {
+                            resetWordsColor1_Common_Words_Armenian();
+                        }
+                    } else if ( MainActivity6.Russian ) {
+                        if (clickcount == 10 || clickcount == 20 || clickcount == 30  || clickcount == 40 || clickcount == 50) {
+                            resetWordsColor1_Common_Words_Russian();
+                        }
+                    } else if ( MainActivity6.English ) {
+                        if (clickcount == 10 || clickcount == 20 || clickcount == 30  || clickcount == 40 || clickcount == 50) {
+                            resetWordsColor1_Common_Words_English();
+                        }
+                    }
                 }
             }
 
             private void pageChangingColor2() {
-                if (clickcount == 10 || clickcount == 20 || clickcount == 30  || clickcount == 40 || clickcount == 50) {
-                    resetWordsColor2();
+                if ( MainActivity5.is_common_words_selected ) {
+                    if ( MainActivity6.Armenian ) {
+                        if (clickcount == 10 || clickcount == 20 || clickcount == 30  || clickcount == 40 || clickcount == 50) {
+                            resetWordsColor2_Common_Words_Armenian();
+                        }
+                    } else if ( MainActivity6.Russian ) {
+                        if (clickcount == 10 || clickcount == 20 || clickcount == 30  || clickcount == 40 || clickcount == 50) {
+                            resetWordsColor2_Common_Words_Russian();
+                        }
+                    } else if ( MainActivity6.English ) {
+                        if (clickcount == 10 || clickcount == 20 || clickcount == 30  || clickcount == 40 || clickcount == 50) {
+                            resetWordsColor2_Common_Words_English();
+                        }
+                    }
                 }
             }
 
             private void pageChangingColor3() {
-                if (clickcount == 10 || clickcount == 20 || clickcount == 30  || clickcount == 40 || clickcount == 50) {
-                    resetWordsColor3();
+                if ( MainActivity5.is_common_words_selected ) {
+                    if ( MainActivity6.Armenian ) {
+                        if (clickcount == 10 || clickcount == 20 || clickcount == 30  || clickcount == 40 || clickcount == 50) {
+                            resetWordsColor3_Common_Words_Armenian();
+                        }
+                    } else if ( MainActivity6.Russian ) {
+                        if (clickcount == 10 || clickcount == 20 || clickcount == 30  || clickcount == 40 || clickcount == 50) {
+                            resetWordsColor3_Common_Words_Russian();
+                        }
+                    } else if ( MainActivity6.English ) {
+                        if (clickcount == 10 || clickcount == 20 || clickcount == 30  || clickcount == 40 || clickcount == 50) {
+                            resetWordsColor3_Common_Words_English();
+                        }
+                    }
                 }
             }
 
             private void pageChangingColor4() {
-                if (clickcount == 10 || clickcount == 20 || clickcount == 30  || clickcount == 40 || clickcount == 50) {
-                    resetWordsColor4();
+                if ( MainActivity5.is_common_words_selected ) {
+                    if ( MainActivity6.Armenian ) {
+                        if (clickcount == 10 || clickcount == 20 || clickcount == 30  || clickcount == 40 || clickcount == 50) {
+                            resetWordsColor4_Common_Words_Armenian();
+                        }
+                    } else if ( MainActivity6.Russian ) {
+                        if (clickcount == 10 || clickcount == 20 || clickcount == 30  || clickcount == 40 || clickcount == 50) {
+                            resetWordsColor4_Common_Words_Russian();
+                        }
+                    } else if ( MainActivity6.English ) {
+                        if (clickcount == 10 || clickcount == 20 || clickcount == 30  || clickcount == 40 || clickcount == 50) {
+                            resetWordsColor4_Common_Words_English();
+                        }
+                    }
                 }
             }
 
             private void pageChangingColor5() {
-                if (clickcount == 10 || clickcount == 20 || clickcount == 30  || clickcount == 40 || clickcount == 50) {
-                    resetWordsColor5();
+                if ( MainActivity5.is_common_words_selected ) {
+                    if ( MainActivity6.Armenian ) {
+                        if (clickcount == 10 || clickcount == 20 || clickcount == 30  || clickcount == 40 || clickcount == 50) {
+                            resetWordsColor5_Common_Words_Armenian();
+                        }
+                    } else if ( MainActivity6.Russian ) {
+                        if (clickcount == 10 || clickcount == 20 || clickcount == 30  || clickcount == 40 || clickcount == 50) {
+                            resetWordsColor5_Common_Words_Russian();
+                        }
+                    } else if ( MainActivity6.English ) {
+                        if (clickcount == 10 || clickcount == 20 || clickcount == 30  || clickcount == 40 || clickcount == 50) {
+                            resetWordsColor5_Common_Words_English();
+                        }
+                    }
                 }
             }
 
             private void pageChangingColor6() {
-                if (clickcount == 10 || clickcount == 20 || clickcount == 30  || clickcount == 40 || clickcount == 50) {
-                    resetWordsColor6();
+                if ( MainActivity5.is_common_words_selected ) {
+                    if ( MainActivity6.Armenian ) {
+                        if (clickcount == 10 || clickcount == 20 || clickcount == 30  || clickcount == 40 || clickcount == 50) {
+                            resetWordsColor6_Common_Words_Armenian();
+                        }
+                    } else if ( MainActivity6.Russian ) {
+                        if (clickcount == 10 || clickcount == 20 || clickcount == 30  || clickcount == 40 || clickcount == 50) {
+                            resetWordsColor6_Common_Words_Russian();
+                        }
+                    } else if ( MainActivity6.English ) {
+                        if (clickcount == 10 || clickcount == 20 || clickcount == 30  || clickcount == 40 || clickcount == 50) {
+                            resetWordsColor6_Common_Words_English();
+                        }
+                    }
                 }
             }
 
             private void pageChangingColor7() {
-                if (clickcount == 10 || clickcount == 20 || clickcount == 30  || clickcount == 40 || clickcount == 50) {
-                    resetWordsColor7();
+                if ( MainActivity5.is_common_words_selected ) {
+                    if ( MainActivity6.Armenian ) {
+                        if (clickcount == 10 || clickcount == 20 || clickcount == 30  || clickcount == 40 || clickcount == 50) {
+                            resetWordsColor7_Common_Words_Armenian();
+                        }
+                    } else if ( MainActivity6.Russian ) {
+                        if (clickcount == 10 || clickcount == 20 || clickcount == 30  || clickcount == 40 || clickcount == 50) {
+                            resetWordsColor7_Common_Words_Russian();
+                        }
+                    } else if ( MainActivity6.English ) {
+                        if (clickcount == 10 || clickcount == 20 || clickcount == 30  || clickcount == 40 || clickcount == 50) {
+                            resetWordsColor7_Common_Words_English();
+                        }
+                    }
                 }
             }
 
             private void pageChangingColor8() {
-                if (clickcount == 10 || clickcount == 20 || clickcount == 30  || clickcount == 40 || clickcount == 50) {
-                    resetWordsColor8();
+                if ( MainActivity5.is_common_words_selected ) {
+                    if ( MainActivity6.Armenian ) {
+                        if (clickcount == 10 || clickcount == 20 || clickcount == 30  || clickcount == 40 || clickcount == 50) {
+                            resetWordsColor8_Common_Words_Armenian();
+                        }
+                    } else if ( MainActivity6.Russian ) {
+                        if (clickcount == 10 || clickcount == 20 || clickcount == 30  || clickcount == 40 || clickcount == 50) {
+                            resetWordsColor8_Common_Words_Russian();
+                        }
+                    } else if ( MainActivity6.English ) {
+                        if (clickcount == 10 || clickcount == 20 || clickcount == 30  || clickcount == 40 || clickcount == 50) {
+                            resetWordsColor8_Common_Words_English();
+                        }
+                    }
                 }
             }
+
         });
         word2.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -640,7 +945,7 @@ public class MainActivity2 extends AppCompatActivity {
                 }
             }
 
-            private void resetWordsColor1() {
+            private void resetWordsColor1_Common_Words_Armenian() {
                 word1.setText(getRandomArray(words_cwa)); word1.setBackgroundColor(white);
                 word2.setText(getRandomArray(words_cwa)); word2.setBackgroundColor(white);
                 word3.setText(getRandomArray(words_cwa)); word3.setBackgroundColor(white);
@@ -653,7 +958,33 @@ public class MainActivity2 extends AppCompatActivity {
                 word10.setText(getRandomArray(words_cwa)); word10.setBackgroundColor(white);
             }
 
-            private void resetWordsColor2() {
+            private void resetWordsColor1_Common_Words_Russian() {
+                word1.setText(getRandomArray(words_cwr)); word1.setBackgroundColor(white);
+                word2.setText(getRandomArray(words_cwr)); word2.setBackgroundColor(white);
+                word3.setText(getRandomArray(words_cwr)); word3.setBackgroundColor(white);
+                word4.setText(getRandomArray(words_cwr)); word4.setBackgroundColor(white);
+                word5.setText(getRandomArray(words_cwr)); word5.setBackgroundColor(white);
+                word6.setText(getRandomArray(words_cwr)); word6.setBackgroundColor(white);
+                word7.setText(getRandomArray(words_cwr)); word7.setBackgroundColor(white);
+                word8.setText(getRandomArray(words_cwr)); word8.setBackgroundColor(white);
+                word9.setText(getRandomArray(words_cwr)); word9.setBackgroundColor(white);
+                word10.setText(getRandomArray(words_cwr)); word10.setBackgroundColor(white);
+            }
+
+            private void resetWordsColor1_Common_Words_English() {
+                word1.setText(getRandomArray(words_cwe)); word1.setBackgroundColor(white);
+                word2.setText(getRandomArray(words_cwe)); word2.setBackgroundColor(white);
+                word3.setText(getRandomArray(words_cwe)); word3.setBackgroundColor(white);
+                word4.setText(getRandomArray(words_cwe)); word4.setBackgroundColor(white);
+                word5.setText(getRandomArray(words_cwe)); word5.setBackgroundColor(white);
+                word6.setText(getRandomArray(words_cwe)); word6.setBackgroundColor(white);
+                word7.setText(getRandomArray(words_cwe)); word7.setBackgroundColor(white);
+                word8.setText(getRandomArray(words_cwe)); word8.setBackgroundColor(white);
+                word9.setText(getRandomArray(words_cwe)); word9.setBackgroundColor(white);
+                word10.setText(getRandomArray(words_cwe)); word10.setBackgroundColor(white);
+            }
+
+            private void resetWordsColor2_Common_Words_Armenian() {
                 word1.setText(getRandomArray(words_cwa)); word1.setBackgroundColor(dark_emerald_green);
                 word2.setText(getRandomArray(words_cwa)); word2.setBackgroundColor(dark_emerald_green);
                 word3.setText(getRandomArray(words_cwa)); word3.setBackgroundColor(dark_emerald_green);
@@ -666,7 +997,33 @@ public class MainActivity2 extends AppCompatActivity {
                 word10.setText(getRandomArray(words_cwa)); word10.setBackgroundColor(dark_emerald_green);
             }
 
-            private void resetWordsColor3() {
+            private void resetWordsColor2_Common_Words_Russian() {
+                word1.setText(getRandomArray(words_cwr)); word1.setBackgroundColor(dark_emerald_green);
+                word2.setText(getRandomArray(words_cwr)); word2.setBackgroundColor(dark_emerald_green);
+                word3.setText(getRandomArray(words_cwr)); word3.setBackgroundColor(dark_emerald_green);
+                word4.setText(getRandomArray(words_cwr)); word4.setBackgroundColor(dark_emerald_green);
+                word5.setText(getRandomArray(words_cwr)); word5.setBackgroundColor(dark_emerald_green);
+                word6.setText(getRandomArray(words_cwr)); word6.setBackgroundColor(dark_emerald_green);
+                word7.setText(getRandomArray(words_cwr)); word7.setBackgroundColor(dark_emerald_green);
+                word8.setText(getRandomArray(words_cwr)); word8.setBackgroundColor(dark_emerald_green);
+                word9.setText(getRandomArray(words_cwr)); word9.setBackgroundColor(dark_emerald_green);
+                word10.setText(getRandomArray(words_cwr)); word10.setBackgroundColor(dark_emerald_green);
+            }
+
+            private void resetWordsColor2_Common_Words_English() {
+                word1.setText(getRandomArray(words_cwe)); word1.setBackgroundColor(dark_emerald_green);
+                word2.setText(getRandomArray(words_cwe)); word2.setBackgroundColor(dark_emerald_green);
+                word3.setText(getRandomArray(words_cwe)); word3.setBackgroundColor(dark_emerald_green);
+                word4.setText(getRandomArray(words_cwe)); word4.setBackgroundColor(dark_emerald_green);
+                word5.setText(getRandomArray(words_cwe)); word5.setBackgroundColor(dark_emerald_green);
+                word6.setText(getRandomArray(words_cwe)); word6.setBackgroundColor(dark_emerald_green);
+                word7.setText(getRandomArray(words_cwe)); word7.setBackgroundColor(dark_emerald_green);
+                word8.setText(getRandomArray(words_cwe)); word8.setBackgroundColor(dark_emerald_green);
+                word9.setText(getRandomArray(words_cwe)); word9.setBackgroundColor(dark_emerald_green);
+                word10.setText(getRandomArray(words_cwe)); word10.setBackgroundColor(dark_emerald_green);
+            }
+
+            private void resetWordsColor3_Common_Words_Armenian() {
                 word1.setText(getRandomArray(words_cwa)); word1.setBackgroundColor(yellow);
                 word2.setText(getRandomArray(words_cwa)); word2.setBackgroundColor(yellow);
                 word3.setText(getRandomArray(words_cwa)); word3.setBackgroundColor(yellow);
@@ -679,7 +1036,33 @@ public class MainActivity2 extends AppCompatActivity {
                 word10.setText(getRandomArray(words_cwa)); word10.setBackgroundColor(yellow);
             }
 
-            private void resetWordsColor4() {
+            private void resetWordsColor3_Common_Words_Russian() {
+                word1.setText(getRandomArray(words_cwr)); word1.setBackgroundColor(yellow);
+                word2.setText(getRandomArray(words_cwr)); word2.setBackgroundColor(yellow);
+                word3.setText(getRandomArray(words_cwr)); word3.setBackgroundColor(yellow);
+                word4.setText(getRandomArray(words_cwr)); word4.setBackgroundColor(yellow);
+                word5.setText(getRandomArray(words_cwr)); word5.setBackgroundColor(yellow);
+                word6.setText(getRandomArray(words_cwr)); word6.setBackgroundColor(yellow);
+                word7.setText(getRandomArray(words_cwr)); word7.setBackgroundColor(yellow);
+                word8.setText(getRandomArray(words_cwr)); word8.setBackgroundColor(yellow);
+                word9.setText(getRandomArray(words_cwr)); word9.setBackgroundColor(yellow);
+                word10.setText(getRandomArray(words_cwr)); word10.setBackgroundColor(yellow);
+            }
+
+            private void resetWordsColor3_Common_Words_English() {
+                word1.setText(getRandomArray(words_cwe)); word1.setBackgroundColor(yellow);
+                word2.setText(getRandomArray(words_cwe)); word2.setBackgroundColor(yellow);
+                word3.setText(getRandomArray(words_cwe)); word3.setBackgroundColor(yellow);
+                word4.setText(getRandomArray(words_cwe)); word4.setBackgroundColor(yellow);
+                word5.setText(getRandomArray(words_cwe)); word5.setBackgroundColor(yellow);
+                word6.setText(getRandomArray(words_cwe)); word6.setBackgroundColor(yellow);
+                word7.setText(getRandomArray(words_cwe)); word7.setBackgroundColor(yellow);
+                word8.setText(getRandomArray(words_cwe)); word8.setBackgroundColor(yellow);
+                word9.setText(getRandomArray(words_cwe)); word9.setBackgroundColor(yellow);
+                word10.setText(getRandomArray(words_cwe)); word10.setBackgroundColor(yellow);
+            }
+
+            private void resetWordsColor4_Common_Words_Armenian() {
                 word1.setText(getRandomArray(words_cwa)); word1.setBackgroundColor(red);
                 word2.setText(getRandomArray(words_cwa)); word2.setBackgroundColor(red);
                 word3.setText(getRandomArray(words_cwa)); word3.setBackgroundColor(red);
@@ -692,7 +1075,33 @@ public class MainActivity2 extends AppCompatActivity {
                 word10.setText(getRandomArray(words_cwa)); word10.setBackgroundColor(red);
             }
 
-            private void resetWordsColor5() {
+            private void resetWordsColor4_Common_Words_Russian() {
+                word1.setText(getRandomArray(words_cwr)); word1.setBackgroundColor(red);
+                word2.setText(getRandomArray(words_cwr)); word2.setBackgroundColor(red);
+                word3.setText(getRandomArray(words_cwr)); word3.setBackgroundColor(red);
+                word4.setText(getRandomArray(words_cwr)); word4.setBackgroundColor(red);
+                word5.setText(getRandomArray(words_cwr)); word5.setBackgroundColor(red);
+                word6.setText(getRandomArray(words_cwr)); word6.setBackgroundColor(red);
+                word7.setText(getRandomArray(words_cwr)); word7.setBackgroundColor(red);
+                word8.setText(getRandomArray(words_cwr)); word8.setBackgroundColor(red);
+                word9.setText(getRandomArray(words_cwr)); word9.setBackgroundColor(red);
+                word10.setText(getRandomArray(words_cwr)); word10.setBackgroundColor(red);
+            }
+
+            private void resetWordsColor4_Common_Words_English() {
+                word1.setText(getRandomArray(words_cwe)); word1.setBackgroundColor(red);
+                word2.setText(getRandomArray(words_cwe)); word2.setBackgroundColor(red);
+                word3.setText(getRandomArray(words_cwe)); word3.setBackgroundColor(red);
+                word4.setText(getRandomArray(words_cwe)); word4.setBackgroundColor(red);
+                word5.setText(getRandomArray(words_cwe)); word5.setBackgroundColor(red);
+                word6.setText(getRandomArray(words_cwe)); word6.setBackgroundColor(red);
+                word7.setText(getRandomArray(words_cwe)); word7.setBackgroundColor(red);
+                word8.setText(getRandomArray(words_cwe)); word8.setBackgroundColor(red);
+                word9.setText(getRandomArray(words_cwe)); word9.setBackgroundColor(red);
+                word10.setText(getRandomArray(words_cwe)); word10.setBackgroundColor(red);
+            }
+
+            private void resetWordsColor5_Common_Words_Armenian() {
                 word1.setText(getRandomArray(words_cwa)); word1.setBackgroundColor(teal);
                 word2.setText(getRandomArray(words_cwa)); word2.setBackgroundColor(teal);
                 word3.setText(getRandomArray(words_cwa)); word3.setBackgroundColor(teal);
@@ -705,7 +1114,33 @@ public class MainActivity2 extends AppCompatActivity {
                 word10.setText(getRandomArray(words_cwa)); word10.setBackgroundColor(teal);
             }
 
-            private void resetWordsColor6() {
+            private void resetWordsColor5_Common_Words_Russian() {
+                word1.setText(getRandomArray(words_cwr)); word1.setBackgroundColor(teal);
+                word2.setText(getRandomArray(words_cwr)); word2.setBackgroundColor(teal);
+                word3.setText(getRandomArray(words_cwr)); word3.setBackgroundColor(teal);
+                word4.setText(getRandomArray(words_cwr)); word4.setBackgroundColor(teal);
+                word5.setText(getRandomArray(words_cwr)); word5.setBackgroundColor(teal);
+                word6.setText(getRandomArray(words_cwr)); word6.setBackgroundColor(teal);
+                word7.setText(getRandomArray(words_cwr)); word7.setBackgroundColor(teal);
+                word8.setText(getRandomArray(words_cwr)); word8.setBackgroundColor(teal);
+                word9.setText(getRandomArray(words_cwr)); word9.setBackgroundColor(teal);
+                word10.setText(getRandomArray(words_cwr)); word10.setBackgroundColor(teal);
+            }
+
+            private void resetWordsColor5_Common_Words_English() {
+                word1.setText(getRandomArray(words_cwe)); word1.setBackgroundColor(teal);
+                word2.setText(getRandomArray(words_cwe)); word2.setBackgroundColor(teal);
+                word3.setText(getRandomArray(words_cwe)); word3.setBackgroundColor(teal);
+                word4.setText(getRandomArray(words_cwe)); word4.setBackgroundColor(teal);
+                word5.setText(getRandomArray(words_cwe)); word5.setBackgroundColor(teal);
+                word6.setText(getRandomArray(words_cwe)); word6.setBackgroundColor(teal);
+                word7.setText(getRandomArray(words_cwe)); word7.setBackgroundColor(teal);
+                word8.setText(getRandomArray(words_cwe)); word8.setBackgroundColor(teal);
+                word9.setText(getRandomArray(words_cwe)); word9.setBackgroundColor(teal);
+                word10.setText(getRandomArray(words_cwe)); word10.setBackgroundColor(teal);
+            }
+
+            private void resetWordsColor6_Common_Words_Armenian() {
                 word1.setText(getRandomArray(words_cwa)); word1.setBackgroundColor(blooming_dahlia);
                 word2.setText(getRandomArray(words_cwa)); word2.setBackgroundColor(blooming_dahlia);
                 word3.setText(getRandomArray(words_cwa)); word3.setBackgroundColor(blooming_dahlia);
@@ -718,7 +1153,33 @@ public class MainActivity2 extends AppCompatActivity {
                 word10.setText(getRandomArray(words_cwa)); word10.setBackgroundColor(blooming_dahlia);
             }
 
-            private void resetWordsColor7() {
+            private void resetWordsColor6_Common_Words_Russian() {
+                word1.setText(getRandomArray(words_cwr)); word1.setBackgroundColor(blooming_dahlia);
+                word2.setText(getRandomArray(words_cwr)); word2.setBackgroundColor(blooming_dahlia);
+                word3.setText(getRandomArray(words_cwr)); word3.setBackgroundColor(blooming_dahlia);
+                word4.setText(getRandomArray(words_cwr)); word4.setBackgroundColor(blooming_dahlia);
+                word5.setText(getRandomArray(words_cwr)); word5.setBackgroundColor(blooming_dahlia);
+                word6.setText(getRandomArray(words_cwr)); word6.setBackgroundColor(blooming_dahlia);
+                word7.setText(getRandomArray(words_cwr)); word7.setBackgroundColor(blooming_dahlia);
+                word8.setText(getRandomArray(words_cwr)); word8.setBackgroundColor(blooming_dahlia);
+                word9.setText(getRandomArray(words_cwr)); word9.setBackgroundColor(blooming_dahlia);
+                word10.setText(getRandomArray(words_cwr)); word10.setBackgroundColor(blooming_dahlia);
+            }
+
+            private void resetWordsColor6_Common_Words_English() {
+                word1.setText(getRandomArray(words_cwe)); word1.setBackgroundColor(blooming_dahlia);
+                word2.setText(getRandomArray(words_cwe)); word2.setBackgroundColor(blooming_dahlia);
+                word3.setText(getRandomArray(words_cwe)); word3.setBackgroundColor(blooming_dahlia);
+                word4.setText(getRandomArray(words_cwe)); word4.setBackgroundColor(blooming_dahlia);
+                word5.setText(getRandomArray(words_cwe)); word5.setBackgroundColor(blooming_dahlia);
+                word6.setText(getRandomArray(words_cwe)); word6.setBackgroundColor(blooming_dahlia);
+                word7.setText(getRandomArray(words_cwe)); word7.setBackgroundColor(blooming_dahlia);
+                word8.setText(getRandomArray(words_cwe)); word8.setBackgroundColor(blooming_dahlia);
+                word9.setText(getRandomArray(words_cwe)); word9.setBackgroundColor(blooming_dahlia);
+                word10.setText(getRandomArray(words_cwe)); word10.setBackgroundColor(blooming_dahlia);
+            }
+
+            private void resetWordsColor7_Common_Words_Armenian() {
                 word1.setText(getRandomArray(words_cwa)); word1.setBackgroundColor(orange);
                 word2.setText(getRandomArray(words_cwa)); word2.setBackgroundColor(orange);
                 word3.setText(getRandomArray(words_cwa)); word3.setBackgroundColor(orange);
@@ -731,7 +1192,33 @@ public class MainActivity2 extends AppCompatActivity {
                 word10.setText(getRandomArray(words_cwa)); word10.setBackgroundColor(orange);
             }
 
-            private void resetWordsColor8() {
+            private void resetWordsColor7_Common_Words_Russian() {
+                word1.setText(getRandomArray(words_cwr)); word1.setBackgroundColor(orange);
+                word2.setText(getRandomArray(words_cwr)); word2.setBackgroundColor(orange);
+                word3.setText(getRandomArray(words_cwr)); word3.setBackgroundColor(orange);
+                word4.setText(getRandomArray(words_cwr)); word4.setBackgroundColor(orange);
+                word5.setText(getRandomArray(words_cwr)); word5.setBackgroundColor(orange);
+                word6.setText(getRandomArray(words_cwr)); word6.setBackgroundColor(orange);
+                word7.setText(getRandomArray(words_cwr)); word7.setBackgroundColor(orange);
+                word8.setText(getRandomArray(words_cwr)); word8.setBackgroundColor(orange);
+                word9.setText(getRandomArray(words_cwr)); word9.setBackgroundColor(orange);
+                word10.setText(getRandomArray(words_cwr)); word10.setBackgroundColor(orange);
+            }
+
+            private void resetWordsColor7_Common_Words_English() {
+                word1.setText(getRandomArray(words_cwe)); word1.setBackgroundColor(orange);
+                word2.setText(getRandomArray(words_cwe)); word2.setBackgroundColor(orange);
+                word3.setText(getRandomArray(words_cwe)); word3.setBackgroundColor(orange);
+                word4.setText(getRandomArray(words_cwe)); word4.setBackgroundColor(orange);
+                word5.setText(getRandomArray(words_cwe)); word5.setBackgroundColor(orange);
+                word6.setText(getRandomArray(words_cwe)); word6.setBackgroundColor(orange);
+                word7.setText(getRandomArray(words_cwe)); word7.setBackgroundColor(orange);
+                word8.setText(getRandomArray(words_cwe)); word8.setBackgroundColor(orange);
+                word9.setText(getRandomArray(words_cwe)); word9.setBackgroundColor(orange);
+                word10.setText(getRandomArray(words_cwe)); word10.setBackgroundColor(orange);
+            }
+
+            private void resetWordsColor8_Common_Words_Armenian() {
                 word1.setText(getRandomArray(words_cwa)); word1.setBackgroundColor(light_blue);
                 word2.setText(getRandomArray(words_cwa)); word2.setBackgroundColor(light_blue);
                 word3.setText(getRandomArray(words_cwa)); word3.setBackgroundColor(light_blue);
@@ -744,51 +1231,173 @@ public class MainActivity2 extends AppCompatActivity {
                 word10.setText(getRandomArray(words_cwa)); word10.setBackgroundColor(light_blue);
             }
 
+            private void resetWordsColor8_Common_Words_Russian() {
+                word1.setText(getRandomArray(words_cwr)); word1.setBackgroundColor(light_blue);
+                word2.setText(getRandomArray(words_cwr)); word2.setBackgroundColor(light_blue);
+                word3.setText(getRandomArray(words_cwr)); word3.setBackgroundColor(light_blue);
+                word4.setText(getRandomArray(words_cwr)); word4.setBackgroundColor(light_blue);
+                word5.setText(getRandomArray(words_cwr)); word5.setBackgroundColor(light_blue);
+                word6.setText(getRandomArray(words_cwr)); word6.setBackgroundColor(light_blue);
+                word7.setText(getRandomArray(words_cwr)); word7.setBackgroundColor(light_blue);
+                word8.setText(getRandomArray(words_cwr)); word8.setBackgroundColor(light_blue);
+                word9.setText(getRandomArray(words_cwr)); word9.setBackgroundColor(light_blue);
+                word10.setText(getRandomArray(words_cwr)); word10.setBackgroundColor(light_blue);
+            }
+
+            private void resetWordsColor8_Common_Words_English() {
+                word1.setText(getRandomArray(words_cwe)); word1.setBackgroundColor(light_blue);
+                word2.setText(getRandomArray(words_cwe)); word2.setBackgroundColor(light_blue);
+                word3.setText(getRandomArray(words_cwe)); word3.setBackgroundColor(light_blue);
+                word4.setText(getRandomArray(words_cwe)); word4.setBackgroundColor(light_blue);
+                word5.setText(getRandomArray(words_cwe)); word5.setBackgroundColor(light_blue);
+                word6.setText(getRandomArray(words_cwe)); word6.setBackgroundColor(light_blue);
+                word7.setText(getRandomArray(words_cwe)); word7.setBackgroundColor(light_blue);
+                word8.setText(getRandomArray(words_cwe)); word8.setBackgroundColor(light_blue);
+                word9.setText(getRandomArray(words_cwe)); word9.setBackgroundColor(light_blue);
+                word10.setText(getRandomArray(words_cwe)); word10.setBackgroundColor(light_blue);
+            }
+
             private void pageChangingColor1() {
-                if (clickcount == 10 || clickcount == 20 || clickcount == 30  || clickcount == 40 || clickcount == 50) {
-                    resetWordsColor1();
+                if ( MainActivity5.is_common_words_selected ) {
+                    if ( MainActivity6.Armenian ) {
+                        if (clickcount == 10 || clickcount == 20 || clickcount == 30  || clickcount == 40 || clickcount == 50) {
+                            resetWordsColor1_Common_Words_Armenian();
+                        }
+                    } else if ( MainActivity6.Russian ) {
+                        if (clickcount == 10 || clickcount == 20 || clickcount == 30  || clickcount == 40 || clickcount == 50) {
+                            resetWordsColor1_Common_Words_Russian();
+                        }
+                    } else if ( MainActivity6.English ) {
+                        if (clickcount == 10 || clickcount == 20 || clickcount == 30  || clickcount == 40 || clickcount == 50) {
+                            resetWordsColor1_Common_Words_English();
+                        }
+                    }
                 }
             }
 
             private void pageChangingColor2() {
-                if (clickcount == 10 || clickcount == 20 || clickcount == 30  || clickcount == 40 || clickcount == 50) {
-                    resetWordsColor2();
+                if ( MainActivity5.is_common_words_selected ) {
+                    if ( MainActivity6.Armenian ) {
+                        if (clickcount == 10 || clickcount == 20 || clickcount == 30  || clickcount == 40 || clickcount == 50) {
+                            resetWordsColor2_Common_Words_Armenian();
+                        }
+                    } else if ( MainActivity6.Russian ) {
+                        if (clickcount == 10 || clickcount == 20 || clickcount == 30  || clickcount == 40 || clickcount == 50) {
+                            resetWordsColor2_Common_Words_Russian();
+                        }
+                    } else if ( MainActivity6.English ) {
+                        if (clickcount == 10 || clickcount == 20 || clickcount == 30  || clickcount == 40 || clickcount == 50) {
+                            resetWordsColor2_Common_Words_English();
+                        }
+                    }
                 }
             }
 
             private void pageChangingColor3() {
-                if (clickcount == 10 || clickcount == 20 || clickcount == 30  || clickcount == 40 || clickcount == 50) {
-                    resetWordsColor3();
+                if ( MainActivity5.is_common_words_selected ) {
+                    if ( MainActivity6.Armenian ) {
+                        if (clickcount == 10 || clickcount == 20 || clickcount == 30  || clickcount == 40 || clickcount == 50) {
+                            resetWordsColor3_Common_Words_Armenian();
+                        }
+                    } else if ( MainActivity6.Russian ) {
+                        if (clickcount == 10 || clickcount == 20 || clickcount == 30  || clickcount == 40 || clickcount == 50) {
+                            resetWordsColor3_Common_Words_Russian();
+                        }
+                    } else if ( MainActivity6.English ) {
+                        if (clickcount == 10 || clickcount == 20 || clickcount == 30  || clickcount == 40 || clickcount == 50) {
+                            resetWordsColor3_Common_Words_English();
+                        }
+                    }
                 }
             }
 
             private void pageChangingColor4() {
-                if (clickcount == 10 || clickcount == 20 || clickcount == 30  || clickcount == 40 || clickcount == 50) {
-                    resetWordsColor4();
+                if ( MainActivity5.is_common_words_selected ) {
+                    if ( MainActivity6.Armenian ) {
+                        if (clickcount == 10 || clickcount == 20 || clickcount == 30  || clickcount == 40 || clickcount == 50) {
+                            resetWordsColor4_Common_Words_Armenian();
+                        }
+                    } else if ( MainActivity6.Russian ) {
+                        if (clickcount == 10 || clickcount == 20 || clickcount == 30  || clickcount == 40 || clickcount == 50) {
+                            resetWordsColor4_Common_Words_Russian();
+                        }
+                    } else if ( MainActivity6.English ) {
+                        if (clickcount == 10 || clickcount == 20 || clickcount == 30  || clickcount == 40 || clickcount == 50) {
+                            resetWordsColor4_Common_Words_English();
+                        }
+                    }
                 }
             }
 
             private void pageChangingColor5() {
-                if (clickcount == 10 || clickcount == 20 || clickcount == 30  || clickcount == 40 || clickcount == 50) {
-                    resetWordsColor5();
+                if ( MainActivity5.is_common_words_selected ) {
+                    if ( MainActivity6.Armenian ) {
+                        if (clickcount == 10 || clickcount == 20 || clickcount == 30  || clickcount == 40 || clickcount == 50) {
+                            resetWordsColor5_Common_Words_Armenian();
+                        }
+                    } else if ( MainActivity6.Russian ) {
+                        if (clickcount == 10 || clickcount == 20 || clickcount == 30  || clickcount == 40 || clickcount == 50) {
+                            resetWordsColor5_Common_Words_Russian();
+                        }
+                    } else if ( MainActivity6.English ) {
+                        if (clickcount == 10 || clickcount == 20 || clickcount == 30  || clickcount == 40 || clickcount == 50) {
+                            resetWordsColor5_Common_Words_English();
+                        }
+                    }
                 }
             }
 
             private void pageChangingColor6() {
-                if (clickcount == 10 || clickcount == 20 || clickcount == 30  || clickcount == 40 || clickcount == 50) {
-                    resetWordsColor6();
+                if ( MainActivity5.is_common_words_selected ) {
+                    if ( MainActivity6.Armenian ) {
+                        if (clickcount == 10 || clickcount == 20 || clickcount == 30  || clickcount == 40 || clickcount == 50) {
+                            resetWordsColor6_Common_Words_Armenian();
+                        }
+                    } else if ( MainActivity6.Russian ) {
+                        if (clickcount == 10 || clickcount == 20 || clickcount == 30  || clickcount == 40 || clickcount == 50) {
+                            resetWordsColor6_Common_Words_Russian();
+                        }
+                    } else if ( MainActivity6.English ) {
+                        if (clickcount == 10 || clickcount == 20 || clickcount == 30  || clickcount == 40 || clickcount == 50) {
+                            resetWordsColor6_Common_Words_English();
+                        }
+                    }
                 }
             }
 
             private void pageChangingColor7() {
-                if (clickcount == 10 || clickcount == 20 || clickcount == 30  || clickcount == 40 || clickcount == 50) {
-                    resetWordsColor7();
+                if ( MainActivity5.is_common_words_selected ) {
+                    if ( MainActivity6.Armenian ) {
+                        if (clickcount == 10 || clickcount == 20 || clickcount == 30  || clickcount == 40 || clickcount == 50) {
+                            resetWordsColor7_Common_Words_Armenian();
+                        }
+                    } else if ( MainActivity6.Russian ) {
+                        if (clickcount == 10 || clickcount == 20 || clickcount == 30  || clickcount == 40 || clickcount == 50) {
+                            resetWordsColor7_Common_Words_Russian();
+                        }
+                    } else if ( MainActivity6.English ) {
+                        if (clickcount == 10 || clickcount == 20 || clickcount == 30  || clickcount == 40 || clickcount == 50) {
+                            resetWordsColor7_Common_Words_English();
+                        }
+                    }
                 }
             }
 
             private void pageChangingColor8() {
-                if (clickcount == 10 || clickcount == 20 || clickcount == 30  || clickcount == 40 || clickcount == 50) {
-                    resetWordsColor8();
+                if ( MainActivity5.is_common_words_selected ) {
+                    if ( MainActivity6.Armenian ) {
+                        if (clickcount == 10 || clickcount == 20 || clickcount == 30  || clickcount == 40 || clickcount == 50) {
+                            resetWordsColor8_Common_Words_Armenian();
+                        }
+                    } else if ( MainActivity6.Russian ) {
+                        if (clickcount == 10 || clickcount == 20 || clickcount == 30  || clickcount == 40 || clickcount == 50) {
+                            resetWordsColor8_Common_Words_Russian();
+                        }
+                    } else if ( MainActivity6.English ) {
+                        if (clickcount == 10 || clickcount == 20 || clickcount == 30  || clickcount == 40 || clickcount == 50) {
+                            resetWordsColor8_Common_Words_English();
+                        }
+                    }
                 }
             }
         });
@@ -941,7 +1550,7 @@ public class MainActivity2 extends AppCompatActivity {
                 }
             }
 
-            private void resetWordsColor1() {
+            private void resetWordsColor1_Common_Words_Armenian() {
                 word1.setText(getRandomArray(words_cwa)); word1.setBackgroundColor(white);
                 word2.setText(getRandomArray(words_cwa)); word2.setBackgroundColor(white);
                 word3.setText(getRandomArray(words_cwa)); word3.setBackgroundColor(white);
@@ -954,7 +1563,33 @@ public class MainActivity2 extends AppCompatActivity {
                 word10.setText(getRandomArray(words_cwa)); word10.setBackgroundColor(white);
             }
 
-            private void resetWordsColor2() {
+            private void resetWordsColor1_Common_Words_Russian() {
+                word1.setText(getRandomArray(words_cwr)); word1.setBackgroundColor(white);
+                word2.setText(getRandomArray(words_cwr)); word2.setBackgroundColor(white);
+                word3.setText(getRandomArray(words_cwr)); word3.setBackgroundColor(white);
+                word4.setText(getRandomArray(words_cwr)); word4.setBackgroundColor(white);
+                word5.setText(getRandomArray(words_cwr)); word5.setBackgroundColor(white);
+                word6.setText(getRandomArray(words_cwr)); word6.setBackgroundColor(white);
+                word7.setText(getRandomArray(words_cwr)); word7.setBackgroundColor(white);
+                word8.setText(getRandomArray(words_cwr)); word8.setBackgroundColor(white);
+                word9.setText(getRandomArray(words_cwr)); word9.setBackgroundColor(white);
+                word10.setText(getRandomArray(words_cwr)); word10.setBackgroundColor(white);
+            }
+
+            private void resetWordsColor1_Common_Words_English() {
+                word1.setText(getRandomArray(words_cwe)); word1.setBackgroundColor(white);
+                word2.setText(getRandomArray(words_cwe)); word2.setBackgroundColor(white);
+                word3.setText(getRandomArray(words_cwe)); word3.setBackgroundColor(white);
+                word4.setText(getRandomArray(words_cwe)); word4.setBackgroundColor(white);
+                word5.setText(getRandomArray(words_cwe)); word5.setBackgroundColor(white);
+                word6.setText(getRandomArray(words_cwe)); word6.setBackgroundColor(white);
+                word7.setText(getRandomArray(words_cwe)); word7.setBackgroundColor(white);
+                word8.setText(getRandomArray(words_cwe)); word8.setBackgroundColor(white);
+                word9.setText(getRandomArray(words_cwe)); word9.setBackgroundColor(white);
+                word10.setText(getRandomArray(words_cwe)); word10.setBackgroundColor(white);
+            }
+
+            private void resetWordsColor2_Common_Words_Armenian() {
                 word1.setText(getRandomArray(words_cwa)); word1.setBackgroundColor(dark_emerald_green);
                 word2.setText(getRandomArray(words_cwa)); word2.setBackgroundColor(dark_emerald_green);
                 word3.setText(getRandomArray(words_cwa)); word3.setBackgroundColor(dark_emerald_green);
@@ -967,7 +1602,33 @@ public class MainActivity2 extends AppCompatActivity {
                 word10.setText(getRandomArray(words_cwa)); word10.setBackgroundColor(dark_emerald_green);
             }
 
-            private void resetWordsColor3() {
+            private void resetWordsColor2_Common_Words_Russian() {
+                word1.setText(getRandomArray(words_cwr)); word1.setBackgroundColor(dark_emerald_green);
+                word2.setText(getRandomArray(words_cwr)); word2.setBackgroundColor(dark_emerald_green);
+                word3.setText(getRandomArray(words_cwr)); word3.setBackgroundColor(dark_emerald_green);
+                word4.setText(getRandomArray(words_cwr)); word4.setBackgroundColor(dark_emerald_green);
+                word5.setText(getRandomArray(words_cwr)); word5.setBackgroundColor(dark_emerald_green);
+                word6.setText(getRandomArray(words_cwr)); word6.setBackgroundColor(dark_emerald_green);
+                word7.setText(getRandomArray(words_cwr)); word7.setBackgroundColor(dark_emerald_green);
+                word8.setText(getRandomArray(words_cwr)); word8.setBackgroundColor(dark_emerald_green);
+                word9.setText(getRandomArray(words_cwr)); word9.setBackgroundColor(dark_emerald_green);
+                word10.setText(getRandomArray(words_cwr)); word10.setBackgroundColor(dark_emerald_green);
+            }
+
+            private void resetWordsColor2_Common_Words_English() {
+                word1.setText(getRandomArray(words_cwe)); word1.setBackgroundColor(dark_emerald_green);
+                word2.setText(getRandomArray(words_cwe)); word2.setBackgroundColor(dark_emerald_green);
+                word3.setText(getRandomArray(words_cwe)); word3.setBackgroundColor(dark_emerald_green);
+                word4.setText(getRandomArray(words_cwe)); word4.setBackgroundColor(dark_emerald_green);
+                word5.setText(getRandomArray(words_cwe)); word5.setBackgroundColor(dark_emerald_green);
+                word6.setText(getRandomArray(words_cwe)); word6.setBackgroundColor(dark_emerald_green);
+                word7.setText(getRandomArray(words_cwe)); word7.setBackgroundColor(dark_emerald_green);
+                word8.setText(getRandomArray(words_cwe)); word8.setBackgroundColor(dark_emerald_green);
+                word9.setText(getRandomArray(words_cwe)); word9.setBackgroundColor(dark_emerald_green);
+                word10.setText(getRandomArray(words_cwe)); word10.setBackgroundColor(dark_emerald_green);
+            }
+
+            private void resetWordsColor3_Common_Words_Armenian() {
                 word1.setText(getRandomArray(words_cwa)); word1.setBackgroundColor(yellow);
                 word2.setText(getRandomArray(words_cwa)); word2.setBackgroundColor(yellow);
                 word3.setText(getRandomArray(words_cwa)); word3.setBackgroundColor(yellow);
@@ -980,7 +1641,33 @@ public class MainActivity2 extends AppCompatActivity {
                 word10.setText(getRandomArray(words_cwa)); word10.setBackgroundColor(yellow);
             }
 
-            private void resetWordsColor4() {
+            private void resetWordsColor3_Common_Words_Russian() {
+                word1.setText(getRandomArray(words_cwr)); word1.setBackgroundColor(yellow);
+                word2.setText(getRandomArray(words_cwr)); word2.setBackgroundColor(yellow);
+                word3.setText(getRandomArray(words_cwr)); word3.setBackgroundColor(yellow);
+                word4.setText(getRandomArray(words_cwr)); word4.setBackgroundColor(yellow);
+                word5.setText(getRandomArray(words_cwr)); word5.setBackgroundColor(yellow);
+                word6.setText(getRandomArray(words_cwr)); word6.setBackgroundColor(yellow);
+                word7.setText(getRandomArray(words_cwr)); word7.setBackgroundColor(yellow);
+                word8.setText(getRandomArray(words_cwr)); word8.setBackgroundColor(yellow);
+                word9.setText(getRandomArray(words_cwr)); word9.setBackgroundColor(yellow);
+                word10.setText(getRandomArray(words_cwr)); word10.setBackgroundColor(yellow);
+            }
+
+            private void resetWordsColor3_Common_Words_English() {
+                word1.setText(getRandomArray(words_cwe)); word1.setBackgroundColor(yellow);
+                word2.setText(getRandomArray(words_cwe)); word2.setBackgroundColor(yellow);
+                word3.setText(getRandomArray(words_cwe)); word3.setBackgroundColor(yellow);
+                word4.setText(getRandomArray(words_cwe)); word4.setBackgroundColor(yellow);
+                word5.setText(getRandomArray(words_cwe)); word5.setBackgroundColor(yellow);
+                word6.setText(getRandomArray(words_cwe)); word6.setBackgroundColor(yellow);
+                word7.setText(getRandomArray(words_cwe)); word7.setBackgroundColor(yellow);
+                word8.setText(getRandomArray(words_cwe)); word8.setBackgroundColor(yellow);
+                word9.setText(getRandomArray(words_cwe)); word9.setBackgroundColor(yellow);
+                word10.setText(getRandomArray(words_cwe)); word10.setBackgroundColor(yellow);
+            }
+
+            private void resetWordsColor4_Common_Words_Armenian() {
                 word1.setText(getRandomArray(words_cwa)); word1.setBackgroundColor(red);
                 word2.setText(getRandomArray(words_cwa)); word2.setBackgroundColor(red);
                 word3.setText(getRandomArray(words_cwa)); word3.setBackgroundColor(red);
@@ -993,7 +1680,33 @@ public class MainActivity2 extends AppCompatActivity {
                 word10.setText(getRandomArray(words_cwa)); word10.setBackgroundColor(red);
             }
 
-            private void resetWordsColor5() {
+            private void resetWordsColor4_Common_Words_Russian() {
+                word1.setText(getRandomArray(words_cwr)); word1.setBackgroundColor(red);
+                word2.setText(getRandomArray(words_cwr)); word2.setBackgroundColor(red);
+                word3.setText(getRandomArray(words_cwr)); word3.setBackgroundColor(red);
+                word4.setText(getRandomArray(words_cwr)); word4.setBackgroundColor(red);
+                word5.setText(getRandomArray(words_cwr)); word5.setBackgroundColor(red);
+                word6.setText(getRandomArray(words_cwr)); word6.setBackgroundColor(red);
+                word7.setText(getRandomArray(words_cwr)); word7.setBackgroundColor(red);
+                word8.setText(getRandomArray(words_cwr)); word8.setBackgroundColor(red);
+                word9.setText(getRandomArray(words_cwr)); word9.setBackgroundColor(red);
+                word10.setText(getRandomArray(words_cwr)); word10.setBackgroundColor(red);
+            }
+
+            private void resetWordsColor4_Common_Words_English() {
+                word1.setText(getRandomArray(words_cwe)); word1.setBackgroundColor(red);
+                word2.setText(getRandomArray(words_cwe)); word2.setBackgroundColor(red);
+                word3.setText(getRandomArray(words_cwe)); word3.setBackgroundColor(red);
+                word4.setText(getRandomArray(words_cwe)); word4.setBackgroundColor(red);
+                word5.setText(getRandomArray(words_cwe)); word5.setBackgroundColor(red);
+                word6.setText(getRandomArray(words_cwe)); word6.setBackgroundColor(red);
+                word7.setText(getRandomArray(words_cwe)); word7.setBackgroundColor(red);
+                word8.setText(getRandomArray(words_cwe)); word8.setBackgroundColor(red);
+                word9.setText(getRandomArray(words_cwe)); word9.setBackgroundColor(red);
+                word10.setText(getRandomArray(words_cwe)); word10.setBackgroundColor(red);
+            }
+
+            private void resetWordsColor5_Common_Words_Armenian() {
                 word1.setText(getRandomArray(words_cwa)); word1.setBackgroundColor(teal);
                 word2.setText(getRandomArray(words_cwa)); word2.setBackgroundColor(teal);
                 word3.setText(getRandomArray(words_cwa)); word3.setBackgroundColor(teal);
@@ -1006,7 +1719,33 @@ public class MainActivity2 extends AppCompatActivity {
                 word10.setText(getRandomArray(words_cwa)); word10.setBackgroundColor(teal);
             }
 
-            private void resetWordsColor6() {
+            private void resetWordsColor5_Common_Words_Russian() {
+                word1.setText(getRandomArray(words_cwr)); word1.setBackgroundColor(teal);
+                word2.setText(getRandomArray(words_cwr)); word2.setBackgroundColor(teal);
+                word3.setText(getRandomArray(words_cwr)); word3.setBackgroundColor(teal);
+                word4.setText(getRandomArray(words_cwr)); word4.setBackgroundColor(teal);
+                word5.setText(getRandomArray(words_cwr)); word5.setBackgroundColor(teal);
+                word6.setText(getRandomArray(words_cwr)); word6.setBackgroundColor(teal);
+                word7.setText(getRandomArray(words_cwr)); word7.setBackgroundColor(teal);
+                word8.setText(getRandomArray(words_cwr)); word8.setBackgroundColor(teal);
+                word9.setText(getRandomArray(words_cwr)); word9.setBackgroundColor(teal);
+                word10.setText(getRandomArray(words_cwr)); word10.setBackgroundColor(teal);
+            }
+
+            private void resetWordsColor5_Common_Words_English() {
+                word1.setText(getRandomArray(words_cwe)); word1.setBackgroundColor(teal);
+                word2.setText(getRandomArray(words_cwe)); word2.setBackgroundColor(teal);
+                word3.setText(getRandomArray(words_cwe)); word3.setBackgroundColor(teal);
+                word4.setText(getRandomArray(words_cwe)); word4.setBackgroundColor(teal);
+                word5.setText(getRandomArray(words_cwe)); word5.setBackgroundColor(teal);
+                word6.setText(getRandomArray(words_cwe)); word6.setBackgroundColor(teal);
+                word7.setText(getRandomArray(words_cwe)); word7.setBackgroundColor(teal);
+                word8.setText(getRandomArray(words_cwe)); word8.setBackgroundColor(teal);
+                word9.setText(getRandomArray(words_cwe)); word9.setBackgroundColor(teal);
+                word10.setText(getRandomArray(words_cwe)); word10.setBackgroundColor(teal);
+            }
+
+            private void resetWordsColor6_Common_Words_Armenian() {
                 word1.setText(getRandomArray(words_cwa)); word1.setBackgroundColor(blooming_dahlia);
                 word2.setText(getRandomArray(words_cwa)); word2.setBackgroundColor(blooming_dahlia);
                 word3.setText(getRandomArray(words_cwa)); word3.setBackgroundColor(blooming_dahlia);
@@ -1019,7 +1758,33 @@ public class MainActivity2 extends AppCompatActivity {
                 word10.setText(getRandomArray(words_cwa)); word10.setBackgroundColor(blooming_dahlia);
             }
 
-            private void resetWordsColor7() {
+            private void resetWordsColor6_Common_Words_Russian() {
+                word1.setText(getRandomArray(words_cwr)); word1.setBackgroundColor(blooming_dahlia);
+                word2.setText(getRandomArray(words_cwr)); word2.setBackgroundColor(blooming_dahlia);
+                word3.setText(getRandomArray(words_cwr)); word3.setBackgroundColor(blooming_dahlia);
+                word4.setText(getRandomArray(words_cwr)); word4.setBackgroundColor(blooming_dahlia);
+                word5.setText(getRandomArray(words_cwr)); word5.setBackgroundColor(blooming_dahlia);
+                word6.setText(getRandomArray(words_cwr)); word6.setBackgroundColor(blooming_dahlia);
+                word7.setText(getRandomArray(words_cwr)); word7.setBackgroundColor(blooming_dahlia);
+                word8.setText(getRandomArray(words_cwr)); word8.setBackgroundColor(blooming_dahlia);
+                word9.setText(getRandomArray(words_cwr)); word9.setBackgroundColor(blooming_dahlia);
+                word10.setText(getRandomArray(words_cwr)); word10.setBackgroundColor(blooming_dahlia);
+            }
+
+            private void resetWordsColor6_Common_Words_English() {
+                word1.setText(getRandomArray(words_cwe)); word1.setBackgroundColor(blooming_dahlia);
+                word2.setText(getRandomArray(words_cwe)); word2.setBackgroundColor(blooming_dahlia);
+                word3.setText(getRandomArray(words_cwe)); word3.setBackgroundColor(blooming_dahlia);
+                word4.setText(getRandomArray(words_cwe)); word4.setBackgroundColor(blooming_dahlia);
+                word5.setText(getRandomArray(words_cwe)); word5.setBackgroundColor(blooming_dahlia);
+                word6.setText(getRandomArray(words_cwe)); word6.setBackgroundColor(blooming_dahlia);
+                word7.setText(getRandomArray(words_cwe)); word7.setBackgroundColor(blooming_dahlia);
+                word8.setText(getRandomArray(words_cwe)); word8.setBackgroundColor(blooming_dahlia);
+                word9.setText(getRandomArray(words_cwe)); word9.setBackgroundColor(blooming_dahlia);
+                word10.setText(getRandomArray(words_cwe)); word10.setBackgroundColor(blooming_dahlia);
+            }
+
+            private void resetWordsColor7_Common_Words_Armenian() {
                 word1.setText(getRandomArray(words_cwa)); word1.setBackgroundColor(orange);
                 word2.setText(getRandomArray(words_cwa)); word2.setBackgroundColor(orange);
                 word3.setText(getRandomArray(words_cwa)); word3.setBackgroundColor(orange);
@@ -1032,7 +1797,33 @@ public class MainActivity2 extends AppCompatActivity {
                 word10.setText(getRandomArray(words_cwa)); word10.setBackgroundColor(orange);
             }
 
-            private void resetWordsColor8() {
+            private void resetWordsColor7_Common_Words_Russian() {
+                word1.setText(getRandomArray(words_cwr)); word1.setBackgroundColor(orange);
+                word2.setText(getRandomArray(words_cwr)); word2.setBackgroundColor(orange);
+                word3.setText(getRandomArray(words_cwr)); word3.setBackgroundColor(orange);
+                word4.setText(getRandomArray(words_cwr)); word4.setBackgroundColor(orange);
+                word5.setText(getRandomArray(words_cwr)); word5.setBackgroundColor(orange);
+                word6.setText(getRandomArray(words_cwr)); word6.setBackgroundColor(orange);
+                word7.setText(getRandomArray(words_cwr)); word7.setBackgroundColor(orange);
+                word8.setText(getRandomArray(words_cwr)); word8.setBackgroundColor(orange);
+                word9.setText(getRandomArray(words_cwr)); word9.setBackgroundColor(orange);
+                word10.setText(getRandomArray(words_cwr)); word10.setBackgroundColor(orange);
+            }
+
+            private void resetWordsColor7_Common_Words_English() {
+                word1.setText(getRandomArray(words_cwe)); word1.setBackgroundColor(orange);
+                word2.setText(getRandomArray(words_cwe)); word2.setBackgroundColor(orange);
+                word3.setText(getRandomArray(words_cwe)); word3.setBackgroundColor(orange);
+                word4.setText(getRandomArray(words_cwe)); word4.setBackgroundColor(orange);
+                word5.setText(getRandomArray(words_cwe)); word5.setBackgroundColor(orange);
+                word6.setText(getRandomArray(words_cwe)); word6.setBackgroundColor(orange);
+                word7.setText(getRandomArray(words_cwe)); word7.setBackgroundColor(orange);
+                word8.setText(getRandomArray(words_cwe)); word8.setBackgroundColor(orange);
+                word9.setText(getRandomArray(words_cwe)); word9.setBackgroundColor(orange);
+                word10.setText(getRandomArray(words_cwe)); word10.setBackgroundColor(orange);
+            }
+
+            private void resetWordsColor8_Common_Words_Armenian() {
                 word1.setText(getRandomArray(words_cwa)); word1.setBackgroundColor(light_blue);
                 word2.setText(getRandomArray(words_cwa)); word2.setBackgroundColor(light_blue);
                 word3.setText(getRandomArray(words_cwa)); word3.setBackgroundColor(light_blue);
@@ -1045,51 +1836,173 @@ public class MainActivity2 extends AppCompatActivity {
                 word10.setText(getRandomArray(words_cwa)); word10.setBackgroundColor(light_blue);
             }
 
+            private void resetWordsColor8_Common_Words_Russian() {
+                word1.setText(getRandomArray(words_cwr)); word1.setBackgroundColor(light_blue);
+                word2.setText(getRandomArray(words_cwr)); word2.setBackgroundColor(light_blue);
+                word3.setText(getRandomArray(words_cwr)); word3.setBackgroundColor(light_blue);
+                word4.setText(getRandomArray(words_cwr)); word4.setBackgroundColor(light_blue);
+                word5.setText(getRandomArray(words_cwr)); word5.setBackgroundColor(light_blue);
+                word6.setText(getRandomArray(words_cwr)); word6.setBackgroundColor(light_blue);
+                word7.setText(getRandomArray(words_cwr)); word7.setBackgroundColor(light_blue);
+                word8.setText(getRandomArray(words_cwr)); word8.setBackgroundColor(light_blue);
+                word9.setText(getRandomArray(words_cwr)); word9.setBackgroundColor(light_blue);
+                word10.setText(getRandomArray(words_cwr)); word10.setBackgroundColor(light_blue);
+            }
+
+            private void resetWordsColor8_Common_Words_English() {
+                word1.setText(getRandomArray(words_cwe)); word1.setBackgroundColor(light_blue);
+                word2.setText(getRandomArray(words_cwe)); word2.setBackgroundColor(light_blue);
+                word3.setText(getRandomArray(words_cwe)); word3.setBackgroundColor(light_blue);
+                word4.setText(getRandomArray(words_cwe)); word4.setBackgroundColor(light_blue);
+                word5.setText(getRandomArray(words_cwe)); word5.setBackgroundColor(light_blue);
+                word6.setText(getRandomArray(words_cwe)); word6.setBackgroundColor(light_blue);
+                word7.setText(getRandomArray(words_cwe)); word7.setBackgroundColor(light_blue);
+                word8.setText(getRandomArray(words_cwe)); word8.setBackgroundColor(light_blue);
+                word9.setText(getRandomArray(words_cwe)); word9.setBackgroundColor(light_blue);
+                word10.setText(getRandomArray(words_cwe)); word10.setBackgroundColor(light_blue);
+            }
+
             private void pageChangingColor1() {
-                if (clickcount == 10 || clickcount == 20 || clickcount == 30  || clickcount == 40 || clickcount == 50) {
-                    resetWordsColor1();
+                if ( MainActivity5.is_common_words_selected ) {
+                    if ( MainActivity6.Armenian ) {
+                        if (clickcount == 10 || clickcount == 20 || clickcount == 30  || clickcount == 40 || clickcount == 50) {
+                            resetWordsColor1_Common_Words_Armenian();
+                        }
+                    } else if ( MainActivity6.Russian ) {
+                        if (clickcount == 10 || clickcount == 20 || clickcount == 30  || clickcount == 40 || clickcount == 50) {
+                            resetWordsColor1_Common_Words_Russian();
+                        }
+                    } else if ( MainActivity6.English ) {
+                        if (clickcount == 10 || clickcount == 20 || clickcount == 30  || clickcount == 40 || clickcount == 50) {
+                            resetWordsColor1_Common_Words_English();
+                        }
+                    }
                 }
             }
 
             private void pageChangingColor2() {
-                if (clickcount == 10 || clickcount == 20 || clickcount == 30  || clickcount == 40 || clickcount == 50) {
-                    resetWordsColor2();
+                if ( MainActivity5.is_common_words_selected ) {
+                    if ( MainActivity6.Armenian ) {
+                        if (clickcount == 10 || clickcount == 20 || clickcount == 30  || clickcount == 40 || clickcount == 50) {
+                            resetWordsColor2_Common_Words_Armenian();
+                        }
+                    } else if ( MainActivity6.Russian ) {
+                        if (clickcount == 10 || clickcount == 20 || clickcount == 30  || clickcount == 40 || clickcount == 50) {
+                            resetWordsColor2_Common_Words_Russian();
+                        }
+                    } else if ( MainActivity6.English ) {
+                        if (clickcount == 10 || clickcount == 20 || clickcount == 30  || clickcount == 40 || clickcount == 50) {
+                            resetWordsColor2_Common_Words_English();
+                        }
+                    }
                 }
             }
 
             private void pageChangingColor3() {
-                if (clickcount == 10 || clickcount == 20 || clickcount == 30  || clickcount == 40 || clickcount == 50) {
-                    resetWordsColor3();
+                if ( MainActivity5.is_common_words_selected ) {
+                    if ( MainActivity6.Armenian ) {
+                        if (clickcount == 10 || clickcount == 20 || clickcount == 30  || clickcount == 40 || clickcount == 50) {
+                            resetWordsColor3_Common_Words_Armenian();
+                        }
+                    } else if ( MainActivity6.Russian ) {
+                        if (clickcount == 10 || clickcount == 20 || clickcount == 30  || clickcount == 40 || clickcount == 50) {
+                            resetWordsColor3_Common_Words_Russian();
+                        }
+                    } else if ( MainActivity6.English ) {
+                        if (clickcount == 10 || clickcount == 20 || clickcount == 30  || clickcount == 40 || clickcount == 50) {
+                            resetWordsColor3_Common_Words_English();
+                        }
+                    }
                 }
             }
 
             private void pageChangingColor4() {
-                if (clickcount == 10 || clickcount == 20 || clickcount == 30  || clickcount == 40 || clickcount == 50) {
-                    resetWordsColor4();
+                if ( MainActivity5.is_common_words_selected ) {
+                    if ( MainActivity6.Armenian ) {
+                        if (clickcount == 10 || clickcount == 20 || clickcount == 30  || clickcount == 40 || clickcount == 50) {
+                            resetWordsColor4_Common_Words_Armenian();
+                        }
+                    } else if ( MainActivity6.Russian ) {
+                        if (clickcount == 10 || clickcount == 20 || clickcount == 30  || clickcount == 40 || clickcount == 50) {
+                            resetWordsColor4_Common_Words_Russian();
+                        }
+                    } else if ( MainActivity6.English ) {
+                        if (clickcount == 10 || clickcount == 20 || clickcount == 30  || clickcount == 40 || clickcount == 50) {
+                            resetWordsColor4_Common_Words_English();
+                        }
+                    }
                 }
             }
 
             private void pageChangingColor5() {
-                if (clickcount == 10 || clickcount == 20 || clickcount == 30  || clickcount == 40 || clickcount == 50) {
-                    resetWordsColor5();
+                if ( MainActivity5.is_common_words_selected ) {
+                    if ( MainActivity6.Armenian ) {
+                        if (clickcount == 10 || clickcount == 20 || clickcount == 30  || clickcount == 40 || clickcount == 50) {
+                            resetWordsColor5_Common_Words_Armenian();
+                        }
+                    } else if ( MainActivity6.Russian ) {
+                        if (clickcount == 10 || clickcount == 20 || clickcount == 30  || clickcount == 40 || clickcount == 50) {
+                            resetWordsColor5_Common_Words_Russian();
+                        }
+                    } else if ( MainActivity6.English ) {
+                        if (clickcount == 10 || clickcount == 20 || clickcount == 30  || clickcount == 40 || clickcount == 50) {
+                            resetWordsColor5_Common_Words_English();
+                        }
+                    }
                 }
             }
 
             private void pageChangingColor6() {
-                if (clickcount == 10 || clickcount == 20 || clickcount == 30  || clickcount == 40 || clickcount == 50) {
-                    resetWordsColor6();
+                if ( MainActivity5.is_common_words_selected ) {
+                    if ( MainActivity6.Armenian ) {
+                        if (clickcount == 10 || clickcount == 20 || clickcount == 30  || clickcount == 40 || clickcount == 50) {
+                            resetWordsColor6_Common_Words_Armenian();
+                        }
+                    } else if ( MainActivity6.Russian ) {
+                        if (clickcount == 10 || clickcount == 20 || clickcount == 30  || clickcount == 40 || clickcount == 50) {
+                            resetWordsColor6_Common_Words_Russian();
+                        }
+                    } else if ( MainActivity6.English ) {
+                        if (clickcount == 10 || clickcount == 20 || clickcount == 30  || clickcount == 40 || clickcount == 50) {
+                            resetWordsColor6_Common_Words_English();
+                        }
+                    }
                 }
             }
 
             private void pageChangingColor7() {
-                if (clickcount == 10 || clickcount == 20 || clickcount == 30  || clickcount == 40 || clickcount == 50) {
-                    resetWordsColor7();
+                if ( MainActivity5.is_common_words_selected ) {
+                    if ( MainActivity6.Armenian ) {
+                        if (clickcount == 10 || clickcount == 20 || clickcount == 30  || clickcount == 40 || clickcount == 50) {
+                            resetWordsColor7_Common_Words_Armenian();
+                        }
+                    } else if ( MainActivity6.Russian ) {
+                        if (clickcount == 10 || clickcount == 20 || clickcount == 30  || clickcount == 40 || clickcount == 50) {
+                            resetWordsColor7_Common_Words_Russian();
+                        }
+                    } else if ( MainActivity6.English ) {
+                        if (clickcount == 10 || clickcount == 20 || clickcount == 30  || clickcount == 40 || clickcount == 50) {
+                            resetWordsColor7_Common_Words_English();
+                        }
+                    }
                 }
             }
 
             private void pageChangingColor8() {
-                if (clickcount == 10 || clickcount == 20 || clickcount == 30  || clickcount == 40 || clickcount == 50) {
-                    resetWordsColor8();
+                if ( MainActivity5.is_common_words_selected ) {
+                    if ( MainActivity6.Armenian ) {
+                        if (clickcount == 10 || clickcount == 20 || clickcount == 30  || clickcount == 40 || clickcount == 50) {
+                            resetWordsColor8_Common_Words_Armenian();
+                        }
+                    } else if ( MainActivity6.Russian ) {
+                        if (clickcount == 10 || clickcount == 20 || clickcount == 30  || clickcount == 40 || clickcount == 50) {
+                            resetWordsColor8_Common_Words_Russian();
+                        }
+                    } else if ( MainActivity6.English ) {
+                        if (clickcount == 10 || clickcount == 20 || clickcount == 30  || clickcount == 40 || clickcount == 50) {
+                            resetWordsColor8_Common_Words_English();
+                        }
+                    }
                 }
             }
         });
@@ -1242,7 +2155,7 @@ public class MainActivity2 extends AppCompatActivity {
                 }
             }
 
-            private void resetWordsColor1() {
+            private void resetWordsColor1_Common_Words_Armenian() {
                 word1.setText(getRandomArray(words_cwa)); word1.setBackgroundColor(white);
                 word2.setText(getRandomArray(words_cwa)); word2.setBackgroundColor(white);
                 word3.setText(getRandomArray(words_cwa)); word3.setBackgroundColor(white);
@@ -1255,7 +2168,33 @@ public class MainActivity2 extends AppCompatActivity {
                 word10.setText(getRandomArray(words_cwa)); word10.setBackgroundColor(white);
             }
 
-            private void resetWordsColor2() {
+            private void resetWordsColor1_Common_Words_Russian() {
+                word1.setText(getRandomArray(words_cwr)); word1.setBackgroundColor(white);
+                word2.setText(getRandomArray(words_cwr)); word2.setBackgroundColor(white);
+                word3.setText(getRandomArray(words_cwr)); word3.setBackgroundColor(white);
+                word4.setText(getRandomArray(words_cwr)); word4.setBackgroundColor(white);
+                word5.setText(getRandomArray(words_cwr)); word5.setBackgroundColor(white);
+                word6.setText(getRandomArray(words_cwr)); word6.setBackgroundColor(white);
+                word7.setText(getRandomArray(words_cwr)); word7.setBackgroundColor(white);
+                word8.setText(getRandomArray(words_cwr)); word8.setBackgroundColor(white);
+                word9.setText(getRandomArray(words_cwr)); word9.setBackgroundColor(white);
+                word10.setText(getRandomArray(words_cwr)); word10.setBackgroundColor(white);
+            }
+
+            private void resetWordsColor1_Common_Words_English() {
+                word1.setText(getRandomArray(words_cwe)); word1.setBackgroundColor(white);
+                word2.setText(getRandomArray(words_cwe)); word2.setBackgroundColor(white);
+                word3.setText(getRandomArray(words_cwe)); word3.setBackgroundColor(white);
+                word4.setText(getRandomArray(words_cwe)); word4.setBackgroundColor(white);
+                word5.setText(getRandomArray(words_cwe)); word5.setBackgroundColor(white);
+                word6.setText(getRandomArray(words_cwe)); word6.setBackgroundColor(white);
+                word7.setText(getRandomArray(words_cwe)); word7.setBackgroundColor(white);
+                word8.setText(getRandomArray(words_cwe)); word8.setBackgroundColor(white);
+                word9.setText(getRandomArray(words_cwe)); word9.setBackgroundColor(white);
+                word10.setText(getRandomArray(words_cwe)); word10.setBackgroundColor(white);
+            }
+
+            private void resetWordsColor2_Common_Words_Armenian() {
                 word1.setText(getRandomArray(words_cwa)); word1.setBackgroundColor(dark_emerald_green);
                 word2.setText(getRandomArray(words_cwa)); word2.setBackgroundColor(dark_emerald_green);
                 word3.setText(getRandomArray(words_cwa)); word3.setBackgroundColor(dark_emerald_green);
@@ -1268,7 +2207,33 @@ public class MainActivity2 extends AppCompatActivity {
                 word10.setText(getRandomArray(words_cwa)); word10.setBackgroundColor(dark_emerald_green);
             }
 
-            private void resetWordsColor3() {
+            private void resetWordsColor2_Common_Words_Russian() {
+                word1.setText(getRandomArray(words_cwr)); word1.setBackgroundColor(dark_emerald_green);
+                word2.setText(getRandomArray(words_cwr)); word2.setBackgroundColor(dark_emerald_green);
+                word3.setText(getRandomArray(words_cwr)); word3.setBackgroundColor(dark_emerald_green);
+                word4.setText(getRandomArray(words_cwr)); word4.setBackgroundColor(dark_emerald_green);
+                word5.setText(getRandomArray(words_cwr)); word5.setBackgroundColor(dark_emerald_green);
+                word6.setText(getRandomArray(words_cwr)); word6.setBackgroundColor(dark_emerald_green);
+                word7.setText(getRandomArray(words_cwr)); word7.setBackgroundColor(dark_emerald_green);
+                word8.setText(getRandomArray(words_cwr)); word8.setBackgroundColor(dark_emerald_green);
+                word9.setText(getRandomArray(words_cwr)); word9.setBackgroundColor(dark_emerald_green);
+                word10.setText(getRandomArray(words_cwr)); word10.setBackgroundColor(dark_emerald_green);
+            }
+
+            private void resetWordsColor2_Common_Words_English() {
+                word1.setText(getRandomArray(words_cwe)); word1.setBackgroundColor(dark_emerald_green);
+                word2.setText(getRandomArray(words_cwe)); word2.setBackgroundColor(dark_emerald_green);
+                word3.setText(getRandomArray(words_cwe)); word3.setBackgroundColor(dark_emerald_green);
+                word4.setText(getRandomArray(words_cwe)); word4.setBackgroundColor(dark_emerald_green);
+                word5.setText(getRandomArray(words_cwe)); word5.setBackgroundColor(dark_emerald_green);
+                word6.setText(getRandomArray(words_cwe)); word6.setBackgroundColor(dark_emerald_green);
+                word7.setText(getRandomArray(words_cwe)); word7.setBackgroundColor(dark_emerald_green);
+                word8.setText(getRandomArray(words_cwe)); word8.setBackgroundColor(dark_emerald_green);
+                word9.setText(getRandomArray(words_cwe)); word9.setBackgroundColor(dark_emerald_green);
+                word10.setText(getRandomArray(words_cwe)); word10.setBackgroundColor(dark_emerald_green);
+            }
+
+            private void resetWordsColor3_Common_Words_Armenian() {
                 word1.setText(getRandomArray(words_cwa)); word1.setBackgroundColor(yellow);
                 word2.setText(getRandomArray(words_cwa)); word2.setBackgroundColor(yellow);
                 word3.setText(getRandomArray(words_cwa)); word3.setBackgroundColor(yellow);
@@ -1281,7 +2246,33 @@ public class MainActivity2 extends AppCompatActivity {
                 word10.setText(getRandomArray(words_cwa)); word10.setBackgroundColor(yellow);
             }
 
-            private void resetWordsColor4() {
+            private void resetWordsColor3_Common_Words_Russian() {
+                word1.setText(getRandomArray(words_cwr)); word1.setBackgroundColor(yellow);
+                word2.setText(getRandomArray(words_cwr)); word2.setBackgroundColor(yellow);
+                word3.setText(getRandomArray(words_cwr)); word3.setBackgroundColor(yellow);
+                word4.setText(getRandomArray(words_cwr)); word4.setBackgroundColor(yellow);
+                word5.setText(getRandomArray(words_cwr)); word5.setBackgroundColor(yellow);
+                word6.setText(getRandomArray(words_cwr)); word6.setBackgroundColor(yellow);
+                word7.setText(getRandomArray(words_cwr)); word7.setBackgroundColor(yellow);
+                word8.setText(getRandomArray(words_cwr)); word8.setBackgroundColor(yellow);
+                word9.setText(getRandomArray(words_cwr)); word9.setBackgroundColor(yellow);
+                word10.setText(getRandomArray(words_cwr)); word10.setBackgroundColor(yellow);
+            }
+
+            private void resetWordsColor3_Common_Words_English() {
+                word1.setText(getRandomArray(words_cwe)); word1.setBackgroundColor(yellow);
+                word2.setText(getRandomArray(words_cwe)); word2.setBackgroundColor(yellow);
+                word3.setText(getRandomArray(words_cwe)); word3.setBackgroundColor(yellow);
+                word4.setText(getRandomArray(words_cwe)); word4.setBackgroundColor(yellow);
+                word5.setText(getRandomArray(words_cwe)); word5.setBackgroundColor(yellow);
+                word6.setText(getRandomArray(words_cwe)); word6.setBackgroundColor(yellow);
+                word7.setText(getRandomArray(words_cwe)); word7.setBackgroundColor(yellow);
+                word8.setText(getRandomArray(words_cwe)); word8.setBackgroundColor(yellow);
+                word9.setText(getRandomArray(words_cwe)); word9.setBackgroundColor(yellow);
+                word10.setText(getRandomArray(words_cwe)); word10.setBackgroundColor(yellow);
+            }
+
+            private void resetWordsColor4_Common_Words_Armenian() {
                 word1.setText(getRandomArray(words_cwa)); word1.setBackgroundColor(red);
                 word2.setText(getRandomArray(words_cwa)); word2.setBackgroundColor(red);
                 word3.setText(getRandomArray(words_cwa)); word3.setBackgroundColor(red);
@@ -1294,7 +2285,33 @@ public class MainActivity2 extends AppCompatActivity {
                 word10.setText(getRandomArray(words_cwa)); word10.setBackgroundColor(red);
             }
 
-            private void resetWordsColor5() {
+            private void resetWordsColor4_Common_Words_Russian() {
+                word1.setText(getRandomArray(words_cwr)); word1.setBackgroundColor(red);
+                word2.setText(getRandomArray(words_cwr)); word2.setBackgroundColor(red);
+                word3.setText(getRandomArray(words_cwr)); word3.setBackgroundColor(red);
+                word4.setText(getRandomArray(words_cwr)); word4.setBackgroundColor(red);
+                word5.setText(getRandomArray(words_cwr)); word5.setBackgroundColor(red);
+                word6.setText(getRandomArray(words_cwr)); word6.setBackgroundColor(red);
+                word7.setText(getRandomArray(words_cwr)); word7.setBackgroundColor(red);
+                word8.setText(getRandomArray(words_cwr)); word8.setBackgroundColor(red);
+                word9.setText(getRandomArray(words_cwr)); word9.setBackgroundColor(red);
+                word10.setText(getRandomArray(words_cwr)); word10.setBackgroundColor(red);
+            }
+
+            private void resetWordsColor4_Common_Words_English() {
+                word1.setText(getRandomArray(words_cwe)); word1.setBackgroundColor(red);
+                word2.setText(getRandomArray(words_cwe)); word2.setBackgroundColor(red);
+                word3.setText(getRandomArray(words_cwe)); word3.setBackgroundColor(red);
+                word4.setText(getRandomArray(words_cwe)); word4.setBackgroundColor(red);
+                word5.setText(getRandomArray(words_cwe)); word5.setBackgroundColor(red);
+                word6.setText(getRandomArray(words_cwe)); word6.setBackgroundColor(red);
+                word7.setText(getRandomArray(words_cwe)); word7.setBackgroundColor(red);
+                word8.setText(getRandomArray(words_cwe)); word8.setBackgroundColor(red);
+                word9.setText(getRandomArray(words_cwe)); word9.setBackgroundColor(red);
+                word10.setText(getRandomArray(words_cwe)); word10.setBackgroundColor(red);
+            }
+
+            private void resetWordsColor5_Common_Words_Armenian() {
                 word1.setText(getRandomArray(words_cwa)); word1.setBackgroundColor(teal);
                 word2.setText(getRandomArray(words_cwa)); word2.setBackgroundColor(teal);
                 word3.setText(getRandomArray(words_cwa)); word3.setBackgroundColor(teal);
@@ -1307,7 +2324,33 @@ public class MainActivity2 extends AppCompatActivity {
                 word10.setText(getRandomArray(words_cwa)); word10.setBackgroundColor(teal);
             }
 
-            private void resetWordsColor6() {
+            private void resetWordsColor5_Common_Words_Russian() {
+                word1.setText(getRandomArray(words_cwr)); word1.setBackgroundColor(teal);
+                word2.setText(getRandomArray(words_cwr)); word2.setBackgroundColor(teal);
+                word3.setText(getRandomArray(words_cwr)); word3.setBackgroundColor(teal);
+                word4.setText(getRandomArray(words_cwr)); word4.setBackgroundColor(teal);
+                word5.setText(getRandomArray(words_cwr)); word5.setBackgroundColor(teal);
+                word6.setText(getRandomArray(words_cwr)); word6.setBackgroundColor(teal);
+                word7.setText(getRandomArray(words_cwr)); word7.setBackgroundColor(teal);
+                word8.setText(getRandomArray(words_cwr)); word8.setBackgroundColor(teal);
+                word9.setText(getRandomArray(words_cwr)); word9.setBackgroundColor(teal);
+                word10.setText(getRandomArray(words_cwr)); word10.setBackgroundColor(teal);
+            }
+
+            private void resetWordsColor5_Common_Words_English() {
+                word1.setText(getRandomArray(words_cwe)); word1.setBackgroundColor(teal);
+                word2.setText(getRandomArray(words_cwe)); word2.setBackgroundColor(teal);
+                word3.setText(getRandomArray(words_cwe)); word3.setBackgroundColor(teal);
+                word4.setText(getRandomArray(words_cwe)); word4.setBackgroundColor(teal);
+                word5.setText(getRandomArray(words_cwe)); word5.setBackgroundColor(teal);
+                word6.setText(getRandomArray(words_cwe)); word6.setBackgroundColor(teal);
+                word7.setText(getRandomArray(words_cwe)); word7.setBackgroundColor(teal);
+                word8.setText(getRandomArray(words_cwe)); word8.setBackgroundColor(teal);
+                word9.setText(getRandomArray(words_cwe)); word9.setBackgroundColor(teal);
+                word10.setText(getRandomArray(words_cwe)); word10.setBackgroundColor(teal);
+            }
+
+            private void resetWordsColor6_Common_Words_Armenian() {
                 word1.setText(getRandomArray(words_cwa)); word1.setBackgroundColor(blooming_dahlia);
                 word2.setText(getRandomArray(words_cwa)); word2.setBackgroundColor(blooming_dahlia);
                 word3.setText(getRandomArray(words_cwa)); word3.setBackgroundColor(blooming_dahlia);
@@ -1320,7 +2363,33 @@ public class MainActivity2 extends AppCompatActivity {
                 word10.setText(getRandomArray(words_cwa)); word10.setBackgroundColor(blooming_dahlia);
             }
 
-            private void resetWordsColor7() {
+            private void resetWordsColor6_Common_Words_Russian() {
+                word1.setText(getRandomArray(words_cwr)); word1.setBackgroundColor(blooming_dahlia);
+                word2.setText(getRandomArray(words_cwr)); word2.setBackgroundColor(blooming_dahlia);
+                word3.setText(getRandomArray(words_cwr)); word3.setBackgroundColor(blooming_dahlia);
+                word4.setText(getRandomArray(words_cwr)); word4.setBackgroundColor(blooming_dahlia);
+                word5.setText(getRandomArray(words_cwr)); word5.setBackgroundColor(blooming_dahlia);
+                word6.setText(getRandomArray(words_cwr)); word6.setBackgroundColor(blooming_dahlia);
+                word7.setText(getRandomArray(words_cwr)); word7.setBackgroundColor(blooming_dahlia);
+                word8.setText(getRandomArray(words_cwr)); word8.setBackgroundColor(blooming_dahlia);
+                word9.setText(getRandomArray(words_cwr)); word9.setBackgroundColor(blooming_dahlia);
+                word10.setText(getRandomArray(words_cwr)); word10.setBackgroundColor(blooming_dahlia);
+            }
+
+            private void resetWordsColor6_Common_Words_English() {
+                word1.setText(getRandomArray(words_cwe)); word1.setBackgroundColor(blooming_dahlia);
+                word2.setText(getRandomArray(words_cwe)); word2.setBackgroundColor(blooming_dahlia);
+                word3.setText(getRandomArray(words_cwe)); word3.setBackgroundColor(blooming_dahlia);
+                word4.setText(getRandomArray(words_cwe)); word4.setBackgroundColor(blooming_dahlia);
+                word5.setText(getRandomArray(words_cwe)); word5.setBackgroundColor(blooming_dahlia);
+                word6.setText(getRandomArray(words_cwe)); word6.setBackgroundColor(blooming_dahlia);
+                word7.setText(getRandomArray(words_cwe)); word7.setBackgroundColor(blooming_dahlia);
+                word8.setText(getRandomArray(words_cwe)); word8.setBackgroundColor(blooming_dahlia);
+                word9.setText(getRandomArray(words_cwe)); word9.setBackgroundColor(blooming_dahlia);
+                word10.setText(getRandomArray(words_cwe)); word10.setBackgroundColor(blooming_dahlia);
+            }
+
+            private void resetWordsColor7_Common_Words_Armenian() {
                 word1.setText(getRandomArray(words_cwa)); word1.setBackgroundColor(orange);
                 word2.setText(getRandomArray(words_cwa)); word2.setBackgroundColor(orange);
                 word3.setText(getRandomArray(words_cwa)); word3.setBackgroundColor(orange);
@@ -1333,7 +2402,33 @@ public class MainActivity2 extends AppCompatActivity {
                 word10.setText(getRandomArray(words_cwa)); word10.setBackgroundColor(orange);
             }
 
-            private void resetWordsColor8() {
+            private void resetWordsColor7_Common_Words_Russian() {
+                word1.setText(getRandomArray(words_cwr)); word1.setBackgroundColor(orange);
+                word2.setText(getRandomArray(words_cwr)); word2.setBackgroundColor(orange);
+                word3.setText(getRandomArray(words_cwr)); word3.setBackgroundColor(orange);
+                word4.setText(getRandomArray(words_cwr)); word4.setBackgroundColor(orange);
+                word5.setText(getRandomArray(words_cwr)); word5.setBackgroundColor(orange);
+                word6.setText(getRandomArray(words_cwr)); word6.setBackgroundColor(orange);
+                word7.setText(getRandomArray(words_cwr)); word7.setBackgroundColor(orange);
+                word8.setText(getRandomArray(words_cwr)); word8.setBackgroundColor(orange);
+                word9.setText(getRandomArray(words_cwr)); word9.setBackgroundColor(orange);
+                word10.setText(getRandomArray(words_cwr)); word10.setBackgroundColor(orange);
+            }
+
+            private void resetWordsColor7_Common_Words_English() {
+                word1.setText(getRandomArray(words_cwe)); word1.setBackgroundColor(orange);
+                word2.setText(getRandomArray(words_cwe)); word2.setBackgroundColor(orange);
+                word3.setText(getRandomArray(words_cwe)); word3.setBackgroundColor(orange);
+                word4.setText(getRandomArray(words_cwe)); word4.setBackgroundColor(orange);
+                word5.setText(getRandomArray(words_cwe)); word5.setBackgroundColor(orange);
+                word6.setText(getRandomArray(words_cwe)); word6.setBackgroundColor(orange);
+                word7.setText(getRandomArray(words_cwe)); word7.setBackgroundColor(orange);
+                word8.setText(getRandomArray(words_cwe)); word8.setBackgroundColor(orange);
+                word9.setText(getRandomArray(words_cwe)); word9.setBackgroundColor(orange);
+                word10.setText(getRandomArray(words_cwe)); word10.setBackgroundColor(orange);
+            }
+
+            private void resetWordsColor8_Common_Words_Armenian() {
                 word1.setText(getRandomArray(words_cwa)); word1.setBackgroundColor(light_blue);
                 word2.setText(getRandomArray(words_cwa)); word2.setBackgroundColor(light_blue);
                 word3.setText(getRandomArray(words_cwa)); word3.setBackgroundColor(light_blue);
@@ -1346,51 +2441,173 @@ public class MainActivity2 extends AppCompatActivity {
                 word10.setText(getRandomArray(words_cwa)); word10.setBackgroundColor(light_blue);
             }
 
+            private void resetWordsColor8_Common_Words_Russian() {
+                word1.setText(getRandomArray(words_cwr)); word1.setBackgroundColor(light_blue);
+                word2.setText(getRandomArray(words_cwr)); word2.setBackgroundColor(light_blue);
+                word3.setText(getRandomArray(words_cwr)); word3.setBackgroundColor(light_blue);
+                word4.setText(getRandomArray(words_cwr)); word4.setBackgroundColor(light_blue);
+                word5.setText(getRandomArray(words_cwr)); word5.setBackgroundColor(light_blue);
+                word6.setText(getRandomArray(words_cwr)); word6.setBackgroundColor(light_blue);
+                word7.setText(getRandomArray(words_cwr)); word7.setBackgroundColor(light_blue);
+                word8.setText(getRandomArray(words_cwr)); word8.setBackgroundColor(light_blue);
+                word9.setText(getRandomArray(words_cwr)); word9.setBackgroundColor(light_blue);
+                word10.setText(getRandomArray(words_cwr)); word10.setBackgroundColor(light_blue);
+            }
+
+            private void resetWordsColor8_Common_Words_English() {
+                word1.setText(getRandomArray(words_cwe)); word1.setBackgroundColor(light_blue);
+                word2.setText(getRandomArray(words_cwe)); word2.setBackgroundColor(light_blue);
+                word3.setText(getRandomArray(words_cwe)); word3.setBackgroundColor(light_blue);
+                word4.setText(getRandomArray(words_cwe)); word4.setBackgroundColor(light_blue);
+                word5.setText(getRandomArray(words_cwe)); word5.setBackgroundColor(light_blue);
+                word6.setText(getRandomArray(words_cwe)); word6.setBackgroundColor(light_blue);
+                word7.setText(getRandomArray(words_cwe)); word7.setBackgroundColor(light_blue);
+                word8.setText(getRandomArray(words_cwe)); word8.setBackgroundColor(light_blue);
+                word9.setText(getRandomArray(words_cwe)); word9.setBackgroundColor(light_blue);
+                word10.setText(getRandomArray(words_cwe)); word10.setBackgroundColor(light_blue);
+            }
+
             private void pageChangingColor1() {
-                if (clickcount == 10 || clickcount == 20 || clickcount == 30  || clickcount == 40 || clickcount == 50) {
-                    resetWordsColor1();
+                if ( MainActivity5.is_common_words_selected ) {
+                    if ( MainActivity6.Armenian ) {
+                        if (clickcount == 10 || clickcount == 20 || clickcount == 30  || clickcount == 40 || clickcount == 50) {
+                            resetWordsColor1_Common_Words_Armenian();
+                        }
+                    } else if ( MainActivity6.Russian ) {
+                        if (clickcount == 10 || clickcount == 20 || clickcount == 30  || clickcount == 40 || clickcount == 50) {
+                            resetWordsColor1_Common_Words_Russian();
+                        }
+                    } else if ( MainActivity6.English ) {
+                        if (clickcount == 10 || clickcount == 20 || clickcount == 30  || clickcount == 40 || clickcount == 50) {
+                            resetWordsColor1_Common_Words_English();
+                        }
+                    }
                 }
             }
 
             private void pageChangingColor2() {
-                if (clickcount == 10 || clickcount == 20 || clickcount == 30  || clickcount == 40 || clickcount == 50) {
-                    resetWordsColor2();
+                if ( MainActivity5.is_common_words_selected ) {
+                    if ( MainActivity6.Armenian ) {
+                        if (clickcount == 10 || clickcount == 20 || clickcount == 30  || clickcount == 40 || clickcount == 50) {
+                            resetWordsColor2_Common_Words_Armenian();
+                        }
+                    } else if ( MainActivity6.Russian ) {
+                        if (clickcount == 10 || clickcount == 20 || clickcount == 30  || clickcount == 40 || clickcount == 50) {
+                            resetWordsColor2_Common_Words_Russian();
+                        }
+                    } else if ( MainActivity6.English ) {
+                        if (clickcount == 10 || clickcount == 20 || clickcount == 30  || clickcount == 40 || clickcount == 50) {
+                            resetWordsColor2_Common_Words_English();
+                        }
+                    }
                 }
             }
 
             private void pageChangingColor3() {
-                if (clickcount == 10 || clickcount == 20 || clickcount == 30  || clickcount == 40 || clickcount == 50) {
-                    resetWordsColor3();
+                if ( MainActivity5.is_common_words_selected ) {
+                    if ( MainActivity6.Armenian ) {
+                        if (clickcount == 10 || clickcount == 20 || clickcount == 30  || clickcount == 40 || clickcount == 50) {
+                            resetWordsColor3_Common_Words_Armenian();
+                        }
+                    } else if ( MainActivity6.Russian ) {
+                        if (clickcount == 10 || clickcount == 20 || clickcount == 30  || clickcount == 40 || clickcount == 50) {
+                            resetWordsColor3_Common_Words_Russian();
+                        }
+                    } else if ( MainActivity6.English ) {
+                        if (clickcount == 10 || clickcount == 20 || clickcount == 30  || clickcount == 40 || clickcount == 50) {
+                            resetWordsColor3_Common_Words_English();
+                        }
+                    }
                 }
             }
 
             private void pageChangingColor4() {
-                if (clickcount == 10 || clickcount == 20 || clickcount == 30  || clickcount == 40 || clickcount == 50) {
-                    resetWordsColor4();
+                if ( MainActivity5.is_common_words_selected ) {
+                    if ( MainActivity6.Armenian ) {
+                        if (clickcount == 10 || clickcount == 20 || clickcount == 30  || clickcount == 40 || clickcount == 50) {
+                            resetWordsColor4_Common_Words_Armenian();
+                        }
+                    } else if ( MainActivity6.Russian ) {
+                        if (clickcount == 10 || clickcount == 20 || clickcount == 30  || clickcount == 40 || clickcount == 50) {
+                            resetWordsColor4_Common_Words_Russian();
+                        }
+                    } else if ( MainActivity6.English ) {
+                        if (clickcount == 10 || clickcount == 20 || clickcount == 30  || clickcount == 40 || clickcount == 50) {
+                            resetWordsColor4_Common_Words_English();
+                        }
+                    }
                 }
             }
 
             private void pageChangingColor5() {
-                if (clickcount == 10 || clickcount == 20 || clickcount == 30  || clickcount == 40 || clickcount == 50) {
-                    resetWordsColor5();
+                if ( MainActivity5.is_common_words_selected ) {
+                    if ( MainActivity6.Armenian ) {
+                        if (clickcount == 10 || clickcount == 20 || clickcount == 30  || clickcount == 40 || clickcount == 50) {
+                            resetWordsColor5_Common_Words_Armenian();
+                        }
+                    } else if ( MainActivity6.Russian ) {
+                        if (clickcount == 10 || clickcount == 20 || clickcount == 30  || clickcount == 40 || clickcount == 50) {
+                            resetWordsColor5_Common_Words_Russian();
+                        }
+                    } else if ( MainActivity6.English ) {
+                        if (clickcount == 10 || clickcount == 20 || clickcount == 30  || clickcount == 40 || clickcount == 50) {
+                            resetWordsColor5_Common_Words_English();
+                        }
+                    }
                 }
             }
 
             private void pageChangingColor6() {
-                if (clickcount == 10 || clickcount == 20 || clickcount == 30  || clickcount == 40 || clickcount == 50) {
-                    resetWordsColor6();
+                if ( MainActivity5.is_common_words_selected ) {
+                    if ( MainActivity6.Armenian ) {
+                        if (clickcount == 10 || clickcount == 20 || clickcount == 30  || clickcount == 40 || clickcount == 50) {
+                            resetWordsColor6_Common_Words_Armenian();
+                        }
+                    } else if ( MainActivity6.Russian ) {
+                        if (clickcount == 10 || clickcount == 20 || clickcount == 30  || clickcount == 40 || clickcount == 50) {
+                            resetWordsColor6_Common_Words_Russian();
+                        }
+                    } else if ( MainActivity6.English ) {
+                        if (clickcount == 10 || clickcount == 20 || clickcount == 30  || clickcount == 40 || clickcount == 50) {
+                            resetWordsColor6_Common_Words_English();
+                        }
+                    }
                 }
             }
 
             private void pageChangingColor7() {
-                if (clickcount == 10 || clickcount == 20 || clickcount == 30  || clickcount == 40 || clickcount == 50) {
-                    resetWordsColor7();
+                if ( MainActivity5.is_common_words_selected ) {
+                    if ( MainActivity6.Armenian ) {
+                        if (clickcount == 10 || clickcount == 20 || clickcount == 30  || clickcount == 40 || clickcount == 50) {
+                            resetWordsColor7_Common_Words_Armenian();
+                        }
+                    } else if ( MainActivity6.Russian ) {
+                        if (clickcount == 10 || clickcount == 20 || clickcount == 30  || clickcount == 40 || clickcount == 50) {
+                            resetWordsColor7_Common_Words_Russian();
+                        }
+                    } else if ( MainActivity6.English ) {
+                        if (clickcount == 10 || clickcount == 20 || clickcount == 30  || clickcount == 40 || clickcount == 50) {
+                            resetWordsColor7_Common_Words_English();
+                        }
+                    }
                 }
             }
 
             private void pageChangingColor8() {
-                if (clickcount == 10 || clickcount == 20 || clickcount == 30  || clickcount == 40 || clickcount == 50) {
-                    resetWordsColor8();
+                if ( MainActivity5.is_common_words_selected ) {
+                    if ( MainActivity6.Armenian ) {
+                        if (clickcount == 10 || clickcount == 20 || clickcount == 30  || clickcount == 40 || clickcount == 50) {
+                            resetWordsColor8_Common_Words_Armenian();
+                        }
+                    } else if ( MainActivity6.Russian ) {
+                        if (clickcount == 10 || clickcount == 20 || clickcount == 30  || clickcount == 40 || clickcount == 50) {
+                            resetWordsColor8_Common_Words_Russian();
+                        }
+                    } else if ( MainActivity6.English ) {
+                        if (clickcount == 10 || clickcount == 20 || clickcount == 30  || clickcount == 40 || clickcount == 50) {
+                            resetWordsColor8_Common_Words_English();
+                        }
+                    }
                 }
             }
         });
@@ -1543,7 +2760,7 @@ public class MainActivity2 extends AppCompatActivity {
                 }
             }
 
-            private void resetWordsColor1() {
+            private void resetWordsColor1_Common_Words_Armenian() {
                 word1.setText(getRandomArray(words_cwa)); word1.setBackgroundColor(white);
                 word2.setText(getRandomArray(words_cwa)); word2.setBackgroundColor(white);
                 word3.setText(getRandomArray(words_cwa)); word3.setBackgroundColor(white);
@@ -1556,7 +2773,33 @@ public class MainActivity2 extends AppCompatActivity {
                 word10.setText(getRandomArray(words_cwa)); word10.setBackgroundColor(white);
             }
 
-            private void resetWordsColor2() {
+            private void resetWordsColor1_Common_Words_Russian() {
+                word1.setText(getRandomArray(words_cwr)); word1.setBackgroundColor(white);
+                word2.setText(getRandomArray(words_cwr)); word2.setBackgroundColor(white);
+                word3.setText(getRandomArray(words_cwr)); word3.setBackgroundColor(white);
+                word4.setText(getRandomArray(words_cwr)); word4.setBackgroundColor(white);
+                word5.setText(getRandomArray(words_cwr)); word5.setBackgroundColor(white);
+                word6.setText(getRandomArray(words_cwr)); word6.setBackgroundColor(white);
+                word7.setText(getRandomArray(words_cwr)); word7.setBackgroundColor(white);
+                word8.setText(getRandomArray(words_cwr)); word8.setBackgroundColor(white);
+                word9.setText(getRandomArray(words_cwr)); word9.setBackgroundColor(white);
+                word10.setText(getRandomArray(words_cwr)); word10.setBackgroundColor(white);
+            }
+
+            private void resetWordsColor1_Common_Words_English() {
+                word1.setText(getRandomArray(words_cwe)); word1.setBackgroundColor(white);
+                word2.setText(getRandomArray(words_cwe)); word2.setBackgroundColor(white);
+                word3.setText(getRandomArray(words_cwe)); word3.setBackgroundColor(white);
+                word4.setText(getRandomArray(words_cwe)); word4.setBackgroundColor(white);
+                word5.setText(getRandomArray(words_cwe)); word5.setBackgroundColor(white);
+                word6.setText(getRandomArray(words_cwe)); word6.setBackgroundColor(white);
+                word7.setText(getRandomArray(words_cwe)); word7.setBackgroundColor(white);
+                word8.setText(getRandomArray(words_cwe)); word8.setBackgroundColor(white);
+                word9.setText(getRandomArray(words_cwe)); word9.setBackgroundColor(white);
+                word10.setText(getRandomArray(words_cwe)); word10.setBackgroundColor(white);
+            }
+
+            private void resetWordsColor2_Common_Words_Armenian() {
                 word1.setText(getRandomArray(words_cwa)); word1.setBackgroundColor(dark_emerald_green);
                 word2.setText(getRandomArray(words_cwa)); word2.setBackgroundColor(dark_emerald_green);
                 word3.setText(getRandomArray(words_cwa)); word3.setBackgroundColor(dark_emerald_green);
@@ -1569,7 +2812,33 @@ public class MainActivity2 extends AppCompatActivity {
                 word10.setText(getRandomArray(words_cwa)); word10.setBackgroundColor(dark_emerald_green);
             }
 
-            private void resetWordsColor3() {
+            private void resetWordsColor2_Common_Words_Russian() {
+                word1.setText(getRandomArray(words_cwr)); word1.setBackgroundColor(dark_emerald_green);
+                word2.setText(getRandomArray(words_cwr)); word2.setBackgroundColor(dark_emerald_green);
+                word3.setText(getRandomArray(words_cwr)); word3.setBackgroundColor(dark_emerald_green);
+                word4.setText(getRandomArray(words_cwr)); word4.setBackgroundColor(dark_emerald_green);
+                word5.setText(getRandomArray(words_cwr)); word5.setBackgroundColor(dark_emerald_green);
+                word6.setText(getRandomArray(words_cwr)); word6.setBackgroundColor(dark_emerald_green);
+                word7.setText(getRandomArray(words_cwr)); word7.setBackgroundColor(dark_emerald_green);
+                word8.setText(getRandomArray(words_cwr)); word8.setBackgroundColor(dark_emerald_green);
+                word9.setText(getRandomArray(words_cwr)); word9.setBackgroundColor(dark_emerald_green);
+                word10.setText(getRandomArray(words_cwr)); word10.setBackgroundColor(dark_emerald_green);
+            }
+
+            private void resetWordsColor2_Common_Words_English() {
+                word1.setText(getRandomArray(words_cwe)); word1.setBackgroundColor(dark_emerald_green);
+                word2.setText(getRandomArray(words_cwe)); word2.setBackgroundColor(dark_emerald_green);
+                word3.setText(getRandomArray(words_cwe)); word3.setBackgroundColor(dark_emerald_green);
+                word4.setText(getRandomArray(words_cwe)); word4.setBackgroundColor(dark_emerald_green);
+                word5.setText(getRandomArray(words_cwe)); word5.setBackgroundColor(dark_emerald_green);
+                word6.setText(getRandomArray(words_cwe)); word6.setBackgroundColor(dark_emerald_green);
+                word7.setText(getRandomArray(words_cwe)); word7.setBackgroundColor(dark_emerald_green);
+                word8.setText(getRandomArray(words_cwe)); word8.setBackgroundColor(dark_emerald_green);
+                word9.setText(getRandomArray(words_cwe)); word9.setBackgroundColor(dark_emerald_green);
+                word10.setText(getRandomArray(words_cwe)); word10.setBackgroundColor(dark_emerald_green);
+            }
+
+            private void resetWordsColor3_Common_Words_Armenian() {
                 word1.setText(getRandomArray(words_cwa)); word1.setBackgroundColor(yellow);
                 word2.setText(getRandomArray(words_cwa)); word2.setBackgroundColor(yellow);
                 word3.setText(getRandomArray(words_cwa)); word3.setBackgroundColor(yellow);
@@ -1582,7 +2851,33 @@ public class MainActivity2 extends AppCompatActivity {
                 word10.setText(getRandomArray(words_cwa)); word10.setBackgroundColor(yellow);
             }
 
-            private void resetWordsColor4() {
+            private void resetWordsColor3_Common_Words_Russian() {
+                word1.setText(getRandomArray(words_cwr)); word1.setBackgroundColor(yellow);
+                word2.setText(getRandomArray(words_cwr)); word2.setBackgroundColor(yellow);
+                word3.setText(getRandomArray(words_cwr)); word3.setBackgroundColor(yellow);
+                word4.setText(getRandomArray(words_cwr)); word4.setBackgroundColor(yellow);
+                word5.setText(getRandomArray(words_cwr)); word5.setBackgroundColor(yellow);
+                word6.setText(getRandomArray(words_cwr)); word6.setBackgroundColor(yellow);
+                word7.setText(getRandomArray(words_cwr)); word7.setBackgroundColor(yellow);
+                word8.setText(getRandomArray(words_cwr)); word8.setBackgroundColor(yellow);
+                word9.setText(getRandomArray(words_cwr)); word9.setBackgroundColor(yellow);
+                word10.setText(getRandomArray(words_cwr)); word10.setBackgroundColor(yellow);
+            }
+
+            private void resetWordsColor3_Common_Words_English() {
+                word1.setText(getRandomArray(words_cwe)); word1.setBackgroundColor(yellow);
+                word2.setText(getRandomArray(words_cwe)); word2.setBackgroundColor(yellow);
+                word3.setText(getRandomArray(words_cwe)); word3.setBackgroundColor(yellow);
+                word4.setText(getRandomArray(words_cwe)); word4.setBackgroundColor(yellow);
+                word5.setText(getRandomArray(words_cwe)); word5.setBackgroundColor(yellow);
+                word6.setText(getRandomArray(words_cwe)); word6.setBackgroundColor(yellow);
+                word7.setText(getRandomArray(words_cwe)); word7.setBackgroundColor(yellow);
+                word8.setText(getRandomArray(words_cwe)); word8.setBackgroundColor(yellow);
+                word9.setText(getRandomArray(words_cwe)); word9.setBackgroundColor(yellow);
+                word10.setText(getRandomArray(words_cwe)); word10.setBackgroundColor(yellow);
+            }
+
+            private void resetWordsColor4_Common_Words_Armenian() {
                 word1.setText(getRandomArray(words_cwa)); word1.setBackgroundColor(red);
                 word2.setText(getRandomArray(words_cwa)); word2.setBackgroundColor(red);
                 word3.setText(getRandomArray(words_cwa)); word3.setBackgroundColor(red);
@@ -1595,7 +2890,33 @@ public class MainActivity2 extends AppCompatActivity {
                 word10.setText(getRandomArray(words_cwa)); word10.setBackgroundColor(red);
             }
 
-            private void resetWordsColor5() {
+            private void resetWordsColor4_Common_Words_Russian() {
+                word1.setText(getRandomArray(words_cwr)); word1.setBackgroundColor(red);
+                word2.setText(getRandomArray(words_cwr)); word2.setBackgroundColor(red);
+                word3.setText(getRandomArray(words_cwr)); word3.setBackgroundColor(red);
+                word4.setText(getRandomArray(words_cwr)); word4.setBackgroundColor(red);
+                word5.setText(getRandomArray(words_cwr)); word5.setBackgroundColor(red);
+                word6.setText(getRandomArray(words_cwr)); word6.setBackgroundColor(red);
+                word7.setText(getRandomArray(words_cwr)); word7.setBackgroundColor(red);
+                word8.setText(getRandomArray(words_cwr)); word8.setBackgroundColor(red);
+                word9.setText(getRandomArray(words_cwr)); word9.setBackgroundColor(red);
+                word10.setText(getRandomArray(words_cwr)); word10.setBackgroundColor(red);
+            }
+
+            private void resetWordsColor4_Common_Words_English() {
+                word1.setText(getRandomArray(words_cwe)); word1.setBackgroundColor(red);
+                word2.setText(getRandomArray(words_cwe)); word2.setBackgroundColor(red);
+                word3.setText(getRandomArray(words_cwe)); word3.setBackgroundColor(red);
+                word4.setText(getRandomArray(words_cwe)); word4.setBackgroundColor(red);
+                word5.setText(getRandomArray(words_cwe)); word5.setBackgroundColor(red);
+                word6.setText(getRandomArray(words_cwe)); word6.setBackgroundColor(red);
+                word7.setText(getRandomArray(words_cwe)); word7.setBackgroundColor(red);
+                word8.setText(getRandomArray(words_cwe)); word8.setBackgroundColor(red);
+                word9.setText(getRandomArray(words_cwe)); word9.setBackgroundColor(red);
+                word10.setText(getRandomArray(words_cwe)); word10.setBackgroundColor(red);
+            }
+
+            private void resetWordsColor5_Common_Words_Armenian() {
                 word1.setText(getRandomArray(words_cwa)); word1.setBackgroundColor(teal);
                 word2.setText(getRandomArray(words_cwa)); word2.setBackgroundColor(teal);
                 word3.setText(getRandomArray(words_cwa)); word3.setBackgroundColor(teal);
@@ -1608,7 +2929,33 @@ public class MainActivity2 extends AppCompatActivity {
                 word10.setText(getRandomArray(words_cwa)); word10.setBackgroundColor(teal);
             }
 
-            private void resetWordsColor6() {
+            private void resetWordsColor5_Common_Words_Russian() {
+                word1.setText(getRandomArray(words_cwr)); word1.setBackgroundColor(teal);
+                word2.setText(getRandomArray(words_cwr)); word2.setBackgroundColor(teal);
+                word3.setText(getRandomArray(words_cwr)); word3.setBackgroundColor(teal);
+                word4.setText(getRandomArray(words_cwr)); word4.setBackgroundColor(teal);
+                word5.setText(getRandomArray(words_cwr)); word5.setBackgroundColor(teal);
+                word6.setText(getRandomArray(words_cwr)); word6.setBackgroundColor(teal);
+                word7.setText(getRandomArray(words_cwr)); word7.setBackgroundColor(teal);
+                word8.setText(getRandomArray(words_cwr)); word8.setBackgroundColor(teal);
+                word9.setText(getRandomArray(words_cwr)); word9.setBackgroundColor(teal);
+                word10.setText(getRandomArray(words_cwr)); word10.setBackgroundColor(teal);
+            }
+
+            private void resetWordsColor5_Common_Words_English() {
+                word1.setText(getRandomArray(words_cwe)); word1.setBackgroundColor(teal);
+                word2.setText(getRandomArray(words_cwe)); word2.setBackgroundColor(teal);
+                word3.setText(getRandomArray(words_cwe)); word3.setBackgroundColor(teal);
+                word4.setText(getRandomArray(words_cwe)); word4.setBackgroundColor(teal);
+                word5.setText(getRandomArray(words_cwe)); word5.setBackgroundColor(teal);
+                word6.setText(getRandomArray(words_cwe)); word6.setBackgroundColor(teal);
+                word7.setText(getRandomArray(words_cwe)); word7.setBackgroundColor(teal);
+                word8.setText(getRandomArray(words_cwe)); word8.setBackgroundColor(teal);
+                word9.setText(getRandomArray(words_cwe)); word9.setBackgroundColor(teal);
+                word10.setText(getRandomArray(words_cwe)); word10.setBackgroundColor(teal);
+            }
+
+            private void resetWordsColor6_Common_Words_Armenian() {
                 word1.setText(getRandomArray(words_cwa)); word1.setBackgroundColor(blooming_dahlia);
                 word2.setText(getRandomArray(words_cwa)); word2.setBackgroundColor(blooming_dahlia);
                 word3.setText(getRandomArray(words_cwa)); word3.setBackgroundColor(blooming_dahlia);
@@ -1621,7 +2968,33 @@ public class MainActivity2 extends AppCompatActivity {
                 word10.setText(getRandomArray(words_cwa)); word10.setBackgroundColor(blooming_dahlia);
             }
 
-            private void resetWordsColor7() {
+            private void resetWordsColor6_Common_Words_Russian() {
+                word1.setText(getRandomArray(words_cwr)); word1.setBackgroundColor(blooming_dahlia);
+                word2.setText(getRandomArray(words_cwr)); word2.setBackgroundColor(blooming_dahlia);
+                word3.setText(getRandomArray(words_cwr)); word3.setBackgroundColor(blooming_dahlia);
+                word4.setText(getRandomArray(words_cwr)); word4.setBackgroundColor(blooming_dahlia);
+                word5.setText(getRandomArray(words_cwr)); word5.setBackgroundColor(blooming_dahlia);
+                word6.setText(getRandomArray(words_cwr)); word6.setBackgroundColor(blooming_dahlia);
+                word7.setText(getRandomArray(words_cwr)); word7.setBackgroundColor(blooming_dahlia);
+                word8.setText(getRandomArray(words_cwr)); word8.setBackgroundColor(blooming_dahlia);
+                word9.setText(getRandomArray(words_cwr)); word9.setBackgroundColor(blooming_dahlia);
+                word10.setText(getRandomArray(words_cwr)); word10.setBackgroundColor(blooming_dahlia);
+            }
+
+            private void resetWordsColor6_Common_Words_English() {
+                word1.setText(getRandomArray(words_cwe)); word1.setBackgroundColor(blooming_dahlia);
+                word2.setText(getRandomArray(words_cwe)); word2.setBackgroundColor(blooming_dahlia);
+                word3.setText(getRandomArray(words_cwe)); word3.setBackgroundColor(blooming_dahlia);
+                word4.setText(getRandomArray(words_cwe)); word4.setBackgroundColor(blooming_dahlia);
+                word5.setText(getRandomArray(words_cwe)); word5.setBackgroundColor(blooming_dahlia);
+                word6.setText(getRandomArray(words_cwe)); word6.setBackgroundColor(blooming_dahlia);
+                word7.setText(getRandomArray(words_cwe)); word7.setBackgroundColor(blooming_dahlia);
+                word8.setText(getRandomArray(words_cwe)); word8.setBackgroundColor(blooming_dahlia);
+                word9.setText(getRandomArray(words_cwe)); word9.setBackgroundColor(blooming_dahlia);
+                word10.setText(getRandomArray(words_cwe)); word10.setBackgroundColor(blooming_dahlia);
+            }
+
+            private void resetWordsColor7_Common_Words_Armenian() {
                 word1.setText(getRandomArray(words_cwa)); word1.setBackgroundColor(orange);
                 word2.setText(getRandomArray(words_cwa)); word2.setBackgroundColor(orange);
                 word3.setText(getRandomArray(words_cwa)); word3.setBackgroundColor(orange);
@@ -1634,7 +3007,33 @@ public class MainActivity2 extends AppCompatActivity {
                 word10.setText(getRandomArray(words_cwa)); word10.setBackgroundColor(orange);
             }
 
-            private void resetWordsColor8() {
+            private void resetWordsColor7_Common_Words_Russian() {
+                word1.setText(getRandomArray(words_cwr)); word1.setBackgroundColor(orange);
+                word2.setText(getRandomArray(words_cwr)); word2.setBackgroundColor(orange);
+                word3.setText(getRandomArray(words_cwr)); word3.setBackgroundColor(orange);
+                word4.setText(getRandomArray(words_cwr)); word4.setBackgroundColor(orange);
+                word5.setText(getRandomArray(words_cwr)); word5.setBackgroundColor(orange);
+                word6.setText(getRandomArray(words_cwr)); word6.setBackgroundColor(orange);
+                word7.setText(getRandomArray(words_cwr)); word7.setBackgroundColor(orange);
+                word8.setText(getRandomArray(words_cwr)); word8.setBackgroundColor(orange);
+                word9.setText(getRandomArray(words_cwr)); word9.setBackgroundColor(orange);
+                word10.setText(getRandomArray(words_cwr)); word10.setBackgroundColor(orange);
+            }
+
+            private void resetWordsColor7_Common_Words_English() {
+                word1.setText(getRandomArray(words_cwe)); word1.setBackgroundColor(orange);
+                word2.setText(getRandomArray(words_cwe)); word2.setBackgroundColor(orange);
+                word3.setText(getRandomArray(words_cwe)); word3.setBackgroundColor(orange);
+                word4.setText(getRandomArray(words_cwe)); word4.setBackgroundColor(orange);
+                word5.setText(getRandomArray(words_cwe)); word5.setBackgroundColor(orange);
+                word6.setText(getRandomArray(words_cwe)); word6.setBackgroundColor(orange);
+                word7.setText(getRandomArray(words_cwe)); word7.setBackgroundColor(orange);
+                word8.setText(getRandomArray(words_cwe)); word8.setBackgroundColor(orange);
+                word9.setText(getRandomArray(words_cwe)); word9.setBackgroundColor(orange);
+                word10.setText(getRandomArray(words_cwe)); word10.setBackgroundColor(orange);
+            }
+
+            private void resetWordsColor8_Common_Words_Armenian() {
                 word1.setText(getRandomArray(words_cwa)); word1.setBackgroundColor(light_blue);
                 word2.setText(getRandomArray(words_cwa)); word2.setBackgroundColor(light_blue);
                 word3.setText(getRandomArray(words_cwa)); word3.setBackgroundColor(light_blue);
@@ -1647,51 +3046,173 @@ public class MainActivity2 extends AppCompatActivity {
                 word10.setText(getRandomArray(words_cwa)); word10.setBackgroundColor(light_blue);
             }
 
+            private void resetWordsColor8_Common_Words_Russian() {
+                word1.setText(getRandomArray(words_cwr)); word1.setBackgroundColor(light_blue);
+                word2.setText(getRandomArray(words_cwr)); word2.setBackgroundColor(light_blue);
+                word3.setText(getRandomArray(words_cwr)); word3.setBackgroundColor(light_blue);
+                word4.setText(getRandomArray(words_cwr)); word4.setBackgroundColor(light_blue);
+                word5.setText(getRandomArray(words_cwr)); word5.setBackgroundColor(light_blue);
+                word6.setText(getRandomArray(words_cwr)); word6.setBackgroundColor(light_blue);
+                word7.setText(getRandomArray(words_cwr)); word7.setBackgroundColor(light_blue);
+                word8.setText(getRandomArray(words_cwr)); word8.setBackgroundColor(light_blue);
+                word9.setText(getRandomArray(words_cwr)); word9.setBackgroundColor(light_blue);
+                word10.setText(getRandomArray(words_cwr)); word10.setBackgroundColor(light_blue);
+            }
+
+            private void resetWordsColor8_Common_Words_English() {
+                word1.setText(getRandomArray(words_cwe)); word1.setBackgroundColor(light_blue);
+                word2.setText(getRandomArray(words_cwe)); word2.setBackgroundColor(light_blue);
+                word3.setText(getRandomArray(words_cwe)); word3.setBackgroundColor(light_blue);
+                word4.setText(getRandomArray(words_cwe)); word4.setBackgroundColor(light_blue);
+                word5.setText(getRandomArray(words_cwe)); word5.setBackgroundColor(light_blue);
+                word6.setText(getRandomArray(words_cwe)); word6.setBackgroundColor(light_blue);
+                word7.setText(getRandomArray(words_cwe)); word7.setBackgroundColor(light_blue);
+                word8.setText(getRandomArray(words_cwe)); word8.setBackgroundColor(light_blue);
+                word9.setText(getRandomArray(words_cwe)); word9.setBackgroundColor(light_blue);
+                word10.setText(getRandomArray(words_cwe)); word10.setBackgroundColor(light_blue);
+            }
+
             private void pageChangingColor1() {
-                if (clickcount == 10 || clickcount == 20 || clickcount == 30  || clickcount == 40 || clickcount == 50) {
-                    resetWordsColor1();
+                if ( MainActivity5.is_common_words_selected ) {
+                    if ( MainActivity6.Armenian ) {
+                        if (clickcount == 10 || clickcount == 20 || clickcount == 30  || clickcount == 40 || clickcount == 50) {
+                            resetWordsColor1_Common_Words_Armenian();
+                        }
+                    } else if ( MainActivity6.Russian ) {
+                        if (clickcount == 10 || clickcount == 20 || clickcount == 30  || clickcount == 40 || clickcount == 50) {
+                            resetWordsColor1_Common_Words_Russian();
+                        }
+                    } else if ( MainActivity6.English ) {
+                        if (clickcount == 10 || clickcount == 20 || clickcount == 30  || clickcount == 40 || clickcount == 50) {
+                            resetWordsColor1_Common_Words_English();
+                        }
+                    }
                 }
             }
 
             private void pageChangingColor2() {
-                if (clickcount == 10 || clickcount == 20 || clickcount == 30  || clickcount == 40 || clickcount == 50) {
-                    resetWordsColor2();
+                if ( MainActivity5.is_common_words_selected ) {
+                    if ( MainActivity6.Armenian ) {
+                        if (clickcount == 10 || clickcount == 20 || clickcount == 30  || clickcount == 40 || clickcount == 50) {
+                            resetWordsColor2_Common_Words_Armenian();
+                        }
+                    } else if ( MainActivity6.Russian ) {
+                        if (clickcount == 10 || clickcount == 20 || clickcount == 30  || clickcount == 40 || clickcount == 50) {
+                            resetWordsColor2_Common_Words_Russian();
+                        }
+                    } else if ( MainActivity6.English ) {
+                        if (clickcount == 10 || clickcount == 20 || clickcount == 30  || clickcount == 40 || clickcount == 50) {
+                            resetWordsColor2_Common_Words_English();
+                        }
+                    }
                 }
             }
 
             private void pageChangingColor3() {
-                if (clickcount == 10 || clickcount == 20 || clickcount == 30  || clickcount == 40 || clickcount == 50) {
-                    resetWordsColor3();
+                if ( MainActivity5.is_common_words_selected ) {
+                    if ( MainActivity6.Armenian ) {
+                        if (clickcount == 10 || clickcount == 20 || clickcount == 30  || clickcount == 40 || clickcount == 50) {
+                            resetWordsColor3_Common_Words_Armenian();
+                        }
+                    } else if ( MainActivity6.Russian ) {
+                        if (clickcount == 10 || clickcount == 20 || clickcount == 30  || clickcount == 40 || clickcount == 50) {
+                            resetWordsColor3_Common_Words_Russian();
+                        }
+                    } else if ( MainActivity6.English ) {
+                        if (clickcount == 10 || clickcount == 20 || clickcount == 30  || clickcount == 40 || clickcount == 50) {
+                            resetWordsColor3_Common_Words_English();
+                        }
+                    }
                 }
             }
 
             private void pageChangingColor4() {
-                if (clickcount == 10 || clickcount == 20 || clickcount == 30  || clickcount == 40 || clickcount == 50) {
-                    resetWordsColor4();
+                if ( MainActivity5.is_common_words_selected ) {
+                    if ( MainActivity6.Armenian ) {
+                        if (clickcount == 10 || clickcount == 20 || clickcount == 30  || clickcount == 40 || clickcount == 50) {
+                            resetWordsColor4_Common_Words_Armenian();
+                        }
+                    } else if ( MainActivity6.Russian ) {
+                        if (clickcount == 10 || clickcount == 20 || clickcount == 30  || clickcount == 40 || clickcount == 50) {
+                            resetWordsColor4_Common_Words_Russian();
+                        }
+                    } else if ( MainActivity6.English ) {
+                        if (clickcount == 10 || clickcount == 20 || clickcount == 30  || clickcount == 40 || clickcount == 50) {
+                            resetWordsColor4_Common_Words_English();
+                        }
+                    }
                 }
             }
 
             private void pageChangingColor5() {
-                if (clickcount == 10 || clickcount == 20 || clickcount == 30  || clickcount == 40 || clickcount == 50) {
-                    resetWordsColor5();
+                if ( MainActivity5.is_common_words_selected ) {
+                    if ( MainActivity6.Armenian ) {
+                        if (clickcount == 10 || clickcount == 20 || clickcount == 30  || clickcount == 40 || clickcount == 50) {
+                            resetWordsColor5_Common_Words_Armenian();
+                        }
+                    } else if ( MainActivity6.Russian ) {
+                        if (clickcount == 10 || clickcount == 20 || clickcount == 30  || clickcount == 40 || clickcount == 50) {
+                            resetWordsColor5_Common_Words_Russian();
+                        }
+                    } else if ( MainActivity6.English ) {
+                        if (clickcount == 10 || clickcount == 20 || clickcount == 30  || clickcount == 40 || clickcount == 50) {
+                            resetWordsColor5_Common_Words_English();
+                        }
+                    }
                 }
             }
 
             private void pageChangingColor6() {
-                if (clickcount == 10 || clickcount == 20 || clickcount == 30  || clickcount == 40 || clickcount == 50) {
-                    resetWordsColor6();
+                if ( MainActivity5.is_common_words_selected ) {
+                    if ( MainActivity6.Armenian ) {
+                        if (clickcount == 10 || clickcount == 20 || clickcount == 30  || clickcount == 40 || clickcount == 50) {
+                            resetWordsColor6_Common_Words_Armenian();
+                        }
+                    } else if ( MainActivity6.Russian ) {
+                        if (clickcount == 10 || clickcount == 20 || clickcount == 30  || clickcount == 40 || clickcount == 50) {
+                            resetWordsColor6_Common_Words_Russian();
+                        }
+                    } else if ( MainActivity6.English ) {
+                        if (clickcount == 10 || clickcount == 20 || clickcount == 30  || clickcount == 40 || clickcount == 50) {
+                            resetWordsColor6_Common_Words_English();
+                        }
+                    }
                 }
             }
 
             private void pageChangingColor7() {
-                if (clickcount == 10 || clickcount == 20 || clickcount == 30  || clickcount == 40 || clickcount == 50) {
-                    resetWordsColor7();
+                if ( MainActivity5.is_common_words_selected ) {
+                    if ( MainActivity6.Armenian ) {
+                        if (clickcount == 10 || clickcount == 20 || clickcount == 30  || clickcount == 40 || clickcount == 50) {
+                            resetWordsColor7_Common_Words_Armenian();
+                        }
+                    } else if ( MainActivity6.Russian ) {
+                        if (clickcount == 10 || clickcount == 20 || clickcount == 30  || clickcount == 40 || clickcount == 50) {
+                            resetWordsColor7_Common_Words_Russian();
+                        }
+                    } else if ( MainActivity6.English ) {
+                        if (clickcount == 10 || clickcount == 20 || clickcount == 30  || clickcount == 40 || clickcount == 50) {
+                            resetWordsColor7_Common_Words_English();
+                        }
+                    }
                 }
             }
 
             private void pageChangingColor8() {
-                if (clickcount == 10 || clickcount == 20 || clickcount == 30  || clickcount == 40 || clickcount == 50) {
-                    resetWordsColor8();
+                if ( MainActivity5.is_common_words_selected ) {
+                    if ( MainActivity6.Armenian ) {
+                        if (clickcount == 10 || clickcount == 20 || clickcount == 30  || clickcount == 40 || clickcount == 50) {
+                            resetWordsColor8_Common_Words_Armenian();
+                        }
+                    } else if ( MainActivity6.Russian ) {
+                        if (clickcount == 10 || clickcount == 20 || clickcount == 30  || clickcount == 40 || clickcount == 50) {
+                            resetWordsColor8_Common_Words_Russian();
+                        }
+                    } else if ( MainActivity6.English ) {
+                        if (clickcount == 10 || clickcount == 20 || clickcount == 30  || clickcount == 40 || clickcount == 50) {
+                            resetWordsColor8_Common_Words_English();
+                        }
+                    }
                 }
             }
         });
@@ -1844,7 +3365,7 @@ public class MainActivity2 extends AppCompatActivity {
                 }
             }
 
-            private void resetWordsColor1() {
+            private void resetWordsColor1_Common_Words_Armenian() {
                 word1.setText(getRandomArray(words_cwa)); word1.setBackgroundColor(white);
                 word2.setText(getRandomArray(words_cwa)); word2.setBackgroundColor(white);
                 word3.setText(getRandomArray(words_cwa)); word3.setBackgroundColor(white);
@@ -1857,7 +3378,33 @@ public class MainActivity2 extends AppCompatActivity {
                 word10.setText(getRandomArray(words_cwa)); word10.setBackgroundColor(white);
             }
 
-            private void resetWordsColor2() {
+            private void resetWordsColor1_Common_Words_Russian() {
+                word1.setText(getRandomArray(words_cwr)); word1.setBackgroundColor(white);
+                word2.setText(getRandomArray(words_cwr)); word2.setBackgroundColor(white);
+                word3.setText(getRandomArray(words_cwr)); word3.setBackgroundColor(white);
+                word4.setText(getRandomArray(words_cwr)); word4.setBackgroundColor(white);
+                word5.setText(getRandomArray(words_cwr)); word5.setBackgroundColor(white);
+                word6.setText(getRandomArray(words_cwr)); word6.setBackgroundColor(white);
+                word7.setText(getRandomArray(words_cwr)); word7.setBackgroundColor(white);
+                word8.setText(getRandomArray(words_cwr)); word8.setBackgroundColor(white);
+                word9.setText(getRandomArray(words_cwr)); word9.setBackgroundColor(white);
+                word10.setText(getRandomArray(words_cwr)); word10.setBackgroundColor(white);
+            }
+
+            private void resetWordsColor1_Common_Words_English() {
+                word1.setText(getRandomArray(words_cwe)); word1.setBackgroundColor(white);
+                word2.setText(getRandomArray(words_cwe)); word2.setBackgroundColor(white);
+                word3.setText(getRandomArray(words_cwe)); word3.setBackgroundColor(white);
+                word4.setText(getRandomArray(words_cwe)); word4.setBackgroundColor(white);
+                word5.setText(getRandomArray(words_cwe)); word5.setBackgroundColor(white);
+                word6.setText(getRandomArray(words_cwe)); word6.setBackgroundColor(white);
+                word7.setText(getRandomArray(words_cwe)); word7.setBackgroundColor(white);
+                word8.setText(getRandomArray(words_cwe)); word8.setBackgroundColor(white);
+                word9.setText(getRandomArray(words_cwe)); word9.setBackgroundColor(white);
+                word10.setText(getRandomArray(words_cwe)); word10.setBackgroundColor(white);
+            }
+
+            private void resetWordsColor2_Common_Words_Armenian() {
                 word1.setText(getRandomArray(words_cwa)); word1.setBackgroundColor(dark_emerald_green);
                 word2.setText(getRandomArray(words_cwa)); word2.setBackgroundColor(dark_emerald_green);
                 word3.setText(getRandomArray(words_cwa)); word3.setBackgroundColor(dark_emerald_green);
@@ -1870,7 +3417,33 @@ public class MainActivity2 extends AppCompatActivity {
                 word10.setText(getRandomArray(words_cwa)); word10.setBackgroundColor(dark_emerald_green);
             }
 
-            private void resetWordsColor3() {
+            private void resetWordsColor2_Common_Words_Russian() {
+                word1.setText(getRandomArray(words_cwr)); word1.setBackgroundColor(dark_emerald_green);
+                word2.setText(getRandomArray(words_cwr)); word2.setBackgroundColor(dark_emerald_green);
+                word3.setText(getRandomArray(words_cwr)); word3.setBackgroundColor(dark_emerald_green);
+                word4.setText(getRandomArray(words_cwr)); word4.setBackgroundColor(dark_emerald_green);
+                word5.setText(getRandomArray(words_cwr)); word5.setBackgroundColor(dark_emerald_green);
+                word6.setText(getRandomArray(words_cwr)); word6.setBackgroundColor(dark_emerald_green);
+                word7.setText(getRandomArray(words_cwr)); word7.setBackgroundColor(dark_emerald_green);
+                word8.setText(getRandomArray(words_cwr)); word8.setBackgroundColor(dark_emerald_green);
+                word9.setText(getRandomArray(words_cwr)); word9.setBackgroundColor(dark_emerald_green);
+                word10.setText(getRandomArray(words_cwr)); word10.setBackgroundColor(dark_emerald_green);
+            }
+
+            private void resetWordsColor2_Common_Words_English() {
+                word1.setText(getRandomArray(words_cwe)); word1.setBackgroundColor(dark_emerald_green);
+                word2.setText(getRandomArray(words_cwe)); word2.setBackgroundColor(dark_emerald_green);
+                word3.setText(getRandomArray(words_cwe)); word3.setBackgroundColor(dark_emerald_green);
+                word4.setText(getRandomArray(words_cwe)); word4.setBackgroundColor(dark_emerald_green);
+                word5.setText(getRandomArray(words_cwe)); word5.setBackgroundColor(dark_emerald_green);
+                word6.setText(getRandomArray(words_cwe)); word6.setBackgroundColor(dark_emerald_green);
+                word7.setText(getRandomArray(words_cwe)); word7.setBackgroundColor(dark_emerald_green);
+                word8.setText(getRandomArray(words_cwe)); word8.setBackgroundColor(dark_emerald_green);
+                word9.setText(getRandomArray(words_cwe)); word9.setBackgroundColor(dark_emerald_green);
+                word10.setText(getRandomArray(words_cwe)); word10.setBackgroundColor(dark_emerald_green);
+            }
+
+            private void resetWordsColor3_Common_Words_Armenian() {
                 word1.setText(getRandomArray(words_cwa)); word1.setBackgroundColor(yellow);
                 word2.setText(getRandomArray(words_cwa)); word2.setBackgroundColor(yellow);
                 word3.setText(getRandomArray(words_cwa)); word3.setBackgroundColor(yellow);
@@ -1883,7 +3456,33 @@ public class MainActivity2 extends AppCompatActivity {
                 word10.setText(getRandomArray(words_cwa)); word10.setBackgroundColor(yellow);
             }
 
-            private void resetWordsColor4() {
+            private void resetWordsColor3_Common_Words_Russian() {
+                word1.setText(getRandomArray(words_cwr)); word1.setBackgroundColor(yellow);
+                word2.setText(getRandomArray(words_cwr)); word2.setBackgroundColor(yellow);
+                word3.setText(getRandomArray(words_cwr)); word3.setBackgroundColor(yellow);
+                word4.setText(getRandomArray(words_cwr)); word4.setBackgroundColor(yellow);
+                word5.setText(getRandomArray(words_cwr)); word5.setBackgroundColor(yellow);
+                word6.setText(getRandomArray(words_cwr)); word6.setBackgroundColor(yellow);
+                word7.setText(getRandomArray(words_cwr)); word7.setBackgroundColor(yellow);
+                word8.setText(getRandomArray(words_cwr)); word8.setBackgroundColor(yellow);
+                word9.setText(getRandomArray(words_cwr)); word9.setBackgroundColor(yellow);
+                word10.setText(getRandomArray(words_cwr)); word10.setBackgroundColor(yellow);
+            }
+
+            private void resetWordsColor3_Common_Words_English() {
+                word1.setText(getRandomArray(words_cwe)); word1.setBackgroundColor(yellow);
+                word2.setText(getRandomArray(words_cwe)); word2.setBackgroundColor(yellow);
+                word3.setText(getRandomArray(words_cwe)); word3.setBackgroundColor(yellow);
+                word4.setText(getRandomArray(words_cwe)); word4.setBackgroundColor(yellow);
+                word5.setText(getRandomArray(words_cwe)); word5.setBackgroundColor(yellow);
+                word6.setText(getRandomArray(words_cwe)); word6.setBackgroundColor(yellow);
+                word7.setText(getRandomArray(words_cwe)); word7.setBackgroundColor(yellow);
+                word8.setText(getRandomArray(words_cwe)); word8.setBackgroundColor(yellow);
+                word9.setText(getRandomArray(words_cwe)); word9.setBackgroundColor(yellow);
+                word10.setText(getRandomArray(words_cwe)); word10.setBackgroundColor(yellow);
+            }
+
+            private void resetWordsColor4_Common_Words_Armenian() {
                 word1.setText(getRandomArray(words_cwa)); word1.setBackgroundColor(red);
                 word2.setText(getRandomArray(words_cwa)); word2.setBackgroundColor(red);
                 word3.setText(getRandomArray(words_cwa)); word3.setBackgroundColor(red);
@@ -1896,7 +3495,33 @@ public class MainActivity2 extends AppCompatActivity {
                 word10.setText(getRandomArray(words_cwa)); word10.setBackgroundColor(red);
             }
 
-            private void resetWordsColor5() {
+            private void resetWordsColor4_Common_Words_Russian() {
+                word1.setText(getRandomArray(words_cwr)); word1.setBackgroundColor(red);
+                word2.setText(getRandomArray(words_cwr)); word2.setBackgroundColor(red);
+                word3.setText(getRandomArray(words_cwr)); word3.setBackgroundColor(red);
+                word4.setText(getRandomArray(words_cwr)); word4.setBackgroundColor(red);
+                word5.setText(getRandomArray(words_cwr)); word5.setBackgroundColor(red);
+                word6.setText(getRandomArray(words_cwr)); word6.setBackgroundColor(red);
+                word7.setText(getRandomArray(words_cwr)); word7.setBackgroundColor(red);
+                word8.setText(getRandomArray(words_cwr)); word8.setBackgroundColor(red);
+                word9.setText(getRandomArray(words_cwr)); word9.setBackgroundColor(red);
+                word10.setText(getRandomArray(words_cwr)); word10.setBackgroundColor(red);
+            }
+
+            private void resetWordsColor4_Common_Words_English() {
+                word1.setText(getRandomArray(words_cwe)); word1.setBackgroundColor(red);
+                word2.setText(getRandomArray(words_cwe)); word2.setBackgroundColor(red);
+                word3.setText(getRandomArray(words_cwe)); word3.setBackgroundColor(red);
+                word4.setText(getRandomArray(words_cwe)); word4.setBackgroundColor(red);
+                word5.setText(getRandomArray(words_cwe)); word5.setBackgroundColor(red);
+                word6.setText(getRandomArray(words_cwe)); word6.setBackgroundColor(red);
+                word7.setText(getRandomArray(words_cwe)); word7.setBackgroundColor(red);
+                word8.setText(getRandomArray(words_cwe)); word8.setBackgroundColor(red);
+                word9.setText(getRandomArray(words_cwe)); word9.setBackgroundColor(red);
+                word10.setText(getRandomArray(words_cwe)); word10.setBackgroundColor(red);
+            }
+
+            private void resetWordsColor5_Common_Words_Armenian() {
                 word1.setText(getRandomArray(words_cwa)); word1.setBackgroundColor(teal);
                 word2.setText(getRandomArray(words_cwa)); word2.setBackgroundColor(teal);
                 word3.setText(getRandomArray(words_cwa)); word3.setBackgroundColor(teal);
@@ -1909,7 +3534,33 @@ public class MainActivity2 extends AppCompatActivity {
                 word10.setText(getRandomArray(words_cwa)); word10.setBackgroundColor(teal);
             }
 
-            private void resetWordsColor6() {
+            private void resetWordsColor5_Common_Words_Russian() {
+                word1.setText(getRandomArray(words_cwr)); word1.setBackgroundColor(teal);
+                word2.setText(getRandomArray(words_cwr)); word2.setBackgroundColor(teal);
+                word3.setText(getRandomArray(words_cwr)); word3.setBackgroundColor(teal);
+                word4.setText(getRandomArray(words_cwr)); word4.setBackgroundColor(teal);
+                word5.setText(getRandomArray(words_cwr)); word5.setBackgroundColor(teal);
+                word6.setText(getRandomArray(words_cwr)); word6.setBackgroundColor(teal);
+                word7.setText(getRandomArray(words_cwr)); word7.setBackgroundColor(teal);
+                word8.setText(getRandomArray(words_cwr)); word8.setBackgroundColor(teal);
+                word9.setText(getRandomArray(words_cwr)); word9.setBackgroundColor(teal);
+                word10.setText(getRandomArray(words_cwr)); word10.setBackgroundColor(teal);
+            }
+
+            private void resetWordsColor5_Common_Words_English() {
+                word1.setText(getRandomArray(words_cwe)); word1.setBackgroundColor(teal);
+                word2.setText(getRandomArray(words_cwe)); word2.setBackgroundColor(teal);
+                word3.setText(getRandomArray(words_cwe)); word3.setBackgroundColor(teal);
+                word4.setText(getRandomArray(words_cwe)); word4.setBackgroundColor(teal);
+                word5.setText(getRandomArray(words_cwe)); word5.setBackgroundColor(teal);
+                word6.setText(getRandomArray(words_cwe)); word6.setBackgroundColor(teal);
+                word7.setText(getRandomArray(words_cwe)); word7.setBackgroundColor(teal);
+                word8.setText(getRandomArray(words_cwe)); word8.setBackgroundColor(teal);
+                word9.setText(getRandomArray(words_cwe)); word9.setBackgroundColor(teal);
+                word10.setText(getRandomArray(words_cwe)); word10.setBackgroundColor(teal);
+            }
+
+            private void resetWordsColor6_Common_Words_Armenian() {
                 word1.setText(getRandomArray(words_cwa)); word1.setBackgroundColor(blooming_dahlia);
                 word2.setText(getRandomArray(words_cwa)); word2.setBackgroundColor(blooming_dahlia);
                 word3.setText(getRandomArray(words_cwa)); word3.setBackgroundColor(blooming_dahlia);
@@ -1922,7 +3573,33 @@ public class MainActivity2 extends AppCompatActivity {
                 word10.setText(getRandomArray(words_cwa)); word10.setBackgroundColor(blooming_dahlia);
             }
 
-            private void resetWordsColor7() {
+            private void resetWordsColor6_Common_Words_Russian() {
+                word1.setText(getRandomArray(words_cwr)); word1.setBackgroundColor(blooming_dahlia);
+                word2.setText(getRandomArray(words_cwr)); word2.setBackgroundColor(blooming_dahlia);
+                word3.setText(getRandomArray(words_cwr)); word3.setBackgroundColor(blooming_dahlia);
+                word4.setText(getRandomArray(words_cwr)); word4.setBackgroundColor(blooming_dahlia);
+                word5.setText(getRandomArray(words_cwr)); word5.setBackgroundColor(blooming_dahlia);
+                word6.setText(getRandomArray(words_cwr)); word6.setBackgroundColor(blooming_dahlia);
+                word7.setText(getRandomArray(words_cwr)); word7.setBackgroundColor(blooming_dahlia);
+                word8.setText(getRandomArray(words_cwr)); word8.setBackgroundColor(blooming_dahlia);
+                word9.setText(getRandomArray(words_cwr)); word9.setBackgroundColor(blooming_dahlia);
+                word10.setText(getRandomArray(words_cwr)); word10.setBackgroundColor(blooming_dahlia);
+            }
+
+            private void resetWordsColor6_Common_Words_English() {
+                word1.setText(getRandomArray(words_cwe)); word1.setBackgroundColor(blooming_dahlia);
+                word2.setText(getRandomArray(words_cwe)); word2.setBackgroundColor(blooming_dahlia);
+                word3.setText(getRandomArray(words_cwe)); word3.setBackgroundColor(blooming_dahlia);
+                word4.setText(getRandomArray(words_cwe)); word4.setBackgroundColor(blooming_dahlia);
+                word5.setText(getRandomArray(words_cwe)); word5.setBackgroundColor(blooming_dahlia);
+                word6.setText(getRandomArray(words_cwe)); word6.setBackgroundColor(blooming_dahlia);
+                word7.setText(getRandomArray(words_cwe)); word7.setBackgroundColor(blooming_dahlia);
+                word8.setText(getRandomArray(words_cwe)); word8.setBackgroundColor(blooming_dahlia);
+                word9.setText(getRandomArray(words_cwe)); word9.setBackgroundColor(blooming_dahlia);
+                word10.setText(getRandomArray(words_cwe)); word10.setBackgroundColor(blooming_dahlia);
+            }
+
+            private void resetWordsColor7_Common_Words_Armenian() {
                 word1.setText(getRandomArray(words_cwa)); word1.setBackgroundColor(orange);
                 word2.setText(getRandomArray(words_cwa)); word2.setBackgroundColor(orange);
                 word3.setText(getRandomArray(words_cwa)); word3.setBackgroundColor(orange);
@@ -1935,7 +3612,33 @@ public class MainActivity2 extends AppCompatActivity {
                 word10.setText(getRandomArray(words_cwa)); word10.setBackgroundColor(orange);
             }
 
-            private void resetWordsColor8() {
+            private void resetWordsColor7_Common_Words_Russian() {
+                word1.setText(getRandomArray(words_cwr)); word1.setBackgroundColor(orange);
+                word2.setText(getRandomArray(words_cwr)); word2.setBackgroundColor(orange);
+                word3.setText(getRandomArray(words_cwr)); word3.setBackgroundColor(orange);
+                word4.setText(getRandomArray(words_cwr)); word4.setBackgroundColor(orange);
+                word5.setText(getRandomArray(words_cwr)); word5.setBackgroundColor(orange);
+                word6.setText(getRandomArray(words_cwr)); word6.setBackgroundColor(orange);
+                word7.setText(getRandomArray(words_cwr)); word7.setBackgroundColor(orange);
+                word8.setText(getRandomArray(words_cwr)); word8.setBackgroundColor(orange);
+                word9.setText(getRandomArray(words_cwr)); word9.setBackgroundColor(orange);
+                word10.setText(getRandomArray(words_cwr)); word10.setBackgroundColor(orange);
+            }
+
+            private void resetWordsColor7_Common_Words_English() {
+                word1.setText(getRandomArray(words_cwe)); word1.setBackgroundColor(orange);
+                word2.setText(getRandomArray(words_cwe)); word2.setBackgroundColor(orange);
+                word3.setText(getRandomArray(words_cwe)); word3.setBackgroundColor(orange);
+                word4.setText(getRandomArray(words_cwe)); word4.setBackgroundColor(orange);
+                word5.setText(getRandomArray(words_cwe)); word5.setBackgroundColor(orange);
+                word6.setText(getRandomArray(words_cwe)); word6.setBackgroundColor(orange);
+                word7.setText(getRandomArray(words_cwe)); word7.setBackgroundColor(orange);
+                word8.setText(getRandomArray(words_cwe)); word8.setBackgroundColor(orange);
+                word9.setText(getRandomArray(words_cwe)); word9.setBackgroundColor(orange);
+                word10.setText(getRandomArray(words_cwe)); word10.setBackgroundColor(orange);
+            }
+
+            private void resetWordsColor8_Common_Words_Armenian() {
                 word1.setText(getRandomArray(words_cwa)); word1.setBackgroundColor(light_blue);
                 word2.setText(getRandomArray(words_cwa)); word2.setBackgroundColor(light_blue);
                 word3.setText(getRandomArray(words_cwa)); word3.setBackgroundColor(light_blue);
@@ -1948,51 +3651,173 @@ public class MainActivity2 extends AppCompatActivity {
                 word10.setText(getRandomArray(words_cwa)); word10.setBackgroundColor(light_blue);
             }
 
+            private void resetWordsColor8_Common_Words_Russian() {
+                word1.setText(getRandomArray(words_cwr)); word1.setBackgroundColor(light_blue);
+                word2.setText(getRandomArray(words_cwr)); word2.setBackgroundColor(light_blue);
+                word3.setText(getRandomArray(words_cwr)); word3.setBackgroundColor(light_blue);
+                word4.setText(getRandomArray(words_cwr)); word4.setBackgroundColor(light_blue);
+                word5.setText(getRandomArray(words_cwr)); word5.setBackgroundColor(light_blue);
+                word6.setText(getRandomArray(words_cwr)); word6.setBackgroundColor(light_blue);
+                word7.setText(getRandomArray(words_cwr)); word7.setBackgroundColor(light_blue);
+                word8.setText(getRandomArray(words_cwr)); word8.setBackgroundColor(light_blue);
+                word9.setText(getRandomArray(words_cwr)); word9.setBackgroundColor(light_blue);
+                word10.setText(getRandomArray(words_cwr)); word10.setBackgroundColor(light_blue);
+            }
+
+            private void resetWordsColor8_Common_Words_English() {
+                word1.setText(getRandomArray(words_cwe)); word1.setBackgroundColor(light_blue);
+                word2.setText(getRandomArray(words_cwe)); word2.setBackgroundColor(light_blue);
+                word3.setText(getRandomArray(words_cwe)); word3.setBackgroundColor(light_blue);
+                word4.setText(getRandomArray(words_cwe)); word4.setBackgroundColor(light_blue);
+                word5.setText(getRandomArray(words_cwe)); word5.setBackgroundColor(light_blue);
+                word6.setText(getRandomArray(words_cwe)); word6.setBackgroundColor(light_blue);
+                word7.setText(getRandomArray(words_cwe)); word7.setBackgroundColor(light_blue);
+                word8.setText(getRandomArray(words_cwe)); word8.setBackgroundColor(light_blue);
+                word9.setText(getRandomArray(words_cwe)); word9.setBackgroundColor(light_blue);
+                word10.setText(getRandomArray(words_cwe)); word10.setBackgroundColor(light_blue);
+            }
+
             private void pageChangingColor1() {
-                if (clickcount == 10 || clickcount == 20 || clickcount == 30  || clickcount == 40 || clickcount == 50) {
-                    resetWordsColor1();
+                if ( MainActivity5.is_common_words_selected ) {
+                    if ( MainActivity6.Armenian ) {
+                        if (clickcount == 10 || clickcount == 20 || clickcount == 30  || clickcount == 40 || clickcount == 50) {
+                            resetWordsColor1_Common_Words_Armenian();
+                        }
+                    } else if ( MainActivity6.Russian ) {
+                        if (clickcount == 10 || clickcount == 20 || clickcount == 30  || clickcount == 40 || clickcount == 50) {
+                            resetWordsColor1_Common_Words_Russian();
+                        }
+                    } else if ( MainActivity6.English ) {
+                        if (clickcount == 10 || clickcount == 20 || clickcount == 30  || clickcount == 40 || clickcount == 50) {
+                            resetWordsColor1_Common_Words_English();
+                        }
+                    }
                 }
             }
 
             private void pageChangingColor2() {
-                if (clickcount == 10 || clickcount == 20 || clickcount == 30  || clickcount == 40 || clickcount == 50) {
-                    resetWordsColor2();
+                if ( MainActivity5.is_common_words_selected ) {
+                    if ( MainActivity6.Armenian ) {
+                        if (clickcount == 10 || clickcount == 20 || clickcount == 30  || clickcount == 40 || clickcount == 50) {
+                            resetWordsColor2_Common_Words_Armenian();
+                        }
+                    } else if ( MainActivity6.Russian ) {
+                        if (clickcount == 10 || clickcount == 20 || clickcount == 30  || clickcount == 40 || clickcount == 50) {
+                            resetWordsColor2_Common_Words_Russian();
+                        }
+                    } else if ( MainActivity6.English ) {
+                        if (clickcount == 10 || clickcount == 20 || clickcount == 30  || clickcount == 40 || clickcount == 50) {
+                            resetWordsColor2_Common_Words_English();
+                        }
+                    }
                 }
             }
 
             private void pageChangingColor3() {
-                if (clickcount == 10 || clickcount == 20 || clickcount == 30  || clickcount == 40 || clickcount == 50) {
-                    resetWordsColor3();
+                if ( MainActivity5.is_common_words_selected ) {
+                    if ( MainActivity6.Armenian ) {
+                        if (clickcount == 10 || clickcount == 20 || clickcount == 30  || clickcount == 40 || clickcount == 50) {
+                            resetWordsColor3_Common_Words_Armenian();
+                        }
+                    } else if ( MainActivity6.Russian ) {
+                        if (clickcount == 10 || clickcount == 20 || clickcount == 30  || clickcount == 40 || clickcount == 50) {
+                            resetWordsColor3_Common_Words_Russian();
+                        }
+                    } else if ( MainActivity6.English ) {
+                        if (clickcount == 10 || clickcount == 20 || clickcount == 30  || clickcount == 40 || clickcount == 50) {
+                            resetWordsColor3_Common_Words_English();
+                        }
+                    }
                 }
             }
 
             private void pageChangingColor4() {
-                if (clickcount == 10 || clickcount == 20 || clickcount == 30  || clickcount == 40 || clickcount == 50) {
-                    resetWordsColor4();
+                if ( MainActivity5.is_common_words_selected ) {
+                    if ( MainActivity6.Armenian ) {
+                        if (clickcount == 10 || clickcount == 20 || clickcount == 30  || clickcount == 40 || clickcount == 50) {
+                            resetWordsColor4_Common_Words_Armenian();
+                        }
+                    } else if ( MainActivity6.Russian ) {
+                        if (clickcount == 10 || clickcount == 20 || clickcount == 30  || clickcount == 40 || clickcount == 50) {
+                            resetWordsColor4_Common_Words_Russian();
+                        }
+                    } else if ( MainActivity6.English ) {
+                        if (clickcount == 10 || clickcount == 20 || clickcount == 30  || clickcount == 40 || clickcount == 50) {
+                            resetWordsColor4_Common_Words_English();
+                        }
+                    }
                 }
             }
 
             private void pageChangingColor5() {
-                if (clickcount == 10 || clickcount == 20 || clickcount == 30  || clickcount == 40 || clickcount == 50) {
-                    resetWordsColor5();
+                if ( MainActivity5.is_common_words_selected ) {
+                    if ( MainActivity6.Armenian ) {
+                        if (clickcount == 10 || clickcount == 20 || clickcount == 30  || clickcount == 40 || clickcount == 50) {
+                            resetWordsColor5_Common_Words_Armenian();
+                        }
+                    } else if ( MainActivity6.Russian ) {
+                        if (clickcount == 10 || clickcount == 20 || clickcount == 30  || clickcount == 40 || clickcount == 50) {
+                            resetWordsColor5_Common_Words_Russian();
+                        }
+                    } else if ( MainActivity6.English ) {
+                        if (clickcount == 10 || clickcount == 20 || clickcount == 30  || clickcount == 40 || clickcount == 50) {
+                            resetWordsColor5_Common_Words_English();
+                        }
+                    }
                 }
             }
 
             private void pageChangingColor6() {
-                if (clickcount == 10 || clickcount == 20 || clickcount == 30  || clickcount == 40 || clickcount == 50) {
-                    resetWordsColor6();
+                if ( MainActivity5.is_common_words_selected ) {
+                    if ( MainActivity6.Armenian ) {
+                        if (clickcount == 10 || clickcount == 20 || clickcount == 30  || clickcount == 40 || clickcount == 50) {
+                            resetWordsColor6_Common_Words_Armenian();
+                        }
+                    } else if ( MainActivity6.Russian ) {
+                        if (clickcount == 10 || clickcount == 20 || clickcount == 30  || clickcount == 40 || clickcount == 50) {
+                            resetWordsColor6_Common_Words_Russian();
+                        }
+                    } else if ( MainActivity6.English ) {
+                        if (clickcount == 10 || clickcount == 20 || clickcount == 30  || clickcount == 40 || clickcount == 50) {
+                            resetWordsColor6_Common_Words_English();
+                        }
+                    }
                 }
             }
 
             private void pageChangingColor7() {
-                if (clickcount == 10 || clickcount == 20 || clickcount == 30  || clickcount == 40 || clickcount == 50) {
-                    resetWordsColor7();
+                if ( MainActivity5.is_common_words_selected ) {
+                    if ( MainActivity6.Armenian ) {
+                        if (clickcount == 10 || clickcount == 20 || clickcount == 30  || clickcount == 40 || clickcount == 50) {
+                            resetWordsColor7_Common_Words_Armenian();
+                        }
+                    } else if ( MainActivity6.Russian ) {
+                        if (clickcount == 10 || clickcount == 20 || clickcount == 30  || clickcount == 40 || clickcount == 50) {
+                            resetWordsColor7_Common_Words_Russian();
+                        }
+                    } else if ( MainActivity6.English ) {
+                        if (clickcount == 10 || clickcount == 20 || clickcount == 30  || clickcount == 40 || clickcount == 50) {
+                            resetWordsColor7_Common_Words_English();
+                        }
+                    }
                 }
             }
 
             private void pageChangingColor8() {
-                if (clickcount == 10 || clickcount == 20 || clickcount == 30  || clickcount == 40 || clickcount == 50) {
-                    resetWordsColor8();
+                if ( MainActivity5.is_common_words_selected ) {
+                    if ( MainActivity6.Armenian ) {
+                        if (clickcount == 10 || clickcount == 20 || clickcount == 30  || clickcount == 40 || clickcount == 50) {
+                            resetWordsColor8_Common_Words_Armenian();
+                        }
+                    } else if ( MainActivity6.Russian ) {
+                        if (clickcount == 10 || clickcount == 20 || clickcount == 30  || clickcount == 40 || clickcount == 50) {
+                            resetWordsColor8_Common_Words_Russian();
+                        }
+                    } else if ( MainActivity6.English ) {
+                        if (clickcount == 10 || clickcount == 20 || clickcount == 30  || clickcount == 40 || clickcount == 50) {
+                            resetWordsColor8_Common_Words_English();
+                        }
+                    }
                 }
             }
         });
@@ -2145,7 +3970,7 @@ public class MainActivity2 extends AppCompatActivity {
                 }
             }
 
-            private void resetWordsColor1() {
+            private void resetWordsColor1_Common_Words_Armenian() {
                 word1.setText(getRandomArray(words_cwa)); word1.setBackgroundColor(white);
                 word2.setText(getRandomArray(words_cwa)); word2.setBackgroundColor(white);
                 word3.setText(getRandomArray(words_cwa)); word3.setBackgroundColor(white);
@@ -2158,7 +3983,33 @@ public class MainActivity2 extends AppCompatActivity {
                 word10.setText(getRandomArray(words_cwa)); word10.setBackgroundColor(white);
             }
 
-            private void resetWordsColor2() {
+            private void resetWordsColor1_Common_Words_Russian() {
+                word1.setText(getRandomArray(words_cwr)); word1.setBackgroundColor(white);
+                word2.setText(getRandomArray(words_cwr)); word2.setBackgroundColor(white);
+                word3.setText(getRandomArray(words_cwr)); word3.setBackgroundColor(white);
+                word4.setText(getRandomArray(words_cwr)); word4.setBackgroundColor(white);
+                word5.setText(getRandomArray(words_cwr)); word5.setBackgroundColor(white);
+                word6.setText(getRandomArray(words_cwr)); word6.setBackgroundColor(white);
+                word7.setText(getRandomArray(words_cwr)); word7.setBackgroundColor(white);
+                word8.setText(getRandomArray(words_cwr)); word8.setBackgroundColor(white);
+                word9.setText(getRandomArray(words_cwr)); word9.setBackgroundColor(white);
+                word10.setText(getRandomArray(words_cwr)); word10.setBackgroundColor(white);
+            }
+
+            private void resetWordsColor1_Common_Words_English() {
+                word1.setText(getRandomArray(words_cwe)); word1.setBackgroundColor(white);
+                word2.setText(getRandomArray(words_cwe)); word2.setBackgroundColor(white);
+                word3.setText(getRandomArray(words_cwe)); word3.setBackgroundColor(white);
+                word4.setText(getRandomArray(words_cwe)); word4.setBackgroundColor(white);
+                word5.setText(getRandomArray(words_cwe)); word5.setBackgroundColor(white);
+                word6.setText(getRandomArray(words_cwe)); word6.setBackgroundColor(white);
+                word7.setText(getRandomArray(words_cwe)); word7.setBackgroundColor(white);
+                word8.setText(getRandomArray(words_cwe)); word8.setBackgroundColor(white);
+                word9.setText(getRandomArray(words_cwe)); word9.setBackgroundColor(white);
+                word10.setText(getRandomArray(words_cwe)); word10.setBackgroundColor(white);
+            }
+
+            private void resetWordsColor2_Common_Words_Armenian() {
                 word1.setText(getRandomArray(words_cwa)); word1.setBackgroundColor(dark_emerald_green);
                 word2.setText(getRandomArray(words_cwa)); word2.setBackgroundColor(dark_emerald_green);
                 word3.setText(getRandomArray(words_cwa)); word3.setBackgroundColor(dark_emerald_green);
@@ -2171,7 +4022,33 @@ public class MainActivity2 extends AppCompatActivity {
                 word10.setText(getRandomArray(words_cwa)); word10.setBackgroundColor(dark_emerald_green);
             }
 
-            private void resetWordsColor3() {
+            private void resetWordsColor2_Common_Words_Russian() {
+                word1.setText(getRandomArray(words_cwr)); word1.setBackgroundColor(dark_emerald_green);
+                word2.setText(getRandomArray(words_cwr)); word2.setBackgroundColor(dark_emerald_green);
+                word3.setText(getRandomArray(words_cwr)); word3.setBackgroundColor(dark_emerald_green);
+                word4.setText(getRandomArray(words_cwr)); word4.setBackgroundColor(dark_emerald_green);
+                word5.setText(getRandomArray(words_cwr)); word5.setBackgroundColor(dark_emerald_green);
+                word6.setText(getRandomArray(words_cwr)); word6.setBackgroundColor(dark_emerald_green);
+                word7.setText(getRandomArray(words_cwr)); word7.setBackgroundColor(dark_emerald_green);
+                word8.setText(getRandomArray(words_cwr)); word8.setBackgroundColor(dark_emerald_green);
+                word9.setText(getRandomArray(words_cwr)); word9.setBackgroundColor(dark_emerald_green);
+                word10.setText(getRandomArray(words_cwr)); word10.setBackgroundColor(dark_emerald_green);
+            }
+
+            private void resetWordsColor2_Common_Words_English() {
+                word1.setText(getRandomArray(words_cwe)); word1.setBackgroundColor(dark_emerald_green);
+                word2.setText(getRandomArray(words_cwe)); word2.setBackgroundColor(dark_emerald_green);
+                word3.setText(getRandomArray(words_cwe)); word3.setBackgroundColor(dark_emerald_green);
+                word4.setText(getRandomArray(words_cwe)); word4.setBackgroundColor(dark_emerald_green);
+                word5.setText(getRandomArray(words_cwe)); word5.setBackgroundColor(dark_emerald_green);
+                word6.setText(getRandomArray(words_cwe)); word6.setBackgroundColor(dark_emerald_green);
+                word7.setText(getRandomArray(words_cwe)); word7.setBackgroundColor(dark_emerald_green);
+                word8.setText(getRandomArray(words_cwe)); word8.setBackgroundColor(dark_emerald_green);
+                word9.setText(getRandomArray(words_cwe)); word9.setBackgroundColor(dark_emerald_green);
+                word10.setText(getRandomArray(words_cwe)); word10.setBackgroundColor(dark_emerald_green);
+            }
+
+            private void resetWordsColor3_Common_Words_Armenian() {
                 word1.setText(getRandomArray(words_cwa)); word1.setBackgroundColor(yellow);
                 word2.setText(getRandomArray(words_cwa)); word2.setBackgroundColor(yellow);
                 word3.setText(getRandomArray(words_cwa)); word3.setBackgroundColor(yellow);
@@ -2184,7 +4061,33 @@ public class MainActivity2 extends AppCompatActivity {
                 word10.setText(getRandomArray(words_cwa)); word10.setBackgroundColor(yellow);
             }
 
-            private void resetWordsColor4() {
+            private void resetWordsColor3_Common_Words_Russian() {
+                word1.setText(getRandomArray(words_cwr)); word1.setBackgroundColor(yellow);
+                word2.setText(getRandomArray(words_cwr)); word2.setBackgroundColor(yellow);
+                word3.setText(getRandomArray(words_cwr)); word3.setBackgroundColor(yellow);
+                word4.setText(getRandomArray(words_cwr)); word4.setBackgroundColor(yellow);
+                word5.setText(getRandomArray(words_cwr)); word5.setBackgroundColor(yellow);
+                word6.setText(getRandomArray(words_cwr)); word6.setBackgroundColor(yellow);
+                word7.setText(getRandomArray(words_cwr)); word7.setBackgroundColor(yellow);
+                word8.setText(getRandomArray(words_cwr)); word8.setBackgroundColor(yellow);
+                word9.setText(getRandomArray(words_cwr)); word9.setBackgroundColor(yellow);
+                word10.setText(getRandomArray(words_cwr)); word10.setBackgroundColor(yellow);
+            }
+
+            private void resetWordsColor3_Common_Words_English() {
+                word1.setText(getRandomArray(words_cwe)); word1.setBackgroundColor(yellow);
+                word2.setText(getRandomArray(words_cwe)); word2.setBackgroundColor(yellow);
+                word3.setText(getRandomArray(words_cwe)); word3.setBackgroundColor(yellow);
+                word4.setText(getRandomArray(words_cwe)); word4.setBackgroundColor(yellow);
+                word5.setText(getRandomArray(words_cwe)); word5.setBackgroundColor(yellow);
+                word6.setText(getRandomArray(words_cwe)); word6.setBackgroundColor(yellow);
+                word7.setText(getRandomArray(words_cwe)); word7.setBackgroundColor(yellow);
+                word8.setText(getRandomArray(words_cwe)); word8.setBackgroundColor(yellow);
+                word9.setText(getRandomArray(words_cwe)); word9.setBackgroundColor(yellow);
+                word10.setText(getRandomArray(words_cwe)); word10.setBackgroundColor(yellow);
+            }
+
+            private void resetWordsColor4_Common_Words_Armenian() {
                 word1.setText(getRandomArray(words_cwa)); word1.setBackgroundColor(red);
                 word2.setText(getRandomArray(words_cwa)); word2.setBackgroundColor(red);
                 word3.setText(getRandomArray(words_cwa)); word3.setBackgroundColor(red);
@@ -2197,7 +4100,33 @@ public class MainActivity2 extends AppCompatActivity {
                 word10.setText(getRandomArray(words_cwa)); word10.setBackgroundColor(red);
             }
 
-            private void resetWordsColor5() {
+            private void resetWordsColor4_Common_Words_Russian() {
+                word1.setText(getRandomArray(words_cwr)); word1.setBackgroundColor(red);
+                word2.setText(getRandomArray(words_cwr)); word2.setBackgroundColor(red);
+                word3.setText(getRandomArray(words_cwr)); word3.setBackgroundColor(red);
+                word4.setText(getRandomArray(words_cwr)); word4.setBackgroundColor(red);
+                word5.setText(getRandomArray(words_cwr)); word5.setBackgroundColor(red);
+                word6.setText(getRandomArray(words_cwr)); word6.setBackgroundColor(red);
+                word7.setText(getRandomArray(words_cwr)); word7.setBackgroundColor(red);
+                word8.setText(getRandomArray(words_cwr)); word8.setBackgroundColor(red);
+                word9.setText(getRandomArray(words_cwr)); word9.setBackgroundColor(red);
+                word10.setText(getRandomArray(words_cwr)); word10.setBackgroundColor(red);
+            }
+
+            private void resetWordsColor4_Common_Words_English() {
+                word1.setText(getRandomArray(words_cwe)); word1.setBackgroundColor(red);
+                word2.setText(getRandomArray(words_cwe)); word2.setBackgroundColor(red);
+                word3.setText(getRandomArray(words_cwe)); word3.setBackgroundColor(red);
+                word4.setText(getRandomArray(words_cwe)); word4.setBackgroundColor(red);
+                word5.setText(getRandomArray(words_cwe)); word5.setBackgroundColor(red);
+                word6.setText(getRandomArray(words_cwe)); word6.setBackgroundColor(red);
+                word7.setText(getRandomArray(words_cwe)); word7.setBackgroundColor(red);
+                word8.setText(getRandomArray(words_cwe)); word8.setBackgroundColor(red);
+                word9.setText(getRandomArray(words_cwe)); word9.setBackgroundColor(red);
+                word10.setText(getRandomArray(words_cwe)); word10.setBackgroundColor(red);
+            }
+
+            private void resetWordsColor5_Common_Words_Armenian() {
                 word1.setText(getRandomArray(words_cwa)); word1.setBackgroundColor(teal);
                 word2.setText(getRandomArray(words_cwa)); word2.setBackgroundColor(teal);
                 word3.setText(getRandomArray(words_cwa)); word3.setBackgroundColor(teal);
@@ -2210,7 +4139,33 @@ public class MainActivity2 extends AppCompatActivity {
                 word10.setText(getRandomArray(words_cwa)); word10.setBackgroundColor(teal);
             }
 
-            private void resetWordsColor6() {
+            private void resetWordsColor5_Common_Words_Russian() {
+                word1.setText(getRandomArray(words_cwr)); word1.setBackgroundColor(teal);
+                word2.setText(getRandomArray(words_cwr)); word2.setBackgroundColor(teal);
+                word3.setText(getRandomArray(words_cwr)); word3.setBackgroundColor(teal);
+                word4.setText(getRandomArray(words_cwr)); word4.setBackgroundColor(teal);
+                word5.setText(getRandomArray(words_cwr)); word5.setBackgroundColor(teal);
+                word6.setText(getRandomArray(words_cwr)); word6.setBackgroundColor(teal);
+                word7.setText(getRandomArray(words_cwr)); word7.setBackgroundColor(teal);
+                word8.setText(getRandomArray(words_cwr)); word8.setBackgroundColor(teal);
+                word9.setText(getRandomArray(words_cwr)); word9.setBackgroundColor(teal);
+                word10.setText(getRandomArray(words_cwr)); word10.setBackgroundColor(teal);
+            }
+
+            private void resetWordsColor5_Common_Words_English() {
+                word1.setText(getRandomArray(words_cwe)); word1.setBackgroundColor(teal);
+                word2.setText(getRandomArray(words_cwe)); word2.setBackgroundColor(teal);
+                word3.setText(getRandomArray(words_cwe)); word3.setBackgroundColor(teal);
+                word4.setText(getRandomArray(words_cwe)); word4.setBackgroundColor(teal);
+                word5.setText(getRandomArray(words_cwe)); word5.setBackgroundColor(teal);
+                word6.setText(getRandomArray(words_cwe)); word6.setBackgroundColor(teal);
+                word7.setText(getRandomArray(words_cwe)); word7.setBackgroundColor(teal);
+                word8.setText(getRandomArray(words_cwe)); word8.setBackgroundColor(teal);
+                word9.setText(getRandomArray(words_cwe)); word9.setBackgroundColor(teal);
+                word10.setText(getRandomArray(words_cwe)); word10.setBackgroundColor(teal);
+            }
+
+            private void resetWordsColor6_Common_Words_Armenian() {
                 word1.setText(getRandomArray(words_cwa)); word1.setBackgroundColor(blooming_dahlia);
                 word2.setText(getRandomArray(words_cwa)); word2.setBackgroundColor(blooming_dahlia);
                 word3.setText(getRandomArray(words_cwa)); word3.setBackgroundColor(blooming_dahlia);
@@ -2223,7 +4178,33 @@ public class MainActivity2 extends AppCompatActivity {
                 word10.setText(getRandomArray(words_cwa)); word10.setBackgroundColor(blooming_dahlia);
             }
 
-            private void resetWordsColor7() {
+            private void resetWordsColor6_Common_Words_Russian() {
+                word1.setText(getRandomArray(words_cwr)); word1.setBackgroundColor(blooming_dahlia);
+                word2.setText(getRandomArray(words_cwr)); word2.setBackgroundColor(blooming_dahlia);
+                word3.setText(getRandomArray(words_cwr)); word3.setBackgroundColor(blooming_dahlia);
+                word4.setText(getRandomArray(words_cwr)); word4.setBackgroundColor(blooming_dahlia);
+                word5.setText(getRandomArray(words_cwr)); word5.setBackgroundColor(blooming_dahlia);
+                word6.setText(getRandomArray(words_cwr)); word6.setBackgroundColor(blooming_dahlia);
+                word7.setText(getRandomArray(words_cwr)); word7.setBackgroundColor(blooming_dahlia);
+                word8.setText(getRandomArray(words_cwr)); word8.setBackgroundColor(blooming_dahlia);
+                word9.setText(getRandomArray(words_cwr)); word9.setBackgroundColor(blooming_dahlia);
+                word10.setText(getRandomArray(words_cwr)); word10.setBackgroundColor(blooming_dahlia);
+            }
+
+            private void resetWordsColor6_Common_Words_English() {
+                word1.setText(getRandomArray(words_cwe)); word1.setBackgroundColor(blooming_dahlia);
+                word2.setText(getRandomArray(words_cwe)); word2.setBackgroundColor(blooming_dahlia);
+                word3.setText(getRandomArray(words_cwe)); word3.setBackgroundColor(blooming_dahlia);
+                word4.setText(getRandomArray(words_cwe)); word4.setBackgroundColor(blooming_dahlia);
+                word5.setText(getRandomArray(words_cwe)); word5.setBackgroundColor(blooming_dahlia);
+                word6.setText(getRandomArray(words_cwe)); word6.setBackgroundColor(blooming_dahlia);
+                word7.setText(getRandomArray(words_cwe)); word7.setBackgroundColor(blooming_dahlia);
+                word8.setText(getRandomArray(words_cwe)); word8.setBackgroundColor(blooming_dahlia);
+                word9.setText(getRandomArray(words_cwe)); word9.setBackgroundColor(blooming_dahlia);
+                word10.setText(getRandomArray(words_cwe)); word10.setBackgroundColor(blooming_dahlia);
+            }
+
+            private void resetWordsColor7_Common_Words_Armenian() {
                 word1.setText(getRandomArray(words_cwa)); word1.setBackgroundColor(orange);
                 word2.setText(getRandomArray(words_cwa)); word2.setBackgroundColor(orange);
                 word3.setText(getRandomArray(words_cwa)); word3.setBackgroundColor(orange);
@@ -2236,7 +4217,33 @@ public class MainActivity2 extends AppCompatActivity {
                 word10.setText(getRandomArray(words_cwa)); word10.setBackgroundColor(orange);
             }
 
-            private void resetWordsColor8() {
+            private void resetWordsColor7_Common_Words_Russian() {
+                word1.setText(getRandomArray(words_cwr)); word1.setBackgroundColor(orange);
+                word2.setText(getRandomArray(words_cwr)); word2.setBackgroundColor(orange);
+                word3.setText(getRandomArray(words_cwr)); word3.setBackgroundColor(orange);
+                word4.setText(getRandomArray(words_cwr)); word4.setBackgroundColor(orange);
+                word5.setText(getRandomArray(words_cwr)); word5.setBackgroundColor(orange);
+                word6.setText(getRandomArray(words_cwr)); word6.setBackgroundColor(orange);
+                word7.setText(getRandomArray(words_cwr)); word7.setBackgroundColor(orange);
+                word8.setText(getRandomArray(words_cwr)); word8.setBackgroundColor(orange);
+                word9.setText(getRandomArray(words_cwr)); word9.setBackgroundColor(orange);
+                word10.setText(getRandomArray(words_cwr)); word10.setBackgroundColor(orange);
+            }
+
+            private void resetWordsColor7_Common_Words_English() {
+                word1.setText(getRandomArray(words_cwe)); word1.setBackgroundColor(orange);
+                word2.setText(getRandomArray(words_cwe)); word2.setBackgroundColor(orange);
+                word3.setText(getRandomArray(words_cwe)); word3.setBackgroundColor(orange);
+                word4.setText(getRandomArray(words_cwe)); word4.setBackgroundColor(orange);
+                word5.setText(getRandomArray(words_cwe)); word5.setBackgroundColor(orange);
+                word6.setText(getRandomArray(words_cwe)); word6.setBackgroundColor(orange);
+                word7.setText(getRandomArray(words_cwe)); word7.setBackgroundColor(orange);
+                word8.setText(getRandomArray(words_cwe)); word8.setBackgroundColor(orange);
+                word9.setText(getRandomArray(words_cwe)); word9.setBackgroundColor(orange);
+                word10.setText(getRandomArray(words_cwe)); word10.setBackgroundColor(orange);
+            }
+
+            private void resetWordsColor8_Common_Words_Armenian() {
                 word1.setText(getRandomArray(words_cwa)); word1.setBackgroundColor(light_blue);
                 word2.setText(getRandomArray(words_cwa)); word2.setBackgroundColor(light_blue);
                 word3.setText(getRandomArray(words_cwa)); word3.setBackgroundColor(light_blue);
@@ -2249,51 +4256,173 @@ public class MainActivity2 extends AppCompatActivity {
                 word10.setText(getRandomArray(words_cwa)); word10.setBackgroundColor(light_blue);
             }
 
+            private void resetWordsColor8_Common_Words_Russian() {
+                word1.setText(getRandomArray(words_cwr)); word1.setBackgroundColor(light_blue);
+                word2.setText(getRandomArray(words_cwr)); word2.setBackgroundColor(light_blue);
+                word3.setText(getRandomArray(words_cwr)); word3.setBackgroundColor(light_blue);
+                word4.setText(getRandomArray(words_cwr)); word4.setBackgroundColor(light_blue);
+                word5.setText(getRandomArray(words_cwr)); word5.setBackgroundColor(light_blue);
+                word6.setText(getRandomArray(words_cwr)); word6.setBackgroundColor(light_blue);
+                word7.setText(getRandomArray(words_cwr)); word7.setBackgroundColor(light_blue);
+                word8.setText(getRandomArray(words_cwr)); word8.setBackgroundColor(light_blue);
+                word9.setText(getRandomArray(words_cwr)); word9.setBackgroundColor(light_blue);
+                word10.setText(getRandomArray(words_cwr)); word10.setBackgroundColor(light_blue);
+            }
+
+            private void resetWordsColor8_Common_Words_English() {
+                word1.setText(getRandomArray(words_cwe)); word1.setBackgroundColor(light_blue);
+                word2.setText(getRandomArray(words_cwe)); word2.setBackgroundColor(light_blue);
+                word3.setText(getRandomArray(words_cwe)); word3.setBackgroundColor(light_blue);
+                word4.setText(getRandomArray(words_cwe)); word4.setBackgroundColor(light_blue);
+                word5.setText(getRandomArray(words_cwe)); word5.setBackgroundColor(light_blue);
+                word6.setText(getRandomArray(words_cwe)); word6.setBackgroundColor(light_blue);
+                word7.setText(getRandomArray(words_cwe)); word7.setBackgroundColor(light_blue);
+                word8.setText(getRandomArray(words_cwe)); word8.setBackgroundColor(light_blue);
+                word9.setText(getRandomArray(words_cwe)); word9.setBackgroundColor(light_blue);
+                word10.setText(getRandomArray(words_cwe)); word10.setBackgroundColor(light_blue);
+            }
+
             private void pageChangingColor1() {
-                if (clickcount == 10 || clickcount == 20 || clickcount == 30  || clickcount == 40 || clickcount == 50) {
-                    resetWordsColor1();
+                if ( MainActivity5.is_common_words_selected ) {
+                    if ( MainActivity6.Armenian ) {
+                        if (clickcount == 10 || clickcount == 20 || clickcount == 30  || clickcount == 40 || clickcount == 50) {
+                            resetWordsColor1_Common_Words_Armenian();
+                        }
+                    } else if ( MainActivity6.Russian ) {
+                        if (clickcount == 10 || clickcount == 20 || clickcount == 30  || clickcount == 40 || clickcount == 50) {
+                            resetWordsColor1_Common_Words_Russian();
+                        }
+                    } else if ( MainActivity6.English ) {
+                        if (clickcount == 10 || clickcount == 20 || clickcount == 30  || clickcount == 40 || clickcount == 50) {
+                            resetWordsColor1_Common_Words_English();
+                        }
+                    }
                 }
             }
 
             private void pageChangingColor2() {
-                if (clickcount == 10 || clickcount == 20 || clickcount == 30  || clickcount == 40 || clickcount == 50) {
-                    resetWordsColor2();
+                if ( MainActivity5.is_common_words_selected ) {
+                    if ( MainActivity6.Armenian ) {
+                        if (clickcount == 10 || clickcount == 20 || clickcount == 30  || clickcount == 40 || clickcount == 50) {
+                            resetWordsColor2_Common_Words_Armenian();
+                        }
+                    } else if ( MainActivity6.Russian ) {
+                        if (clickcount == 10 || clickcount == 20 || clickcount == 30  || clickcount == 40 || clickcount == 50) {
+                            resetWordsColor2_Common_Words_Russian();
+                        }
+                    } else if ( MainActivity6.English ) {
+                        if (clickcount == 10 || clickcount == 20 || clickcount == 30  || clickcount == 40 || clickcount == 50) {
+                            resetWordsColor2_Common_Words_English();
+                        }
+                    }
                 }
             }
 
             private void pageChangingColor3() {
-                if (clickcount == 10 || clickcount == 20 || clickcount == 30  || clickcount == 40 || clickcount == 50) {
-                    resetWordsColor3();
+                if ( MainActivity5.is_common_words_selected ) {
+                    if ( MainActivity6.Armenian ) {
+                        if (clickcount == 10 || clickcount == 20 || clickcount == 30  || clickcount == 40 || clickcount == 50) {
+                            resetWordsColor3_Common_Words_Armenian();
+                        }
+                    } else if ( MainActivity6.Russian ) {
+                        if (clickcount == 10 || clickcount == 20 || clickcount == 30  || clickcount == 40 || clickcount == 50) {
+                            resetWordsColor3_Common_Words_Russian();
+                        }
+                    } else if ( MainActivity6.English ) {
+                        if (clickcount == 10 || clickcount == 20 || clickcount == 30  || clickcount == 40 || clickcount == 50) {
+                            resetWordsColor3_Common_Words_English();
+                        }
+                    }
                 }
             }
 
             private void pageChangingColor4() {
-                if (clickcount == 10 || clickcount == 20 || clickcount == 30  || clickcount == 40 || clickcount == 50) {
-                    resetWordsColor4();
+                if ( MainActivity5.is_common_words_selected ) {
+                    if ( MainActivity6.Armenian ) {
+                        if (clickcount == 10 || clickcount == 20 || clickcount == 30  || clickcount == 40 || clickcount == 50) {
+                            resetWordsColor4_Common_Words_Armenian();
+                        }
+                    } else if ( MainActivity6.Russian ) {
+                        if (clickcount == 10 || clickcount == 20 || clickcount == 30  || clickcount == 40 || clickcount == 50) {
+                            resetWordsColor4_Common_Words_Russian();
+                        }
+                    } else if ( MainActivity6.English ) {
+                        if (clickcount == 10 || clickcount == 20 || clickcount == 30  || clickcount == 40 || clickcount == 50) {
+                            resetWordsColor4_Common_Words_English();
+                        }
+                    }
                 }
             }
 
             private void pageChangingColor5() {
-                if (clickcount == 10 || clickcount == 20 || clickcount == 30  || clickcount == 40 || clickcount == 50) {
-                    resetWordsColor5();
+                if ( MainActivity5.is_common_words_selected ) {
+                    if ( MainActivity6.Armenian ) {
+                        if (clickcount == 10 || clickcount == 20 || clickcount == 30  || clickcount == 40 || clickcount == 50) {
+                            resetWordsColor5_Common_Words_Armenian();
+                        }
+                    } else if ( MainActivity6.Russian ) {
+                        if (clickcount == 10 || clickcount == 20 || clickcount == 30  || clickcount == 40 || clickcount == 50) {
+                            resetWordsColor5_Common_Words_Russian();
+                        }
+                    } else if ( MainActivity6.English ) {
+                        if (clickcount == 10 || clickcount == 20 || clickcount == 30  || clickcount == 40 || clickcount == 50) {
+                            resetWordsColor5_Common_Words_English();
+                        }
+                    }
                 }
             }
 
             private void pageChangingColor6() {
-                if (clickcount == 10 || clickcount == 20 || clickcount == 30  || clickcount == 40 || clickcount == 50) {
-                    resetWordsColor6();
+                if ( MainActivity5.is_common_words_selected ) {
+                    if ( MainActivity6.Armenian ) {
+                        if (clickcount == 10 || clickcount == 20 || clickcount == 30  || clickcount == 40 || clickcount == 50) {
+                            resetWordsColor6_Common_Words_Armenian();
+                        }
+                    } else if ( MainActivity6.Russian ) {
+                        if (clickcount == 10 || clickcount == 20 || clickcount == 30  || clickcount == 40 || clickcount == 50) {
+                            resetWordsColor6_Common_Words_Russian();
+                        }
+                    } else if ( MainActivity6.English ) {
+                        if (clickcount == 10 || clickcount == 20 || clickcount == 30  || clickcount == 40 || clickcount == 50) {
+                            resetWordsColor6_Common_Words_English();
+                        }
+                    }
                 }
             }
 
             private void pageChangingColor7() {
-                if (clickcount == 10 || clickcount == 20 || clickcount == 30  || clickcount == 40 || clickcount == 50) {
-                    resetWordsColor7();
+                if ( MainActivity5.is_common_words_selected ) {
+                    if ( MainActivity6.Armenian ) {
+                        if (clickcount == 10 || clickcount == 20 || clickcount == 30  || clickcount == 40 || clickcount == 50) {
+                            resetWordsColor7_Common_Words_Armenian();
+                        }
+                    } else if ( MainActivity6.Russian ) {
+                        if (clickcount == 10 || clickcount == 20 || clickcount == 30  || clickcount == 40 || clickcount == 50) {
+                            resetWordsColor7_Common_Words_Russian();
+                        }
+                    } else if ( MainActivity6.English ) {
+                        if (clickcount == 10 || clickcount == 20 || clickcount == 30  || clickcount == 40 || clickcount == 50) {
+                            resetWordsColor7_Common_Words_English();
+                        }
+                    }
                 }
             }
 
             private void pageChangingColor8() {
-                if (clickcount == 10 || clickcount == 20 || clickcount == 30  || clickcount == 40 || clickcount == 50) {
-                    resetWordsColor8();
+                if ( MainActivity5.is_common_words_selected ) {
+                    if ( MainActivity6.Armenian ) {
+                        if (clickcount == 10 || clickcount == 20 || clickcount == 30  || clickcount == 40 || clickcount == 50) {
+                            resetWordsColor8_Common_Words_Armenian();
+                        }
+                    } else if ( MainActivity6.Russian ) {
+                        if (clickcount == 10 || clickcount == 20 || clickcount == 30  || clickcount == 40 || clickcount == 50) {
+                            resetWordsColor8_Common_Words_Russian();
+                        }
+                    } else if ( MainActivity6.English ) {
+                        if (clickcount == 10 || clickcount == 20 || clickcount == 30  || clickcount == 40 || clickcount == 50) {
+                            resetWordsColor8_Common_Words_English();
+                        }
+                    }
                 }
             }
         });
@@ -2446,7 +4575,7 @@ public class MainActivity2 extends AppCompatActivity {
                 }
             }
 
-            private void resetWordsColor1() {
+            private void resetWordsColor1_Common_Words_Armenian() {
                 word1.setText(getRandomArray(words_cwa)); word1.setBackgroundColor(white);
                 word2.setText(getRandomArray(words_cwa)); word2.setBackgroundColor(white);
                 word3.setText(getRandomArray(words_cwa)); word3.setBackgroundColor(white);
@@ -2459,7 +4588,33 @@ public class MainActivity2 extends AppCompatActivity {
                 word10.setText(getRandomArray(words_cwa)); word10.setBackgroundColor(white);
             }
 
-            private void resetWordsColor2() {
+            private void resetWordsColor1_Common_Words_Russian() {
+                word1.setText(getRandomArray(words_cwr)); word1.setBackgroundColor(white);
+                word2.setText(getRandomArray(words_cwr)); word2.setBackgroundColor(white);
+                word3.setText(getRandomArray(words_cwr)); word3.setBackgroundColor(white);
+                word4.setText(getRandomArray(words_cwr)); word4.setBackgroundColor(white);
+                word5.setText(getRandomArray(words_cwr)); word5.setBackgroundColor(white);
+                word6.setText(getRandomArray(words_cwr)); word6.setBackgroundColor(white);
+                word7.setText(getRandomArray(words_cwr)); word7.setBackgroundColor(white);
+                word8.setText(getRandomArray(words_cwr)); word8.setBackgroundColor(white);
+                word9.setText(getRandomArray(words_cwr)); word9.setBackgroundColor(white);
+                word10.setText(getRandomArray(words_cwr)); word10.setBackgroundColor(white);
+            }
+
+            private void resetWordsColor1_Common_Words_English() {
+                word1.setText(getRandomArray(words_cwe)); word1.setBackgroundColor(white);
+                word2.setText(getRandomArray(words_cwe)); word2.setBackgroundColor(white);
+                word3.setText(getRandomArray(words_cwe)); word3.setBackgroundColor(white);
+                word4.setText(getRandomArray(words_cwe)); word4.setBackgroundColor(white);
+                word5.setText(getRandomArray(words_cwe)); word5.setBackgroundColor(white);
+                word6.setText(getRandomArray(words_cwe)); word6.setBackgroundColor(white);
+                word7.setText(getRandomArray(words_cwe)); word7.setBackgroundColor(white);
+                word8.setText(getRandomArray(words_cwe)); word8.setBackgroundColor(white);
+                word9.setText(getRandomArray(words_cwe)); word9.setBackgroundColor(white);
+                word10.setText(getRandomArray(words_cwe)); word10.setBackgroundColor(white);
+            }
+
+            private void resetWordsColor2_Common_Words_Armenian() {
                 word1.setText(getRandomArray(words_cwa)); word1.setBackgroundColor(dark_emerald_green);
                 word2.setText(getRandomArray(words_cwa)); word2.setBackgroundColor(dark_emerald_green);
                 word3.setText(getRandomArray(words_cwa)); word3.setBackgroundColor(dark_emerald_green);
@@ -2472,7 +4627,33 @@ public class MainActivity2 extends AppCompatActivity {
                 word10.setText(getRandomArray(words_cwa)); word10.setBackgroundColor(dark_emerald_green);
             }
 
-            private void resetWordsColor3() {
+            private void resetWordsColor2_Common_Words_Russian() {
+                word1.setText(getRandomArray(words_cwr)); word1.setBackgroundColor(dark_emerald_green);
+                word2.setText(getRandomArray(words_cwr)); word2.setBackgroundColor(dark_emerald_green);
+                word3.setText(getRandomArray(words_cwr)); word3.setBackgroundColor(dark_emerald_green);
+                word4.setText(getRandomArray(words_cwr)); word4.setBackgroundColor(dark_emerald_green);
+                word5.setText(getRandomArray(words_cwr)); word5.setBackgroundColor(dark_emerald_green);
+                word6.setText(getRandomArray(words_cwr)); word6.setBackgroundColor(dark_emerald_green);
+                word7.setText(getRandomArray(words_cwr)); word7.setBackgroundColor(dark_emerald_green);
+                word8.setText(getRandomArray(words_cwr)); word8.setBackgroundColor(dark_emerald_green);
+                word9.setText(getRandomArray(words_cwr)); word9.setBackgroundColor(dark_emerald_green);
+                word10.setText(getRandomArray(words_cwr)); word10.setBackgroundColor(dark_emerald_green);
+            }
+
+            private void resetWordsColor2_Common_Words_English() {
+                word1.setText(getRandomArray(words_cwe)); word1.setBackgroundColor(dark_emerald_green);
+                word2.setText(getRandomArray(words_cwe)); word2.setBackgroundColor(dark_emerald_green);
+                word3.setText(getRandomArray(words_cwe)); word3.setBackgroundColor(dark_emerald_green);
+                word4.setText(getRandomArray(words_cwe)); word4.setBackgroundColor(dark_emerald_green);
+                word5.setText(getRandomArray(words_cwe)); word5.setBackgroundColor(dark_emerald_green);
+                word6.setText(getRandomArray(words_cwe)); word6.setBackgroundColor(dark_emerald_green);
+                word7.setText(getRandomArray(words_cwe)); word7.setBackgroundColor(dark_emerald_green);
+                word8.setText(getRandomArray(words_cwe)); word8.setBackgroundColor(dark_emerald_green);
+                word9.setText(getRandomArray(words_cwe)); word9.setBackgroundColor(dark_emerald_green);
+                word10.setText(getRandomArray(words_cwe)); word10.setBackgroundColor(dark_emerald_green);
+            }
+
+            private void resetWordsColor3_Common_Words_Armenian() {
                 word1.setText(getRandomArray(words_cwa)); word1.setBackgroundColor(yellow);
                 word2.setText(getRandomArray(words_cwa)); word2.setBackgroundColor(yellow);
                 word3.setText(getRandomArray(words_cwa)); word3.setBackgroundColor(yellow);
@@ -2485,7 +4666,33 @@ public class MainActivity2 extends AppCompatActivity {
                 word10.setText(getRandomArray(words_cwa)); word10.setBackgroundColor(yellow);
             }
 
-            private void resetWordsColor4() {
+            private void resetWordsColor3_Common_Words_Russian() {
+                word1.setText(getRandomArray(words_cwr)); word1.setBackgroundColor(yellow);
+                word2.setText(getRandomArray(words_cwr)); word2.setBackgroundColor(yellow);
+                word3.setText(getRandomArray(words_cwr)); word3.setBackgroundColor(yellow);
+                word4.setText(getRandomArray(words_cwr)); word4.setBackgroundColor(yellow);
+                word5.setText(getRandomArray(words_cwr)); word5.setBackgroundColor(yellow);
+                word6.setText(getRandomArray(words_cwr)); word6.setBackgroundColor(yellow);
+                word7.setText(getRandomArray(words_cwr)); word7.setBackgroundColor(yellow);
+                word8.setText(getRandomArray(words_cwr)); word8.setBackgroundColor(yellow);
+                word9.setText(getRandomArray(words_cwr)); word9.setBackgroundColor(yellow);
+                word10.setText(getRandomArray(words_cwr)); word10.setBackgroundColor(yellow);
+            }
+
+            private void resetWordsColor3_Common_Words_English() {
+                word1.setText(getRandomArray(words_cwe)); word1.setBackgroundColor(yellow);
+                word2.setText(getRandomArray(words_cwe)); word2.setBackgroundColor(yellow);
+                word3.setText(getRandomArray(words_cwe)); word3.setBackgroundColor(yellow);
+                word4.setText(getRandomArray(words_cwe)); word4.setBackgroundColor(yellow);
+                word5.setText(getRandomArray(words_cwe)); word5.setBackgroundColor(yellow);
+                word6.setText(getRandomArray(words_cwe)); word6.setBackgroundColor(yellow);
+                word7.setText(getRandomArray(words_cwe)); word7.setBackgroundColor(yellow);
+                word8.setText(getRandomArray(words_cwe)); word8.setBackgroundColor(yellow);
+                word9.setText(getRandomArray(words_cwe)); word9.setBackgroundColor(yellow);
+                word10.setText(getRandomArray(words_cwe)); word10.setBackgroundColor(yellow);
+            }
+
+            private void resetWordsColor4_Common_Words_Armenian() {
                 word1.setText(getRandomArray(words_cwa)); word1.setBackgroundColor(red);
                 word2.setText(getRandomArray(words_cwa)); word2.setBackgroundColor(red);
                 word3.setText(getRandomArray(words_cwa)); word3.setBackgroundColor(red);
@@ -2498,7 +4705,33 @@ public class MainActivity2 extends AppCompatActivity {
                 word10.setText(getRandomArray(words_cwa)); word10.setBackgroundColor(red);
             }
 
-            private void resetWordsColor5() {
+            private void resetWordsColor4_Common_Words_Russian() {
+                word1.setText(getRandomArray(words_cwr)); word1.setBackgroundColor(red);
+                word2.setText(getRandomArray(words_cwr)); word2.setBackgroundColor(red);
+                word3.setText(getRandomArray(words_cwr)); word3.setBackgroundColor(red);
+                word4.setText(getRandomArray(words_cwr)); word4.setBackgroundColor(red);
+                word5.setText(getRandomArray(words_cwr)); word5.setBackgroundColor(red);
+                word6.setText(getRandomArray(words_cwr)); word6.setBackgroundColor(red);
+                word7.setText(getRandomArray(words_cwr)); word7.setBackgroundColor(red);
+                word8.setText(getRandomArray(words_cwr)); word8.setBackgroundColor(red);
+                word9.setText(getRandomArray(words_cwr)); word9.setBackgroundColor(red);
+                word10.setText(getRandomArray(words_cwr)); word10.setBackgroundColor(red);
+            }
+
+            private void resetWordsColor4_Common_Words_English() {
+                word1.setText(getRandomArray(words_cwe)); word1.setBackgroundColor(red);
+                word2.setText(getRandomArray(words_cwe)); word2.setBackgroundColor(red);
+                word3.setText(getRandomArray(words_cwe)); word3.setBackgroundColor(red);
+                word4.setText(getRandomArray(words_cwe)); word4.setBackgroundColor(red);
+                word5.setText(getRandomArray(words_cwe)); word5.setBackgroundColor(red);
+                word6.setText(getRandomArray(words_cwe)); word6.setBackgroundColor(red);
+                word7.setText(getRandomArray(words_cwe)); word7.setBackgroundColor(red);
+                word8.setText(getRandomArray(words_cwe)); word8.setBackgroundColor(red);
+                word9.setText(getRandomArray(words_cwe)); word9.setBackgroundColor(red);
+                word10.setText(getRandomArray(words_cwe)); word10.setBackgroundColor(red);
+            }
+
+            private void resetWordsColor5_Common_Words_Armenian() {
                 word1.setText(getRandomArray(words_cwa)); word1.setBackgroundColor(teal);
                 word2.setText(getRandomArray(words_cwa)); word2.setBackgroundColor(teal);
                 word3.setText(getRandomArray(words_cwa)); word3.setBackgroundColor(teal);
@@ -2511,7 +4744,33 @@ public class MainActivity2 extends AppCompatActivity {
                 word10.setText(getRandomArray(words_cwa)); word10.setBackgroundColor(teal);
             }
 
-            private void resetWordsColor6() {
+            private void resetWordsColor5_Common_Words_Russian() {
+                word1.setText(getRandomArray(words_cwr)); word1.setBackgroundColor(teal);
+                word2.setText(getRandomArray(words_cwr)); word2.setBackgroundColor(teal);
+                word3.setText(getRandomArray(words_cwr)); word3.setBackgroundColor(teal);
+                word4.setText(getRandomArray(words_cwr)); word4.setBackgroundColor(teal);
+                word5.setText(getRandomArray(words_cwr)); word5.setBackgroundColor(teal);
+                word6.setText(getRandomArray(words_cwr)); word6.setBackgroundColor(teal);
+                word7.setText(getRandomArray(words_cwr)); word7.setBackgroundColor(teal);
+                word8.setText(getRandomArray(words_cwr)); word8.setBackgroundColor(teal);
+                word9.setText(getRandomArray(words_cwr)); word9.setBackgroundColor(teal);
+                word10.setText(getRandomArray(words_cwr)); word10.setBackgroundColor(teal);
+            }
+
+            private void resetWordsColor5_Common_Words_English() {
+                word1.setText(getRandomArray(words_cwe)); word1.setBackgroundColor(teal);
+                word2.setText(getRandomArray(words_cwe)); word2.setBackgroundColor(teal);
+                word3.setText(getRandomArray(words_cwe)); word3.setBackgroundColor(teal);
+                word4.setText(getRandomArray(words_cwe)); word4.setBackgroundColor(teal);
+                word5.setText(getRandomArray(words_cwe)); word5.setBackgroundColor(teal);
+                word6.setText(getRandomArray(words_cwe)); word6.setBackgroundColor(teal);
+                word7.setText(getRandomArray(words_cwe)); word7.setBackgroundColor(teal);
+                word8.setText(getRandomArray(words_cwe)); word8.setBackgroundColor(teal);
+                word9.setText(getRandomArray(words_cwe)); word9.setBackgroundColor(teal);
+                word10.setText(getRandomArray(words_cwe)); word10.setBackgroundColor(teal);
+            }
+
+            private void resetWordsColor6_Common_Words_Armenian() {
                 word1.setText(getRandomArray(words_cwa)); word1.setBackgroundColor(blooming_dahlia);
                 word2.setText(getRandomArray(words_cwa)); word2.setBackgroundColor(blooming_dahlia);
                 word3.setText(getRandomArray(words_cwa)); word3.setBackgroundColor(blooming_dahlia);
@@ -2524,7 +4783,33 @@ public class MainActivity2 extends AppCompatActivity {
                 word10.setText(getRandomArray(words_cwa)); word10.setBackgroundColor(blooming_dahlia);
             }
 
-            private void resetWordsColor7() {
+            private void resetWordsColor6_Common_Words_Russian() {
+                word1.setText(getRandomArray(words_cwr)); word1.setBackgroundColor(blooming_dahlia);
+                word2.setText(getRandomArray(words_cwr)); word2.setBackgroundColor(blooming_dahlia);
+                word3.setText(getRandomArray(words_cwr)); word3.setBackgroundColor(blooming_dahlia);
+                word4.setText(getRandomArray(words_cwr)); word4.setBackgroundColor(blooming_dahlia);
+                word5.setText(getRandomArray(words_cwr)); word5.setBackgroundColor(blooming_dahlia);
+                word6.setText(getRandomArray(words_cwr)); word6.setBackgroundColor(blooming_dahlia);
+                word7.setText(getRandomArray(words_cwr)); word7.setBackgroundColor(blooming_dahlia);
+                word8.setText(getRandomArray(words_cwr)); word8.setBackgroundColor(blooming_dahlia);
+                word9.setText(getRandomArray(words_cwr)); word9.setBackgroundColor(blooming_dahlia);
+                word10.setText(getRandomArray(words_cwr)); word10.setBackgroundColor(blooming_dahlia);
+            }
+
+            private void resetWordsColor6_Common_Words_English() {
+                word1.setText(getRandomArray(words_cwe)); word1.setBackgroundColor(blooming_dahlia);
+                word2.setText(getRandomArray(words_cwe)); word2.setBackgroundColor(blooming_dahlia);
+                word3.setText(getRandomArray(words_cwe)); word3.setBackgroundColor(blooming_dahlia);
+                word4.setText(getRandomArray(words_cwe)); word4.setBackgroundColor(blooming_dahlia);
+                word5.setText(getRandomArray(words_cwe)); word5.setBackgroundColor(blooming_dahlia);
+                word6.setText(getRandomArray(words_cwe)); word6.setBackgroundColor(blooming_dahlia);
+                word7.setText(getRandomArray(words_cwe)); word7.setBackgroundColor(blooming_dahlia);
+                word8.setText(getRandomArray(words_cwe)); word8.setBackgroundColor(blooming_dahlia);
+                word9.setText(getRandomArray(words_cwe)); word9.setBackgroundColor(blooming_dahlia);
+                word10.setText(getRandomArray(words_cwe)); word10.setBackgroundColor(blooming_dahlia);
+            }
+
+            private void resetWordsColor7_Common_Words_Armenian() {
                 word1.setText(getRandomArray(words_cwa)); word1.setBackgroundColor(orange);
                 word2.setText(getRandomArray(words_cwa)); word2.setBackgroundColor(orange);
                 word3.setText(getRandomArray(words_cwa)); word3.setBackgroundColor(orange);
@@ -2537,7 +4822,33 @@ public class MainActivity2 extends AppCompatActivity {
                 word10.setText(getRandomArray(words_cwa)); word10.setBackgroundColor(orange);
             }
 
-            private void resetWordsColor8() {
+            private void resetWordsColor7_Common_Words_Russian() {
+                word1.setText(getRandomArray(words_cwr)); word1.setBackgroundColor(orange);
+                word2.setText(getRandomArray(words_cwr)); word2.setBackgroundColor(orange);
+                word3.setText(getRandomArray(words_cwr)); word3.setBackgroundColor(orange);
+                word4.setText(getRandomArray(words_cwr)); word4.setBackgroundColor(orange);
+                word5.setText(getRandomArray(words_cwr)); word5.setBackgroundColor(orange);
+                word6.setText(getRandomArray(words_cwr)); word6.setBackgroundColor(orange);
+                word7.setText(getRandomArray(words_cwr)); word7.setBackgroundColor(orange);
+                word8.setText(getRandomArray(words_cwr)); word8.setBackgroundColor(orange);
+                word9.setText(getRandomArray(words_cwr)); word9.setBackgroundColor(orange);
+                word10.setText(getRandomArray(words_cwr)); word10.setBackgroundColor(orange);
+            }
+
+            private void resetWordsColor7_Common_Words_English() {
+                word1.setText(getRandomArray(words_cwe)); word1.setBackgroundColor(orange);
+                word2.setText(getRandomArray(words_cwe)); word2.setBackgroundColor(orange);
+                word3.setText(getRandomArray(words_cwe)); word3.setBackgroundColor(orange);
+                word4.setText(getRandomArray(words_cwe)); word4.setBackgroundColor(orange);
+                word5.setText(getRandomArray(words_cwe)); word5.setBackgroundColor(orange);
+                word6.setText(getRandomArray(words_cwe)); word6.setBackgroundColor(orange);
+                word7.setText(getRandomArray(words_cwe)); word7.setBackgroundColor(orange);
+                word8.setText(getRandomArray(words_cwe)); word8.setBackgroundColor(orange);
+                word9.setText(getRandomArray(words_cwe)); word9.setBackgroundColor(orange);
+                word10.setText(getRandomArray(words_cwe)); word10.setBackgroundColor(orange);
+            }
+
+            private void resetWordsColor8_Common_Words_Armenian() {
                 word1.setText(getRandomArray(words_cwa)); word1.setBackgroundColor(light_blue);
                 word2.setText(getRandomArray(words_cwa)); word2.setBackgroundColor(light_blue);
                 word3.setText(getRandomArray(words_cwa)); word3.setBackgroundColor(light_blue);
@@ -2550,51 +4861,173 @@ public class MainActivity2 extends AppCompatActivity {
                 word10.setText(getRandomArray(words_cwa)); word10.setBackgroundColor(light_blue);
             }
 
+            private void resetWordsColor8_Common_Words_Russian() {
+                word1.setText(getRandomArray(words_cwr)); word1.setBackgroundColor(light_blue);
+                word2.setText(getRandomArray(words_cwr)); word2.setBackgroundColor(light_blue);
+                word3.setText(getRandomArray(words_cwr)); word3.setBackgroundColor(light_blue);
+                word4.setText(getRandomArray(words_cwr)); word4.setBackgroundColor(light_blue);
+                word5.setText(getRandomArray(words_cwr)); word5.setBackgroundColor(light_blue);
+                word6.setText(getRandomArray(words_cwr)); word6.setBackgroundColor(light_blue);
+                word7.setText(getRandomArray(words_cwr)); word7.setBackgroundColor(light_blue);
+                word8.setText(getRandomArray(words_cwr)); word8.setBackgroundColor(light_blue);
+                word9.setText(getRandomArray(words_cwr)); word9.setBackgroundColor(light_blue);
+                word10.setText(getRandomArray(words_cwr)); word10.setBackgroundColor(light_blue);
+            }
+
+            private void resetWordsColor8_Common_Words_English() {
+                word1.setText(getRandomArray(words_cwe)); word1.setBackgroundColor(light_blue);
+                word2.setText(getRandomArray(words_cwe)); word2.setBackgroundColor(light_blue);
+                word3.setText(getRandomArray(words_cwe)); word3.setBackgroundColor(light_blue);
+                word4.setText(getRandomArray(words_cwe)); word4.setBackgroundColor(light_blue);
+                word5.setText(getRandomArray(words_cwe)); word5.setBackgroundColor(light_blue);
+                word6.setText(getRandomArray(words_cwe)); word6.setBackgroundColor(light_blue);
+                word7.setText(getRandomArray(words_cwe)); word7.setBackgroundColor(light_blue);
+                word8.setText(getRandomArray(words_cwe)); word8.setBackgroundColor(light_blue);
+                word9.setText(getRandomArray(words_cwe)); word9.setBackgroundColor(light_blue);
+                word10.setText(getRandomArray(words_cwe)); word10.setBackgroundColor(light_blue);
+            }
+
             private void pageChangingColor1() {
-                if (clickcount == 10 || clickcount == 20 || clickcount == 30  || clickcount == 40 || clickcount == 50) {
-                    resetWordsColor1();
+                if ( MainActivity5.is_common_words_selected ) {
+                    if ( MainActivity6.Armenian ) {
+                        if (clickcount == 10 || clickcount == 20 || clickcount == 30  || clickcount == 40 || clickcount == 50) {
+                            resetWordsColor1_Common_Words_Armenian();
+                        }
+                    } else if ( MainActivity6.Russian ) {
+                        if (clickcount == 10 || clickcount == 20 || clickcount == 30  || clickcount == 40 || clickcount == 50) {
+                            resetWordsColor1_Common_Words_Russian();
+                        }
+                    } else if ( MainActivity6.English ) {
+                        if (clickcount == 10 || clickcount == 20 || clickcount == 30  || clickcount == 40 || clickcount == 50) {
+                            resetWordsColor1_Common_Words_English();
+                        }
+                    }
                 }
             }
 
             private void pageChangingColor2() {
-                if (clickcount == 10 || clickcount == 20 || clickcount == 30  || clickcount == 40 || clickcount == 50) {
-                    resetWordsColor2();
+                if ( MainActivity5.is_common_words_selected ) {
+                    if ( MainActivity6.Armenian ) {
+                        if (clickcount == 10 || clickcount == 20 || clickcount == 30  || clickcount == 40 || clickcount == 50) {
+                            resetWordsColor2_Common_Words_Armenian();
+                        }
+                    } else if ( MainActivity6.Russian ) {
+                        if (clickcount == 10 || clickcount == 20 || clickcount == 30  || clickcount == 40 || clickcount == 50) {
+                            resetWordsColor2_Common_Words_Russian();
+                        }
+                    } else if ( MainActivity6.English ) {
+                        if (clickcount == 10 || clickcount == 20 || clickcount == 30  || clickcount == 40 || clickcount == 50) {
+                            resetWordsColor2_Common_Words_English();
+                        }
+                    }
                 }
             }
 
             private void pageChangingColor3() {
-                if (clickcount == 10 || clickcount == 20 || clickcount == 30  || clickcount == 40 || clickcount == 50) {
-                    resetWordsColor3();
+                if ( MainActivity5.is_common_words_selected ) {
+                    if ( MainActivity6.Armenian ) {
+                        if (clickcount == 10 || clickcount == 20 || clickcount == 30  || clickcount == 40 || clickcount == 50) {
+                            resetWordsColor3_Common_Words_Armenian();
+                        }
+                    } else if ( MainActivity6.Russian ) {
+                        if (clickcount == 10 || clickcount == 20 || clickcount == 30  || clickcount == 40 || clickcount == 50) {
+                            resetWordsColor3_Common_Words_Russian();
+                        }
+                    } else if ( MainActivity6.English ) {
+                        if (clickcount == 10 || clickcount == 20 || clickcount == 30  || clickcount == 40 || clickcount == 50) {
+                            resetWordsColor3_Common_Words_English();
+                        }
+                    }
                 }
             }
 
             private void pageChangingColor4() {
-                if (clickcount == 10 || clickcount == 20 || clickcount == 30  || clickcount == 40 || clickcount == 50) {
-                    resetWordsColor4();
+                if ( MainActivity5.is_common_words_selected ) {
+                    if ( MainActivity6.Armenian ) {
+                        if (clickcount == 10 || clickcount == 20 || clickcount == 30  || clickcount == 40 || clickcount == 50) {
+                            resetWordsColor4_Common_Words_Armenian();
+                        }
+                    } else if ( MainActivity6.Russian ) {
+                        if (clickcount == 10 || clickcount == 20 || clickcount == 30  || clickcount == 40 || clickcount == 50) {
+                            resetWordsColor4_Common_Words_Russian();
+                        }
+                    } else if ( MainActivity6.English ) {
+                        if (clickcount == 10 || clickcount == 20 || clickcount == 30  || clickcount == 40 || clickcount == 50) {
+                            resetWordsColor4_Common_Words_English();
+                        }
+                    }
                 }
             }
 
             private void pageChangingColor5() {
-                if (clickcount == 10 || clickcount == 20 || clickcount == 30  || clickcount == 40 || clickcount == 50) {
-                    resetWordsColor5();
+                if ( MainActivity5.is_common_words_selected ) {
+                    if ( MainActivity6.Armenian ) {
+                        if (clickcount == 10 || clickcount == 20 || clickcount == 30  || clickcount == 40 || clickcount == 50) {
+                            resetWordsColor5_Common_Words_Armenian();
+                        }
+                    } else if ( MainActivity6.Russian ) {
+                        if (clickcount == 10 || clickcount == 20 || clickcount == 30  || clickcount == 40 || clickcount == 50) {
+                            resetWordsColor5_Common_Words_Russian();
+                        }
+                    } else if ( MainActivity6.English ) {
+                        if (clickcount == 10 || clickcount == 20 || clickcount == 30  || clickcount == 40 || clickcount == 50) {
+                            resetWordsColor5_Common_Words_English();
+                        }
+                    }
                 }
             }
 
             private void pageChangingColor6() {
-                if (clickcount == 10 || clickcount == 20 || clickcount == 30  || clickcount == 40 || clickcount == 50) {
-                    resetWordsColor6();
+                if ( MainActivity5.is_common_words_selected ) {
+                    if ( MainActivity6.Armenian ) {
+                        if (clickcount == 10 || clickcount == 20 || clickcount == 30  || clickcount == 40 || clickcount == 50) {
+                            resetWordsColor6_Common_Words_Armenian();
+                        }
+                    } else if ( MainActivity6.Russian ) {
+                        if (clickcount == 10 || clickcount == 20 || clickcount == 30  || clickcount == 40 || clickcount == 50) {
+                            resetWordsColor6_Common_Words_Russian();
+                        }
+                    } else if ( MainActivity6.English ) {
+                        if (clickcount == 10 || clickcount == 20 || clickcount == 30  || clickcount == 40 || clickcount == 50) {
+                            resetWordsColor6_Common_Words_English();
+                        }
+                    }
                 }
             }
 
             private void pageChangingColor7() {
-                if (clickcount == 10 || clickcount == 20 || clickcount == 30  || clickcount == 40 || clickcount == 50) {
-                    resetWordsColor7();
+                if ( MainActivity5.is_common_words_selected ) {
+                    if ( MainActivity6.Armenian ) {
+                        if (clickcount == 10 || clickcount == 20 || clickcount == 30  || clickcount == 40 || clickcount == 50) {
+                            resetWordsColor7_Common_Words_Armenian();
+                        }
+                    } else if ( MainActivity6.Russian ) {
+                        if (clickcount == 10 || clickcount == 20 || clickcount == 30  || clickcount == 40 || clickcount == 50) {
+                            resetWordsColor7_Common_Words_Russian();
+                        }
+                    } else if ( MainActivity6.English ) {
+                        if (clickcount == 10 || clickcount == 20 || clickcount == 30  || clickcount == 40 || clickcount == 50) {
+                            resetWordsColor7_Common_Words_English();
+                        }
+                    }
                 }
             }
 
             private void pageChangingColor8() {
-                if (clickcount == 10 || clickcount == 20 || clickcount == 30  || clickcount == 40 || clickcount == 50) {
-                    resetWordsColor8();
+                if ( MainActivity5.is_common_words_selected ) {
+                    if ( MainActivity6.Armenian ) {
+                        if (clickcount == 10 || clickcount == 20 || clickcount == 30  || clickcount == 40 || clickcount == 50) {
+                            resetWordsColor8_Common_Words_Armenian();
+                        }
+                    } else if ( MainActivity6.Russian ) {
+                        if (clickcount == 10 || clickcount == 20 || clickcount == 30  || clickcount == 40 || clickcount == 50) {
+                            resetWordsColor8_Common_Words_Russian();
+                        }
+                    } else if ( MainActivity6.English ) {
+                        if (clickcount == 10 || clickcount == 20 || clickcount == 30  || clickcount == 40 || clickcount == 50) {
+                            resetWordsColor8_Common_Words_English();
+                        }
+                    }
                 }
             }
         });
@@ -2747,7 +5180,7 @@ public class MainActivity2 extends AppCompatActivity {
                 }
             }
 
-            private void resetWordsColor1() {
+            private void resetWordsColor1_Common_Words_Armenian() {
                 word1.setText(getRandomArray(words_cwa)); word1.setBackgroundColor(white);
                 word2.setText(getRandomArray(words_cwa)); word2.setBackgroundColor(white);
                 word3.setText(getRandomArray(words_cwa)); word3.setBackgroundColor(white);
@@ -2760,7 +5193,33 @@ public class MainActivity2 extends AppCompatActivity {
                 word10.setText(getRandomArray(words_cwa)); word10.setBackgroundColor(white);
             }
 
-            private void resetWordsColor2() {
+            private void resetWordsColor1_Common_Words_Russian() {
+                word1.setText(getRandomArray(words_cwr)); word1.setBackgroundColor(white);
+                word2.setText(getRandomArray(words_cwr)); word2.setBackgroundColor(white);
+                word3.setText(getRandomArray(words_cwr)); word3.setBackgroundColor(white);
+                word4.setText(getRandomArray(words_cwr)); word4.setBackgroundColor(white);
+                word5.setText(getRandomArray(words_cwr)); word5.setBackgroundColor(white);
+                word6.setText(getRandomArray(words_cwr)); word6.setBackgroundColor(white);
+                word7.setText(getRandomArray(words_cwr)); word7.setBackgroundColor(white);
+                word8.setText(getRandomArray(words_cwr)); word8.setBackgroundColor(white);
+                word9.setText(getRandomArray(words_cwr)); word9.setBackgroundColor(white);
+                word10.setText(getRandomArray(words_cwr)); word10.setBackgroundColor(white);
+            }
+
+            private void resetWordsColor1_Common_Words_English() {
+                word1.setText(getRandomArray(words_cwe)); word1.setBackgroundColor(white);
+                word2.setText(getRandomArray(words_cwe)); word2.setBackgroundColor(white);
+                word3.setText(getRandomArray(words_cwe)); word3.setBackgroundColor(white);
+                word4.setText(getRandomArray(words_cwe)); word4.setBackgroundColor(white);
+                word5.setText(getRandomArray(words_cwe)); word5.setBackgroundColor(white);
+                word6.setText(getRandomArray(words_cwe)); word6.setBackgroundColor(white);
+                word7.setText(getRandomArray(words_cwe)); word7.setBackgroundColor(white);
+                word8.setText(getRandomArray(words_cwe)); word8.setBackgroundColor(white);
+                word9.setText(getRandomArray(words_cwe)); word9.setBackgroundColor(white);
+                word10.setText(getRandomArray(words_cwe)); word10.setBackgroundColor(white);
+            }
+
+            private void resetWordsColor2_Common_Words_Armenian() {
                 word1.setText(getRandomArray(words_cwa)); word1.setBackgroundColor(dark_emerald_green);
                 word2.setText(getRandomArray(words_cwa)); word2.setBackgroundColor(dark_emerald_green);
                 word3.setText(getRandomArray(words_cwa)); word3.setBackgroundColor(dark_emerald_green);
@@ -2773,7 +5232,33 @@ public class MainActivity2 extends AppCompatActivity {
                 word10.setText(getRandomArray(words_cwa)); word10.setBackgroundColor(dark_emerald_green);
             }
 
-            private void resetWordsColor3() {
+            private void resetWordsColor2_Common_Words_Russian() {
+                word1.setText(getRandomArray(words_cwr)); word1.setBackgroundColor(dark_emerald_green);
+                word2.setText(getRandomArray(words_cwr)); word2.setBackgroundColor(dark_emerald_green);
+                word3.setText(getRandomArray(words_cwr)); word3.setBackgroundColor(dark_emerald_green);
+                word4.setText(getRandomArray(words_cwr)); word4.setBackgroundColor(dark_emerald_green);
+                word5.setText(getRandomArray(words_cwr)); word5.setBackgroundColor(dark_emerald_green);
+                word6.setText(getRandomArray(words_cwr)); word6.setBackgroundColor(dark_emerald_green);
+                word7.setText(getRandomArray(words_cwr)); word7.setBackgroundColor(dark_emerald_green);
+                word8.setText(getRandomArray(words_cwr)); word8.setBackgroundColor(dark_emerald_green);
+                word9.setText(getRandomArray(words_cwr)); word9.setBackgroundColor(dark_emerald_green);
+                word10.setText(getRandomArray(words_cwr)); word10.setBackgroundColor(dark_emerald_green);
+            }
+
+            private void resetWordsColor2_Common_Words_English() {
+                word1.setText(getRandomArray(words_cwe)); word1.setBackgroundColor(dark_emerald_green);
+                word2.setText(getRandomArray(words_cwe)); word2.setBackgroundColor(dark_emerald_green);
+                word3.setText(getRandomArray(words_cwe)); word3.setBackgroundColor(dark_emerald_green);
+                word4.setText(getRandomArray(words_cwe)); word4.setBackgroundColor(dark_emerald_green);
+                word5.setText(getRandomArray(words_cwe)); word5.setBackgroundColor(dark_emerald_green);
+                word6.setText(getRandomArray(words_cwe)); word6.setBackgroundColor(dark_emerald_green);
+                word7.setText(getRandomArray(words_cwe)); word7.setBackgroundColor(dark_emerald_green);
+                word8.setText(getRandomArray(words_cwe)); word8.setBackgroundColor(dark_emerald_green);
+                word9.setText(getRandomArray(words_cwe)); word9.setBackgroundColor(dark_emerald_green);
+                word10.setText(getRandomArray(words_cwe)); word10.setBackgroundColor(dark_emerald_green);
+            }
+
+            private void resetWordsColor3_Common_Words_Armenian() {
                 word1.setText(getRandomArray(words_cwa)); word1.setBackgroundColor(yellow);
                 word2.setText(getRandomArray(words_cwa)); word2.setBackgroundColor(yellow);
                 word3.setText(getRandomArray(words_cwa)); word3.setBackgroundColor(yellow);
@@ -2786,7 +5271,33 @@ public class MainActivity2 extends AppCompatActivity {
                 word10.setText(getRandomArray(words_cwa)); word10.setBackgroundColor(yellow);
             }
 
-            private void resetWordsColor4() {
+            private void resetWordsColor3_Common_Words_Russian() {
+                word1.setText(getRandomArray(words_cwr)); word1.setBackgroundColor(yellow);
+                word2.setText(getRandomArray(words_cwr)); word2.setBackgroundColor(yellow);
+                word3.setText(getRandomArray(words_cwr)); word3.setBackgroundColor(yellow);
+                word4.setText(getRandomArray(words_cwr)); word4.setBackgroundColor(yellow);
+                word5.setText(getRandomArray(words_cwr)); word5.setBackgroundColor(yellow);
+                word6.setText(getRandomArray(words_cwr)); word6.setBackgroundColor(yellow);
+                word7.setText(getRandomArray(words_cwr)); word7.setBackgroundColor(yellow);
+                word8.setText(getRandomArray(words_cwr)); word8.setBackgroundColor(yellow);
+                word9.setText(getRandomArray(words_cwr)); word9.setBackgroundColor(yellow);
+                word10.setText(getRandomArray(words_cwr)); word10.setBackgroundColor(yellow);
+            }
+
+            private void resetWordsColor3_Common_Words_English() {
+                word1.setText(getRandomArray(words_cwe)); word1.setBackgroundColor(yellow);
+                word2.setText(getRandomArray(words_cwe)); word2.setBackgroundColor(yellow);
+                word3.setText(getRandomArray(words_cwe)); word3.setBackgroundColor(yellow);
+                word4.setText(getRandomArray(words_cwe)); word4.setBackgroundColor(yellow);
+                word5.setText(getRandomArray(words_cwe)); word5.setBackgroundColor(yellow);
+                word6.setText(getRandomArray(words_cwe)); word6.setBackgroundColor(yellow);
+                word7.setText(getRandomArray(words_cwe)); word7.setBackgroundColor(yellow);
+                word8.setText(getRandomArray(words_cwe)); word8.setBackgroundColor(yellow);
+                word9.setText(getRandomArray(words_cwe)); word9.setBackgroundColor(yellow);
+                word10.setText(getRandomArray(words_cwe)); word10.setBackgroundColor(yellow);
+            }
+
+            private void resetWordsColor4_Common_Words_Armenian() {
                 word1.setText(getRandomArray(words_cwa)); word1.setBackgroundColor(red);
                 word2.setText(getRandomArray(words_cwa)); word2.setBackgroundColor(red);
                 word3.setText(getRandomArray(words_cwa)); word3.setBackgroundColor(red);
@@ -2799,7 +5310,33 @@ public class MainActivity2 extends AppCompatActivity {
                 word10.setText(getRandomArray(words_cwa)); word10.setBackgroundColor(red);
             }
 
-            private void resetWordsColor5() {
+            private void resetWordsColor4_Common_Words_Russian() {
+                word1.setText(getRandomArray(words_cwr)); word1.setBackgroundColor(red);
+                word2.setText(getRandomArray(words_cwr)); word2.setBackgroundColor(red);
+                word3.setText(getRandomArray(words_cwr)); word3.setBackgroundColor(red);
+                word4.setText(getRandomArray(words_cwr)); word4.setBackgroundColor(red);
+                word5.setText(getRandomArray(words_cwr)); word5.setBackgroundColor(red);
+                word6.setText(getRandomArray(words_cwr)); word6.setBackgroundColor(red);
+                word7.setText(getRandomArray(words_cwr)); word7.setBackgroundColor(red);
+                word8.setText(getRandomArray(words_cwr)); word8.setBackgroundColor(red);
+                word9.setText(getRandomArray(words_cwr)); word9.setBackgroundColor(red);
+                word10.setText(getRandomArray(words_cwr)); word10.setBackgroundColor(red);
+            }
+
+            private void resetWordsColor4_Common_Words_English() {
+                word1.setText(getRandomArray(words_cwe)); word1.setBackgroundColor(red);
+                word2.setText(getRandomArray(words_cwe)); word2.setBackgroundColor(red);
+                word3.setText(getRandomArray(words_cwe)); word3.setBackgroundColor(red);
+                word4.setText(getRandomArray(words_cwe)); word4.setBackgroundColor(red);
+                word5.setText(getRandomArray(words_cwe)); word5.setBackgroundColor(red);
+                word6.setText(getRandomArray(words_cwe)); word6.setBackgroundColor(red);
+                word7.setText(getRandomArray(words_cwe)); word7.setBackgroundColor(red);
+                word8.setText(getRandomArray(words_cwe)); word8.setBackgroundColor(red);
+                word9.setText(getRandomArray(words_cwe)); word9.setBackgroundColor(red);
+                word10.setText(getRandomArray(words_cwe)); word10.setBackgroundColor(red);
+            }
+
+            private void resetWordsColor5_Common_Words_Armenian() {
                 word1.setText(getRandomArray(words_cwa)); word1.setBackgroundColor(teal);
                 word2.setText(getRandomArray(words_cwa)); word2.setBackgroundColor(teal);
                 word3.setText(getRandomArray(words_cwa)); word3.setBackgroundColor(teal);
@@ -2812,7 +5349,33 @@ public class MainActivity2 extends AppCompatActivity {
                 word10.setText(getRandomArray(words_cwa)); word10.setBackgroundColor(teal);
             }
 
-            private void resetWordsColor6() {
+            private void resetWordsColor5_Common_Words_Russian() {
+                word1.setText(getRandomArray(words_cwr)); word1.setBackgroundColor(teal);
+                word2.setText(getRandomArray(words_cwr)); word2.setBackgroundColor(teal);
+                word3.setText(getRandomArray(words_cwr)); word3.setBackgroundColor(teal);
+                word4.setText(getRandomArray(words_cwr)); word4.setBackgroundColor(teal);
+                word5.setText(getRandomArray(words_cwr)); word5.setBackgroundColor(teal);
+                word6.setText(getRandomArray(words_cwr)); word6.setBackgroundColor(teal);
+                word7.setText(getRandomArray(words_cwr)); word7.setBackgroundColor(teal);
+                word8.setText(getRandomArray(words_cwr)); word8.setBackgroundColor(teal);
+                word9.setText(getRandomArray(words_cwr)); word9.setBackgroundColor(teal);
+                word10.setText(getRandomArray(words_cwr)); word10.setBackgroundColor(teal);
+            }
+
+            private void resetWordsColor5_Common_Words_English() {
+                word1.setText(getRandomArray(words_cwe)); word1.setBackgroundColor(teal);
+                word2.setText(getRandomArray(words_cwe)); word2.setBackgroundColor(teal);
+                word3.setText(getRandomArray(words_cwe)); word3.setBackgroundColor(teal);
+                word4.setText(getRandomArray(words_cwe)); word4.setBackgroundColor(teal);
+                word5.setText(getRandomArray(words_cwe)); word5.setBackgroundColor(teal);
+                word6.setText(getRandomArray(words_cwe)); word6.setBackgroundColor(teal);
+                word7.setText(getRandomArray(words_cwe)); word7.setBackgroundColor(teal);
+                word8.setText(getRandomArray(words_cwe)); word8.setBackgroundColor(teal);
+                word9.setText(getRandomArray(words_cwe)); word9.setBackgroundColor(teal);
+                word10.setText(getRandomArray(words_cwe)); word10.setBackgroundColor(teal);
+            }
+
+            private void resetWordsColor6_Common_Words_Armenian() {
                 word1.setText(getRandomArray(words_cwa)); word1.setBackgroundColor(blooming_dahlia);
                 word2.setText(getRandomArray(words_cwa)); word2.setBackgroundColor(blooming_dahlia);
                 word3.setText(getRandomArray(words_cwa)); word3.setBackgroundColor(blooming_dahlia);
@@ -2825,7 +5388,33 @@ public class MainActivity2 extends AppCompatActivity {
                 word10.setText(getRandomArray(words_cwa)); word10.setBackgroundColor(blooming_dahlia);
             }
 
-            private void resetWordsColor7() {
+            private void resetWordsColor6_Common_Words_Russian() {
+                word1.setText(getRandomArray(words_cwr)); word1.setBackgroundColor(blooming_dahlia);
+                word2.setText(getRandomArray(words_cwr)); word2.setBackgroundColor(blooming_dahlia);
+                word3.setText(getRandomArray(words_cwr)); word3.setBackgroundColor(blooming_dahlia);
+                word4.setText(getRandomArray(words_cwr)); word4.setBackgroundColor(blooming_dahlia);
+                word5.setText(getRandomArray(words_cwr)); word5.setBackgroundColor(blooming_dahlia);
+                word6.setText(getRandomArray(words_cwr)); word6.setBackgroundColor(blooming_dahlia);
+                word7.setText(getRandomArray(words_cwr)); word7.setBackgroundColor(blooming_dahlia);
+                word8.setText(getRandomArray(words_cwr)); word8.setBackgroundColor(blooming_dahlia);
+                word9.setText(getRandomArray(words_cwr)); word9.setBackgroundColor(blooming_dahlia);
+                word10.setText(getRandomArray(words_cwr)); word10.setBackgroundColor(blooming_dahlia);
+            }
+
+            private void resetWordsColor6_Common_Words_English() {
+                word1.setText(getRandomArray(words_cwe)); word1.setBackgroundColor(blooming_dahlia);
+                word2.setText(getRandomArray(words_cwe)); word2.setBackgroundColor(blooming_dahlia);
+                word3.setText(getRandomArray(words_cwe)); word3.setBackgroundColor(blooming_dahlia);
+                word4.setText(getRandomArray(words_cwe)); word4.setBackgroundColor(blooming_dahlia);
+                word5.setText(getRandomArray(words_cwe)); word5.setBackgroundColor(blooming_dahlia);
+                word6.setText(getRandomArray(words_cwe)); word6.setBackgroundColor(blooming_dahlia);
+                word7.setText(getRandomArray(words_cwe)); word7.setBackgroundColor(blooming_dahlia);
+                word8.setText(getRandomArray(words_cwe)); word8.setBackgroundColor(blooming_dahlia);
+                word9.setText(getRandomArray(words_cwe)); word9.setBackgroundColor(blooming_dahlia);
+                word10.setText(getRandomArray(words_cwe)); word10.setBackgroundColor(blooming_dahlia);
+            }
+
+            private void resetWordsColor7_Common_Words_Armenian() {
                 word1.setText(getRandomArray(words_cwa)); word1.setBackgroundColor(orange);
                 word2.setText(getRandomArray(words_cwa)); word2.setBackgroundColor(orange);
                 word3.setText(getRandomArray(words_cwa)); word3.setBackgroundColor(orange);
@@ -2838,7 +5427,33 @@ public class MainActivity2 extends AppCompatActivity {
                 word10.setText(getRandomArray(words_cwa)); word10.setBackgroundColor(orange);
             }
 
-            private void resetWordsColor8() {
+            private void resetWordsColor7_Common_Words_Russian() {
+                word1.setText(getRandomArray(words_cwr)); word1.setBackgroundColor(orange);
+                word2.setText(getRandomArray(words_cwr)); word2.setBackgroundColor(orange);
+                word3.setText(getRandomArray(words_cwr)); word3.setBackgroundColor(orange);
+                word4.setText(getRandomArray(words_cwr)); word4.setBackgroundColor(orange);
+                word5.setText(getRandomArray(words_cwr)); word5.setBackgroundColor(orange);
+                word6.setText(getRandomArray(words_cwr)); word6.setBackgroundColor(orange);
+                word7.setText(getRandomArray(words_cwr)); word7.setBackgroundColor(orange);
+                word8.setText(getRandomArray(words_cwr)); word8.setBackgroundColor(orange);
+                word9.setText(getRandomArray(words_cwr)); word9.setBackgroundColor(orange);
+                word10.setText(getRandomArray(words_cwr)); word10.setBackgroundColor(orange);
+            }
+
+            private void resetWordsColor7_Common_Words_English() {
+                word1.setText(getRandomArray(words_cwe)); word1.setBackgroundColor(orange);
+                word2.setText(getRandomArray(words_cwe)); word2.setBackgroundColor(orange);
+                word3.setText(getRandomArray(words_cwe)); word3.setBackgroundColor(orange);
+                word4.setText(getRandomArray(words_cwe)); word4.setBackgroundColor(orange);
+                word5.setText(getRandomArray(words_cwe)); word5.setBackgroundColor(orange);
+                word6.setText(getRandomArray(words_cwe)); word6.setBackgroundColor(orange);
+                word7.setText(getRandomArray(words_cwe)); word7.setBackgroundColor(orange);
+                word8.setText(getRandomArray(words_cwe)); word8.setBackgroundColor(orange);
+                word9.setText(getRandomArray(words_cwe)); word9.setBackgroundColor(orange);
+                word10.setText(getRandomArray(words_cwe)); word10.setBackgroundColor(orange);
+            }
+
+            private void resetWordsColor8_Common_Words_Armenian() {
                 word1.setText(getRandomArray(words_cwa)); word1.setBackgroundColor(light_blue);
                 word2.setText(getRandomArray(words_cwa)); word2.setBackgroundColor(light_blue);
                 word3.setText(getRandomArray(words_cwa)); word3.setBackgroundColor(light_blue);
@@ -2851,51 +5466,173 @@ public class MainActivity2 extends AppCompatActivity {
                 word10.setText(getRandomArray(words_cwa)); word10.setBackgroundColor(light_blue);
             }
 
+            private void resetWordsColor8_Common_Words_Russian() {
+                word1.setText(getRandomArray(words_cwr)); word1.setBackgroundColor(light_blue);
+                word2.setText(getRandomArray(words_cwr)); word2.setBackgroundColor(light_blue);
+                word3.setText(getRandomArray(words_cwr)); word3.setBackgroundColor(light_blue);
+                word4.setText(getRandomArray(words_cwr)); word4.setBackgroundColor(light_blue);
+                word5.setText(getRandomArray(words_cwr)); word5.setBackgroundColor(light_blue);
+                word6.setText(getRandomArray(words_cwr)); word6.setBackgroundColor(light_blue);
+                word7.setText(getRandomArray(words_cwr)); word7.setBackgroundColor(light_blue);
+                word8.setText(getRandomArray(words_cwr)); word8.setBackgroundColor(light_blue);
+                word9.setText(getRandomArray(words_cwr)); word9.setBackgroundColor(light_blue);
+                word10.setText(getRandomArray(words_cwr)); word10.setBackgroundColor(light_blue);
+            }
+
+            private void resetWordsColor8_Common_Words_English() {
+                word1.setText(getRandomArray(words_cwe)); word1.setBackgroundColor(light_blue);
+                word2.setText(getRandomArray(words_cwe)); word2.setBackgroundColor(light_blue);
+                word3.setText(getRandomArray(words_cwe)); word3.setBackgroundColor(light_blue);
+                word4.setText(getRandomArray(words_cwe)); word4.setBackgroundColor(light_blue);
+                word5.setText(getRandomArray(words_cwe)); word5.setBackgroundColor(light_blue);
+                word6.setText(getRandomArray(words_cwe)); word6.setBackgroundColor(light_blue);
+                word7.setText(getRandomArray(words_cwe)); word7.setBackgroundColor(light_blue);
+                word8.setText(getRandomArray(words_cwe)); word8.setBackgroundColor(light_blue);
+                word9.setText(getRandomArray(words_cwe)); word9.setBackgroundColor(light_blue);
+                word10.setText(getRandomArray(words_cwe)); word10.setBackgroundColor(light_blue);
+            }
+
             private void pageChangingColor1() {
-                if (clickcount == 10 || clickcount == 20 || clickcount == 30  || clickcount == 40 || clickcount == 50) {
-                    resetWordsColor1();
+                if ( MainActivity5.is_common_words_selected ) {
+                    if ( MainActivity6.Armenian ) {
+                        if (clickcount == 10 || clickcount == 20 || clickcount == 30  || clickcount == 40 || clickcount == 50) {
+                            resetWordsColor1_Common_Words_Armenian();
+                        }
+                    } else if ( MainActivity6.Russian ) {
+                        if (clickcount == 10 || clickcount == 20 || clickcount == 30  || clickcount == 40 || clickcount == 50) {
+                            resetWordsColor1_Common_Words_Russian();
+                        }
+                    } else if ( MainActivity6.English ) {
+                        if (clickcount == 10 || clickcount == 20 || clickcount == 30  || clickcount == 40 || clickcount == 50) {
+                            resetWordsColor1_Common_Words_English();
+                        }
+                    }
                 }
             }
 
             private void pageChangingColor2() {
-                if (clickcount == 10 || clickcount == 20 || clickcount == 30  || clickcount == 40 || clickcount == 50) {
-                    resetWordsColor2();
+                if ( MainActivity5.is_common_words_selected ) {
+                    if ( MainActivity6.Armenian ) {
+                        if (clickcount == 10 || clickcount == 20 || clickcount == 30  || clickcount == 40 || clickcount == 50) {
+                            resetWordsColor2_Common_Words_Armenian();
+                        }
+                    } else if ( MainActivity6.Russian ) {
+                        if (clickcount == 10 || clickcount == 20 || clickcount == 30  || clickcount == 40 || clickcount == 50) {
+                            resetWordsColor2_Common_Words_Russian();
+                        }
+                    } else if ( MainActivity6.English ) {
+                        if (clickcount == 10 || clickcount == 20 || clickcount == 30  || clickcount == 40 || clickcount == 50) {
+                            resetWordsColor2_Common_Words_English();
+                        }
+                    }
                 }
             }
 
             private void pageChangingColor3() {
-                if (clickcount == 10 || clickcount == 20 || clickcount == 30  || clickcount == 40 || clickcount == 50) {
-                    resetWordsColor3();
+                if ( MainActivity5.is_common_words_selected ) {
+                    if ( MainActivity6.Armenian ) {
+                        if (clickcount == 10 || clickcount == 20 || clickcount == 30  || clickcount == 40 || clickcount == 50) {
+                            resetWordsColor3_Common_Words_Armenian();
+                        }
+                    } else if ( MainActivity6.Russian ) {
+                        if (clickcount == 10 || clickcount == 20 || clickcount == 30  || clickcount == 40 || clickcount == 50) {
+                            resetWordsColor3_Common_Words_Russian();
+                        }
+                    } else if ( MainActivity6.English ) {
+                        if (clickcount == 10 || clickcount == 20 || clickcount == 30  || clickcount == 40 || clickcount == 50) {
+                            resetWordsColor3_Common_Words_English();
+                        }
+                    }
                 }
             }
 
             private void pageChangingColor4() {
-                if (clickcount == 10 || clickcount == 20 || clickcount == 30  || clickcount == 40 || clickcount == 50) {
-                    resetWordsColor4();
+                if ( MainActivity5.is_common_words_selected ) {
+                    if ( MainActivity6.Armenian ) {
+                        if (clickcount == 10 || clickcount == 20 || clickcount == 30  || clickcount == 40 || clickcount == 50) {
+                            resetWordsColor4_Common_Words_Armenian();
+                        }
+                    } else if ( MainActivity6.Russian ) {
+                        if (clickcount == 10 || clickcount == 20 || clickcount == 30  || clickcount == 40 || clickcount == 50) {
+                            resetWordsColor4_Common_Words_Russian();
+                        }
+                    } else if ( MainActivity6.English ) {
+                        if (clickcount == 10 || clickcount == 20 || clickcount == 30  || clickcount == 40 || clickcount == 50) {
+                            resetWordsColor4_Common_Words_English();
+                        }
+                    }
                 }
             }
 
             private void pageChangingColor5() {
-                if (clickcount == 10 || clickcount == 20 || clickcount == 30  || clickcount == 40 || clickcount == 50) {
-                    resetWordsColor5();
+                if ( MainActivity5.is_common_words_selected ) {
+                    if ( MainActivity6.Armenian ) {
+                        if (clickcount == 10 || clickcount == 20 || clickcount == 30  || clickcount == 40 || clickcount == 50) {
+                            resetWordsColor5_Common_Words_Armenian();
+                        }
+                    } else if ( MainActivity6.Russian ) {
+                        if (clickcount == 10 || clickcount == 20 || clickcount == 30  || clickcount == 40 || clickcount == 50) {
+                            resetWordsColor5_Common_Words_Russian();
+                        }
+                    } else if ( MainActivity6.English ) {
+                        if (clickcount == 10 || clickcount == 20 || clickcount == 30  || clickcount == 40 || clickcount == 50) {
+                            resetWordsColor5_Common_Words_English();
+                        }
+                    }
                 }
             }
 
             private void pageChangingColor6() {
-                if (clickcount == 10 || clickcount == 20 || clickcount == 30  || clickcount == 40 || clickcount == 50) {
-                    resetWordsColor6();
+                if ( MainActivity5.is_common_words_selected ) {
+                    if ( MainActivity6.Armenian ) {
+                        if (clickcount == 10 || clickcount == 20 || clickcount == 30  || clickcount == 40 || clickcount == 50) {
+                            resetWordsColor6_Common_Words_Armenian();
+                        }
+                    } else if ( MainActivity6.Russian ) {
+                        if (clickcount == 10 || clickcount == 20 || clickcount == 30  || clickcount == 40 || clickcount == 50) {
+                            resetWordsColor6_Common_Words_Russian();
+                        }
+                    } else if ( MainActivity6.English ) {
+                        if (clickcount == 10 || clickcount == 20 || clickcount == 30  || clickcount == 40 || clickcount == 50) {
+                            resetWordsColor6_Common_Words_English();
+                        }
+                    }
                 }
             }
 
             private void pageChangingColor7() {
-                if (clickcount == 10 || clickcount == 20 || clickcount == 30  || clickcount == 40 || clickcount == 50) {
-                    resetWordsColor7();
+                if ( MainActivity5.is_common_words_selected ) {
+                    if ( MainActivity6.Armenian ) {
+                        if (clickcount == 10 || clickcount == 20 || clickcount == 30  || clickcount == 40 || clickcount == 50) {
+                            resetWordsColor7_Common_Words_Armenian();
+                        }
+                    } else if ( MainActivity6.Russian ) {
+                        if (clickcount == 10 || clickcount == 20 || clickcount == 30  || clickcount == 40 || clickcount == 50) {
+                            resetWordsColor7_Common_Words_Russian();
+                        }
+                    } else if ( MainActivity6.English ) {
+                        if (clickcount == 10 || clickcount == 20 || clickcount == 30  || clickcount == 40 || clickcount == 50) {
+                            resetWordsColor7_Common_Words_English();
+                        }
+                    }
                 }
             }
 
             private void pageChangingColor8() {
-                if (clickcount == 10 || clickcount == 20 || clickcount == 30  || clickcount == 40 || clickcount == 50) {
-                    resetWordsColor8();
+                if ( MainActivity5.is_common_words_selected ) {
+                    if ( MainActivity6.Armenian ) {
+                        if (clickcount == 10 || clickcount == 20 || clickcount == 30  || clickcount == 40 || clickcount == 50) {
+                            resetWordsColor8_Common_Words_Armenian();
+                        }
+                    } else if ( MainActivity6.Russian ) {
+                        if (clickcount == 10 || clickcount == 20 || clickcount == 30  || clickcount == 40 || clickcount == 50) {
+                            resetWordsColor8_Common_Words_Russian();
+                        }
+                    } else if ( MainActivity6.English ) {
+                        if (clickcount == 10 || clickcount == 20 || clickcount == 30  || clickcount == 40 || clickcount == 50) {
+                            resetWordsColor8_Common_Words_English();
+                        }
+                    }
                 }
             }
         });
@@ -3048,7 +5785,7 @@ public class MainActivity2 extends AppCompatActivity {
                 }
             }
 
-            private void resetWordsColor1() {
+            private void resetWordsColor1_Common_Words_Armenian() {
                 word1.setText(getRandomArray(words_cwa)); word1.setBackgroundColor(white);
                 word2.setText(getRandomArray(words_cwa)); word2.setBackgroundColor(white);
                 word3.setText(getRandomArray(words_cwa)); word3.setBackgroundColor(white);
@@ -3061,7 +5798,33 @@ public class MainActivity2 extends AppCompatActivity {
                 word10.setText(getRandomArray(words_cwa)); word10.setBackgroundColor(white);
             }
 
-            private void resetWordsColor2() {
+            private void resetWordsColor1_Common_Words_Russian() {
+                word1.setText(getRandomArray(words_cwr)); word1.setBackgroundColor(white);
+                word2.setText(getRandomArray(words_cwr)); word2.setBackgroundColor(white);
+                word3.setText(getRandomArray(words_cwr)); word3.setBackgroundColor(white);
+                word4.setText(getRandomArray(words_cwr)); word4.setBackgroundColor(white);
+                word5.setText(getRandomArray(words_cwr)); word5.setBackgroundColor(white);
+                word6.setText(getRandomArray(words_cwr)); word6.setBackgroundColor(white);
+                word7.setText(getRandomArray(words_cwr)); word7.setBackgroundColor(white);
+                word8.setText(getRandomArray(words_cwr)); word8.setBackgroundColor(white);
+                word9.setText(getRandomArray(words_cwr)); word9.setBackgroundColor(white);
+                word10.setText(getRandomArray(words_cwr)); word10.setBackgroundColor(white);
+            }
+
+            private void resetWordsColor1_Common_Words_English() {
+                word1.setText(getRandomArray(words_cwe)); word1.setBackgroundColor(white);
+                word2.setText(getRandomArray(words_cwe)); word2.setBackgroundColor(white);
+                word3.setText(getRandomArray(words_cwe)); word3.setBackgroundColor(white);
+                word4.setText(getRandomArray(words_cwe)); word4.setBackgroundColor(white);
+                word5.setText(getRandomArray(words_cwe)); word5.setBackgroundColor(white);
+                word6.setText(getRandomArray(words_cwe)); word6.setBackgroundColor(white);
+                word7.setText(getRandomArray(words_cwe)); word7.setBackgroundColor(white);
+                word8.setText(getRandomArray(words_cwe)); word8.setBackgroundColor(white);
+                word9.setText(getRandomArray(words_cwe)); word9.setBackgroundColor(white);
+                word10.setText(getRandomArray(words_cwe)); word10.setBackgroundColor(white);
+            }
+
+            private void resetWordsColor2_Common_Words_Armenian() {
                 word1.setText(getRandomArray(words_cwa)); word1.setBackgroundColor(dark_emerald_green);
                 word2.setText(getRandomArray(words_cwa)); word2.setBackgroundColor(dark_emerald_green);
                 word3.setText(getRandomArray(words_cwa)); word3.setBackgroundColor(dark_emerald_green);
@@ -3074,7 +5837,33 @@ public class MainActivity2 extends AppCompatActivity {
                 word10.setText(getRandomArray(words_cwa)); word10.setBackgroundColor(dark_emerald_green);
             }
 
-            private void resetWordsColor3() {
+            private void resetWordsColor2_Common_Words_Russian() {
+                word1.setText(getRandomArray(words_cwr)); word1.setBackgroundColor(dark_emerald_green);
+                word2.setText(getRandomArray(words_cwr)); word2.setBackgroundColor(dark_emerald_green);
+                word3.setText(getRandomArray(words_cwr)); word3.setBackgroundColor(dark_emerald_green);
+                word4.setText(getRandomArray(words_cwr)); word4.setBackgroundColor(dark_emerald_green);
+                word5.setText(getRandomArray(words_cwr)); word5.setBackgroundColor(dark_emerald_green);
+                word6.setText(getRandomArray(words_cwr)); word6.setBackgroundColor(dark_emerald_green);
+                word7.setText(getRandomArray(words_cwr)); word7.setBackgroundColor(dark_emerald_green);
+                word8.setText(getRandomArray(words_cwr)); word8.setBackgroundColor(dark_emerald_green);
+                word9.setText(getRandomArray(words_cwr)); word9.setBackgroundColor(dark_emerald_green);
+                word10.setText(getRandomArray(words_cwr)); word10.setBackgroundColor(dark_emerald_green);
+            }
+
+            private void resetWordsColor2_Common_Words_English() {
+                word1.setText(getRandomArray(words_cwe)); word1.setBackgroundColor(dark_emerald_green);
+                word2.setText(getRandomArray(words_cwe)); word2.setBackgroundColor(dark_emerald_green);
+                word3.setText(getRandomArray(words_cwe)); word3.setBackgroundColor(dark_emerald_green);
+                word4.setText(getRandomArray(words_cwe)); word4.setBackgroundColor(dark_emerald_green);
+                word5.setText(getRandomArray(words_cwe)); word5.setBackgroundColor(dark_emerald_green);
+                word6.setText(getRandomArray(words_cwe)); word6.setBackgroundColor(dark_emerald_green);
+                word7.setText(getRandomArray(words_cwe)); word7.setBackgroundColor(dark_emerald_green);
+                word8.setText(getRandomArray(words_cwe)); word8.setBackgroundColor(dark_emerald_green);
+                word9.setText(getRandomArray(words_cwe)); word9.setBackgroundColor(dark_emerald_green);
+                word10.setText(getRandomArray(words_cwe)); word10.setBackgroundColor(dark_emerald_green);
+            }
+
+            private void resetWordsColor3_Common_Words_Armenian() {
                 word1.setText(getRandomArray(words_cwa)); word1.setBackgroundColor(yellow);
                 word2.setText(getRandomArray(words_cwa)); word2.setBackgroundColor(yellow);
                 word3.setText(getRandomArray(words_cwa)); word3.setBackgroundColor(yellow);
@@ -3087,7 +5876,33 @@ public class MainActivity2 extends AppCompatActivity {
                 word10.setText(getRandomArray(words_cwa)); word10.setBackgroundColor(yellow);
             }
 
-            private void resetWordsColor4() {
+            private void resetWordsColor3_Common_Words_Russian() {
+                word1.setText(getRandomArray(words_cwr)); word1.setBackgroundColor(yellow);
+                word2.setText(getRandomArray(words_cwr)); word2.setBackgroundColor(yellow);
+                word3.setText(getRandomArray(words_cwr)); word3.setBackgroundColor(yellow);
+                word4.setText(getRandomArray(words_cwr)); word4.setBackgroundColor(yellow);
+                word5.setText(getRandomArray(words_cwr)); word5.setBackgroundColor(yellow);
+                word6.setText(getRandomArray(words_cwr)); word6.setBackgroundColor(yellow);
+                word7.setText(getRandomArray(words_cwr)); word7.setBackgroundColor(yellow);
+                word8.setText(getRandomArray(words_cwr)); word8.setBackgroundColor(yellow);
+                word9.setText(getRandomArray(words_cwr)); word9.setBackgroundColor(yellow);
+                word10.setText(getRandomArray(words_cwr)); word10.setBackgroundColor(yellow);
+            }
+
+            private void resetWordsColor3_Common_Words_English() {
+                word1.setText(getRandomArray(words_cwe)); word1.setBackgroundColor(yellow);
+                word2.setText(getRandomArray(words_cwe)); word2.setBackgroundColor(yellow);
+                word3.setText(getRandomArray(words_cwe)); word3.setBackgroundColor(yellow);
+                word4.setText(getRandomArray(words_cwe)); word4.setBackgroundColor(yellow);
+                word5.setText(getRandomArray(words_cwe)); word5.setBackgroundColor(yellow);
+                word6.setText(getRandomArray(words_cwe)); word6.setBackgroundColor(yellow);
+                word7.setText(getRandomArray(words_cwe)); word7.setBackgroundColor(yellow);
+                word8.setText(getRandomArray(words_cwe)); word8.setBackgroundColor(yellow);
+                word9.setText(getRandomArray(words_cwe)); word9.setBackgroundColor(yellow);
+                word10.setText(getRandomArray(words_cwe)); word10.setBackgroundColor(yellow);
+            }
+
+            private void resetWordsColor4_Common_Words_Armenian() {
                 word1.setText(getRandomArray(words_cwa)); word1.setBackgroundColor(red);
                 word2.setText(getRandomArray(words_cwa)); word2.setBackgroundColor(red);
                 word3.setText(getRandomArray(words_cwa)); word3.setBackgroundColor(red);
@@ -3100,7 +5915,33 @@ public class MainActivity2 extends AppCompatActivity {
                 word10.setText(getRandomArray(words_cwa)); word10.setBackgroundColor(red);
             }
 
-            private void resetWordsColor5() {
+            private void resetWordsColor4_Common_Words_Russian() {
+                word1.setText(getRandomArray(words_cwr)); word1.setBackgroundColor(red);
+                word2.setText(getRandomArray(words_cwr)); word2.setBackgroundColor(red);
+                word3.setText(getRandomArray(words_cwr)); word3.setBackgroundColor(red);
+                word4.setText(getRandomArray(words_cwr)); word4.setBackgroundColor(red);
+                word5.setText(getRandomArray(words_cwr)); word5.setBackgroundColor(red);
+                word6.setText(getRandomArray(words_cwr)); word6.setBackgroundColor(red);
+                word7.setText(getRandomArray(words_cwr)); word7.setBackgroundColor(red);
+                word8.setText(getRandomArray(words_cwr)); word8.setBackgroundColor(red);
+                word9.setText(getRandomArray(words_cwr)); word9.setBackgroundColor(red);
+                word10.setText(getRandomArray(words_cwr)); word10.setBackgroundColor(red);
+            }
+
+            private void resetWordsColor4_Common_Words_English() {
+                word1.setText(getRandomArray(words_cwe)); word1.setBackgroundColor(red);
+                word2.setText(getRandomArray(words_cwe)); word2.setBackgroundColor(red);
+                word3.setText(getRandomArray(words_cwe)); word3.setBackgroundColor(red);
+                word4.setText(getRandomArray(words_cwe)); word4.setBackgroundColor(red);
+                word5.setText(getRandomArray(words_cwe)); word5.setBackgroundColor(red);
+                word6.setText(getRandomArray(words_cwe)); word6.setBackgroundColor(red);
+                word7.setText(getRandomArray(words_cwe)); word7.setBackgroundColor(red);
+                word8.setText(getRandomArray(words_cwe)); word8.setBackgroundColor(red);
+                word9.setText(getRandomArray(words_cwe)); word9.setBackgroundColor(red);
+                word10.setText(getRandomArray(words_cwe)); word10.setBackgroundColor(red);
+            }
+
+            private void resetWordsColor5_Common_Words_Armenian() {
                 word1.setText(getRandomArray(words_cwa)); word1.setBackgroundColor(teal);
                 word2.setText(getRandomArray(words_cwa)); word2.setBackgroundColor(teal);
                 word3.setText(getRandomArray(words_cwa)); word3.setBackgroundColor(teal);
@@ -3113,7 +5954,33 @@ public class MainActivity2 extends AppCompatActivity {
                 word10.setText(getRandomArray(words_cwa)); word10.setBackgroundColor(teal);
             }
 
-            private void resetWordsColor6() {
+            private void resetWordsColor5_Common_Words_Russian() {
+                word1.setText(getRandomArray(words_cwr)); word1.setBackgroundColor(teal);
+                word2.setText(getRandomArray(words_cwr)); word2.setBackgroundColor(teal);
+                word3.setText(getRandomArray(words_cwr)); word3.setBackgroundColor(teal);
+                word4.setText(getRandomArray(words_cwr)); word4.setBackgroundColor(teal);
+                word5.setText(getRandomArray(words_cwr)); word5.setBackgroundColor(teal);
+                word6.setText(getRandomArray(words_cwr)); word6.setBackgroundColor(teal);
+                word7.setText(getRandomArray(words_cwr)); word7.setBackgroundColor(teal);
+                word8.setText(getRandomArray(words_cwr)); word8.setBackgroundColor(teal);
+                word9.setText(getRandomArray(words_cwr)); word9.setBackgroundColor(teal);
+                word10.setText(getRandomArray(words_cwr)); word10.setBackgroundColor(teal);
+            }
+
+            private void resetWordsColor5_Common_Words_English() {
+                word1.setText(getRandomArray(words_cwe)); word1.setBackgroundColor(teal);
+                word2.setText(getRandomArray(words_cwe)); word2.setBackgroundColor(teal);
+                word3.setText(getRandomArray(words_cwe)); word3.setBackgroundColor(teal);
+                word4.setText(getRandomArray(words_cwe)); word4.setBackgroundColor(teal);
+                word5.setText(getRandomArray(words_cwe)); word5.setBackgroundColor(teal);
+                word6.setText(getRandomArray(words_cwe)); word6.setBackgroundColor(teal);
+                word7.setText(getRandomArray(words_cwe)); word7.setBackgroundColor(teal);
+                word8.setText(getRandomArray(words_cwe)); word8.setBackgroundColor(teal);
+                word9.setText(getRandomArray(words_cwe)); word9.setBackgroundColor(teal);
+                word10.setText(getRandomArray(words_cwe)); word10.setBackgroundColor(teal);
+            }
+
+            private void resetWordsColor6_Common_Words_Armenian() {
                 word1.setText(getRandomArray(words_cwa)); word1.setBackgroundColor(blooming_dahlia);
                 word2.setText(getRandomArray(words_cwa)); word2.setBackgroundColor(blooming_dahlia);
                 word3.setText(getRandomArray(words_cwa)); word3.setBackgroundColor(blooming_dahlia);
@@ -3126,7 +5993,33 @@ public class MainActivity2 extends AppCompatActivity {
                 word10.setText(getRandomArray(words_cwa)); word10.setBackgroundColor(blooming_dahlia);
             }
 
-            private void resetWordsColor7() {
+            private void resetWordsColor6_Common_Words_Russian() {
+                word1.setText(getRandomArray(words_cwr)); word1.setBackgroundColor(blooming_dahlia);
+                word2.setText(getRandomArray(words_cwr)); word2.setBackgroundColor(blooming_dahlia);
+                word3.setText(getRandomArray(words_cwr)); word3.setBackgroundColor(blooming_dahlia);
+                word4.setText(getRandomArray(words_cwr)); word4.setBackgroundColor(blooming_dahlia);
+                word5.setText(getRandomArray(words_cwr)); word5.setBackgroundColor(blooming_dahlia);
+                word6.setText(getRandomArray(words_cwr)); word6.setBackgroundColor(blooming_dahlia);
+                word7.setText(getRandomArray(words_cwr)); word7.setBackgroundColor(blooming_dahlia);
+                word8.setText(getRandomArray(words_cwr)); word8.setBackgroundColor(blooming_dahlia);
+                word9.setText(getRandomArray(words_cwr)); word9.setBackgroundColor(blooming_dahlia);
+                word10.setText(getRandomArray(words_cwr)); word10.setBackgroundColor(blooming_dahlia);
+            }
+
+            private void resetWordsColor6_Common_Words_English() {
+                word1.setText(getRandomArray(words_cwe)); word1.setBackgroundColor(blooming_dahlia);
+                word2.setText(getRandomArray(words_cwe)); word2.setBackgroundColor(blooming_dahlia);
+                word3.setText(getRandomArray(words_cwe)); word3.setBackgroundColor(blooming_dahlia);
+                word4.setText(getRandomArray(words_cwe)); word4.setBackgroundColor(blooming_dahlia);
+                word5.setText(getRandomArray(words_cwe)); word5.setBackgroundColor(blooming_dahlia);
+                word6.setText(getRandomArray(words_cwe)); word6.setBackgroundColor(blooming_dahlia);
+                word7.setText(getRandomArray(words_cwe)); word7.setBackgroundColor(blooming_dahlia);
+                word8.setText(getRandomArray(words_cwe)); word8.setBackgroundColor(blooming_dahlia);
+                word9.setText(getRandomArray(words_cwe)); word9.setBackgroundColor(blooming_dahlia);
+                word10.setText(getRandomArray(words_cwe)); word10.setBackgroundColor(blooming_dahlia);
+            }
+
+            private void resetWordsColor7_Common_Words_Armenian() {
                 word1.setText(getRandomArray(words_cwa)); word1.setBackgroundColor(orange);
                 word2.setText(getRandomArray(words_cwa)); word2.setBackgroundColor(orange);
                 word3.setText(getRandomArray(words_cwa)); word3.setBackgroundColor(orange);
@@ -3139,7 +6032,33 @@ public class MainActivity2 extends AppCompatActivity {
                 word10.setText(getRandomArray(words_cwa)); word10.setBackgroundColor(orange);
             }
 
-            private void resetWordsColor8() {
+            private void resetWordsColor7_Common_Words_Russian() {
+                word1.setText(getRandomArray(words_cwr)); word1.setBackgroundColor(orange);
+                word2.setText(getRandomArray(words_cwr)); word2.setBackgroundColor(orange);
+                word3.setText(getRandomArray(words_cwr)); word3.setBackgroundColor(orange);
+                word4.setText(getRandomArray(words_cwr)); word4.setBackgroundColor(orange);
+                word5.setText(getRandomArray(words_cwr)); word5.setBackgroundColor(orange);
+                word6.setText(getRandomArray(words_cwr)); word6.setBackgroundColor(orange);
+                word7.setText(getRandomArray(words_cwr)); word7.setBackgroundColor(orange);
+                word8.setText(getRandomArray(words_cwr)); word8.setBackgroundColor(orange);
+                word9.setText(getRandomArray(words_cwr)); word9.setBackgroundColor(orange);
+                word10.setText(getRandomArray(words_cwr)); word10.setBackgroundColor(orange);
+            }
+
+            private void resetWordsColor7_Common_Words_English() {
+                word1.setText(getRandomArray(words_cwe)); word1.setBackgroundColor(orange);
+                word2.setText(getRandomArray(words_cwe)); word2.setBackgroundColor(orange);
+                word3.setText(getRandomArray(words_cwe)); word3.setBackgroundColor(orange);
+                word4.setText(getRandomArray(words_cwe)); word4.setBackgroundColor(orange);
+                word5.setText(getRandomArray(words_cwe)); word5.setBackgroundColor(orange);
+                word6.setText(getRandomArray(words_cwe)); word6.setBackgroundColor(orange);
+                word7.setText(getRandomArray(words_cwe)); word7.setBackgroundColor(orange);
+                word8.setText(getRandomArray(words_cwe)); word8.setBackgroundColor(orange);
+                word9.setText(getRandomArray(words_cwe)); word9.setBackgroundColor(orange);
+                word10.setText(getRandomArray(words_cwe)); word10.setBackgroundColor(orange);
+            }
+
+            private void resetWordsColor8_Common_Words_Armenian() {
                 word1.setText(getRandomArray(words_cwa)); word1.setBackgroundColor(light_blue);
                 word2.setText(getRandomArray(words_cwa)); word2.setBackgroundColor(light_blue);
                 word3.setText(getRandomArray(words_cwa)); word3.setBackgroundColor(light_blue);
@@ -3152,51 +6071,173 @@ public class MainActivity2 extends AppCompatActivity {
                 word10.setText(getRandomArray(words_cwa)); word10.setBackgroundColor(light_blue);
             }
 
+            private void resetWordsColor8_Common_Words_Russian() {
+                word1.setText(getRandomArray(words_cwr)); word1.setBackgroundColor(light_blue);
+                word2.setText(getRandomArray(words_cwr)); word2.setBackgroundColor(light_blue);
+                word3.setText(getRandomArray(words_cwr)); word3.setBackgroundColor(light_blue);
+                word4.setText(getRandomArray(words_cwr)); word4.setBackgroundColor(light_blue);
+                word5.setText(getRandomArray(words_cwr)); word5.setBackgroundColor(light_blue);
+                word6.setText(getRandomArray(words_cwr)); word6.setBackgroundColor(light_blue);
+                word7.setText(getRandomArray(words_cwr)); word7.setBackgroundColor(light_blue);
+                word8.setText(getRandomArray(words_cwr)); word8.setBackgroundColor(light_blue);
+                word9.setText(getRandomArray(words_cwr)); word9.setBackgroundColor(light_blue);
+                word10.setText(getRandomArray(words_cwr)); word10.setBackgroundColor(light_blue);
+            }
+
+            private void resetWordsColor8_Common_Words_English() {
+                word1.setText(getRandomArray(words_cwe)); word1.setBackgroundColor(light_blue);
+                word2.setText(getRandomArray(words_cwe)); word2.setBackgroundColor(light_blue);
+                word3.setText(getRandomArray(words_cwe)); word3.setBackgroundColor(light_blue);
+                word4.setText(getRandomArray(words_cwe)); word4.setBackgroundColor(light_blue);
+                word5.setText(getRandomArray(words_cwe)); word5.setBackgroundColor(light_blue);
+                word6.setText(getRandomArray(words_cwe)); word6.setBackgroundColor(light_blue);
+                word7.setText(getRandomArray(words_cwe)); word7.setBackgroundColor(light_blue);
+                word8.setText(getRandomArray(words_cwe)); word8.setBackgroundColor(light_blue);
+                word9.setText(getRandomArray(words_cwe)); word9.setBackgroundColor(light_blue);
+                word10.setText(getRandomArray(words_cwe)); word10.setBackgroundColor(light_blue);
+            }
+
             private void pageChangingColor1() {
-                if (clickcount == 10 || clickcount == 20 || clickcount == 30  || clickcount == 40 || clickcount == 50) {
-                    resetWordsColor1();
+                if ( MainActivity5.is_common_words_selected ) {
+                    if ( MainActivity6.Armenian ) {
+                        if (clickcount == 10 || clickcount == 20 || clickcount == 30  || clickcount == 40 || clickcount == 50) {
+                            resetWordsColor1_Common_Words_Armenian();
+                        }
+                    } else if ( MainActivity6.Russian ) {
+                        if (clickcount == 10 || clickcount == 20 || clickcount == 30  || clickcount == 40 || clickcount == 50) {
+                            resetWordsColor1_Common_Words_Russian();
+                        }
+                    } else if ( MainActivity6.English ) {
+                        if (clickcount == 10 || clickcount == 20 || clickcount == 30  || clickcount == 40 || clickcount == 50) {
+                            resetWordsColor1_Common_Words_English();
+                        }
+                    }
                 }
             }
 
             private void pageChangingColor2() {
-                if (clickcount == 10 || clickcount == 20 || clickcount == 30  || clickcount == 40 || clickcount == 50) {
-                    resetWordsColor2();
+                if ( MainActivity5.is_common_words_selected ) {
+                    if ( MainActivity6.Armenian ) {
+                        if (clickcount == 10 || clickcount == 20 || clickcount == 30  || clickcount == 40 || clickcount == 50) {
+                            resetWordsColor2_Common_Words_Armenian();
+                        }
+                    } else if ( MainActivity6.Russian ) {
+                        if (clickcount == 10 || clickcount == 20 || clickcount == 30  || clickcount == 40 || clickcount == 50) {
+                            resetWordsColor2_Common_Words_Russian();
+                        }
+                    } else if ( MainActivity6.English ) {
+                        if (clickcount == 10 || clickcount == 20 || clickcount == 30  || clickcount == 40 || clickcount == 50) {
+                            resetWordsColor2_Common_Words_English();
+                        }
+                    }
                 }
             }
 
             private void pageChangingColor3() {
-                if (clickcount == 10 || clickcount == 20 || clickcount == 30  || clickcount == 40 || clickcount == 50) {
-                    resetWordsColor3();
+                if ( MainActivity5.is_common_words_selected ) {
+                    if ( MainActivity6.Armenian ) {
+                        if (clickcount == 10 || clickcount == 20 || clickcount == 30  || clickcount == 40 || clickcount == 50) {
+                            resetWordsColor3_Common_Words_Armenian();
+                        }
+                    } else if ( MainActivity6.Russian ) {
+                        if (clickcount == 10 || clickcount == 20 || clickcount == 30  || clickcount == 40 || clickcount == 50) {
+                            resetWordsColor3_Common_Words_Russian();
+                        }
+                    } else if ( MainActivity6.English ) {
+                        if (clickcount == 10 || clickcount == 20 || clickcount == 30  || clickcount == 40 || clickcount == 50) {
+                            resetWordsColor3_Common_Words_English();
+                        }
+                    }
                 }
             }
 
             private void pageChangingColor4() {
-                if (clickcount == 10 || clickcount == 20 || clickcount == 30  || clickcount == 40 || clickcount == 50) {
-                    resetWordsColor4();
+                if ( MainActivity5.is_common_words_selected ) {
+                    if ( MainActivity6.Armenian ) {
+                        if (clickcount == 10 || clickcount == 20 || clickcount == 30  || clickcount == 40 || clickcount == 50) {
+                            resetWordsColor4_Common_Words_Armenian();
+                        }
+                    } else if ( MainActivity6.Russian ) {
+                        if (clickcount == 10 || clickcount == 20 || clickcount == 30  || clickcount == 40 || clickcount == 50) {
+                            resetWordsColor4_Common_Words_Russian();
+                        }
+                    } else if ( MainActivity6.English ) {
+                        if (clickcount == 10 || clickcount == 20 || clickcount == 30  || clickcount == 40 || clickcount == 50) {
+                            resetWordsColor4_Common_Words_English();
+                        }
+                    }
                 }
             }
 
             private void pageChangingColor5() {
-                if (clickcount == 10 || clickcount == 20 || clickcount == 30  || clickcount == 40 || clickcount == 50) {
-                    resetWordsColor5();
+                if ( MainActivity5.is_common_words_selected ) {
+                    if ( MainActivity6.Armenian ) {
+                        if (clickcount == 10 || clickcount == 20 || clickcount == 30  || clickcount == 40 || clickcount == 50) {
+                            resetWordsColor5_Common_Words_Armenian();
+                        }
+                    } else if ( MainActivity6.Russian ) {
+                        if (clickcount == 10 || clickcount == 20 || clickcount == 30  || clickcount == 40 || clickcount == 50) {
+                            resetWordsColor5_Common_Words_Russian();
+                        }
+                    } else if ( MainActivity6.English ) {
+                        if (clickcount == 10 || clickcount == 20 || clickcount == 30  || clickcount == 40 || clickcount == 50) {
+                            resetWordsColor5_Common_Words_English();
+                        }
+                    }
                 }
             }
 
             private void pageChangingColor6() {
-                if (clickcount == 10 || clickcount == 20 || clickcount == 30  || clickcount == 40 || clickcount == 50) {
-                    resetWordsColor6();
+                if ( MainActivity5.is_common_words_selected ) {
+                    if ( MainActivity6.Armenian ) {
+                        if (clickcount == 10 || clickcount == 20 || clickcount == 30  || clickcount == 40 || clickcount == 50) {
+                            resetWordsColor6_Common_Words_Armenian();
+                        }
+                    } else if ( MainActivity6.Russian ) {
+                        if (clickcount == 10 || clickcount == 20 || clickcount == 30  || clickcount == 40 || clickcount == 50) {
+                            resetWordsColor6_Common_Words_Russian();
+                        }
+                    } else if ( MainActivity6.English ) {
+                        if (clickcount == 10 || clickcount == 20 || clickcount == 30  || clickcount == 40 || clickcount == 50) {
+                            resetWordsColor6_Common_Words_English();
+                        }
+                    }
                 }
             }
 
             private void pageChangingColor7() {
-                if (clickcount == 10 || clickcount == 20 || clickcount == 30  || clickcount == 40 || clickcount == 50) {
-                    resetWordsColor7();
+                if ( MainActivity5.is_common_words_selected ) {
+                    if ( MainActivity6.Armenian ) {
+                        if (clickcount == 10 || clickcount == 20 || clickcount == 30  || clickcount == 40 || clickcount == 50) {
+                            resetWordsColor7_Common_Words_Armenian();
+                        }
+                    } else if ( MainActivity6.Russian ) {
+                        if (clickcount == 10 || clickcount == 20 || clickcount == 30  || clickcount == 40 || clickcount == 50) {
+                            resetWordsColor7_Common_Words_Russian();
+                        }
+                    } else if ( MainActivity6.English ) {
+                        if (clickcount == 10 || clickcount == 20 || clickcount == 30  || clickcount == 40 || clickcount == 50) {
+                            resetWordsColor7_Common_Words_English();
+                        }
+                    }
                 }
             }
 
             private void pageChangingColor8() {
-                if (clickcount == 10 || clickcount == 20 || clickcount == 30  || clickcount == 40 || clickcount == 50) {
-                    resetWordsColor8();
+                if ( MainActivity5.is_common_words_selected ) {
+                    if ( MainActivity6.Armenian ) {
+                        if (clickcount == 10 || clickcount == 20 || clickcount == 30  || clickcount == 40 || clickcount == 50) {
+                            resetWordsColor8_Common_Words_Armenian();
+                        }
+                    } else if ( MainActivity6.Russian ) {
+                        if (clickcount == 10 || clickcount == 20 || clickcount == 30  || clickcount == 40 || clickcount == 50) {
+                            resetWordsColor8_Common_Words_Russian();
+                        }
+                    } else if ( MainActivity6.English ) {
+                        if (clickcount == 10 || clickcount == 20 || clickcount == 30  || clickcount == 40 || clickcount == 50) {
+                            resetWordsColor8_Common_Words_English();
+                        }
+                    }
                 }
             }
         });
