@@ -7,17 +7,25 @@
 
     <color name="pure_gold">#E5B80B</color>
     <color name="dark_emerald_green">#105E26</color>
+    <color name="dark_emerald_green_dark">#0A3D19</color>
 
     <color name="yellow">#FFFF00</color>
+    <color name="yellow_dark">#949400</color>
 
     <color name="red">#B00000</color>
+    <color name="red_dark">#750000</color>
 
     <color name="coral">#FF7F50</color>
     <color name="teal">#00A8A8</color>
+    <color name="teal_dark">#006666</color>
 
     <color name="purple">#571182</color>
     <color name="blooming_dahlia">#EC9968</color>
+    <color name="blooming_dahlia_dark">#A86D4A</color>
 
     <color name="orange">#FFA500</color>
+    <color name="orange_dark">#AD7000</color>
+
     <color name="light_blue">#00A2E8</color>
+    <color name="light_blue_dark">#005D85</color>
 </resources>

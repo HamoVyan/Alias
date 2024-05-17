@@ -79,6 +79,7 @@ public class MainActivity2 extends AppCompatActivity {
         LinearLayout linearlayout = findViewById(R.id.linearlayout);
         ConstraintLayout main2 = findViewById(R.id.main2);
 
+        /*Common Words*/
         if ( MainActivity5.is_common_words_selected ) {
             if ( MainActivity6.Armenian ) {
                 db.collection("Common Words-arm").get()
@@ -163,527 +164,3039 @@ public class MainActivity2 extends AppCompatActivity {
                         });
             }
         }
+        /*Common Words*/
 
+        /*Colors*/
         int black = ContextCompat.getColor(this, R.color.black);
         int white = ContextCompat.getColor(this, R.color.white);
+        int gray = ContextCompat.getColor(this, R.color.gray);
         int pure_gold = ContextCompat.getColor(this, R.color.pure_gold);
         int dark_emerald_green = ContextCompat.getColor(this, R.color.dark_emerald_green);
+        int dark_emerald_green_dark = ContextCompat.getColor(this, R.color.dark_emerald_green_dark);
         int yellow = ContextCompat.getColor(this, R.color.yellow);
+        int yellow_dark = ContextCompat.getColor(this, R.color.yellow_dark);
         int red = ContextCompat.getColor(this, R.color.red);
+        int red_dark = ContextCompat.getColor(this, R.color.red_dark);
         int coral = ContextCompat.getColor(this, R.color.coral);
         int teal = ContextCompat.getColor(this, R.color.teal);
+        int teal_dark = ContextCompat.getColor(this, R.color.teal_dark);
         int purple = ContextCompat.getColor(this, R.color.purple);
         int blooming_dahlia = ContextCompat.getColor(this, R.color.blooming_dahlia);
+        int blooming_dahlia_dark = ContextCompat.getColor(this, R.color.blooming_dahlia_dark);
         int orange = ContextCompat.getColor(this, R.color.orange);
+        int orange_dark = ContextCompat.getColor(this, R.color.orange_dark);
         int light_blue = ContextCompat.getColor(this, R.color.light_blue);
+        int light_blue_dark = ContextCompat.getColor(this, R.color.light_blue_dark);
+        /*Colors*/
 
         /*Words*/
         word1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 if (word1.getBackground() instanceof ColorDrawable) {
-                    int color = ((ColorDrawable) word1.getBackground()).getColor();
-                    if ( color == white ) {
-                        word1.setBackgroundColor(Color.GRAY);
+                    int color1 = ((ColorDrawable) word1.getBackground()).getColor();
+                    if ( color1 == white ) {
+                        word1.setBackgroundColor(gray);
                         clickcount++;
                         points_value.setText(String.valueOf(clickcount));
-                        pageChanging();
-                    } else if (color == Color.GRAY) {
+                        pageChangingColor1();
+                    } else if (color1 == gray) {
                         word1.setBackgroundColor(white);
                         clickcount--;
                         points_value.setText(String.valueOf(clickcount));
                     }
                 } else {
-                    word1.setBackgroundColor(Color.GRAY);
+                    word1.setBackgroundColor(gray);
                     clickcount++;
                     points_value.setText(String.valueOf(clickcount));
-                    pageChanging();
+                    pageChangingColor1();
+                }
+                if (word1.getBackground() instanceof ColorDrawable) {
+                    int color2 = ((ColorDrawable) word1.getBackground()).getColor();
+                    if ( color2 == dark_emerald_green ) {
+                        word1.setBackgroundColor(dark_emerald_green_dark);
+                        clickcount++;
+                        points_value.setText(String.valueOf(clickcount));
+                        pageChangingColor2();
+                    } else if (color2 == dark_emerald_green_dark) {
+                        word1.setBackgroundColor(dark_emerald_green);
+                        clickcount--;
+                        points_value.setText(String.valueOf(clickcount));
+                    }
+                } else {
+                    word1.setBackgroundColor(dark_emerald_green_dark);
+                    clickcount++;
+                    points_value.setText(String.valueOf(clickcount));
+                    pageChangingColor2();
+                }
+                if (word1.getBackground() instanceof ColorDrawable) {
+                    int color3 = ((ColorDrawable) word1.getBackground()).getColor();
+                    if ( color3 == yellow ) {
+                        word1.setBackgroundColor(yellow_dark);
+                        clickcount++;
+                        points_value.setText(String.valueOf(clickcount));
+                        pageChangingColor3();
+                    } else if (color3 == yellow_dark) {
+                        word1.setBackgroundColor(yellow);
+                        clickcount--;
+                        points_value.setText(String.valueOf(clickcount));
+                    }
+                } else {
+                    word1.setBackgroundColor(yellow_dark);
+                    clickcount++;
+                    points_value.setText(String.valueOf(clickcount));
+                    pageChangingColor3();
+                }
+                if (word1.getBackground() instanceof ColorDrawable) {
+                    int color4 = ((ColorDrawable) word1.getBackground()).getColor();
+                    if ( color4 == red ) {
+                        word1.setBackgroundColor(red_dark);
+                        clickcount++;
+                        points_value.setText(String.valueOf(clickcount));
+                        pageChangingColor4();
+                    } else if (color4 == red_dark) {
+                        word1.setBackgroundColor(red);
+                        clickcount--;
+                        points_value.setText(String.valueOf(clickcount));
+                    }
+                } else {
+                    word1.setBackgroundColor(red_dark);
+                    clickcount++;
+                    points_value.setText(String.valueOf(clickcount));
+                    pageChangingColor4();
+                }
+                if (word1.getBackground() instanceof ColorDrawable) {
+                    int color4 = ((ColorDrawable) word1.getBackground()).getColor();
+                    if ( color4 == teal ) {
+                        word1.setBackgroundColor(teal_dark);
+                        clickcount++;
+                        points_value.setText(String.valueOf(clickcount));
+                        pageChangingColor5();
+                    } else if (color4 == teal_dark) {
+                        word1.setBackgroundColor(teal);
+                        clickcount--;
+                        points_value.setText(String.valueOf(clickcount));
+                    }
+                } else {
+                    word1.setBackgroundColor(teal_dark);
+                    clickcount++;
+                    points_value.setText(String.valueOf(clickcount));
+                    pageChangingColor5();
+                }
+                if (word1.getBackground() instanceof ColorDrawable) {
+                    int color4 = ((ColorDrawable) word1.getBackground()).getColor();
+                    if ( color4 == blooming_dahlia ) {
+                        word1.setBackgroundColor(blooming_dahlia_dark);
+                        clickcount++;
+                        points_value.setText(String.valueOf(clickcount));
+                        pageChangingColor6();
+                    } else if (color4 == blooming_dahlia_dark) {
+                        word1.setBackgroundColor(blooming_dahlia);
+                        clickcount--;
+                        points_value.setText(String.valueOf(clickcount));
+                    }
+                } else {
+                    word1.setBackgroundColor(teal_dark);
+                    clickcount++;
+                    points_value.setText(String.valueOf(clickcount));
+                    pageChangingColor6();
+                }
+                if (word1.getBackground() instanceof ColorDrawable) {
+                    int color4 = ((ColorDrawable) word1.getBackground()).getColor();
+                    if ( color4 == orange ) {
+                        word1.setBackgroundColor(orange_dark);
+                        clickcount++;
+                        points_value.setText(String.valueOf(clickcount));
+                        pageChangingColor7();
+                    } else if (color4 == orange_dark) {
+                        word1.setBackgroundColor(orange);
+                        clickcount--;
+                        points_value.setText(String.valueOf(clickcount));
+                    }
+                } else {
+                    word1.setBackgroundColor(orange_dark);
+                    clickcount++;
+                    points_value.setText(String.valueOf(clickcount));
+                    pageChangingColor7();
+                }
+                if (word1.getBackground() instanceof ColorDrawable) {
+                    int color4 = ((ColorDrawable) word1.getBackground()).getColor();
+                    if ( color4 == light_blue ) {
+                        word1.setBackgroundColor(light_blue_dark);
+                        clickcount++;
+                        points_value.setText(String.valueOf(clickcount));
+                        pageChangingColor8();
+                    } else if (color4 == light_blue_dark) {
+                        word1.setBackgroundColor(light_blue);
+                        clickcount--;
+                        points_value.setText(String.valueOf(clickcount));
+                    }
+                } else {
+                    word1.setBackgroundColor(light_blue_dark);
+                    clickcount++;
+                    points_value.setText(String.valueOf(clickcount));
+                    pageChangingColor8();
                 }
             }
 
-            private void resetWords() {
-                word1.setText(getRandomArray(words_cwa)); word1.setBackgroundColor(Color.WHITE);
-                word2.setText(getRandomArray(words_cwa)); word2.setBackgroundColor(Color.WHITE);
-                word3.setText(getRandomArray(words_cwa)); word3.setBackgroundColor(Color.WHITE);
-                word4.setText(getRandomArray(words_cwa)); word4.setBackgroundColor(Color.WHITE);
-                word5.setText(getRandomArray(words_cwa)); word5.setBackgroundColor(Color.WHITE);
-                word6.setText(getRandomArray(words_cwa)); word6.setBackgroundColor(Color.WHITE);
-                word7.setText(getRandomArray(words_cwa)); word7.setBackgroundColor(Color.WHITE);
-                word8.setText(getRandomArray(words_cwa)); word8.setBackgroundColor(Color.WHITE);
-                word9.setText(getRandomArray(words_cwa)); word9.setBackgroundColor(Color.WHITE);
-                word10.setText(getRandomArray(words_cwa)); word10.setBackgroundColor(Color.WHITE);
+            private void resetWordsColor1() {
+                word1.setText(getRandomArray(words_cwa)); word1.setBackgroundColor(white);
+                word2.setText(getRandomArray(words_cwa)); word2.setBackgroundColor(white);
+                word3.setText(getRandomArray(words_cwa)); word3.setBackgroundColor(white);
+                word4.setText(getRandomArray(words_cwa)); word4.setBackgroundColor(white);
+                word5.setText(getRandomArray(words_cwa)); word5.setBackgroundColor(white);
+                word6.setText(getRandomArray(words_cwa)); word6.setBackgroundColor(white);
+                word7.setText(getRandomArray(words_cwa)); word7.setBackgroundColor(white);
+                word8.setText(getRandomArray(words_cwa)); word8.setBackgroundColor(white);
+                word9.setText(getRandomArray(words_cwa)); word9.setBackgroundColor(white);
+                word10.setText(getRandomArray(words_cwa)); word10.setBackgroundColor(white);
             }
 
-            private void pageChanging() {
-                if (clickcount == 10) {
-                    resetWords();
-                } else if (clickcount == 20) {
-                    resetWords();
-                } else if (clickcount == 30) {
-                    resetWords();
-                } else if (clickcount == 40) {
-                    resetWords();
-                } else if (clickcount == 50) {
-                    resetWords();
+            private void resetWordsColor2() {
+                word1.setText(getRandomArray(words_cwa)); word1.setBackgroundColor(dark_emerald_green);
+                word2.setText(getRandomArray(words_cwa)); word2.setBackgroundColor(dark_emerald_green);
+                word3.setText(getRandomArray(words_cwa)); word3.setBackgroundColor(dark_emerald_green);
+                word4.setText(getRandomArray(words_cwa)); word4.setBackgroundColor(dark_emerald_green);
+                word5.setText(getRandomArray(words_cwa)); word5.setBackgroundColor(dark_emerald_green);
+                word6.setText(getRandomArray(words_cwa)); word6.setBackgroundColor(dark_emerald_green);
+                word7.setText(getRandomArray(words_cwa)); word7.setBackgroundColor(dark_emerald_green);
+                word8.setText(getRandomArray(words_cwa)); word8.setBackgroundColor(dark_emerald_green);
+                word9.setText(getRandomArray(words_cwa)); word9.setBackgroundColor(dark_emerald_green);
+                word10.setText(getRandomArray(words_cwa)); word10.setBackgroundColor(dark_emerald_green);
+            }
+
+            private void resetWordsColor3() {
+                word1.setText(getRandomArray(words_cwa)); word1.setBackgroundColor(yellow);
+                word2.setText(getRandomArray(words_cwa)); word2.setBackgroundColor(yellow);
+                word3.setText(getRandomArray(words_cwa)); word3.setBackgroundColor(yellow);
+                word4.setText(getRandomArray(words_cwa)); word4.setBackgroundColor(yellow);
+                word5.setText(getRandomArray(words_cwa)); word5.setBackgroundColor(yellow);
+                word6.setText(getRandomArray(words_cwa)); word6.setBackgroundColor(yellow);
+                word7.setText(getRandomArray(words_cwa)); word7.setBackgroundColor(yellow);
+                word8.setText(getRandomArray(words_cwa)); word8.setBackgroundColor(yellow);
+                word9.setText(getRandomArray(words_cwa)); word9.setBackgroundColor(yellow);
+                word10.setText(getRandomArray(words_cwa)); word10.setBackgroundColor(yellow);
+            }
+
+            private void resetWordsColor4() {
+                word1.setText(getRandomArray(words_cwa)); word1.setBackgroundColor(red);
+                word2.setText(getRandomArray(words_cwa)); word2.setBackgroundColor(red);
+                word3.setText(getRandomArray(words_cwa)); word3.setBackgroundColor(red);
+                word4.setText(getRandomArray(words_cwa)); word4.setBackgroundColor(red);
+                word5.setText(getRandomArray(words_cwa)); word5.setBackgroundColor(red);
+                word6.setText(getRandomArray(words_cwa)); word6.setBackgroundColor(red);
+                word7.setText(getRandomArray(words_cwa)); word7.setBackgroundColor(red);
+                word8.setText(getRandomArray(words_cwa)); word8.setBackgroundColor(red);
+                word9.setText(getRandomArray(words_cwa)); word9.setBackgroundColor(red);
+                word10.setText(getRandomArray(words_cwa)); word10.setBackgroundColor(red);
+            }
+
+            private void resetWordsColor5() {
+                word1.setText(getRandomArray(words_cwa)); word1.setBackgroundColor(teal);
+                word2.setText(getRandomArray(words_cwa)); word2.setBackgroundColor(teal);
+                word3.setText(getRandomArray(words_cwa)); word3.setBackgroundColor(teal);
+                word4.setText(getRandomArray(words_cwa)); word4.setBackgroundColor(teal);
+                word5.setText(getRandomArray(words_cwa)); word5.setBackgroundColor(teal);
+                word6.setText(getRandomArray(words_cwa)); word6.setBackgroundColor(teal);
+                word7.setText(getRandomArray(words_cwa)); word7.setBackgroundColor(teal);
+                word8.setText(getRandomArray(words_cwa)); word8.setBackgroundColor(teal);
+                word9.setText(getRandomArray(words_cwa)); word9.setBackgroundColor(teal);
+                word10.setText(getRandomArray(words_cwa)); word10.setBackgroundColor(teal);
+            }
+
+            private void resetWordsColor6() {
+                word1.setText(getRandomArray(words_cwa)); word1.setBackgroundColor(blooming_dahlia);
+                word2.setText(getRandomArray(words_cwa)); word2.setBackgroundColor(blooming_dahlia);
+                word3.setText(getRandomArray(words_cwa)); word3.setBackgroundColor(blooming_dahlia);
+                word4.setText(getRandomArray(words_cwa)); word4.setBackgroundColor(blooming_dahlia);
+                word5.setText(getRandomArray(words_cwa)); word5.setBackgroundColor(blooming_dahlia);
+                word6.setText(getRandomArray(words_cwa)); word6.setBackgroundColor(blooming_dahlia);
+                word7.setText(getRandomArray(words_cwa)); word7.setBackgroundColor(blooming_dahlia);
+                word8.setText(getRandomArray(words_cwa)); word8.setBackgroundColor(blooming_dahlia);
+                word9.setText(getRandomArray(words_cwa)); word9.setBackgroundColor(blooming_dahlia);
+                word10.setText(getRandomArray(words_cwa)); word10.setBackgroundColor(blooming_dahlia);
+            }
+
+            private void resetWordsColor7() {
+                word1.setText(getRandomArray(words_cwa)); word1.setBackgroundColor(orange);
+                word2.setText(getRandomArray(words_cwa)); word2.setBackgroundColor(orange);
+                word3.setText(getRandomArray(words_cwa)); word3.setBackgroundColor(orange);
+                word4.setText(getRandomArray(words_cwa)); word4.setBackgroundColor(orange);
+                word5.setText(getRandomArray(words_cwa)); word5.setBackgroundColor(orange);
+                word6.setText(getRandomArray(words_cwa)); word6.setBackgroundColor(orange);
+                word7.setText(getRandomArray(words_cwa)); word7.setBackgroundColor(orange);
+                word8.setText(getRandomArray(words_cwa)); word8.setBackgroundColor(orange);
+                word9.setText(getRandomArray(words_cwa)); word9.setBackgroundColor(orange);
+                word10.setText(getRandomArray(words_cwa)); word10.setBackgroundColor(orange);
+            }
+
+            private void resetWordsColor8() {
+                word1.setText(getRandomArray(words_cwa)); word1.setBackgroundColor(light_blue);
+                word2.setText(getRandomArray(words_cwa)); word2.setBackgroundColor(light_blue);
+                word3.setText(getRandomArray(words_cwa)); word3.setBackgroundColor(light_blue);
+                word4.setText(getRandomArray(words_cwa)); word4.setBackgroundColor(light_blue);
+                word5.setText(getRandomArray(words_cwa)); word5.setBackgroundColor(light_blue);
+                word6.setText(getRandomArray(words_cwa)); word6.setBackgroundColor(light_blue);
+                word7.setText(getRandomArray(words_cwa)); word7.setBackgroundColor(light_blue);
+                word8.setText(getRandomArray(words_cwa)); word8.setBackgroundColor(light_blue);
+                word9.setText(getRandomArray(words_cwa)); word9.setBackgroundColor(light_blue);
+                word10.setText(getRandomArray(words_cwa)); word10.setBackgroundColor(light_blue);
+            }
+
+            private void pageChangingColor1() {
+                if (clickcount == 10 || clickcount == 20 || clickcount == 30  || clickcount == 40 || clickcount == 50) {
+                    resetWordsColor1();
+                }
+            }
+
+            private void pageChangingColor2() {
+                if (clickcount == 10 || clickcount == 20 || clickcount == 30  || clickcount == 40 || clickcount == 50) {
+                    resetWordsColor2();
+                }
+            }
+
+            private void pageChangingColor3() {
+                if (clickcount == 10 || clickcount == 20 || clickcount == 30  || clickcount == 40 || clickcount == 50) {
+                    resetWordsColor3();
+                }
+            }
+
+            private void pageChangingColor4() {
+                if (clickcount == 10 || clickcount == 20 || clickcount == 30  || clickcount == 40 || clickcount == 50) {
+                    resetWordsColor4();
+                }
+            }
+
+            private void pageChangingColor5() {
+                if (clickcount == 10 || clickcount == 20 || clickcount == 30  || clickcount == 40 || clickcount == 50) {
+                    resetWordsColor5();
+                }
+            }
+
+            private void pageChangingColor6() {
+                if (clickcount == 10 || clickcount == 20 || clickcount == 30  || clickcount == 40 || clickcount == 50) {
+                    resetWordsColor6();
+                }
+            }
+
+            private void pageChangingColor7() {
+                if (clickcount == 10 || clickcount == 20 || clickcount == 30  || clickcount == 40 || clickcount == 50) {
+                    resetWordsColor7();
+                }
+            }
+
+            private void pageChangingColor8() {
+                if (clickcount == 10 || clickcount == 20 || clickcount == 30  || clickcount == 40 || clickcount == 50) {
+                    resetWordsColor8();
                 }
             }
         });
-
         word2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 if (word2.getBackground() instanceof ColorDrawable) {
-                    int color = ((ColorDrawable) word2.getBackground()).getColor();
-                    if (color == Color.WHITE) {
-                        word2.setBackgroundColor(Color.GRAY);
+                    int color1 = ((ColorDrawable) word2.getBackground()).getColor();
+                    if ( color1 == white ) {
+                        word2.setBackgroundColor(gray);
                         clickcount++;
                         points_value.setText(String.valueOf(clickcount));
-                        pageChanging();
-                    } else if (color == Color.GRAY) {
-                        word2.setBackgroundColor(Color.WHITE);
+                        pageChangingColor1();
+                    } else if (color1 == gray) {
+                        word2.setBackgroundColor(white);
                         clickcount--;
                         points_value.setText(String.valueOf(clickcount));
                     }
                 } else {
-                    word2.setBackgroundColor(Color.GRAY);
+                    word2.setBackgroundColor(gray);
                     clickcount++;
                     points_value.setText(String.valueOf(clickcount));
-                    pageChanging();
+                    pageChangingColor1();
+                }
+                if (word2.getBackground() instanceof ColorDrawable) {
+                    int color2 = ((ColorDrawable) word2.getBackground()).getColor();
+                    if ( color2 == dark_emerald_green ) {
+                        word2.setBackgroundColor(dark_emerald_green_dark);
+                        clickcount++;
+                        points_value.setText(String.valueOf(clickcount));
+                        pageChangingColor2();
+                    } else if (color2 == dark_emerald_green_dark) {
+                        word2.setBackgroundColor(dark_emerald_green);
+                        clickcount--;
+                        points_value.setText(String.valueOf(clickcount));
+                    }
+                } else {
+                    word2.setBackgroundColor(dark_emerald_green_dark);
+                    clickcount++;
+                    points_value.setText(String.valueOf(clickcount));
+                    pageChangingColor2();
+                }
+                if (word2.getBackground() instanceof ColorDrawable) {
+                    int color3 = ((ColorDrawable) word2.getBackground()).getColor();
+                    if ( color3 == yellow ) {
+                        word2.setBackgroundColor(yellow_dark);
+                        clickcount++;
+                        points_value.setText(String.valueOf(clickcount));
+                        pageChangingColor3();
+                    } else if (color3 == yellow_dark) {
+                        word2.setBackgroundColor(yellow);
+                        clickcount--;
+                        points_value.setText(String.valueOf(clickcount));
+                    }
+                } else {
+                    word2.setBackgroundColor(yellow_dark);
+                    clickcount++;
+                    points_value.setText(String.valueOf(clickcount));
+                    pageChangingColor3();
+                }
+                if (word2.getBackground() instanceof ColorDrawable) {
+                    int color4 = ((ColorDrawable) word2.getBackground()).getColor();
+                    if ( color4 == red ) {
+                        word2.setBackgroundColor(red_dark);
+                        clickcount++;
+                        points_value.setText(String.valueOf(clickcount));
+                        pageChangingColor4();
+                    } else if (color4 == red_dark) {
+                        word2.setBackgroundColor(red);
+                        clickcount--;
+                        points_value.setText(String.valueOf(clickcount));
+                    }
+                } else {
+                    word2.setBackgroundColor(red_dark);
+                    clickcount++;
+                    points_value.setText(String.valueOf(clickcount));
+                    pageChangingColor4();
+                }
+                if (word2.getBackground() instanceof ColorDrawable) {
+                    int color4 = ((ColorDrawable) word2.getBackground()).getColor();
+                    if ( color4 == teal ) {
+                        word2.setBackgroundColor(teal_dark);
+                        clickcount++;
+                        points_value.setText(String.valueOf(clickcount));
+                        pageChangingColor5();
+                    } else if (color4 == teal_dark) {
+                        word2.setBackgroundColor(teal);
+                        clickcount--;
+                        points_value.setText(String.valueOf(clickcount));
+                    }
+                } else {
+                    word2.setBackgroundColor(teal_dark);
+                    clickcount++;
+                    points_value.setText(String.valueOf(clickcount));
+                    pageChangingColor5();
+                }
+                if (word2.getBackground() instanceof ColorDrawable) {
+                    int color4 = ((ColorDrawable) word2.getBackground()).getColor();
+                    if ( color4 == blooming_dahlia ) {
+                        word2.setBackgroundColor(blooming_dahlia_dark);
+                        clickcount++;
+                        points_value.setText(String.valueOf(clickcount));
+                        pageChangingColor6();
+                    } else if (color4 == blooming_dahlia_dark) {
+                        word2.setBackgroundColor(blooming_dahlia);
+                        clickcount--;
+                        points_value.setText(String.valueOf(clickcount));
+                    }
+                } else {
+                    word2.setBackgroundColor(teal_dark);
+                    clickcount++;
+                    points_value.setText(String.valueOf(clickcount));
+                    pageChangingColor6();
+                }
+                if (word2.getBackground() instanceof ColorDrawable) {
+                    int color4 = ((ColorDrawable) word2.getBackground()).getColor();
+                    if ( color4 == orange ) {
+                        word2.setBackgroundColor(orange_dark);
+                        clickcount++;
+                        points_value.setText(String.valueOf(clickcount));
+                        pageChangingColor7();
+                    } else if (color4 == orange_dark) {
+                        word2.setBackgroundColor(orange);
+                        clickcount--;
+                        points_value.setText(String.valueOf(clickcount));
+                    }
+                } else {
+                    word2.setBackgroundColor(orange_dark);
+                    clickcount++;
+                    points_value.setText(String.valueOf(clickcount));
+                    pageChangingColor7();
+                }
+                if (word2.getBackground() instanceof ColorDrawable) {
+                    int color4 = ((ColorDrawable) word2.getBackground()).getColor();
+                    if ( color4 == light_blue ) {
+                        word2.setBackgroundColor(light_blue_dark);
+                        clickcount++;
+                        points_value.setText(String.valueOf(clickcount));
+                        pageChangingColor8();
+                    } else if (color4 == light_blue_dark) {
+                        word2.setBackgroundColor(light_blue);
+                        clickcount--;
+                        points_value.setText(String.valueOf(clickcount));
+                    }
+                } else {
+                    word2.setBackgroundColor(light_blue_dark);
+                    clickcount++;
+                    points_value.setText(String.valueOf(clickcount));
+                    pageChangingColor8();
                 }
             }
 
-            private void resetWords() {
-                word1.setText(getRandomArray(words_cwa)); word1.setBackgroundColor(Color.WHITE);
-                word2.setText(getRandomArray(words_cwa)); word2.setBackgroundColor(Color.WHITE);
-                word3.setText(getRandomArray(words_cwa)); word3.setBackgroundColor(Color.WHITE);
-                word4.setText(getRandomArray(words_cwa)); word4.setBackgroundColor(Color.WHITE);
-                word5.setText(getRandomArray(words_cwa)); word5.setBackgroundColor(Color.WHITE);
-                word6.setText(getRandomArray(words_cwa)); word6.setBackgroundColor(Color.WHITE);
-                word7.setText(getRandomArray(words_cwa)); word7.setBackgroundColor(Color.WHITE);
-                word8.setText(getRandomArray(words_cwa)); word8.setBackgroundColor(Color.WHITE);
-                word9.setText(getRandomArray(words_cwa)); word9.setBackgroundColor(Color.WHITE);
-                word10.setText(getRandomArray(words_cwa)); word10.setBackgroundColor(Color.WHITE);
+            private void resetWordsColor1() {
+                word1.setText(getRandomArray(words_cwa)); word1.setBackgroundColor(white);
+                word2.setText(getRandomArray(words_cwa)); word2.setBackgroundColor(white);
+                word3.setText(getRandomArray(words_cwa)); word3.setBackgroundColor(white);
+                word4.setText(getRandomArray(words_cwa)); word4.setBackgroundColor(white);
+                word5.setText(getRandomArray(words_cwa)); word5.setBackgroundColor(white);
+                word6.setText(getRandomArray(words_cwa)); word6.setBackgroundColor(white);
+                word7.setText(getRandomArray(words_cwa)); word7.setBackgroundColor(white);
+                word8.setText(getRandomArray(words_cwa)); word8.setBackgroundColor(white);
+                word9.setText(getRandomArray(words_cwa)); word9.setBackgroundColor(white);
+                word10.setText(getRandomArray(words_cwa)); word10.setBackgroundColor(white);
             }
 
-            private void pageChanging() {
-                if (clickcount == 10) {
-                    resetWords();
-                } else if (clickcount == 20) {
-                    resetWords();
-                } else if (clickcount == 30) {
-                    resetWords();
-                } else if (clickcount == 40) {
-                    resetWords();
-                } else if (clickcount == 50) {
-                    resetWords();
+            private void resetWordsColor2() {
+                word1.setText(getRandomArray(words_cwa)); word1.setBackgroundColor(dark_emerald_green);
+                word2.setText(getRandomArray(words_cwa)); word2.setBackgroundColor(dark_emerald_green);
+                word3.setText(getRandomArray(words_cwa)); word3.setBackgroundColor(dark_emerald_green);
+                word4.setText(getRandomArray(words_cwa)); word4.setBackgroundColor(dark_emerald_green);
+                word5.setText(getRandomArray(words_cwa)); word5.setBackgroundColor(dark_emerald_green);
+                word6.setText(getRandomArray(words_cwa)); word6.setBackgroundColor(dark_emerald_green);
+                word7.setText(getRandomArray(words_cwa)); word7.setBackgroundColor(dark_emerald_green);
+                word8.setText(getRandomArray(words_cwa)); word8.setBackgroundColor(dark_emerald_green);
+                word9.setText(getRandomArray(words_cwa)); word9.setBackgroundColor(dark_emerald_green);
+                word10.setText(getRandomArray(words_cwa)); word10.setBackgroundColor(dark_emerald_green);
+            }
+
+            private void resetWordsColor3() {
+                word1.setText(getRandomArray(words_cwa)); word1.setBackgroundColor(yellow);
+                word2.setText(getRandomArray(words_cwa)); word2.setBackgroundColor(yellow);
+                word3.setText(getRandomArray(words_cwa)); word3.setBackgroundColor(yellow);
+                word4.setText(getRandomArray(words_cwa)); word4.setBackgroundColor(yellow);
+                word5.setText(getRandomArray(words_cwa)); word5.setBackgroundColor(yellow);
+                word6.setText(getRandomArray(words_cwa)); word6.setBackgroundColor(yellow);
+                word7.setText(getRandomArray(words_cwa)); word7.setBackgroundColor(yellow);
+                word8.setText(getRandomArray(words_cwa)); word8.setBackgroundColor(yellow);
+                word9.setText(getRandomArray(words_cwa)); word9.setBackgroundColor(yellow);
+                word10.setText(getRandomArray(words_cwa)); word10.setBackgroundColor(yellow);
+            }
+
+            private void resetWordsColor4() {
+                word1.setText(getRandomArray(words_cwa)); word1.setBackgroundColor(red);
+                word2.setText(getRandomArray(words_cwa)); word2.setBackgroundColor(red);
+                word3.setText(getRandomArray(words_cwa)); word3.setBackgroundColor(red);
+                word4.setText(getRandomArray(words_cwa)); word4.setBackgroundColor(red);
+                word5.setText(getRandomArray(words_cwa)); word5.setBackgroundColor(red);
+                word6.setText(getRandomArray(words_cwa)); word6.setBackgroundColor(red);
+                word7.setText(getRandomArray(words_cwa)); word7.setBackgroundColor(red);
+                word8.setText(getRandomArray(words_cwa)); word8.setBackgroundColor(red);
+                word9.setText(getRandomArray(words_cwa)); word9.setBackgroundColor(red);
+                word10.setText(getRandomArray(words_cwa)); word10.setBackgroundColor(red);
+            }
+
+            private void resetWordsColor5() {
+                word1.setText(getRandomArray(words_cwa)); word1.setBackgroundColor(teal);
+                word2.setText(getRandomArray(words_cwa)); word2.setBackgroundColor(teal);
+                word3.setText(getRandomArray(words_cwa)); word3.setBackgroundColor(teal);
+                word4.setText(getRandomArray(words_cwa)); word4.setBackgroundColor(teal);
+                word5.setText(getRandomArray(words_cwa)); word5.setBackgroundColor(teal);
+                word6.setText(getRandomArray(words_cwa)); word6.setBackgroundColor(teal);
+                word7.setText(getRandomArray(words_cwa)); word7.setBackgroundColor(teal);
+                word8.setText(getRandomArray(words_cwa)); word8.setBackgroundColor(teal);
+                word9.setText(getRandomArray(words_cwa)); word9.setBackgroundColor(teal);
+                word10.setText(getRandomArray(words_cwa)); word10.setBackgroundColor(teal);
+            }
+
+            private void resetWordsColor6() {
+                word1.setText(getRandomArray(words_cwa)); word1.setBackgroundColor(blooming_dahlia);
+                word2.setText(getRandomArray(words_cwa)); word2.setBackgroundColor(blooming_dahlia);
+                word3.setText(getRandomArray(words_cwa)); word3.setBackgroundColor(blooming_dahlia);
+                word4.setText(getRandomArray(words_cwa)); word4.setBackgroundColor(blooming_dahlia);
+                word5.setText(getRandomArray(words_cwa)); word5.setBackgroundColor(blooming_dahlia);
+                word6.setText(getRandomArray(words_cwa)); word6.setBackgroundColor(blooming_dahlia);
+                word7.setText(getRandomArray(words_cwa)); word7.setBackgroundColor(blooming_dahlia);
+                word8.setText(getRandomArray(words_cwa)); word8.setBackgroundColor(blooming_dahlia);
+                word9.setText(getRandomArray(words_cwa)); word9.setBackgroundColor(blooming_dahlia);
+                word10.setText(getRandomArray(words_cwa)); word10.setBackgroundColor(blooming_dahlia);
+            }
+
+            private void resetWordsColor7() {
+                word1.setText(getRandomArray(words_cwa)); word1.setBackgroundColor(orange);
+                word2.setText(getRandomArray(words_cwa)); word2.setBackgroundColor(orange);
+                word3.setText(getRandomArray(words_cwa)); word3.setBackgroundColor(orange);
+                word4.setText(getRandomArray(words_cwa)); word4.setBackgroundColor(orange);
+                word5.setText(getRandomArray(words_cwa)); word5.setBackgroundColor(orange);
+                word6.setText(getRandomArray(words_cwa)); word6.setBackgroundColor(orange);
+                word7.setText(getRandomArray(words_cwa)); word7.setBackgroundColor(orange);
+                word8.setText(getRandomArray(words_cwa)); word8.setBackgroundColor(orange);
+                word9.setText(getRandomArray(words_cwa)); word9.setBackgroundColor(orange);
+                word10.setText(getRandomArray(words_cwa)); word10.setBackgroundColor(orange);
+            }
+
+            private void resetWordsColor8() {
+                word1.setText(getRandomArray(words_cwa)); word1.setBackgroundColor(light_blue);
+                word2.setText(getRandomArray(words_cwa)); word2.setBackgroundColor(light_blue);
+                word3.setText(getRandomArray(words_cwa)); word3.setBackgroundColor(light_blue);
+                word4.setText(getRandomArray(words_cwa)); word4.setBackgroundColor(light_blue);
+                word5.setText(getRandomArray(words_cwa)); word5.setBackgroundColor(light_blue);
+                word6.setText(getRandomArray(words_cwa)); word6.setBackgroundColor(light_blue);
+                word7.setText(getRandomArray(words_cwa)); word7.setBackgroundColor(light_blue);
+                word8.setText(getRandomArray(words_cwa)); word8.setBackgroundColor(light_blue);
+                word9.setText(getRandomArray(words_cwa)); word9.setBackgroundColor(light_blue);
+                word10.setText(getRandomArray(words_cwa)); word10.setBackgroundColor(light_blue);
+            }
+
+            private void pageChangingColor1() {
+                if (clickcount == 10 || clickcount == 20 || clickcount == 30  || clickcount == 40 || clickcount == 50) {
+                    resetWordsColor1();
+                }
+            }
+
+            private void pageChangingColor2() {
+                if (clickcount == 10 || clickcount == 20 || clickcount == 30  || clickcount == 40 || clickcount == 50) {
+                    resetWordsColor2();
+                }
+            }
+
+            private void pageChangingColor3() {
+                if (clickcount == 10 || clickcount == 20 || clickcount == 30  || clickcount == 40 || clickcount == 50) {
+                    resetWordsColor3();
+                }
+            }
+
+            private void pageChangingColor4() {
+                if (clickcount == 10 || clickcount == 20 || clickcount == 30  || clickcount == 40 || clickcount == 50) {
+                    resetWordsColor4();
+                }
+            }
+
+            private void pageChangingColor5() {
+                if (clickcount == 10 || clickcount == 20 || clickcount == 30  || clickcount == 40 || clickcount == 50) {
+                    resetWordsColor5();
+                }
+            }
+
+            private void pageChangingColor6() {
+                if (clickcount == 10 || clickcount == 20 || clickcount == 30  || clickcount == 40 || clickcount == 50) {
+                    resetWordsColor6();
+                }
+            }
+
+            private void pageChangingColor7() {
+                if (clickcount == 10 || clickcount == 20 || clickcount == 30  || clickcount == 40 || clickcount == 50) {
+                    resetWordsColor7();
+                }
+            }
+
+            private void pageChangingColor8() {
+                if (clickcount == 10 || clickcount == 20 || clickcount == 30  || clickcount == 40 || clickcount == 50) {
+                    resetWordsColor8();
                 }
             }
         });
-
         word3.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 if (word3.getBackground() instanceof ColorDrawable) {
-                    int color = ((ColorDrawable) word3.getBackground()).getColor();
-                    if (color == Color.WHITE) {
-                        word3.setBackgroundColor(Color.GRAY);
+                    int color1 = ((ColorDrawable) word3.getBackground()).getColor();
+                    if ( color1 == white ) {
+                        word3.setBackgroundColor(gray);
                         clickcount++;
                         points_value.setText(String.valueOf(clickcount));
-                        pageChanging();
-                    } else if (color == Color.GRAY) {
-                        word3.setBackgroundColor(Color.WHITE);
+                        pageChangingColor1();
+                    } else if (color1 == gray) {
+                        word3.setBackgroundColor(white);
                         clickcount--;
                         points_value.setText(String.valueOf(clickcount));
                     }
                 } else {
-                    word3.setBackgroundColor(Color.GRAY);
+                    word3.setBackgroundColor(gray);
                     clickcount++;
                     points_value.setText(String.valueOf(clickcount));
-                    pageChanging();
+                    pageChangingColor1();
+                }
+                if (word3.getBackground() instanceof ColorDrawable) {
+                    int color2 = ((ColorDrawable) word3.getBackground()).getColor();
+                    if ( color2 == dark_emerald_green ) {
+                        word3.setBackgroundColor(dark_emerald_green_dark);
+                        clickcount++;
+                        points_value.setText(String.valueOf(clickcount));
+                        pageChangingColor2();
+                    } else if (color2 == dark_emerald_green_dark) {
+                        word3.setBackgroundColor(dark_emerald_green);
+                        clickcount--;
+                        points_value.setText(String.valueOf(clickcount));
+                    }
+                } else {
+                    word3.setBackgroundColor(dark_emerald_green_dark);
+                    clickcount++;
+                    points_value.setText(String.valueOf(clickcount));
+                    pageChangingColor2();
+                }
+                if (word3.getBackground() instanceof ColorDrawable) {
+                    int color3 = ((ColorDrawable) word3.getBackground()).getColor();
+                    if ( color3 == yellow ) {
+                        word3.setBackgroundColor(yellow_dark);
+                        clickcount++;
+                        points_value.setText(String.valueOf(clickcount));
+                        pageChangingColor3();
+                    } else if (color3 == yellow_dark) {
+                        word3.setBackgroundColor(yellow);
+                        clickcount--;
+                        points_value.setText(String.valueOf(clickcount));
+                    }
+                } else {
+                    word3.setBackgroundColor(yellow_dark);
+                    clickcount++;
+                    points_value.setText(String.valueOf(clickcount));
+                    pageChangingColor3();
+                }
+                if (word3.getBackground() instanceof ColorDrawable) {
+                    int color4 = ((ColorDrawable) word3.getBackground()).getColor();
+                    if ( color4 == red ) {
+                        word3.setBackgroundColor(red_dark);
+                        clickcount++;
+                        points_value.setText(String.valueOf(clickcount));
+                        pageChangingColor4();
+                    } else if (color4 == red_dark) {
+                        word3.setBackgroundColor(red);
+                        clickcount--;
+                        points_value.setText(String.valueOf(clickcount));
+                    }
+                } else {
+                    word3.setBackgroundColor(red_dark);
+                    clickcount++;
+                    points_value.setText(String.valueOf(clickcount));
+                    pageChangingColor4();
+                }
+                if (word3.getBackground() instanceof ColorDrawable) {
+                    int color4 = ((ColorDrawable) word3.getBackground()).getColor();
+                    if ( color4 == teal ) {
+                        word3.setBackgroundColor(teal_dark);
+                        clickcount++;
+                        points_value.setText(String.valueOf(clickcount));
+                        pageChangingColor5();
+                    } else if (color4 == teal_dark) {
+                        word3.setBackgroundColor(teal);
+                        clickcount--;
+                        points_value.setText(String.valueOf(clickcount));
+                    }
+                } else {
+                    word3.setBackgroundColor(teal_dark);
+                    clickcount++;
+                    points_value.setText(String.valueOf(clickcount));
+                    pageChangingColor5();
+                }
+                if (word3.getBackground() instanceof ColorDrawable) {
+                    int color4 = ((ColorDrawable) word3.getBackground()).getColor();
+                    if ( color4 == blooming_dahlia ) {
+                        word3.setBackgroundColor(blooming_dahlia_dark);
+                        clickcount++;
+                        points_value.setText(String.valueOf(clickcount));
+                        pageChangingColor6();
+                    } else if (color4 == blooming_dahlia_dark) {
+                        word3.setBackgroundColor(blooming_dahlia);
+                        clickcount--;
+                        points_value.setText(String.valueOf(clickcount));
+                    }
+                } else {
+                    word3.setBackgroundColor(teal_dark);
+                    clickcount++;
+                    points_value.setText(String.valueOf(clickcount));
+                    pageChangingColor6();
+                }
+                if (word3.getBackground() instanceof ColorDrawable) {
+                    int color4 = ((ColorDrawable) word3.getBackground()).getColor();
+                    if ( color4 == orange ) {
+                        word3.setBackgroundColor(orange_dark);
+                        clickcount++;
+                        points_value.setText(String.valueOf(clickcount));
+                        pageChangingColor7();
+                    } else if (color4 == orange_dark) {
+                        word3.setBackgroundColor(orange);
+                        clickcount--;
+                        points_value.setText(String.valueOf(clickcount));
+                    }
+                } else {
+                    word3.setBackgroundColor(orange_dark);
+                    clickcount++;
+                    points_value.setText(String.valueOf(clickcount));
+                    pageChangingColor7();
+                }
+                if (word3.getBackground() instanceof ColorDrawable) {
+                    int color4 = ((ColorDrawable) word3.getBackground()).getColor();
+                    if ( color4 == light_blue ) {
+                        word3.setBackgroundColor(light_blue_dark);
+                        clickcount++;
+                        points_value.setText(String.valueOf(clickcount));
+                        pageChangingColor8();
+                    } else if (color4 == light_blue_dark) {
+                        word3.setBackgroundColor(light_blue);
+                        clickcount--;
+                        points_value.setText(String.valueOf(clickcount));
+                    }
+                } else {
+                    word3.setBackgroundColor(light_blue_dark);
+                    clickcount++;
+                    points_value.setText(String.valueOf(clickcount));
+                    pageChangingColor8();
                 }
             }
 
-            private void resetWords() {
-                word1.setText(getRandomArray(words_cwa)); word1.setBackgroundColor(Color.WHITE);
-                word2.setText(getRandomArray(words_cwa)); word2.setBackgroundColor(Color.WHITE);
-                word3.setText(getRandomArray(words_cwa)); word3.setBackgroundColor(Color.WHITE);
-                word4.setText(getRandomArray(words_cwa)); word4.setBackgroundColor(Color.WHITE);
-                word5.setText(getRandomArray(words_cwa)); word5.setBackgroundColor(Color.WHITE);
-                word6.setText(getRandomArray(words_cwa)); word6.setBackgroundColor(Color.WHITE);
-                word7.setText(getRandomArray(words_cwa)); word7.setBackgroundColor(Color.WHITE);
-                word8.setText(getRandomArray(words_cwa)); word8.setBackgroundColor(Color.WHITE);
-                word9.setText(getRandomArray(words_cwa)); word9.setBackgroundColor(Color.WHITE);
-                word10.setText(getRandomArray(words_cwa)); word10.setBackgroundColor(Color.WHITE);
+            private void resetWordsColor1() {
+                word1.setText(getRandomArray(words_cwa)); word1.setBackgroundColor(white);
+                word2.setText(getRandomArray(words_cwa)); word2.setBackgroundColor(white);
+                word3.setText(getRandomArray(words_cwa)); word3.setBackgroundColor(white);
+                word4.setText(getRandomArray(words_cwa)); word4.setBackgroundColor(white);
+                word5.setText(getRandomArray(words_cwa)); word5.setBackgroundColor(white);
+                word6.setText(getRandomArray(words_cwa)); word6.setBackgroundColor(white);
+                word7.setText(getRandomArray(words_cwa)); word7.setBackgroundColor(white);
+                word8.setText(getRandomArray(words_cwa)); word8.setBackgroundColor(white);
+                word9.setText(getRandomArray(words_cwa)); word9.setBackgroundColor(white);
+                word10.setText(getRandomArray(words_cwa)); word10.setBackgroundColor(white);
             }
 
-            private void pageChanging() {
-                if (clickcount == 10) {
-                    resetWords();
-                } else if (clickcount == 20) {
-                    resetWords();
-                } else if (clickcount == 30) {
-                    resetWords();
-                } else if (clickcount == 40) {
-                    resetWords();
-                } else if (clickcount == 50) {
-                    resetWords();
+            private void resetWordsColor2() {
+                word1.setText(getRandomArray(words_cwa)); word1.setBackgroundColor(dark_emerald_green);
+                word2.setText(getRandomArray(words_cwa)); word2.setBackgroundColor(dark_emerald_green);
+                word3.setText(getRandomArray(words_cwa)); word3.setBackgroundColor(dark_emerald_green);
+                word4.setText(getRandomArray(words_cwa)); word4.setBackgroundColor(dark_emerald_green);
+                word5.setText(getRandomArray(words_cwa)); word5.setBackgroundColor(dark_emerald_green);
+                word6.setText(getRandomArray(words_cwa)); word6.setBackgroundColor(dark_emerald_green);
+                word7.setText(getRandomArray(words_cwa)); word7.setBackgroundColor(dark_emerald_green);
+                word8.setText(getRandomArray(words_cwa)); word8.setBackgroundColor(dark_emerald_green);
+                word9.setText(getRandomArray(words_cwa)); word9.setBackgroundColor(dark_emerald_green);
+                word10.setText(getRandomArray(words_cwa)); word10.setBackgroundColor(dark_emerald_green);
+            }
+
+            private void resetWordsColor3() {
+                word1.setText(getRandomArray(words_cwa)); word1.setBackgroundColor(yellow);
+                word2.setText(getRandomArray(words_cwa)); word2.setBackgroundColor(yellow);
+                word3.setText(getRandomArray(words_cwa)); word3.setBackgroundColor(yellow);
+                word4.setText(getRandomArray(words_cwa)); word4.setBackgroundColor(yellow);
+                word5.setText(getRandomArray(words_cwa)); word5.setBackgroundColor(yellow);
+                word6.setText(getRandomArray(words_cwa)); word6.setBackgroundColor(yellow);
+                word7.setText(getRandomArray(words_cwa)); word7.setBackgroundColor(yellow);
+                word8.setText(getRandomArray(words_cwa)); word8.setBackgroundColor(yellow);
+                word9.setText(getRandomArray(words_cwa)); word9.setBackgroundColor(yellow);
+                word10.setText(getRandomArray(words_cwa)); word10.setBackgroundColor(yellow);
+            }
+
+            private void resetWordsColor4() {
+                word1.setText(getRandomArray(words_cwa)); word1.setBackgroundColor(red);
+                word2.setText(getRandomArray(words_cwa)); word2.setBackgroundColor(red);
+                word3.setText(getRandomArray(words_cwa)); word3.setBackgroundColor(red);
+                word4.setText(getRandomArray(words_cwa)); word4.setBackgroundColor(red);
+                word5.setText(getRandomArray(words_cwa)); word5.setBackgroundColor(red);
+                word6.setText(getRandomArray(words_cwa)); word6.setBackgroundColor(red);
+                word7.setText(getRandomArray(words_cwa)); word7.setBackgroundColor(red);
+                word8.setText(getRandomArray(words_cwa)); word8.setBackgroundColor(red);
+                word9.setText(getRandomArray(words_cwa)); word9.setBackgroundColor(red);
+                word10.setText(getRandomArray(words_cwa)); word10.setBackgroundColor(red);
+            }
+
+            private void resetWordsColor5() {
+                word1.setText(getRandomArray(words_cwa)); word1.setBackgroundColor(teal);
+                word2.setText(getRandomArray(words_cwa)); word2.setBackgroundColor(teal);
+                word3.setText(getRandomArray(words_cwa)); word3.setBackgroundColor(teal);
+                word4.setText(getRandomArray(words_cwa)); word4.setBackgroundColor(teal);
+                word5.setText(getRandomArray(words_cwa)); word5.setBackgroundColor(teal);
+                word6.setText(getRandomArray(words_cwa)); word6.setBackgroundColor(teal);
+                word7.setText(getRandomArray(words_cwa)); word7.setBackgroundColor(teal);
+                word8.setText(getRandomArray(words_cwa)); word8.setBackgroundColor(teal);
+                word9.setText(getRandomArray(words_cwa)); word9.setBackgroundColor(teal);
+                word10.setText(getRandomArray(words_cwa)); word10.setBackgroundColor(teal);
+            }
+
+            private void resetWordsColor6() {
+                word1.setText(getRandomArray(words_cwa)); word1.setBackgroundColor(blooming_dahlia);
+                word2.setText(getRandomArray(words_cwa)); word2.setBackgroundColor(blooming_dahlia);
+                word3.setText(getRandomArray(words_cwa)); word3.setBackgroundColor(blooming_dahlia);
+                word4.setText(getRandomArray(words_cwa)); word4.setBackgroundColor(blooming_dahlia);
+                word5.setText(getRandomArray(words_cwa)); word5.setBackgroundColor(blooming_dahlia);
+                word6.setText(getRandomArray(words_cwa)); word6.setBackgroundColor(blooming_dahlia);
+                word7.setText(getRandomArray(words_cwa)); word7.setBackgroundColor(blooming_dahlia);
+                word8.setText(getRandomArray(words_cwa)); word8.setBackgroundColor(blooming_dahlia);
+                word9.setText(getRandomArray(words_cwa)); word9.setBackgroundColor(blooming_dahlia);
+                word10.setText(getRandomArray(words_cwa)); word10.setBackgroundColor(blooming_dahlia);
+            }
+
+            private void resetWordsColor7() {
+                word1.setText(getRandomArray(words_cwa)); word1.setBackgroundColor(orange);
+                word2.setText(getRandomArray(words_cwa)); word2.setBackgroundColor(orange);
+                word3.setText(getRandomArray(words_cwa)); word3.setBackgroundColor(orange);
+                word4.setText(getRandomArray(words_cwa)); word4.setBackgroundColor(orange);
+                word5.setText(getRandomArray(words_cwa)); word5.setBackgroundColor(orange);
+                word6.setText(getRandomArray(words_cwa)); word6.setBackgroundColor(orange);
+                word7.setText(getRandomArray(words_cwa)); word7.setBackgroundColor(orange);
+                word8.setText(getRandomArray(words_cwa)); word8.setBackgroundColor(orange);
+                word9.setText(getRandomArray(words_cwa)); word9.setBackgroundColor(orange);
+                word10.setText(getRandomArray(words_cwa)); word10.setBackgroundColor(orange);
+            }
+
+            private void resetWordsColor8() {
+                word1.setText(getRandomArray(words_cwa)); word1.setBackgroundColor(light_blue);
+                word2.setText(getRandomArray(words_cwa)); word2.setBackgroundColor(light_blue);
+                word3.setText(getRandomArray(words_cwa)); word3.setBackgroundColor(light_blue);
+                word4.setText(getRandomArray(words_cwa)); word4.setBackgroundColor(light_blue);
+                word5.setText(getRandomArray(words_cwa)); word5.setBackgroundColor(light_blue);
+                word6.setText(getRandomArray(words_cwa)); word6.setBackgroundColor(light_blue);
+                word7.setText(getRandomArray(words_cwa)); word7.setBackgroundColor(light_blue);
+                word8.setText(getRandomArray(words_cwa)); word8.setBackgroundColor(light_blue);
+                word9.setText(getRandomArray(words_cwa)); word9.setBackgroundColor(light_blue);
+                word10.setText(getRandomArray(words_cwa)); word10.setBackgroundColor(light_blue);
+            }
+
+            private void pageChangingColor1() {
+                if (clickcount == 10 || clickcount == 20 || clickcount == 30  || clickcount == 40 || clickcount == 50) {
+                    resetWordsColor1();
+                }
+            }
+
+            private void pageChangingColor2() {
+                if (clickcount == 10 || clickcount == 20 || clickcount == 30  || clickcount == 40 || clickcount == 50) {
+                    resetWordsColor2();
+                }
+            }
+
+            private void pageChangingColor3() {
+                if (clickcount == 10 || clickcount == 20 || clickcount == 30  || clickcount == 40 || clickcount == 50) {
+                    resetWordsColor3();
+                }
+            }
+
+            private void pageChangingColor4() {
+                if (clickcount == 10 || clickcount == 20 || clickcount == 30  || clickcount == 40 || clickcount == 50) {
+                    resetWordsColor4();
+                }
+            }
+
+            private void pageChangingColor5() {
+                if (clickcount == 10 || clickcount == 20 || clickcount == 30  || clickcount == 40 || clickcount == 50) {
+                    resetWordsColor5();
+                }
+            }
+
+            private void pageChangingColor6() {
+                if (clickcount == 10 || clickcount == 20 || clickcount == 30  || clickcount == 40 || clickcount == 50) {
+                    resetWordsColor6();
+                }
+            }
+
+            private void pageChangingColor7() {
+                if (clickcount == 10 || clickcount == 20 || clickcount == 30  || clickcount == 40 || clickcount == 50) {
+                    resetWordsColor7();
+                }
+            }
+
+            private void pageChangingColor8() {
+                if (clickcount == 10 || clickcount == 20 || clickcount == 30  || clickcount == 40 || clickcount == 50) {
+                    resetWordsColor8();
                 }
             }
         });
-
         word4.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 if (word4.getBackground() instanceof ColorDrawable) {
-                    int color = ((ColorDrawable) word4.getBackground()).getColor();
-                    if (color == Color.WHITE) {
-                        word4.setBackgroundColor(Color.GRAY);
+                    int color1 = ((ColorDrawable) word4.getBackground()).getColor();
+                    if ( color1 == white ) {
+                        word4.setBackgroundColor(gray);
                         clickcount++;
                         points_value.setText(String.valueOf(clickcount));
-                        pageChanging();
-                    } else if (color == Color.GRAY) {
-                        word4.setBackgroundColor(Color.WHITE);
+                        pageChangingColor1();
+                    } else if (color1 == gray) {
+                        word4.setBackgroundColor(white);
                         clickcount--;
                         points_value.setText(String.valueOf(clickcount));
                     }
                 } else {
-                    word4.setBackgroundColor(Color.GRAY);
+                    word4.setBackgroundColor(gray);
                     clickcount++;
                     points_value.setText(String.valueOf(clickcount));
-                    pageChanging();
+                    pageChangingColor1();
+                }
+                if (word4.getBackground() instanceof ColorDrawable) {
+                    int color2 = ((ColorDrawable) word4.getBackground()).getColor();
+                    if ( color2 == dark_emerald_green ) {
+                        word4.setBackgroundColor(dark_emerald_green_dark);
+                        clickcount++;
+                        points_value.setText(String.valueOf(clickcount));
+                        pageChangingColor2();
+                    } else if (color2 == dark_emerald_green_dark) {
+                        word4.setBackgroundColor(dark_emerald_green);
+                        clickcount--;
+                        points_value.setText(String.valueOf(clickcount));
+                    }
+                } else {
+                    word4.setBackgroundColor(dark_emerald_green_dark);
+                    clickcount++;
+                    points_value.setText(String.valueOf(clickcount));
+                    pageChangingColor2();
+                }
+                if (word4.getBackground() instanceof ColorDrawable) {
+                    int color3 = ((ColorDrawable) word4.getBackground()).getColor();
+                    if ( color3 == yellow ) {
+                        word4.setBackgroundColor(yellow_dark);
+                        clickcount++;
+                        points_value.setText(String.valueOf(clickcount));
+                        pageChangingColor3();
+                    } else if (color3 == yellow_dark) {
+                        word4.setBackgroundColor(yellow);
+                        clickcount--;
+                        points_value.setText(String.valueOf(clickcount));
+                    }
+                } else {
+                    word4.setBackgroundColor(yellow_dark);
+                    clickcount++;
+                    points_value.setText(String.valueOf(clickcount));
+                    pageChangingColor3();
+                }
+                if (word4.getBackground() instanceof ColorDrawable) {
+                    int color4 = ((ColorDrawable) word4.getBackground()).getColor();
+                    if ( color4 == red ) {
+                        word4.setBackgroundColor(red_dark);
+                        clickcount++;
+                        points_value.setText(String.valueOf(clickcount));
+                        pageChangingColor4();
+                    } else if (color4 == red_dark) {
+                        word4.setBackgroundColor(red);
+                        clickcount--;
+                        points_value.setText(String.valueOf(clickcount));
+                    }
+                } else {
+                    word4.setBackgroundColor(red_dark);
+                    clickcount++;
+                    points_value.setText(String.valueOf(clickcount));
+                    pageChangingColor4();
+                }
+                if (word4.getBackground() instanceof ColorDrawable) {
+                    int color4 = ((ColorDrawable) word4.getBackground()).getColor();
+                    if ( color4 == teal ) {
+                        word4.setBackgroundColor(teal_dark);
+                        clickcount++;
+                        points_value.setText(String.valueOf(clickcount));
+                        pageChangingColor5();
+                    } else if (color4 == teal_dark) {
+                        word4.setBackgroundColor(teal);
+                        clickcount--;
+                        points_value.setText(String.valueOf(clickcount));
+                    }
+                } else {
+                    word4.setBackgroundColor(teal_dark);
+                    clickcount++;
+                    points_value.setText(String.valueOf(clickcount));
+                    pageChangingColor5();
+                }
+                if (word4.getBackground() instanceof ColorDrawable) {
+                    int color4 = ((ColorDrawable) word4.getBackground()).getColor();
+                    if ( color4 == blooming_dahlia ) {
+                        word4.setBackgroundColor(blooming_dahlia_dark);
+                        clickcount++;
+                        points_value.setText(String.valueOf(clickcount));
+                        pageChangingColor6();
+                    } else if (color4 == blooming_dahlia_dark) {
+                        word4.setBackgroundColor(blooming_dahlia);
+                        clickcount--;
+                        points_value.setText(String.valueOf(clickcount));
+                    }
+                } else {
+                    word4.setBackgroundColor(teal_dark);
+                    clickcount++;
+                    points_value.setText(String.valueOf(clickcount));
+                    pageChangingColor6();
+                }
+                if (word4.getBackground() instanceof ColorDrawable) {
+                    int color4 = ((ColorDrawable) word4.getBackground()).getColor();
+                    if ( color4 == orange ) {
+                        word4.setBackgroundColor(orange_dark);
+                        clickcount++;
+                        points_value.setText(String.valueOf(clickcount));
+                        pageChangingColor7();
+                    } else if (color4 == orange_dark) {
+                        word4.setBackgroundColor(orange);
+                        clickcount--;
+                        points_value.setText(String.valueOf(clickcount));
+                    }
+                } else {
+                    word4.setBackgroundColor(orange_dark);
+                    clickcount++;
+                    points_value.setText(String.valueOf(clickcount));
+                    pageChangingColor7();
+                }
+                if (word4.getBackground() instanceof ColorDrawable) {
+                    int color4 = ((ColorDrawable) word4.getBackground()).getColor();
+                    if ( color4 == light_blue ) {
+                        word4.setBackgroundColor(light_blue_dark);
+                        clickcount++;
+                        points_value.setText(String.valueOf(clickcount));
+                        pageChangingColor8();
+                    } else if (color4 == light_blue_dark) {
+                        word4.setBackgroundColor(light_blue);
+                        clickcount--;
+                        points_value.setText(String.valueOf(clickcount));
+                    }
+                } else {
+                    word4.setBackgroundColor(light_blue_dark);
+                    clickcount++;
+                    points_value.setText(String.valueOf(clickcount));
+                    pageChangingColor8();
                 }
             }
 
-            private void resetWords() {
-                word1.setText(getRandomArray(words_cwa)); word1.setBackgroundColor(Color.WHITE);
-                word2.setText(getRandomArray(words_cwa)); word2.setBackgroundColor(Color.WHITE);
-                word3.setText(getRandomArray(words_cwa)); word3.setBackgroundColor(Color.WHITE);
-                word4.setText(getRandomArray(words_cwa)); word4.setBackgroundColor(Color.WHITE);
-                word5.setText(getRandomArray(words_cwa)); word5.setBackgroundColor(Color.WHITE);
-                word6.setText(getRandomArray(words_cwa)); word6.setBackgroundColor(Color.WHITE);
-                word7.setText(getRandomArray(words_cwa)); word7.setBackgroundColor(Color.WHITE);
-                word8.setText(getRandomArray(words_cwa)); word8.setBackgroundColor(Color.WHITE);
-                word9.setText(getRandomArray(words_cwa)); word9.setBackgroundColor(Color.WHITE);
-                word10.setText(getRandomArray(words_cwa)); word10.setBackgroundColor(Color.WHITE);
+            private void resetWordsColor1() {
+                word1.setText(getRandomArray(words_cwa)); word1.setBackgroundColor(white);
+                word2.setText(getRandomArray(words_cwa)); word2.setBackgroundColor(white);
+                word3.setText(getRandomArray(words_cwa)); word3.setBackgroundColor(white);
+                word4.setText(getRandomArray(words_cwa)); word4.setBackgroundColor(white);
+                word5.setText(getRandomArray(words_cwa)); word5.setBackgroundColor(white);
+                word6.setText(getRandomArray(words_cwa)); word6.setBackgroundColor(white);
+                word7.setText(getRandomArray(words_cwa)); word7.setBackgroundColor(white);
+                word8.setText(getRandomArray(words_cwa)); word8.setBackgroundColor(white);
+                word9.setText(getRandomArray(words_cwa)); word9.setBackgroundColor(white);
+                word10.setText(getRandomArray(words_cwa)); word10.setBackgroundColor(white);
             }
 
-            private void pageChanging() {
-                if (clickcount == 10) {
-                    resetWords();
-                } else if (clickcount == 20) {
-                    resetWords();
-                } else if (clickcount == 30) {
-                    resetWords();
-                } else if (clickcount == 40) {
-                    resetWords();
-                } else if (clickcount == 50) {
-                    resetWords();
+            private void resetWordsColor2() {
+                word1.setText(getRandomArray(words_cwa)); word1.setBackgroundColor(dark_emerald_green);
+                word2.setText(getRandomArray(words_cwa)); word2.setBackgroundColor(dark_emerald_green);
+                word3.setText(getRandomArray(words_cwa)); word3.setBackgroundColor(dark_emerald_green);
+                word4.setText(getRandomArray(words_cwa)); word4.setBackgroundColor(dark_emerald_green);
+                word5.setText(getRandomArray(words_cwa)); word5.setBackgroundColor(dark_emerald_green);
+                word6.setText(getRandomArray(words_cwa)); word6.setBackgroundColor(dark_emerald_green);
+                word7.setText(getRandomArray(words_cwa)); word7.setBackgroundColor(dark_emerald_green);
+                word8.setText(getRandomArray(words_cwa)); word8.setBackgroundColor(dark_emerald_green);
+                word9.setText(getRandomArray(words_cwa)); word9.setBackgroundColor(dark_emerald_green);
+                word10.setText(getRandomArray(words_cwa)); word10.setBackgroundColor(dark_emerald_green);
+            }
+
+            private void resetWordsColor3() {
+                word1.setText(getRandomArray(words_cwa)); word1.setBackgroundColor(yellow);
+                word2.setText(getRandomArray(words_cwa)); word2.setBackgroundColor(yellow);
+                word3.setText(getRandomArray(words_cwa)); word3.setBackgroundColor(yellow);
+                word4.setText(getRandomArray(words_cwa)); word4.setBackgroundColor(yellow);
+                word5.setText(getRandomArray(words_cwa)); word5.setBackgroundColor(yellow);
+                word6.setText(getRandomArray(words_cwa)); word6.setBackgroundColor(yellow);
+                word7.setText(getRandomArray(words_cwa)); word7.setBackgroundColor(yellow);
+                word8.setText(getRandomArray(words_cwa)); word8.setBackgroundColor(yellow);
+                word9.setText(getRandomArray(words_cwa)); word9.setBackgroundColor(yellow);
+                word10.setText(getRandomArray(words_cwa)); word10.setBackgroundColor(yellow);
+            }
+
+            private void resetWordsColor4() {
+                word1.setText(getRandomArray(words_cwa)); word1.setBackgroundColor(red);
+                word2.setText(getRandomArray(words_cwa)); word2.setBackgroundColor(red);
+                word3.setText(getRandomArray(words_cwa)); word3.setBackgroundColor(red);
+                word4.setText(getRandomArray(words_cwa)); word4.setBackgroundColor(red);
+                word5.setText(getRandomArray(words_cwa)); word5.setBackgroundColor(red);
+                word6.setText(getRandomArray(words_cwa)); word6.setBackgroundColor(red);
+                word7.setText(getRandomArray(words_cwa)); word7.setBackgroundColor(red);
+                word8.setText(getRandomArray(words_cwa)); word8.setBackgroundColor(red);
+                word9.setText(getRandomArray(words_cwa)); word9.setBackgroundColor(red);
+                word10.setText(getRandomArray(words_cwa)); word10.setBackgroundColor(red);
+            }
+
+            private void resetWordsColor5() {
+                word1.setText(getRandomArray(words_cwa)); word1.setBackgroundColor(teal);
+                word2.setText(getRandomArray(words_cwa)); word2.setBackgroundColor(teal);
+                word3.setText(getRandomArray(words_cwa)); word3.setBackgroundColor(teal);
+                word4.setText(getRandomArray(words_cwa)); word4.setBackgroundColor(teal);
+                word5.setText(getRandomArray(words_cwa)); word5.setBackgroundColor(teal);
+                word6.setText(getRandomArray(words_cwa)); word6.setBackgroundColor(teal);
+                word7.setText(getRandomArray(words_cwa)); word7.setBackgroundColor(teal);
+                word8.setText(getRandomArray(words_cwa)); word8.setBackgroundColor(teal);
+                word9.setText(getRandomArray(words_cwa)); word9.setBackgroundColor(teal);
+                word10.setText(getRandomArray(words_cwa)); word10.setBackgroundColor(teal);
+            }
+
+            private void resetWordsColor6() {
+                word1.setText(getRandomArray(words_cwa)); word1.setBackgroundColor(blooming_dahlia);
+                word2.setText(getRandomArray(words_cwa)); word2.setBackgroundColor(blooming_dahlia);
+                word3.setText(getRandomArray(words_cwa)); word3.setBackgroundColor(blooming_dahlia);
+                word4.setText(getRandomArray(words_cwa)); word4.setBackgroundColor(blooming_dahlia);
+                word5.setText(getRandomArray(words_cwa)); word5.setBackgroundColor(blooming_dahlia);
+                word6.setText(getRandomArray(words_cwa)); word6.setBackgroundColor(blooming_dahlia);
+                word7.setText(getRandomArray(words_cwa)); word7.setBackgroundColor(blooming_dahlia);
+                word8.setText(getRandomArray(words_cwa)); word8.setBackgroundColor(blooming_dahlia);
+                word9.setText(getRandomArray(words_cwa)); word9.setBackgroundColor(blooming_dahlia);
+                word10.setText(getRandomArray(words_cwa)); word10.setBackgroundColor(blooming_dahlia);
+            }
+
+            private void resetWordsColor7() {
+                word1.setText(getRandomArray(words_cwa)); word1.setBackgroundColor(orange);
+                word2.setText(getRandomArray(words_cwa)); word2.setBackgroundColor(orange);
+                word3.setText(getRandomArray(words_cwa)); word3.setBackgroundColor(orange);
+                word4.setText(getRandomArray(words_cwa)); word4.setBackgroundColor(orange);
+                word5.setText(getRandomArray(words_cwa)); word5.setBackgroundColor(orange);
+                word6.setText(getRandomArray(words_cwa)); word6.setBackgroundColor(orange);
+                word7.setText(getRandomArray(words_cwa)); word7.setBackgroundColor(orange);
+                word8.setText(getRandomArray(words_cwa)); word8.setBackgroundColor(orange);
+                word9.setText(getRandomArray(words_cwa)); word9.setBackgroundColor(orange);
+                word10.setText(getRandomArray(words_cwa)); word10.setBackgroundColor(orange);
+            }
+
+            private void resetWordsColor8() {
+                word1.setText(getRandomArray(words_cwa)); word1.setBackgroundColor(light_blue);
+                word2.setText(getRandomArray(words_cwa)); word2.setBackgroundColor(light_blue);
+                word3.setText(getRandomArray(words_cwa)); word3.setBackgroundColor(light_blue);
+                word4.setText(getRandomArray(words_cwa)); word4.setBackgroundColor(light_blue);
+                word5.setText(getRandomArray(words_cwa)); word5.setBackgroundColor(light_blue);
+                word6.setText(getRandomArray(words_cwa)); word6.setBackgroundColor(light_blue);
+                word7.setText(getRandomArray(words_cwa)); word7.setBackgroundColor(light_blue);
+                word8.setText(getRandomArray(words_cwa)); word8.setBackgroundColor(light_blue);
+                word9.setText(getRandomArray(words_cwa)); word9.setBackgroundColor(light_blue);
+                word10.setText(getRandomArray(words_cwa)); word10.setBackgroundColor(light_blue);
+            }
+
+            private void pageChangingColor1() {
+                if (clickcount == 10 || clickcount == 20 || clickcount == 30  || clickcount == 40 || clickcount == 50) {
+                    resetWordsColor1();
+                }
+            }
+
+            private void pageChangingColor2() {
+                if (clickcount == 10 || clickcount == 20 || clickcount == 30  || clickcount == 40 || clickcount == 50) {
+                    resetWordsColor2();
+                }
+            }
+
+            private void pageChangingColor3() {
+                if (clickcount == 10 || clickcount == 20 || clickcount == 30  || clickcount == 40 || clickcount == 50) {
+                    resetWordsColor3();
+                }
+            }
+
+            private void pageChangingColor4() {
+                if (clickcount == 10 || clickcount == 20 || clickcount == 30  || clickcount == 40 || clickcount == 50) {
+                    resetWordsColor4();
+                }
+            }
+
+            private void pageChangingColor5() {
+                if (clickcount == 10 || clickcount == 20 || clickcount == 30  || clickcount == 40 || clickcount == 50) {
+                    resetWordsColor5();
+                }
+            }
+
+            private void pageChangingColor6() {
+                if (clickcount == 10 || clickcount == 20 || clickcount == 30  || clickcount == 40 || clickcount == 50) {
+                    resetWordsColor6();
+                }
+            }
+
+            private void pageChangingColor7() {
+                if (clickcount == 10 || clickcount == 20 || clickcount == 30  || clickcount == 40 || clickcount == 50) {
+                    resetWordsColor7();
+                }
+            }
+
+            private void pageChangingColor8() {
+                if (clickcount == 10 || clickcount == 20 || clickcount == 30  || clickcount == 40 || clickcount == 50) {
+                    resetWordsColor8();
                 }
             }
         });
-
         word5.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 if (word5.getBackground() instanceof ColorDrawable) {
-                    int color = ((ColorDrawable) word5.getBackground()).getColor();
-                    if (color == Color.WHITE) {
-                        word5.setBackgroundColor(Color.GRAY);
+                    int color1 = ((ColorDrawable) word5.getBackground()).getColor();
+                    if ( color1 == white ) {
+                        word5.setBackgroundColor(gray);
                         clickcount++;
                         points_value.setText(String.valueOf(clickcount));
-                        pageChanging();
-                    } else if (color == Color.GRAY) {
-                        word5.setBackgroundColor(Color.WHITE);
+                        pageChangingColor1();
+                    } else if (color1 == gray) {
+                        word5.setBackgroundColor(white);
                         clickcount--;
                         points_value.setText(String.valueOf(clickcount));
                     }
                 } else {
-                    word5.setBackgroundColor(Color.GRAY);
+                    word5.setBackgroundColor(gray);
                     clickcount++;
                     points_value.setText(String.valueOf(clickcount));
-                    pageChanging();
+                    pageChangingColor1();
+                }
+                if (word5.getBackground() instanceof ColorDrawable) {
+                    int color2 = ((ColorDrawable) word5.getBackground()).getColor();
+                    if ( color2 == dark_emerald_green ) {
+                        word5.setBackgroundColor(dark_emerald_green_dark);
+                        clickcount++;
+                        points_value.setText(String.valueOf(clickcount));
+                        pageChangingColor2();
+                    } else if (color2 == dark_emerald_green_dark) {
+                        word5.setBackgroundColor(dark_emerald_green);
+                        clickcount--;
+                        points_value.setText(String.valueOf(clickcount));
+                    }
+                } else {
+                    word5.setBackgroundColor(dark_emerald_green_dark);
+                    clickcount++;
+                    points_value.setText(String.valueOf(clickcount));
+                    pageChangingColor2();
+                }
+                if (word5.getBackground() instanceof ColorDrawable) {
+                    int color3 = ((ColorDrawable) word5.getBackground()).getColor();
+                    if ( color3 == yellow ) {
+                        word5.setBackgroundColor(yellow_dark);
+                        clickcount++;
+                        points_value.setText(String.valueOf(clickcount));
+                        pageChangingColor3();
+                    } else if (color3 == yellow_dark) {
+                        word5.setBackgroundColor(yellow);
+                        clickcount--;
+                        points_value.setText(String.valueOf(clickcount));
+                    }
+                } else {
+                    word5.setBackgroundColor(yellow_dark);
+                    clickcount++;
+                    points_value.setText(String.valueOf(clickcount));
+                    pageChangingColor3();
+                }
+                if (word5.getBackground() instanceof ColorDrawable) {
+                    int color4 = ((ColorDrawable) word5.getBackground()).getColor();
+                    if ( color4 == red ) {
+                        word5.setBackgroundColor(red_dark);
+                        clickcount++;
+                        points_value.setText(String.valueOf(clickcount));
+                        pageChangingColor4();
+                    } else if (color4 == red_dark) {
+                        word5.setBackgroundColor(red);
+                        clickcount--;
+                        points_value.setText(String.valueOf(clickcount));
+                    }
+                } else {
+                    word5.setBackgroundColor(red_dark);
+                    clickcount++;
+                    points_value.setText(String.valueOf(clickcount));
+                    pageChangingColor4();
+                }
+                if (word5.getBackground() instanceof ColorDrawable) {
+                    int color4 = ((ColorDrawable) word5.getBackground()).getColor();
+                    if ( color4 == teal ) {
+                        word5.setBackgroundColor(teal_dark);
+                        clickcount++;
+                        points_value.setText(String.valueOf(clickcount));
+                        pageChangingColor5();
+                    } else if (color4 == teal_dark) {
+                        word5.setBackgroundColor(teal);
+                        clickcount--;
+                        points_value.setText(String.valueOf(clickcount));
+                    }
+                } else {
+                    word5.setBackgroundColor(teal_dark);
+                    clickcount++;
+                    points_value.setText(String.valueOf(clickcount));
+                    pageChangingColor5();
+                }
+                if (word5.getBackground() instanceof ColorDrawable) {
+                    int color4 = ((ColorDrawable) word5.getBackground()).getColor();
+                    if ( color4 == blooming_dahlia ) {
+                        word5.setBackgroundColor(blooming_dahlia_dark);
+                        clickcount++;
+                        points_value.setText(String.valueOf(clickcount));
+                        pageChangingColor6();
+                    } else if (color4 == blooming_dahlia_dark) {
+                        word5.setBackgroundColor(blooming_dahlia);
+                        clickcount--;
+                        points_value.setText(String.valueOf(clickcount));
+                    }
+                } else {
+                    word5.setBackgroundColor(teal_dark);
+                    clickcount++;
+                    points_value.setText(String.valueOf(clickcount));
+                    pageChangingColor6();
+                }
+                if (word5.getBackground() instanceof ColorDrawable) {
+                    int color4 = ((ColorDrawable) word5.getBackground()).getColor();
+                    if ( color4 == orange ) {
+                        word5.setBackgroundColor(orange_dark);
+                        clickcount++;
+                        points_value.setText(String.valueOf(clickcount));
+                        pageChangingColor7();
+                    } else if (color4 == orange_dark) {
+                        word5.setBackgroundColor(orange);
+                        clickcount--;
+                        points_value.setText(String.valueOf(clickcount));
+                    }
+                } else {
+                    word5.setBackgroundColor(orange_dark);
+                    clickcount++;
+                    points_value.setText(String.valueOf(clickcount));
+                    pageChangingColor7();
+                }
+                if (word5.getBackground() instanceof ColorDrawable) {
+                    int color4 = ((ColorDrawable) word5.getBackground()).getColor();
+                    if ( color4 == light_blue ) {
+                        word5.setBackgroundColor(light_blue_dark);
+                        clickcount++;
+                        points_value.setText(String.valueOf(clickcount));
+                        pageChangingColor8();
+                    } else if (color4 == light_blue_dark) {
+                        word5.setBackgroundColor(light_blue);
+                        clickcount--;
+                        points_value.setText(String.valueOf(clickcount));
+                    }
+                } else {
+                    word5.setBackgroundColor(light_blue_dark);
+                    clickcount++;
+                    points_value.setText(String.valueOf(clickcount));
+                    pageChangingColor8();
                 }
             }
 
-            private void resetWords() {
-                word1.setText(getRandomArray(words_cwa)); word1.setBackgroundColor(Color.WHITE);
-                word2.setText(getRandomArray(words_cwa)); word2.setBackgroundColor(Color.WHITE);
-                word3.setText(getRandomArray(words_cwa)); word3.setBackgroundColor(Color.WHITE);
-                word4.setText(getRandomArray(words_cwa)); word4.setBackgroundColor(Color.WHITE);
-                word5.setText(getRandomArray(words_cwa)); word5.setBackgroundColor(Color.WHITE);
-                word6.setText(getRandomArray(words_cwa)); word6.setBackgroundColor(Color.WHITE);
-                word7.setText(getRandomArray(words_cwa)); word7.setBackgroundColor(Color.WHITE);
-                word8.setText(getRandomArray(words_cwa)); word8.setBackgroundColor(Color.WHITE);
-                word9.setText(getRandomArray(words_cwa)); word9.setBackgroundColor(Color.WHITE);
-                word10.setText(getRandomArray(words_cwa)); word10.setBackgroundColor(Color.WHITE);
+            private void resetWordsColor1() {
+                word1.setText(getRandomArray(words_cwa)); word1.setBackgroundColor(white);
+                word2.setText(getRandomArray(words_cwa)); word2.setBackgroundColor(white);
+                word3.setText(getRandomArray(words_cwa)); word3.setBackgroundColor(white);
+                word4.setText(getRandomArray(words_cwa)); word4.setBackgroundColor(white);
+                word5.setText(getRandomArray(words_cwa)); word5.setBackgroundColor(white);
+                word6.setText(getRandomArray(words_cwa)); word6.setBackgroundColor(white);
+                word7.setText(getRandomArray(words_cwa)); word7.setBackgroundColor(white);
+                word8.setText(getRandomArray(words_cwa)); word8.setBackgroundColor(white);
+                word9.setText(getRandomArray(words_cwa)); word9.setBackgroundColor(white);
+                word10.setText(getRandomArray(words_cwa)); word10.setBackgroundColor(white);
             }
 
-            private void pageChanging() {
-                if (clickcount == 10) {
-                    resetWords();
-                } else if (clickcount == 20) {
-                    resetWords();
-                } else if (clickcount == 30) {
-                    resetWords();
-                } else if (clickcount == 40) {
-                    resetWords();
-                } else if (clickcount == 50) {
-                    resetWords();
+            private void resetWordsColor2() {
+                word1.setText(getRandomArray(words_cwa)); word1.setBackgroundColor(dark_emerald_green);
+                word2.setText(getRandomArray(words_cwa)); word2.setBackgroundColor(dark_emerald_green);
+                word3.setText(getRandomArray(words_cwa)); word3.setBackgroundColor(dark_emerald_green);
+                word4.setText(getRandomArray(words_cwa)); word4.setBackgroundColor(dark_emerald_green);
+                word5.setText(getRandomArray(words_cwa)); word5.setBackgroundColor(dark_emerald_green);
+                word6.setText(getRandomArray(words_cwa)); word6.setBackgroundColor(dark_emerald_green);
+                word7.setText(getRandomArray(words_cwa)); word7.setBackgroundColor(dark_emerald_green);
+                word8.setText(getRandomArray(words_cwa)); word8.setBackgroundColor(dark_emerald_green);
+                word9.setText(getRandomArray(words_cwa)); word9.setBackgroundColor(dark_emerald_green);
+                word10.setText(getRandomArray(words_cwa)); word10.setBackgroundColor(dark_emerald_green);
+            }
+
+            private void resetWordsColor3() {
+                word1.setText(getRandomArray(words_cwa)); word1.setBackgroundColor(yellow);
+                word2.setText(getRandomArray(words_cwa)); word2.setBackgroundColor(yellow);
+                word3.setText(getRandomArray(words_cwa)); word3.setBackgroundColor(yellow);
+                word4.setText(getRandomArray(words_cwa)); word4.setBackgroundColor(yellow);
+                word5.setText(getRandomArray(words_cwa)); word5.setBackgroundColor(yellow);
+                word6.setText(getRandomArray(words_cwa)); word6.setBackgroundColor(yellow);
+                word7.setText(getRandomArray(words_cwa)); word7.setBackgroundColor(yellow);
+                word8.setText(getRandomArray(words_cwa)); word8.setBackgroundColor(yellow);
+                word9.setText(getRandomArray(words_cwa)); word9.setBackgroundColor(yellow);
+                word10.setText(getRandomArray(words_cwa)); word10.setBackgroundColor(yellow);
+            }
+
+            private void resetWordsColor4() {
+                word1.setText(getRandomArray(words_cwa)); word1.setBackgroundColor(red);
+                word2.setText(getRandomArray(words_cwa)); word2.setBackgroundColor(red);
+                word3.setText(getRandomArray(words_cwa)); word3.setBackgroundColor(red);
+                word4.setText(getRandomArray(words_cwa)); word4.setBackgroundColor(red);
+                word5.setText(getRandomArray(words_cwa)); word5.setBackgroundColor(red);
+                word6.setText(getRandomArray(words_cwa)); word6.setBackgroundColor(red);
+                word7.setText(getRandomArray(words_cwa)); word7.setBackgroundColor(red);
+                word8.setText(getRandomArray(words_cwa)); word8.setBackgroundColor(red);
+                word9.setText(getRandomArray(words_cwa)); word9.setBackgroundColor(red);
+                word10.setText(getRandomArray(words_cwa)); word10.setBackgroundColor(red);
+            }
+
+            private void resetWordsColor5() {
+                word1.setText(getRandomArray(words_cwa)); word1.setBackgroundColor(teal);
+                word2.setText(getRandomArray(words_cwa)); word2.setBackgroundColor(teal);
+                word3.setText(getRandomArray(words_cwa)); word3.setBackgroundColor(teal);
+                word4.setText(getRandomArray(words_cwa)); word4.setBackgroundColor(teal);
+                word5.setText(getRandomArray(words_cwa)); word5.setBackgroundColor(teal);
+                word6.setText(getRandomArray(words_cwa)); word6.setBackgroundColor(teal);
+                word7.setText(getRandomArray(words_cwa)); word7.setBackgroundColor(teal);
+                word8.setText(getRandomArray(words_cwa)); word8.setBackgroundColor(teal);
+                word9.setText(getRandomArray(words_cwa)); word9.setBackgroundColor(teal);
+                word10.setText(getRandomArray(words_cwa)); word10.setBackgroundColor(teal);
+            }
+
+            private void resetWordsColor6() {
+                word1.setText(getRandomArray(words_cwa)); word1.setBackgroundColor(blooming_dahlia);
+                word2.setText(getRandomArray(words_cwa)); word2.setBackgroundColor(blooming_dahlia);
+                word3.setText(getRandomArray(words_cwa)); word3.setBackgroundColor(blooming_dahlia);
+                word4.setText(getRandomArray(words_cwa)); word4.setBackgroundColor(blooming_dahlia);
+                word5.setText(getRandomArray(words_cwa)); word5.setBackgroundColor(blooming_dahlia);
+                word6.setText(getRandomArray(words_cwa)); word6.setBackgroundColor(blooming_dahlia);
+                word7.setText(getRandomArray(words_cwa)); word7.setBackgroundColor(blooming_dahlia);
+                word8.setText(getRandomArray(words_cwa)); word8.setBackgroundColor(blooming_dahlia);
+                word9.setText(getRandomArray(words_cwa)); word9.setBackgroundColor(blooming_dahlia);
+                word10.setText(getRandomArray(words_cwa)); word10.setBackgroundColor(blooming_dahlia);
+            }
+
+            private void resetWordsColor7() {
+                word1.setText(getRandomArray(words_cwa)); word1.setBackgroundColor(orange);
+                word2.setText(getRandomArray(words_cwa)); word2.setBackgroundColor(orange);
+                word3.setText(getRandomArray(words_cwa)); word3.setBackgroundColor(orange);
+                word4.setText(getRandomArray(words_cwa)); word4.setBackgroundColor(orange);
+                word5.setText(getRandomArray(words_cwa)); word5.setBackgroundColor(orange);
+                word6.setText(getRandomArray(words_cwa)); word6.setBackgroundColor(orange);
+                word7.setText(getRandomArray(words_cwa)); word7.setBackgroundColor(orange);
+                word8.setText(getRandomArray(words_cwa)); word8.setBackgroundColor(orange);
+                word9.setText(getRandomArray(words_cwa)); word9.setBackgroundColor(orange);
+                word10.setText(getRandomArray(words_cwa)); word10.setBackgroundColor(orange);
+            }
+
+            private void resetWordsColor8() {
+                word1.setText(getRandomArray(words_cwa)); word1.setBackgroundColor(light_blue);
+                word2.setText(getRandomArray(words_cwa)); word2.setBackgroundColor(light_blue);
+                word3.setText(getRandomArray(words_cwa)); word3.setBackgroundColor(light_blue);
+                word4.setText(getRandomArray(words_cwa)); word4.setBackgroundColor(light_blue);
+                word5.setText(getRandomArray(words_cwa)); word5.setBackgroundColor(light_blue);
+                word6.setText(getRandomArray(words_cwa)); word6.setBackgroundColor(light_blue);
+                word7.setText(getRandomArray(words_cwa)); word7.setBackgroundColor(light_blue);
+                word8.setText(getRandomArray(words_cwa)); word8.setBackgroundColor(light_blue);
+                word9.setText(getRandomArray(words_cwa)); word9.setBackgroundColor(light_blue);
+                word10.setText(getRandomArray(words_cwa)); word10.setBackgroundColor(light_blue);
+            }
+
+            private void pageChangingColor1() {
+                if (clickcount == 10 || clickcount == 20 || clickcount == 30  || clickcount == 40 || clickcount == 50) {
+                    resetWordsColor1();
+                }
+            }
+
+            private void pageChangingColor2() {
+                if (clickcount == 10 || clickcount == 20 || clickcount == 30  || clickcount == 40 || clickcount == 50) {
+                    resetWordsColor2();
+                }
+            }
+
+            private void pageChangingColor3() {
+                if (clickcount == 10 || clickcount == 20 || clickcount == 30  || clickcount == 40 || clickcount == 50) {
+                    resetWordsColor3();
+                }
+            }
+
+            private void pageChangingColor4() {
+                if (clickcount == 10 || clickcount == 20 || clickcount == 30  || clickcount == 40 || clickcount == 50) {
+                    resetWordsColor4();
+                }
+            }
+
+            private void pageChangingColor5() {
+                if (clickcount == 10 || clickcount == 20 || clickcount == 30  || clickcount == 40 || clickcount == 50) {
+                    resetWordsColor5();
+                }
+            }
+
+            private void pageChangingColor6() {
+                if (clickcount == 10 || clickcount == 20 || clickcount == 30  || clickcount == 40 || clickcount == 50) {
+                    resetWordsColor6();
+                }
+            }
+
+            private void pageChangingColor7() {
+                if (clickcount == 10 || clickcount == 20 || clickcount == 30  || clickcount == 40 || clickcount == 50) {
+                    resetWordsColor7();
+                }
+            }
+
+            private void pageChangingColor8() {
+                if (clickcount == 10 || clickcount == 20 || clickcount == 30  || clickcount == 40 || clickcount == 50) {
+                    resetWordsColor8();
                 }
             }
         });
-
         word6.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 if (word6.getBackground() instanceof ColorDrawable) {
-                    int color = ((ColorDrawable) word6.getBackground()).getColor();
-                    if (color == Color.WHITE) {
-                        word6.setBackgroundColor(Color.GRAY);
+                    int color1 = ((ColorDrawable) word6.getBackground()).getColor();
+                    if ( color1 == white ) {
+                        word6.setBackgroundColor(gray);
                         clickcount++;
                         points_value.setText(String.valueOf(clickcount));
-                        pageChanging();
-                    } else if (color == Color.GRAY) {
-                        word6.setBackgroundColor(Color.WHITE);
+                        pageChangingColor1();
+                    } else if (color1 == gray) {
+                        word6.setBackgroundColor(white);
                         clickcount--;
                         points_value.setText(String.valueOf(clickcount));
                     }
                 } else {
-                    word6.setBackgroundColor(Color.GRAY);
+                    word6.setBackgroundColor(gray);
                     clickcount++;
                     points_value.setText(String.valueOf(clickcount));
-                    pageChanging();
+                    pageChangingColor1();
+                }
+                if (word6.getBackground() instanceof ColorDrawable) {
+                    int color2 = ((ColorDrawable) word6.getBackground()).getColor();
+                    if ( color2 == dark_emerald_green ) {
+                        word6.setBackgroundColor(dark_emerald_green_dark);
+                        clickcount++;
+                        points_value.setText(String.valueOf(clickcount));
+                        pageChangingColor2();
+                    } else if (color2 == dark_emerald_green_dark) {
+                        word6.setBackgroundColor(dark_emerald_green);
+                        clickcount--;
+                        points_value.setText(String.valueOf(clickcount));
+                    }
+                } else {
+                    word6.setBackgroundColor(dark_emerald_green_dark);
+                    clickcount++;
+                    points_value.setText(String.valueOf(clickcount));
+                    pageChangingColor2();
+                }
+                if (word6.getBackground() instanceof ColorDrawable) {
+                    int color3 = ((ColorDrawable) word6.getBackground()).getColor();
+                    if ( color3 == yellow ) {
+                        word6.setBackgroundColor(yellow_dark);
+                        clickcount++;
+                        points_value.setText(String.valueOf(clickcount));
+                        pageChangingColor3();
+                    } else if (color3 == yellow_dark) {
+                        word6.setBackgroundColor(yellow);
+                        clickcount--;
+                        points_value.setText(String.valueOf(clickcount));
+                    }
+                } else {
+                    word6.setBackgroundColor(yellow_dark);
+                    clickcount++;
+                    points_value.setText(String.valueOf(clickcount));
+                    pageChangingColor3();
+                }
+                if (word6.getBackground() instanceof ColorDrawable) {
+                    int color4 = ((ColorDrawable) word6.getBackground()).getColor();
+                    if ( color4 == red ) {
+                        word6.setBackgroundColor(red_dark);
+                        clickcount++;
+                        points_value.setText(String.valueOf(clickcount));
+                        pageChangingColor4();
+                    } else if (color4 == red_dark) {
+                        word6.setBackgroundColor(red);
+                        clickcount--;
+                        points_value.setText(String.valueOf(clickcount));
+                    }
+                } else {
+                    word6.setBackgroundColor(red_dark);
+                    clickcount++;
+                    points_value.setText(String.valueOf(clickcount));
+                    pageChangingColor4();
+                }
+                if (word6.getBackground() instanceof ColorDrawable) {
+                    int color4 = ((ColorDrawable) word6.getBackground()).getColor();
+                    if ( color4 == teal ) {
+                        word6.setBackgroundColor(teal_dark);
+                        clickcount++;
+                        points_value.setText(String.valueOf(clickcount));
+                        pageChangingColor5();
+                    } else if (color4 == teal_dark) {
+                        word6.setBackgroundColor(teal);
+                        clickcount--;
+                        points_value.setText(String.valueOf(clickcount));
+                    }
+                } else {
+                    word6.setBackgroundColor(teal_dark);
+                    clickcount++;
+                    points_value.setText(String.valueOf(clickcount));
+                    pageChangingColor5();
+                }
+                if (word6.getBackground() instanceof ColorDrawable) {
+                    int color4 = ((ColorDrawable) word6.getBackground()).getColor();
+                    if ( color4 == blooming_dahlia ) {
+                        word6.setBackgroundColor(blooming_dahlia_dark);
+                        clickcount++;
+                        points_value.setText(String.valueOf(clickcount));
+                        pageChangingColor6();
+                    } else if (color4 == blooming_dahlia_dark) {
+                        word6.setBackgroundColor(blooming_dahlia);
+                        clickcount--;
+                        points_value.setText(String.valueOf(clickcount));
+                    }
+                } else {
+                    word6.setBackgroundColor(teal_dark);
+                    clickcount++;
+                    points_value.setText(String.valueOf(clickcount));
+                    pageChangingColor6();
+                }
+                if (word6.getBackground() instanceof ColorDrawable) {
+                    int color4 = ((ColorDrawable) word6.getBackground()).getColor();
+                    if ( color4 == orange ) {
+                        word6.setBackgroundColor(orange_dark);
+                        clickcount++;
+                        points_value.setText(String.valueOf(clickcount));
+                        pageChangingColor7();
+                    } else if (color4 == orange_dark) {
+                        word6.setBackgroundColor(orange);
+                        clickcount--;
+                        points_value.setText(String.valueOf(clickcount));
+                    }
+                } else {
+                    word6.setBackgroundColor(orange_dark);
+                    clickcount++;
+                    points_value.setText(String.valueOf(clickcount));
+                    pageChangingColor7();
+                }
+                if (word6.getBackground() instanceof ColorDrawable) {
+                    int color4 = ((ColorDrawable) word6.getBackground()).getColor();
+                    if ( color4 == light_blue ) {
+                        word6.setBackgroundColor(light_blue_dark);
+                        clickcount++;
+                        points_value.setText(String.valueOf(clickcount));
+                        pageChangingColor8();
+                    } else if (color4 == light_blue_dark) {
+                        word6.setBackgroundColor(light_blue);
+                        clickcount--;
+                        points_value.setText(String.valueOf(clickcount));
+                    }
+                } else {
+                    word6.setBackgroundColor(light_blue_dark);
+                    clickcount++;
+                    points_value.setText(String.valueOf(clickcount));
+                    pageChangingColor8();
                 }
             }
 
-            private void resetWords() {
-                word1.setText(getRandomArray(words_cwa)); word1.setBackgroundColor(Color.WHITE);
-                word2.setText(getRandomArray(words_cwa)); word2.setBackgroundColor(Color.WHITE);
-                word3.setText(getRandomArray(words_cwa)); word3.setBackgroundColor(Color.WHITE);
-                word4.setText(getRandomArray(words_cwa)); word4.setBackgroundColor(Color.WHITE);
-                word5.setText(getRandomArray(words_cwa)); word5.setBackgroundColor(Color.WHITE);
-                word6.setText(getRandomArray(words_cwa)); word6.setBackgroundColor(Color.WHITE);
-                word7.setText(getRandomArray(words_cwa)); word7.setBackgroundColor(Color.WHITE);
-                word8.setText(getRandomArray(words_cwa)); word8.setBackgroundColor(Color.WHITE);
-                word9.setText(getRandomArray(words_cwa)); word9.setBackgroundColor(Color.WHITE);
-                word10.setText(getRandomArray(words_cwa)); word10.setBackgroundColor(Color.WHITE);
+            private void resetWordsColor1() {
+                word1.setText(getRandomArray(words_cwa)); word1.setBackgroundColor(white);
+                word2.setText(getRandomArray(words_cwa)); word2.setBackgroundColor(white);
+                word3.setText(getRandomArray(words_cwa)); word3.setBackgroundColor(white);
+                word4.setText(getRandomArray(words_cwa)); word4.setBackgroundColor(white);
+                word5.setText(getRandomArray(words_cwa)); word5.setBackgroundColor(white);
+                word6.setText(getRandomArray(words_cwa)); word6.setBackgroundColor(white);
+                word7.setText(getRandomArray(words_cwa)); word7.setBackgroundColor(white);
+                word8.setText(getRandomArray(words_cwa)); word8.setBackgroundColor(white);
+                word9.setText(getRandomArray(words_cwa)); word9.setBackgroundColor(white);
+                word10.setText(getRandomArray(words_cwa)); word10.setBackgroundColor(white);
             }
 
-            private void pageChanging() {
-                if (clickcount == 10) {
-                    resetWords();
-                } else if (clickcount == 20) {
-                    resetWords();
-                } else if (clickcount == 30) {
-                    resetWords();
-                } else if (clickcount == 40) {
-                    resetWords();
-                } else if (clickcount == 50) {
-                    resetWords();
+            private void resetWordsColor2() {
+                word1.setText(getRandomArray(words_cwa)); word1.setBackgroundColor(dark_emerald_green);
+                word2.setText(getRandomArray(words_cwa)); word2.setBackgroundColor(dark_emerald_green);
+                word3.setText(getRandomArray(words_cwa)); word3.setBackgroundColor(dark_emerald_green);
+                word4.setText(getRandomArray(words_cwa)); word4.setBackgroundColor(dark_emerald_green);
+                word5.setText(getRandomArray(words_cwa)); word5.setBackgroundColor(dark_emerald_green);
+                word6.setText(getRandomArray(words_cwa)); word6.setBackgroundColor(dark_emerald_green);
+                word7.setText(getRandomArray(words_cwa)); word7.setBackgroundColor(dark_emerald_green);
+                word8.setText(getRandomArray(words_cwa)); word8.setBackgroundColor(dark_emerald_green);
+                word9.setText(getRandomArray(words_cwa)); word9.setBackgroundColor(dark_emerald_green);
+                word10.setText(getRandomArray(words_cwa)); word10.setBackgroundColor(dark_emerald_green);
+            }
+
+            private void resetWordsColor3() {
+                word1.setText(getRandomArray(words_cwa)); word1.setBackgroundColor(yellow);
+                word2.setText(getRandomArray(words_cwa)); word2.setBackgroundColor(yellow);
+                word3.setText(getRandomArray(words_cwa)); word3.setBackgroundColor(yellow);
+                word4.setText(getRandomArray(words_cwa)); word4.setBackgroundColor(yellow);
+                word5.setText(getRandomArray(words_cwa)); word5.setBackgroundColor(yellow);
+                word6.setText(getRandomArray(words_cwa)); word6.setBackgroundColor(yellow);
+                word7.setText(getRandomArray(words_cwa)); word7.setBackgroundColor(yellow);
+                word8.setText(getRandomArray(words_cwa)); word8.setBackgroundColor(yellow);
+                word9.setText(getRandomArray(words_cwa)); word9.setBackgroundColor(yellow);
+                word10.setText(getRandomArray(words_cwa)); word10.setBackgroundColor(yellow);
+            }
+
+            private void resetWordsColor4() {
+                word1.setText(getRandomArray(words_cwa)); word1.setBackgroundColor(red);
+                word2.setText(getRandomArray(words_cwa)); word2.setBackgroundColor(red);
+                word3.setText(getRandomArray(words_cwa)); word3.setBackgroundColor(red);
+                word4.setText(getRandomArray(words_cwa)); word4.setBackgroundColor(red);
+                word5.setText(getRandomArray(words_cwa)); word5.setBackgroundColor(red);
+                word6.setText(getRandomArray(words_cwa)); word6.setBackgroundColor(red);
+                word7.setText(getRandomArray(words_cwa)); word7.setBackgroundColor(red);
+                word8.setText(getRandomArray(words_cwa)); word8.setBackgroundColor(red);
+                word9.setText(getRandomArray(words_cwa)); word9.setBackgroundColor(red);
+                word10.setText(getRandomArray(words_cwa)); word10.setBackgroundColor(red);
+            }
+
+            private void resetWordsColor5() {
+                word1.setText(getRandomArray(words_cwa)); word1.setBackgroundColor(teal);
+                word2.setText(getRandomArray(words_cwa)); word2.setBackgroundColor(teal);
+                word3.setText(getRandomArray(words_cwa)); word3.setBackgroundColor(teal);
+                word4.setText(getRandomArray(words_cwa)); word4.setBackgroundColor(teal);
+                word5.setText(getRandomArray(words_cwa)); word5.setBackgroundColor(teal);
+                word6.setText(getRandomArray(words_cwa)); word6.setBackgroundColor(teal);
+                word7.setText(getRandomArray(words_cwa)); word7.setBackgroundColor(teal);
+                word8.setText(getRandomArray(words_cwa)); word8.setBackgroundColor(teal);
+                word9.setText(getRandomArray(words_cwa)); word9.setBackgroundColor(teal);
+                word10.setText(getRandomArray(words_cwa)); word10.setBackgroundColor(teal);
+            }
+
+            private void resetWordsColor6() {
+                word1.setText(getRandomArray(words_cwa)); word1.setBackgroundColor(blooming_dahlia);
+                word2.setText(getRandomArray(words_cwa)); word2.setBackgroundColor(blooming_dahlia);
+                word3.setText(getRandomArray(words_cwa)); word3.setBackgroundColor(blooming_dahlia);
+                word4.setText(getRandomArray(words_cwa)); word4.setBackgroundColor(blooming_dahlia);
+                word5.setText(getRandomArray(words_cwa)); word5.setBackgroundColor(blooming_dahlia);
+                word6.setText(getRandomArray(words_cwa)); word6.setBackgroundColor(blooming_dahlia);
+                word7.setText(getRandomArray(words_cwa)); word7.setBackgroundColor(blooming_dahlia);
+                word8.setText(getRandomArray(words_cwa)); word8.setBackgroundColor(blooming_dahlia);
+                word9.setText(getRandomArray(words_cwa)); word9.setBackgroundColor(blooming_dahlia);
+                word10.setText(getRandomArray(words_cwa)); word10.setBackgroundColor(blooming_dahlia);
+            }
+
+            private void resetWordsColor7() {
+                word1.setText(getRandomArray(words_cwa)); word1.setBackgroundColor(orange);
+                word2.setText(getRandomArray(words_cwa)); word2.setBackgroundColor(orange);
+                word3.setText(getRandomArray(words_cwa)); word3.setBackgroundColor(orange);
+                word4.setText(getRandomArray(words_cwa)); word4.setBackgroundColor(orange);
+                word5.setText(getRandomArray(words_cwa)); word5.setBackgroundColor(orange);
+                word6.setText(getRandomArray(words_cwa)); word6.setBackgroundColor(orange);
+                word7.setText(getRandomArray(words_cwa)); word7.setBackgroundColor(orange);
+                word8.setText(getRandomArray(words_cwa)); word8.setBackgroundColor(orange);
+                word9.setText(getRandomArray(words_cwa)); word9.setBackgroundColor(orange);
+                word10.setText(getRandomArray(words_cwa)); word10.setBackgroundColor(orange);
+            }
+
+            private void resetWordsColor8() {
+                word1.setText(getRandomArray(words_cwa)); word1.setBackgroundColor(light_blue);
+                word2.setText(getRandomArray(words_cwa)); word2.setBackgroundColor(light_blue);
+                word3.setText(getRandomArray(words_cwa)); word3.setBackgroundColor(light_blue);
+                word4.setText(getRandomArray(words_cwa)); word4.setBackgroundColor(light_blue);
+                word5.setText(getRandomArray(words_cwa)); word5.setBackgroundColor(light_blue);
+                word6.setText(getRandomArray(words_cwa)); word6.setBackgroundColor(light_blue);
+                word7.setText(getRandomArray(words_cwa)); word7.setBackgroundColor(light_blue);
+                word8.setText(getRandomArray(words_cwa)); word8.setBackgroundColor(light_blue);
+                word9.setText(getRandomArray(words_cwa)); word9.setBackgroundColor(light_blue);
+                word10.setText(getRandomArray(words_cwa)); word10.setBackgroundColor(light_blue);
+            }
+
+            private void pageChangingColor1() {
+                if (clickcount == 10 || clickcount == 20 || clickcount == 30  || clickcount == 40 || clickcount == 50) {
+                    resetWordsColor1();
+                }
+            }
+
+            private void pageChangingColor2() {
+                if (clickcount == 10 || clickcount == 20 || clickcount == 30  || clickcount == 40 || clickcount == 50) {
+                    resetWordsColor2();
+                }
+            }
+
+            private void pageChangingColor3() {
+                if (clickcount == 10 || clickcount == 20 || clickcount == 30  || clickcount == 40 || clickcount == 50) {
+                    resetWordsColor3();
+                }
+            }
+
+            private void pageChangingColor4() {
+                if (clickcount == 10 || clickcount == 20 || clickcount == 30  || clickcount == 40 || clickcount == 50) {
+                    resetWordsColor4();
+                }
+            }
+
+            private void pageChangingColor5() {
+                if (clickcount == 10 || clickcount == 20 || clickcount == 30  || clickcount == 40 || clickcount == 50) {
+                    resetWordsColor5();
+                }
+            }
+
+            private void pageChangingColor6() {
+                if (clickcount == 10 || clickcount == 20 || clickcount == 30  || clickcount == 40 || clickcount == 50) {
+                    resetWordsColor6();
+                }
+            }
+
+            private void pageChangingColor7() {
+                if (clickcount == 10 || clickcount == 20 || clickcount == 30  || clickcount == 40 || clickcount == 50) {
+                    resetWordsColor7();
+                }
+            }
+
+            private void pageChangingColor8() {
+                if (clickcount == 10 || clickcount == 20 || clickcount == 30  || clickcount == 40 || clickcount == 50) {
+                    resetWordsColor8();
                 }
             }
         });
-
         word7.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 if (word7.getBackground() instanceof ColorDrawable) {
-                    int color = ((ColorDrawable) word7.getBackground()).getColor();
-                    if (color == Color.WHITE) {
-                        word7.setBackgroundColor(Color.GRAY);
+                    int color1 = ((ColorDrawable) word7.getBackground()).getColor();
+                    if ( color1 == white ) {
+                        word7.setBackgroundColor(gray);
                         clickcount++;
                         points_value.setText(String.valueOf(clickcount));
-                        pageChanging();
-                    } else if (color == Color.GRAY) {
-                        word7.setBackgroundColor(Color.WHITE);
+                        pageChangingColor1();
+                    } else if (color1 == gray) {
+                        word7.setBackgroundColor(white);
                         clickcount--;
                         points_value.setText(String.valueOf(clickcount));
                     }
                 } else {
-                    word7.setBackgroundColor(Color.GRAY);
+                    word7.setBackgroundColor(gray);
                     clickcount++;
                     points_value.setText(String.valueOf(clickcount));
-                    pageChanging();
+                    pageChangingColor1();
+                }
+                if (word7.getBackground() instanceof ColorDrawable) {
+                    int color2 = ((ColorDrawable) word7.getBackground()).getColor();
+                    if ( color2 == dark_emerald_green ) {
+                        word7.setBackgroundColor(dark_emerald_green_dark);
+                        clickcount++;
+                        points_value.setText(String.valueOf(clickcount));
+                        pageChangingColor2();
+                    } else if (color2 == dark_emerald_green_dark) {
+                        word7.setBackgroundColor(dark_emerald_green);
+                        clickcount--;
+                        points_value.setText(String.valueOf(clickcount));
+                    }
+                } else {
+                    word7.setBackgroundColor(dark_emerald_green_dark);
+                    clickcount++;
+                    points_value.setText(String.valueOf(clickcount));
+                    pageChangingColor2();
+                }
+                if (word7.getBackground() instanceof ColorDrawable) {
+                    int color3 = ((ColorDrawable) word7.getBackground()).getColor();
+                    if ( color3 == yellow ) {
+                        word7.setBackgroundColor(yellow_dark);
+                        clickcount++;
+                        points_value.setText(String.valueOf(clickcount));
+                        pageChangingColor3();
+                    } else if (color3 == yellow_dark) {
+                        word7.setBackgroundColor(yellow);
+                        clickcount--;
+                        points_value.setText(String.valueOf(clickcount));
+                    }
+                } else {
+                    word1.setBackgroundColor(yellow_dark);
+                    clickcount++;
+                    points_value.setText(String.valueOf(clickcount));
+                    pageChangingColor3();
+                }
+                if (word7.getBackground() instanceof ColorDrawable) {
+                    int color4 = ((ColorDrawable) word7.getBackground()).getColor();
+                    if ( color4 == red ) {
+                        word7.setBackgroundColor(red_dark);
+                        clickcount++;
+                        points_value.setText(String.valueOf(clickcount));
+                        pageChangingColor4();
+                    } else if (color4 == red_dark) {
+                        word7.setBackgroundColor(red);
+                        clickcount--;
+                        points_value.setText(String.valueOf(clickcount));
+                    }
+                } else {
+                    word7.setBackgroundColor(red_dark);
+                    clickcount++;
+                    points_value.setText(String.valueOf(clickcount));
+                    pageChangingColor4();
+                }
+                if (word7.getBackground() instanceof ColorDrawable) {
+                    int color4 = ((ColorDrawable) word7.getBackground()).getColor();
+                    if ( color4 == teal ) {
+                        word7.setBackgroundColor(teal_dark);
+                        clickcount++;
+                        points_value.setText(String.valueOf(clickcount));
+                        pageChangingColor5();
+                    } else if (color4 == teal_dark) {
+                        word7.setBackgroundColor(teal);
+                        clickcount--;
+                        points_value.setText(String.valueOf(clickcount));
+                    }
+                } else {
+                    word7.setBackgroundColor(teal_dark);
+                    clickcount++;
+                    points_value.setText(String.valueOf(clickcount));
+                    pageChangingColor5();
+                }
+                if (word7.getBackground() instanceof ColorDrawable) {
+                    int color4 = ((ColorDrawable) word7.getBackground()).getColor();
+                    if ( color4 == blooming_dahlia ) {
+                        word7.setBackgroundColor(blooming_dahlia_dark);
+                        clickcount++;
+                        points_value.setText(String.valueOf(clickcount));
+                        pageChangingColor6();
+                    } else if (color4 == blooming_dahlia_dark) {
+                        word7.setBackgroundColor(blooming_dahlia);
+                        clickcount--;
+                        points_value.setText(String.valueOf(clickcount));
+                    }
+                } else {
+                    word7.setBackgroundColor(teal_dark);
+                    clickcount++;
+                    points_value.setText(String.valueOf(clickcount));
+                    pageChangingColor6();
+                }
+                if (word7.getBackground() instanceof ColorDrawable) {
+                    int color4 = ((ColorDrawable) word7.getBackground()).getColor();
+                    if ( color4 == orange ) {
+                        word7.setBackgroundColor(orange_dark);
+                        clickcount++;
+                        points_value.setText(String.valueOf(clickcount));
+                        pageChangingColor7();
+                    } else if (color4 == orange_dark) {
+                        word7.setBackgroundColor(orange);
+                        clickcount--;
+                        points_value.setText(String.valueOf(clickcount));
+                    }
+                } else {
+                    word7.setBackgroundColor(orange_dark);
+                    clickcount++;
+                    points_value.setText(String.valueOf(clickcount));
+                    pageChangingColor7();
+                }
+                if (word7.getBackground() instanceof ColorDrawable) {
+                    int color4 = ((ColorDrawable) word7.getBackground()).getColor();
+                    if ( color4 == light_blue ) {
+                        word7.setBackgroundColor(light_blue_dark);
+                        clickcount++;
+                        points_value.setText(String.valueOf(clickcount));
+                        pageChangingColor8();
+                    } else if (color4 == light_blue_dark) {
+                        word7.setBackgroundColor(light_blue);
+                        clickcount--;
+                        points_value.setText(String.valueOf(clickcount));
+                    }
+                } else {
+                    word7.setBackgroundColor(light_blue_dark);
+                    clickcount++;
+                    points_value.setText(String.valueOf(clickcount));
+                    pageChangingColor8();
                 }
             }
 
-            private void resetWords() {
-                word1.setText(getRandomArray(words_cwa)); word1.setBackgroundColor(Color.WHITE);
-                word2.setText(getRandomArray(words_cwa)); word2.setBackgroundColor(Color.WHITE);
-                word3.setText(getRandomArray(words_cwa)); word3.setBackgroundColor(Color.WHITE);
-                word4.setText(getRandomArray(words_cwa)); word4.setBackgroundColor(Color.WHITE);
-                word5.setText(getRandomArray(words_cwa)); word5.setBackgroundColor(Color.WHITE);
-                word6.setText(getRandomArray(words_cwa)); word6.setBackgroundColor(Color.WHITE);
-                word7.setText(getRandomArray(words_cwa)); word7.setBackgroundColor(Color.WHITE);
-                word8.setText(getRandomArray(words_cwa)); word8.setBackgroundColor(Color.WHITE);
-                word9.setText(getRandomArray(words_cwa)); word9.setBackgroundColor(Color.WHITE);
-                word10.setText(getRandomArray(words_cwa)); word10.setBackgroundColor(Color.WHITE);
+            private void resetWordsColor1() {
+                word1.setText(getRandomArray(words_cwa)); word1.setBackgroundColor(white);
+                word2.setText(getRandomArray(words_cwa)); word2.setBackgroundColor(white);
+                word3.setText(getRandomArray(words_cwa)); word3.setBackgroundColor(white);
+                word4.setText(getRandomArray(words_cwa)); word4.setBackgroundColor(white);
+                word5.setText(getRandomArray(words_cwa)); word5.setBackgroundColor(white);
+                word6.setText(getRandomArray(words_cwa)); word6.setBackgroundColor(white);
+                word7.setText(getRandomArray(words_cwa)); word7.setBackgroundColor(white);
+                word8.setText(getRandomArray(words_cwa)); word8.setBackgroundColor(white);
+                word9.setText(getRandomArray(words_cwa)); word9.setBackgroundColor(white);
+                word10.setText(getRandomArray(words_cwa)); word10.setBackgroundColor(white);
             }
 
-            private void pageChanging() {
-                if (clickcount == 10) {
-                    resetWords();
-                } else if (clickcount == 20) {
-                    resetWords();
-                } else if (clickcount == 30) {
-                    resetWords();
-                } else if (clickcount == 40) {
-                    resetWords();
-                } else if (clickcount == 50) {
-                    resetWords();
+            private void resetWordsColor2() {
+                word1.setText(getRandomArray(words_cwa)); word1.setBackgroundColor(dark_emerald_green);
+                word2.setText(getRandomArray(words_cwa)); word2.setBackgroundColor(dark_emerald_green);
+                word3.setText(getRandomArray(words_cwa)); word3.setBackgroundColor(dark_emerald_green);
+                word4.setText(getRandomArray(words_cwa)); word4.setBackgroundColor(dark_emerald_green);
+                word5.setText(getRandomArray(words_cwa)); word5.setBackgroundColor(dark_emerald_green);
+                word6.setText(getRandomArray(words_cwa)); word6.setBackgroundColor(dark_emerald_green);
+                word7.setText(getRandomArray(words_cwa)); word7.setBackgroundColor(dark_emerald_green);
+                word8.setText(getRandomArray(words_cwa)); word8.setBackgroundColor(dark_emerald_green);
+                word9.setText(getRandomArray(words_cwa)); word9.setBackgroundColor(dark_emerald_green);
+                word10.setText(getRandomArray(words_cwa)); word10.setBackgroundColor(dark_emerald_green);
+            }
+
+            private void resetWordsColor3() {
+                word1.setText(getRandomArray(words_cwa)); word1.setBackgroundColor(yellow);
+                word2.setText(getRandomArray(words_cwa)); word2.setBackgroundColor(yellow);
+                word3.setText(getRandomArray(words_cwa)); word3.setBackgroundColor(yellow);
+                word4.setText(getRandomArray(words_cwa)); word4.setBackgroundColor(yellow);
+                word5.setText(getRandomArray(words_cwa)); word5.setBackgroundColor(yellow);
+                word6.setText(getRandomArray(words_cwa)); word6.setBackgroundColor(yellow);
+                word7.setText(getRandomArray(words_cwa)); word7.setBackgroundColor(yellow);
+                word8.setText(getRandomArray(words_cwa)); word8.setBackgroundColor(yellow);
+                word9.setText(getRandomArray(words_cwa)); word9.setBackgroundColor(yellow);
+                word10.setText(getRandomArray(words_cwa)); word10.setBackgroundColor(yellow);
+            }
+
+            private void resetWordsColor4() {
+                word1.setText(getRandomArray(words_cwa)); word1.setBackgroundColor(red);
+                word2.setText(getRandomArray(words_cwa)); word2.setBackgroundColor(red);
+                word3.setText(getRandomArray(words_cwa)); word3.setBackgroundColor(red);
+                word4.setText(getRandomArray(words_cwa)); word4.setBackgroundColor(red);
+                word5.setText(getRandomArray(words_cwa)); word5.setBackgroundColor(red);
+                word6.setText(getRandomArray(words_cwa)); word6.setBackgroundColor(red);
+                word7.setText(getRandomArray(words_cwa)); word7.setBackgroundColor(red);
+                word8.setText(getRandomArray(words_cwa)); word8.setBackgroundColor(red);
+                word9.setText(getRandomArray(words_cwa)); word9.setBackgroundColor(red);
+                word10.setText(getRandomArray(words_cwa)); word10.setBackgroundColor(red);
+            }
+
+            private void resetWordsColor5() {
+                word1.setText(getRandomArray(words_cwa)); word1.setBackgroundColor(teal);
+                word2.setText(getRandomArray(words_cwa)); word2.setBackgroundColor(teal);
+                word3.setText(getRandomArray(words_cwa)); word3.setBackgroundColor(teal);
+                word4.setText(getRandomArray(words_cwa)); word4.setBackgroundColor(teal);
+                word5.setText(getRandomArray(words_cwa)); word5.setBackgroundColor(teal);
+                word6.setText(getRandomArray(words_cwa)); word6.setBackgroundColor(teal);
+                word7.setText(getRandomArray(words_cwa)); word7.setBackgroundColor(teal);
+                word8.setText(getRandomArray(words_cwa)); word8.setBackgroundColor(teal);
+                word9.setText(getRandomArray(words_cwa)); word9.setBackgroundColor(teal);
+                word10.setText(getRandomArray(words_cwa)); word10.setBackgroundColor(teal);
+            }
+
+            private void resetWordsColor6() {
+                word1.setText(getRandomArray(words_cwa)); word1.setBackgroundColor(blooming_dahlia);
+                word2.setText(getRandomArray(words_cwa)); word2.setBackgroundColor(blooming_dahlia);
+                word3.setText(getRandomArray(words_cwa)); word3.setBackgroundColor(blooming_dahlia);
+                word4.setText(getRandomArray(words_cwa)); word4.setBackgroundColor(blooming_dahlia);
+                word5.setText(getRandomArray(words_cwa)); word5.setBackgroundColor(blooming_dahlia);
+                word6.setText(getRandomArray(words_cwa)); word6.setBackgroundColor(blooming_dahlia);
+                word7.setText(getRandomArray(words_cwa)); word7.setBackgroundColor(blooming_dahlia);
+                word8.setText(getRandomArray(words_cwa)); word8.setBackgroundColor(blooming_dahlia);
+                word9.setText(getRandomArray(words_cwa)); word9.setBackgroundColor(blooming_dahlia);
+                word10.setText(getRandomArray(words_cwa)); word10.setBackgroundColor(blooming_dahlia);
+            }
+
+            private void resetWordsColor7() {
+                word1.setText(getRandomArray(words_cwa)); word1.setBackgroundColor(orange);
+                word2.setText(getRandomArray(words_cwa)); word2.setBackgroundColor(orange);
+                word3.setText(getRandomArray(words_cwa)); word3.setBackgroundColor(orange);
+                word4.setText(getRandomArray(words_cwa)); word4.setBackgroundColor(orange);
+                word5.setText(getRandomArray(words_cwa)); word5.setBackgroundColor(orange);
+                word6.setText(getRandomArray(words_cwa)); word6.setBackgroundColor(orange);
+                word7.setText(getRandomArray(words_cwa)); word7.setBackgroundColor(orange);
+                word8.setText(getRandomArray(words_cwa)); word8.setBackgroundColor(orange);
+                word9.setText(getRandomArray(words_cwa)); word9.setBackgroundColor(orange);
+                word10.setText(getRandomArray(words_cwa)); word10.setBackgroundColor(orange);
+            }
+
+            private void resetWordsColor8() {
+                word1.setText(getRandomArray(words_cwa)); word1.setBackgroundColor(light_blue);
+                word2.setText(getRandomArray(words_cwa)); word2.setBackgroundColor(light_blue);
+                word3.setText(getRandomArray(words_cwa)); word3.setBackgroundColor(light_blue);
+                word4.setText(getRandomArray(words_cwa)); word4.setBackgroundColor(light_blue);
+                word5.setText(getRandomArray(words_cwa)); word5.setBackgroundColor(light_blue);
+                word6.setText(getRandomArray(words_cwa)); word6.setBackgroundColor(light_blue);
+                word7.setText(getRandomArray(words_cwa)); word7.setBackgroundColor(light_blue);
+                word8.setText(getRandomArray(words_cwa)); word8.setBackgroundColor(light_blue);
+                word9.setText(getRandomArray(words_cwa)); word9.setBackgroundColor(light_blue);
+                word10.setText(getRandomArray(words_cwa)); word10.setBackgroundColor(light_blue);
+            }
+
+            private void pageChangingColor1() {
+                if (clickcount == 10 || clickcount == 20 || clickcount == 30  || clickcount == 40 || clickcount == 50) {
+                    resetWordsColor1();
+                }
+            }
+
+            private void pageChangingColor2() {
+                if (clickcount == 10 || clickcount == 20 || clickcount == 30  || clickcount == 40 || clickcount == 50) {
+                    resetWordsColor2();
+                }
+            }
+
+            private void pageChangingColor3() {
+                if (clickcount == 10 || clickcount == 20 || clickcount == 30  || clickcount == 40 || clickcount == 50) {
+                    resetWordsColor3();
+                }
+            }
+
+            private void pageChangingColor4() {
+                if (clickcount == 10 || clickcount == 20 || clickcount == 30  || clickcount == 40 || clickcount == 50) {
+                    resetWordsColor4();
+                }
+            }
+
+            private void pageChangingColor5() {
+                if (clickcount == 10 || clickcount == 20 || clickcount == 30  || clickcount == 40 || clickcount == 50) {
+                    resetWordsColor5();
+                }
+            }
+
+            private void pageChangingColor6() {
+                if (clickcount == 10 || clickcount == 20 || clickcount == 30  || clickcount == 40 || clickcount == 50) {
+                    resetWordsColor6();
+                }
+            }
+
+            private void pageChangingColor7() {
+                if (clickcount == 10 || clickcount == 20 || clickcount == 30  || clickcount == 40 || clickcount == 50) {
+                    resetWordsColor7();
+                }
+            }
+
+            private void pageChangingColor8() {
+                if (clickcount == 10 || clickcount == 20 || clickcount == 30  || clickcount == 40 || clickcount == 50) {
+                    resetWordsColor8();
                 }
             }
         });
-
         word8.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 if (word8.getBackground() instanceof ColorDrawable) {
-                    int color = ((ColorDrawable) word8.getBackground()).getColor();
-                    if (color == Color.WHITE) {
-                        word8.setBackgroundColor(Color.GRAY);
+                    int color1 = ((ColorDrawable) word8.getBackground()).getColor();
+                    if ( color1 == white ) {
+                        word8.setBackgroundColor(gray);
                         clickcount++;
                         points_value.setText(String.valueOf(clickcount));
-                        pageChanging();
-                    } else if (color == Color.GRAY) {
-                        word8.setBackgroundColor(Color.WHITE);
+                        pageChangingColor1();
+                    } else if (color1 == gray) {
+                        word8.setBackgroundColor(white);
                         clickcount--;
                         points_value.setText(String.valueOf(clickcount));
                     }
                 } else {
-                    word8.setBackgroundColor(Color.GRAY);
+                    word8.setBackgroundColor(gray);
                     clickcount++;
                     points_value.setText(String.valueOf(clickcount));
-                    pageChanging();
+                    pageChangingColor1();
+                }
+                if (word8.getBackground() instanceof ColorDrawable) {
+                    int color2 = ((ColorDrawable) word8.getBackground()).getColor();
+                    if ( color2 == dark_emerald_green ) {
+                        word8.setBackgroundColor(dark_emerald_green_dark);
+                        clickcount++;
+                        points_value.setText(String.valueOf(clickcount));
+                        pageChangingColor2();
+                    } else if (color2 == dark_emerald_green_dark) {
+                        word8.setBackgroundColor(dark_emerald_green);
+                        clickcount--;
+                        points_value.setText(String.valueOf(clickcount));
+                    }
+                } else {
+                    word8.setBackgroundColor(dark_emerald_green_dark);
+                    clickcount++;
+                    points_value.setText(String.valueOf(clickcount));
+                    pageChangingColor2();
+                }
+                if (word8.getBackground() instanceof ColorDrawable) {
+                    int color3 = ((ColorDrawable) word8.getBackground()).getColor();
+                    if ( color3 == yellow ) {
+                        word8.setBackgroundColor(yellow_dark);
+                        clickcount++;
+                        points_value.setText(String.valueOf(clickcount));
+                        pageChangingColor3();
+                    } else if (color3 == yellow_dark) {
+                        word8.setBackgroundColor(yellow);
+                        clickcount--;
+                        points_value.setText(String.valueOf(clickcount));
+                    }
+                } else {
+                    word8.setBackgroundColor(yellow_dark);
+                    clickcount++;
+                    points_value.setText(String.valueOf(clickcount));
+                    pageChangingColor3();
+                }
+                if (word8.getBackground() instanceof ColorDrawable) {
+                    int color4 = ((ColorDrawable) word8.getBackground()).getColor();
+                    if ( color4 == red ) {
+                        word8.setBackgroundColor(red_dark);
+                        clickcount++;
+                        points_value.setText(String.valueOf(clickcount));
+                        pageChangingColor4();
+                    } else if (color4 == red_dark) {
+                        word8.setBackgroundColor(red);
+                        clickcount--;
+                        points_value.setText(String.valueOf(clickcount));
+                    }
+                } else {
+                    word8.setBackgroundColor(red_dark);
+                    clickcount++;
+                    points_value.setText(String.valueOf(clickcount));
+                    pageChangingColor4();
+                }
+                if (word8.getBackground() instanceof ColorDrawable) {
+                    int color4 = ((ColorDrawable) word8.getBackground()).getColor();
+                    if ( color4 == teal ) {
+                        word8.setBackgroundColor(teal_dark);
+                        clickcount++;
+                        points_value.setText(String.valueOf(clickcount));
+                        pageChangingColor5();
+                    } else if (color4 == teal_dark) {
+                        word8.setBackgroundColor(teal);
+                        clickcount--;
+                        points_value.setText(String.valueOf(clickcount));
+                    }
+                } else {
+                    word8.setBackgroundColor(teal_dark);
+                    clickcount++;
+                    points_value.setText(String.valueOf(clickcount));
+                    pageChangingColor5();
+                }
+                if (word8.getBackground() instanceof ColorDrawable) {
+                    int color4 = ((ColorDrawable) word8.getBackground()).getColor();
+                    if ( color4 == blooming_dahlia ) {
+                        word8.setBackgroundColor(blooming_dahlia_dark);
+                        clickcount++;
+                        points_value.setText(String.valueOf(clickcount));
+                        pageChangingColor6();
+                    } else if (color4 == blooming_dahlia_dark) {
+                        word8.setBackgroundColor(blooming_dahlia);
+                        clickcount--;
+                        points_value.setText(String.valueOf(clickcount));
+                    }
+                } else {
+                    word8.setBackgroundColor(teal_dark);
+                    clickcount++;
+                    points_value.setText(String.valueOf(clickcount));
+                    pageChangingColor6();
+                }
+                if (word8.getBackground() instanceof ColorDrawable) {
+                    int color4 = ((ColorDrawable) word8.getBackground()).getColor();
+                    if ( color4 == orange ) {
+                        word8.setBackgroundColor(orange_dark);
+                        clickcount++;
+                        points_value.setText(String.valueOf(clickcount));
+                        pageChangingColor7();
+                    } else if (color4 == orange_dark) {
+                        word8.setBackgroundColor(orange);
+                        clickcount--;
+                        points_value.setText(String.valueOf(clickcount));
+                    }
+                } else {
+                    word8.setBackgroundColor(orange_dark);
+                    clickcount++;
+                    points_value.setText(String.valueOf(clickcount));
+                    pageChangingColor7();
+                }
+                if (word8.getBackground() instanceof ColorDrawable) {
+                    int color4 = ((ColorDrawable) word8.getBackground()).getColor();
+                    if ( color4 == light_blue ) {
+                        word8.setBackgroundColor(light_blue_dark);
+                        clickcount++;
+                        points_value.setText(String.valueOf(clickcount));
+                        pageChangingColor8();
+                    } else if (color4 == light_blue_dark) {
+                        word8.setBackgroundColor(light_blue);
+                        clickcount--;
+                        points_value.setText(String.valueOf(clickcount));
+                    }
+                } else {
+                    word8.setBackgroundColor(light_blue_dark);
+                    clickcount++;
+                    points_value.setText(String.valueOf(clickcount));
+                    pageChangingColor8();
                 }
             }
 
-            private void resetWords() {
-                word1.setText(getRandomArray(words_cwa)); word1.setBackgroundColor(Color.WHITE);
-                word2.setText(getRandomArray(words_cwa)); word2.setBackgroundColor(Color.WHITE);
-                word3.setText(getRandomArray(words_cwa)); word3.setBackgroundColor(Color.WHITE);
-                word4.setText(getRandomArray(words_cwa)); word4.setBackgroundColor(Color.WHITE);
-                word5.setText(getRandomArray(words_cwa)); word5.setBackgroundColor(Color.WHITE);
-                word6.setText(getRandomArray(words_cwa)); word6.setBackgroundColor(Color.WHITE);
-                word7.setText(getRandomArray(words_cwa)); word7.setBackgroundColor(Color.WHITE);
-                word8.setText(getRandomArray(words_cwa)); word8.setBackgroundColor(Color.WHITE);
-                word9.setText(getRandomArray(words_cwa)); word9.setBackgroundColor(Color.WHITE);
-                word10.setText(getRandomArray(words_cwa)); word10.setBackgroundColor(Color.WHITE);
+            private void resetWordsColor1() {
+                word1.setText(getRandomArray(words_cwa)); word1.setBackgroundColor(white);
+                word2.setText(getRandomArray(words_cwa)); word2.setBackgroundColor(white);
+                word3.setText(getRandomArray(words_cwa)); word3.setBackgroundColor(white);
+                word4.setText(getRandomArray(words_cwa)); word4.setBackgroundColor(white);
+                word5.setText(getRandomArray(words_cwa)); word5.setBackgroundColor(white);
+                word6.setText(getRandomArray(words_cwa)); word6.setBackgroundColor(white);
+                word7.setText(getRandomArray(words_cwa)); word7.setBackgroundColor(white);
+                word8.setText(getRandomArray(words_cwa)); word8.setBackgroundColor(white);
+                word9.setText(getRandomArray(words_cwa)); word9.setBackgroundColor(white);
+                word10.setText(getRandomArray(words_cwa)); word10.setBackgroundColor(white);
             }
 
-            private void pageChanging() {
-                if (clickcount == 10) {
-                    resetWords();
-                } else if (clickcount == 20) {
-                    resetWords();
-                } else if (clickcount == 30) {
-                    resetWords();
-                } else if (clickcount == 40) {
-                    resetWords();
-                } else if (clickcount == 50) {
-                    resetWords();
+            private void resetWordsColor2() {
+                word1.setText(getRandomArray(words_cwa)); word1.setBackgroundColor(dark_emerald_green);
+                word2.setText(getRandomArray(words_cwa)); word2.setBackgroundColor(dark_emerald_green);
+                word3.setText(getRandomArray(words_cwa)); word3.setBackgroundColor(dark_emerald_green);
+                word4.setText(getRandomArray(words_cwa)); word4.setBackgroundColor(dark_emerald_green);
+                word5.setText(getRandomArray(words_cwa)); word5.setBackgroundColor(dark_emerald_green);
+                word6.setText(getRandomArray(words_cwa)); word6.setBackgroundColor(dark_emerald_green);
+                word7.setText(getRandomArray(words_cwa)); word7.setBackgroundColor(dark_emerald_green);
+                word8.setText(getRandomArray(words_cwa)); word8.setBackgroundColor(dark_emerald_green);
+                word9.setText(getRandomArray(words_cwa)); word9.setBackgroundColor(dark_emerald_green);
+                word10.setText(getRandomArray(words_cwa)); word10.setBackgroundColor(dark_emerald_green);
+            }
+
+            private void resetWordsColor3() {
+                word1.setText(getRandomArray(words_cwa)); word1.setBackgroundColor(yellow);
+                word2.setText(getRandomArray(words_cwa)); word2.setBackgroundColor(yellow);
+                word3.setText(getRandomArray(words_cwa)); word3.setBackgroundColor(yellow);
+                word4.setText(getRandomArray(words_cwa)); word4.setBackgroundColor(yellow);
+                word5.setText(getRandomArray(words_cwa)); word5.setBackgroundColor(yellow);
+                word6.setText(getRandomArray(words_cwa)); word6.setBackgroundColor(yellow);
+                word7.setText(getRandomArray(words_cwa)); word7.setBackgroundColor(yellow);
+                word8.setText(getRandomArray(words_cwa)); word8.setBackgroundColor(yellow);
+                word9.setText(getRandomArray(words_cwa)); word9.setBackgroundColor(yellow);
+                word10.setText(getRandomArray(words_cwa)); word10.setBackgroundColor(yellow);
+            }
+
+            private void resetWordsColor4() {
+                word1.setText(getRandomArray(words_cwa)); word1.setBackgroundColor(red);
+                word2.setText(getRandomArray(words_cwa)); word2.setBackgroundColor(red);
+                word3.setText(getRandomArray(words_cwa)); word3.setBackgroundColor(red);
+                word4.setText(getRandomArray(words_cwa)); word4.setBackgroundColor(red);
+                word5.setText(getRandomArray(words_cwa)); word5.setBackgroundColor(red);
+                word6.setText(getRandomArray(words_cwa)); word6.setBackgroundColor(red);
+                word7.setText(getRandomArray(words_cwa)); word7.setBackgroundColor(red);
+                word8.setText(getRandomArray(words_cwa)); word8.setBackgroundColor(red);
+                word9.setText(getRandomArray(words_cwa)); word9.setBackgroundColor(red);
+                word10.setText(getRandomArray(words_cwa)); word10.setBackgroundColor(red);
+            }
+
+            private void resetWordsColor5() {
+                word1.setText(getRandomArray(words_cwa)); word1.setBackgroundColor(teal);
+                word2.setText(getRandomArray(words_cwa)); word2.setBackgroundColor(teal);
+                word3.setText(getRandomArray(words_cwa)); word3.setBackgroundColor(teal);
+                word4.setText(getRandomArray(words_cwa)); word4.setBackgroundColor(teal);
+                word5.setText(getRandomArray(words_cwa)); word5.setBackgroundColor(teal);
+                word6.setText(getRandomArray(words_cwa)); word6.setBackgroundColor(teal);
+                word7.setText(getRandomArray(words_cwa)); word7.setBackgroundColor(teal);
+                word8.setText(getRandomArray(words_cwa)); word8.setBackgroundColor(teal);
+                word9.setText(getRandomArray(words_cwa)); word9.setBackgroundColor(teal);
+                word10.setText(getRandomArray(words_cwa)); word10.setBackgroundColor(teal);
+            }
+
+            private void resetWordsColor6() {
+                word1.setText(getRandomArray(words_cwa)); word1.setBackgroundColor(blooming_dahlia);
+                word2.setText(getRandomArray(words_cwa)); word2.setBackgroundColor(blooming_dahlia);
+                word3.setText(getRandomArray(words_cwa)); word3.setBackgroundColor(blooming_dahlia);
+                word4.setText(getRandomArray(words_cwa)); word4.setBackgroundColor(blooming_dahlia);
+                word5.setText(getRandomArray(words_cwa)); word5.setBackgroundColor(blooming_dahlia);
+                word6.setText(getRandomArray(words_cwa)); word6.setBackgroundColor(blooming_dahlia);
+                word7.setText(getRandomArray(words_cwa)); word7.setBackgroundColor(blooming_dahlia);
+                word8.setText(getRandomArray(words_cwa)); word8.setBackgroundColor(blooming_dahlia);
+                word9.setText(getRandomArray(words_cwa)); word9.setBackgroundColor(blooming_dahlia);
+                word10.setText(getRandomArray(words_cwa)); word10.setBackgroundColor(blooming_dahlia);
+            }
+
+            private void resetWordsColor7() {
+                word1.setText(getRandomArray(words_cwa)); word1.setBackgroundColor(orange);
+                word2.setText(getRandomArray(words_cwa)); word2.setBackgroundColor(orange);
+                word3.setText(getRandomArray(words_cwa)); word3.setBackgroundColor(orange);
+                word4.setText(getRandomArray(words_cwa)); word4.setBackgroundColor(orange);
+                word5.setText(getRandomArray(words_cwa)); word5.setBackgroundColor(orange);
+                word6.setText(getRandomArray(words_cwa)); word6.setBackgroundColor(orange);
+                word7.setText(getRandomArray(words_cwa)); word7.setBackgroundColor(orange);
+                word8.setText(getRandomArray(words_cwa)); word8.setBackgroundColor(orange);
+                word9.setText(getRandomArray(words_cwa)); word9.setBackgroundColor(orange);
+                word10.setText(getRandomArray(words_cwa)); word10.setBackgroundColor(orange);
+            }
+
+            private void resetWordsColor8() {
+                word1.setText(getRandomArray(words_cwa)); word1.setBackgroundColor(light_blue);
+                word2.setText(getRandomArray(words_cwa)); word2.setBackgroundColor(light_blue);
+                word3.setText(getRandomArray(words_cwa)); word3.setBackgroundColor(light_blue);
+                word4.setText(getRandomArray(words_cwa)); word4.setBackgroundColor(light_blue);
+                word5.setText(getRandomArray(words_cwa)); word5.setBackgroundColor(light_blue);
+                word6.setText(getRandomArray(words_cwa)); word6.setBackgroundColor(light_blue);
+                word7.setText(getRandomArray(words_cwa)); word7.setBackgroundColor(light_blue);
+                word8.setText(getRandomArray(words_cwa)); word8.setBackgroundColor(light_blue);
+                word9.setText(getRandomArray(words_cwa)); word9.setBackgroundColor(light_blue);
+                word10.setText(getRandomArray(words_cwa)); word10.setBackgroundColor(light_blue);
+            }
+
+            private void pageChangingColor1() {
+                if (clickcount == 10 || clickcount == 20 || clickcount == 30  || clickcount == 40 || clickcount == 50) {
+                    resetWordsColor1();
+                }
+            }
+
+            private void pageChangingColor2() {
+                if (clickcount == 10 || clickcount == 20 || clickcount == 30  || clickcount == 40 || clickcount == 50) {
+                    resetWordsColor2();
+                }
+            }
+
+            private void pageChangingColor3() {
+                if (clickcount == 10 || clickcount == 20 || clickcount == 30  || clickcount == 40 || clickcount == 50) {
+                    resetWordsColor3();
+                }
+            }
+
+            private void pageChangingColor4() {
+                if (clickcount == 10 || clickcount == 20 || clickcount == 30  || clickcount == 40 || clickcount == 50) {
+                    resetWordsColor4();
+                }
+            }
+
+            private void pageChangingColor5() {
+                if (clickcount == 10 || clickcount == 20 || clickcount == 30  || clickcount == 40 || clickcount == 50) {
+                    resetWordsColor5();
+                }
+            }
+
+            private void pageChangingColor6() {
+                if (clickcount == 10 || clickcount == 20 || clickcount == 30  || clickcount == 40 || clickcount == 50) {
+                    resetWordsColor6();
+                }
+            }
+
+            private void pageChangingColor7() {
+                if (clickcount == 10 || clickcount == 20 || clickcount == 30  || clickcount == 40 || clickcount == 50) {
+                    resetWordsColor7();
+                }
+            }
+
+            private void pageChangingColor8() {
+                if (clickcount == 10 || clickcount == 20 || clickcount == 30  || clickcount == 40 || clickcount == 50) {
+                    resetWordsColor8();
                 }
             }
         });
-
         word9.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 if (word9.getBackground() instanceof ColorDrawable) {
-                    int color = ((ColorDrawable) word9.getBackground()).getColor();
-                    if (color == Color.WHITE) {
-                        word9.setBackgroundColor(Color.GRAY);
+                    int color1 = ((ColorDrawable) word9.getBackground()).getColor();
+                    if ( color1 == white ) {
+                        word9.setBackgroundColor(gray);
                         clickcount++;
                         points_value.setText(String.valueOf(clickcount));
-                        pageChanging();
-                    } else if (color == Color.GRAY) {
-                        word9.setBackgroundColor(Color.WHITE);
+                        pageChangingColor1();
+                    } else if (color1 == gray) {
+                        word9.setBackgroundColor(white);
                         clickcount--;
                         points_value.setText(String.valueOf(clickcount));
                     }
                 } else {
-                    word9.setBackgroundColor(Color.GRAY);
+                    word9.setBackgroundColor(gray);
                     clickcount++;
                     points_value.setText(String.valueOf(clickcount));
-                    pageChanging();
+                    pageChangingColor1();
+                }
+                if (word9.getBackground() instanceof ColorDrawable) {
+                    int color2 = ((ColorDrawable) word9.getBackground()).getColor();
+                    if ( color2 == dark_emerald_green ) {
+                        word9.setBackgroundColor(dark_emerald_green_dark);
+                        clickcount++;
+                        points_value.setText(String.valueOf(clickcount));
+                        pageChangingColor2();
+                    } else if (color2 == dark_emerald_green_dark) {
+                        word9.setBackgroundColor(dark_emerald_green);
+                        clickcount--;
+                        points_value.setText(String.valueOf(clickcount));
+                    }
+                } else {
+                    word9.setBackgroundColor(dark_emerald_green_dark);
+                    clickcount++;
+                    points_value.setText(String.valueOf(clickcount));
+                    pageChangingColor2();
+                }
+                if (word9.getBackground() instanceof ColorDrawable) {
+                    int color3 = ((ColorDrawable) word9.getBackground()).getColor();
+                    if ( color3 == yellow ) {
+                        word9.setBackgroundColor(yellow_dark);
+                        clickcount++;
+                        points_value.setText(String.valueOf(clickcount));
+                        pageChangingColor3();
+                    } else if (color3 == yellow_dark) {
+                        word9.setBackgroundColor(yellow);
+                        clickcount--;
+                        points_value.setText(String.valueOf(clickcount));
+                    }
+                } else {
+                    word9.setBackgroundColor(yellow_dark);
+                    clickcount++;
+                    points_value.setText(String.valueOf(clickcount));
+                    pageChangingColor3();
+                }
+                if (word9.getBackground() instanceof ColorDrawable) {
+                    int color4 = ((ColorDrawable) word9.getBackground()).getColor();
+                    if ( color4 == red ) {
+                        word9.setBackgroundColor(red_dark);
+                        clickcount++;
+                        points_value.setText(String.valueOf(clickcount));
+                        pageChangingColor4();
+                    } else if (color4 == red_dark) {
+                        word9.setBackgroundColor(red);
+                        clickcount--;
+                        points_value.setText(String.valueOf(clickcount));
+                    }
+                } else {
+                    word9.setBackgroundColor(red_dark);
+                    clickcount++;
+                    points_value.setText(String.valueOf(clickcount));
+                    pageChangingColor4();
+                }
+                if (word9.getBackground() instanceof ColorDrawable) {
+                    int color4 = ((ColorDrawable) word9.getBackground()).getColor();
+                    if ( color4 == teal ) {
+                        word9.setBackgroundColor(teal_dark);
+                        clickcount++;
+                        points_value.setText(String.valueOf(clickcount));
+                        pageChangingColor5();
+                    } else if (color4 == teal_dark) {
+                        word9.setBackgroundColor(teal);
+                        clickcount--;
+                        points_value.setText(String.valueOf(clickcount));
+                    }
+                } else {
+                    word9.setBackgroundColor(teal_dark);
+                    clickcount++;
+                    points_value.setText(String.valueOf(clickcount));
+                    pageChangingColor5();
+                }
+                if (word9.getBackground() instanceof ColorDrawable) {
+                    int color4 = ((ColorDrawable) word9.getBackground()).getColor();
+                    if ( color4 == blooming_dahlia ) {
+                        word9.setBackgroundColor(blooming_dahlia_dark);
+                        clickcount++;
+                        points_value.setText(String.valueOf(clickcount));
+                        pageChangingColor6();
+                    } else if (color4 == blooming_dahlia_dark) {
+                        word9.setBackgroundColor(blooming_dahlia);
+                        clickcount--;
+                        points_value.setText(String.valueOf(clickcount));
+                    }
+                } else {
+                    word9.setBackgroundColor(teal_dark);
+                    clickcount++;
+                    points_value.setText(String.valueOf(clickcount));
+                    pageChangingColor6();
+                }
+                if (word9.getBackground() instanceof ColorDrawable) {
+                    int color4 = ((ColorDrawable) word9.getBackground()).getColor();
+                    if ( color4 == orange ) {
+                        word9.setBackgroundColor(orange_dark);
+                        clickcount++;
+                        points_value.setText(String.valueOf(clickcount));
+                        pageChangingColor7();
+                    } else if (color4 == orange_dark) {
+                        word9.setBackgroundColor(orange);
+                        clickcount--;
+                        points_value.setText(String.valueOf(clickcount));
+                    }
+                } else {
+                    word9.setBackgroundColor(orange_dark);
+                    clickcount++;
+                    points_value.setText(String.valueOf(clickcount));
+                    pageChangingColor7();
+                }
+                if (word9.getBackground() instanceof ColorDrawable) {
+                    int color4 = ((ColorDrawable) word9.getBackground()).getColor();
+                    if ( color4 == light_blue ) {
+                        word9.setBackgroundColor(light_blue_dark);
+                        clickcount++;
+                        points_value.setText(String.valueOf(clickcount));
+                        pageChangingColor8();
+                    } else if (color4 == light_blue_dark) {
+                        word9.setBackgroundColor(light_blue);
+                        clickcount--;
+                        points_value.setText(String.valueOf(clickcount));
+                    }
+                } else {
+                    word9.setBackgroundColor(light_blue_dark);
+                    clickcount++;
+                    points_value.setText(String.valueOf(clickcount));
+                    pageChangingColor8();
                 }
             }
 
-            private void resetWords() {
-                word1.setText(getRandomArray(words_cwa)); word1.setBackgroundColor(Color.WHITE);
-                word2.setText(getRandomArray(words_cwa)); word2.setBackgroundColor(Color.WHITE);
-                word3.setText(getRandomArray(words_cwa)); word3.setBackgroundColor(Color.WHITE);
-                word4.setText(getRandomArray(words_cwa)); word4.setBackgroundColor(Color.WHITE);
-                word5.setText(getRandomArray(words_cwa)); word5.setBackgroundColor(Color.WHITE);
-                word6.setText(getRandomArray(words_cwa)); word6.setBackgroundColor(Color.WHITE);
-                word7.setText(getRandomArray(words_cwa)); word7.setBackgroundColor(Color.WHITE);
-                word8.setText(getRandomArray(words_cwa)); word8.setBackgroundColor(Color.WHITE);
-                word9.setText(getRandomArray(words_cwa)); word9.setBackgroundColor(Color.WHITE);
-                word10.setText(getRandomArray(words_cwa)); word10.setBackgroundColor(Color.WHITE);
+            private void resetWordsColor1() {
+                word1.setText(getRandomArray(words_cwa)); word1.setBackgroundColor(white);
+                word2.setText(getRandomArray(words_cwa)); word2.setBackgroundColor(white);
+                word3.setText(getRandomArray(words_cwa)); word3.setBackgroundColor(white);
+                word4.setText(getRandomArray(words_cwa)); word4.setBackgroundColor(white);
+                word5.setText(getRandomArray(words_cwa)); word5.setBackgroundColor(white);
+                word6.setText(getRandomArray(words_cwa)); word6.setBackgroundColor(white);
+                word7.setText(getRandomArray(words_cwa)); word7.setBackgroundColor(white);
+                word8.setText(getRandomArray(words_cwa)); word8.setBackgroundColor(white);
+                word9.setText(getRandomArray(words_cwa)); word9.setBackgroundColor(white);
+                word10.setText(getRandomArray(words_cwa)); word10.setBackgroundColor(white);
             }
 
-            private void pageChanging() {
-                if (clickcount == 10) {
-                    resetWords();
-                } else if (clickcount == 20) {
-                    resetWords();
-                } else if (clickcount == 30) {
-                    resetWords();
-                } else if (clickcount == 40) {
-                    resetWords();
-                } else if (clickcount == 50) {
-                    resetWords();
+            private void resetWordsColor2() {
+                word1.setText(getRandomArray(words_cwa)); word1.setBackgroundColor(dark_emerald_green);
+                word2.setText(getRandomArray(words_cwa)); word2.setBackgroundColor(dark_emerald_green);
+                word3.setText(getRandomArray(words_cwa)); word3.setBackgroundColor(dark_emerald_green);
+                word4.setText(getRandomArray(words_cwa)); word4.setBackgroundColor(dark_emerald_green);
+                word5.setText(getRandomArray(words_cwa)); word5.setBackgroundColor(dark_emerald_green);
+                word6.setText(getRandomArray(words_cwa)); word6.setBackgroundColor(dark_emerald_green);
+                word7.setText(getRandomArray(words_cwa)); word7.setBackgroundColor(dark_emerald_green);
+                word8.setText(getRandomArray(words_cwa)); word8.setBackgroundColor(dark_emerald_green);
+                word9.setText(getRandomArray(words_cwa)); word9.setBackgroundColor(dark_emerald_green);
+                word10.setText(getRandomArray(words_cwa)); word10.setBackgroundColor(dark_emerald_green);
+            }
+
+            private void resetWordsColor3() {
+                word1.setText(getRandomArray(words_cwa)); word1.setBackgroundColor(yellow);
+                word2.setText(getRandomArray(words_cwa)); word2.setBackgroundColor(yellow);
+                word3.setText(getRandomArray(words_cwa)); word3.setBackgroundColor(yellow);
+                word4.setText(getRandomArray(words_cwa)); word4.setBackgroundColor(yellow);
+                word5.setText(getRandomArray(words_cwa)); word5.setBackgroundColor(yellow);
+                word6.setText(getRandomArray(words_cwa)); word6.setBackgroundColor(yellow);
+                word7.setText(getRandomArray(words_cwa)); word7.setBackgroundColor(yellow);
+                word8.setText(getRandomArray(words_cwa)); word8.setBackgroundColor(yellow);
+                word9.setText(getRandomArray(words_cwa)); word9.setBackgroundColor(yellow);
+                word10.setText(getRandomArray(words_cwa)); word10.setBackgroundColor(yellow);
+            }
+
+            private void resetWordsColor4() {
+                word1.setText(getRandomArray(words_cwa)); word1.setBackgroundColor(red);
+                word2.setText(getRandomArray(words_cwa)); word2.setBackgroundColor(red);
+                word3.setText(getRandomArray(words_cwa)); word3.setBackgroundColor(red);
+                word4.setText(getRandomArray(words_cwa)); word4.setBackgroundColor(red);
+                word5.setText(getRandomArray(words_cwa)); word5.setBackgroundColor(red);
+                word6.setText(getRandomArray(words_cwa)); word6.setBackgroundColor(red);
+                word7.setText(getRandomArray(words_cwa)); word7.setBackgroundColor(red);
+                word8.setText(getRandomArray(words_cwa)); word8.setBackgroundColor(red);
+                word9.setText(getRandomArray(words_cwa)); word9.setBackgroundColor(red);
+                word10.setText(getRandomArray(words_cwa)); word10.setBackgroundColor(red);
+            }
+
+            private void resetWordsColor5() {
+                word1.setText(getRandomArray(words_cwa)); word1.setBackgroundColor(teal);
+                word2.setText(getRandomArray(words_cwa)); word2.setBackgroundColor(teal);
+                word3.setText(getRandomArray(words_cwa)); word3.setBackgroundColor(teal);
+                word4.setText(getRandomArray(words_cwa)); word4.setBackgroundColor(teal);
+                word5.setText(getRandomArray(words_cwa)); word5.setBackgroundColor(teal);
+                word6.setText(getRandomArray(words_cwa)); word6.setBackgroundColor(teal);
+                word7.setText(getRandomArray(words_cwa)); word7.setBackgroundColor(teal);
+                word8.setText(getRandomArray(words_cwa)); word8.setBackgroundColor(teal);
+                word9.setText(getRandomArray(words_cwa)); word9.setBackgroundColor(teal);
+                word10.setText(getRandomArray(words_cwa)); word10.setBackgroundColor(teal);
+            }
+
+            private void resetWordsColor6() {
+                word1.setText(getRandomArray(words_cwa)); word1.setBackgroundColor(blooming_dahlia);
+                word2.setText(getRandomArray(words_cwa)); word2.setBackgroundColor(blooming_dahlia);
+                word3.setText(getRandomArray(words_cwa)); word3.setBackgroundColor(blooming_dahlia);
+                word4.setText(getRandomArray(words_cwa)); word4.setBackgroundColor(blooming_dahlia);
+                word5.setText(getRandomArray(words_cwa)); word5.setBackgroundColor(blooming_dahlia);
+                word6.setText(getRandomArray(words_cwa)); word6.setBackgroundColor(blooming_dahlia);
+                word7.setText(getRandomArray(words_cwa)); word7.setBackgroundColor(blooming_dahlia);
+                word8.setText(getRandomArray(words_cwa)); word8.setBackgroundColor(blooming_dahlia);
+                word9.setText(getRandomArray(words_cwa)); word9.setBackgroundColor(blooming_dahlia);
+                word10.setText(getRandomArray(words_cwa)); word10.setBackgroundColor(blooming_dahlia);
+            }
+
+            private void resetWordsColor7() {
+                word1.setText(getRandomArray(words_cwa)); word1.setBackgroundColor(orange);
+                word2.setText(getRandomArray(words_cwa)); word2.setBackgroundColor(orange);
+                word3.setText(getRandomArray(words_cwa)); word3.setBackgroundColor(orange);
+                word4.setText(getRandomArray(words_cwa)); word4.setBackgroundColor(orange);
+                word5.setText(getRandomArray(words_cwa)); word5.setBackgroundColor(orange);
+                word6.setText(getRandomArray(words_cwa)); word6.setBackgroundColor(orange);
+                word7.setText(getRandomArray(words_cwa)); word7.setBackgroundColor(orange);
+                word8.setText(getRandomArray(words_cwa)); word8.setBackgroundColor(orange);
+                word9.setText(getRandomArray(words_cwa)); word9.setBackgroundColor(orange);
+                word10.setText(getRandomArray(words_cwa)); word10.setBackgroundColor(orange);
+            }
+
+            private void resetWordsColor8() {
+                word1.setText(getRandomArray(words_cwa)); word1.setBackgroundColor(light_blue);
+                word2.setText(getRandomArray(words_cwa)); word2.setBackgroundColor(light_blue);
+                word3.setText(getRandomArray(words_cwa)); word3.setBackgroundColor(light_blue);
+                word4.setText(getRandomArray(words_cwa)); word4.setBackgroundColor(light_blue);
+                word5.setText(getRandomArray(words_cwa)); word5.setBackgroundColor(light_blue);
+                word6.setText(getRandomArray(words_cwa)); word6.setBackgroundColor(light_blue);
+                word7.setText(getRandomArray(words_cwa)); word7.setBackgroundColor(light_blue);
+                word8.setText(getRandomArray(words_cwa)); word8.setBackgroundColor(light_blue);
+                word9.setText(getRandomArray(words_cwa)); word9.setBackgroundColor(light_blue);
+                word10.setText(getRandomArray(words_cwa)); word10.setBackgroundColor(light_blue);
+            }
+
+            private void pageChangingColor1() {
+                if (clickcount == 10 || clickcount == 20 || clickcount == 30  || clickcount == 40 || clickcount == 50) {
+                    resetWordsColor1();
+                }
+            }
+
+            private void pageChangingColor2() {
+                if (clickcount == 10 || clickcount == 20 || clickcount == 30  || clickcount == 40 || clickcount == 50) {
+                    resetWordsColor2();
+                }
+            }
+
+            private void pageChangingColor3() {
+                if (clickcount == 10 || clickcount == 20 || clickcount == 30  || clickcount == 40 || clickcount == 50) {
+                    resetWordsColor3();
+                }
+            }
+
+            private void pageChangingColor4() {
+                if (clickcount == 10 || clickcount == 20 || clickcount == 30  || clickcount == 40 || clickcount == 50) {
+                    resetWordsColor4();
+                }
+            }
+
+            private void pageChangingColor5() {
+                if (clickcount == 10 || clickcount == 20 || clickcount == 30  || clickcount == 40 || clickcount == 50) {
+                    resetWordsColor5();
+                }
+            }
+
+            private void pageChangingColor6() {
+                if (clickcount == 10 || clickcount == 20 || clickcount == 30  || clickcount == 40 || clickcount == 50) {
+                    resetWordsColor6();
+                }
+            }
+
+            private void pageChangingColor7() {
+                if (clickcount == 10 || clickcount == 20 || clickcount == 30  || clickcount == 40 || clickcount == 50) {
+                    resetWordsColor7();
+                }
+            }
+
+            private void pageChangingColor8() {
+                if (clickcount == 10 || clickcount == 20 || clickcount == 30  || clickcount == 40 || clickcount == 50) {
+                    resetWordsColor8();
                 }
             }
         });
-
         word10.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 if (word10.getBackground() instanceof ColorDrawable) {
-                    int color = ((ColorDrawable) word10.getBackground()).getColor();
-                    if (color == Color.WHITE) {
-                        word10.setBackgroundColor(Color.GRAY);
+                    int color1 = ((ColorDrawable) word10.getBackground()).getColor();
+                    if ( color1 == white ) {
+                        word10.setBackgroundColor(gray);
                         clickcount++;
                         points_value.setText(String.valueOf(clickcount));
-                        pageChanging();
-                    } else if (color == Color.GRAY) {
-                        word10.setBackgroundColor(Color.WHITE);
+                        pageChangingColor1();
+                    } else if (color1 == gray) {
+                        word10.setBackgroundColor(white);
                         clickcount--;
                         points_value.setText(String.valueOf(clickcount));
                     }
                 } else {
-                    word10.setBackgroundColor(Color.GRAY);
+                    word10.setBackgroundColor(gray);
                     clickcount++;
                     points_value.setText(String.valueOf(clickcount));
-                    pageChanging();
+                    pageChangingColor1();
+                }
+                if (word10.getBackground() instanceof ColorDrawable) {
+                    int color2 = ((ColorDrawable) word10.getBackground()).getColor();
+                    if ( color2 == dark_emerald_green ) {
+                        word10.setBackgroundColor(dark_emerald_green_dark);
+                        clickcount++;
+                        points_value.setText(String.valueOf(clickcount));
+                        pageChangingColor2();
+                    } else if (color2 == dark_emerald_green_dark) {
+                        word10.setBackgroundColor(dark_emerald_green);
+                        clickcount--;
+                        points_value.setText(String.valueOf(clickcount));
+                    }
+                } else {
+                    word10.setBackgroundColor(dark_emerald_green_dark);
+                    clickcount++;
+                    points_value.setText(String.valueOf(clickcount));
+                    pageChangingColor2();
+                }
+                if (word10.getBackground() instanceof ColorDrawable) {
+                    int color3 = ((ColorDrawable) word10.getBackground()).getColor();
+                    if ( color3 == yellow ) {
+                        word10.setBackgroundColor(yellow_dark);
+                        clickcount++;
+                        points_value.setText(String.valueOf(clickcount));
+                        pageChangingColor3();
+                    } else if (color3 == yellow_dark) {
+                        word10.setBackgroundColor(yellow);
+                        clickcount--;
+                        points_value.setText(String.valueOf(clickcount));
+                    }
+                } else {
+                    word10.setBackgroundColor(yellow_dark);
+                    clickcount++;
+                    points_value.setText(String.valueOf(clickcount));
+                    pageChangingColor3();
+                }
+                if (word10.getBackground() instanceof ColorDrawable) {
+                    int color4 = ((ColorDrawable) word10.getBackground()).getColor();
+                    if ( color4 == red ) {
+                        word10.setBackgroundColor(red_dark);
+                        clickcount++;
+                        points_value.setText(String.valueOf(clickcount));
+                        pageChangingColor4();
+                    } else if (color4 == red_dark) {
+                        word10.setBackgroundColor(red);
+                        clickcount--;
+                        points_value.setText(String.valueOf(clickcount));
+                    }
+                } else {
+                    word10.setBackgroundColor(red_dark);
+                    clickcount++;
+                    points_value.setText(String.valueOf(clickcount));
+                    pageChangingColor4();
+                }
+                if (word10.getBackground() instanceof ColorDrawable) {
+                    int color4 = ((ColorDrawable) word10.getBackground()).getColor();
+                    if ( color4 == teal ) {
+                        word10.setBackgroundColor(teal_dark);
+                        clickcount++;
+                        points_value.setText(String.valueOf(clickcount));
+                        pageChangingColor5();
+                    } else if (color4 == teal_dark) {
+                        word10.setBackgroundColor(teal);
+                        clickcount--;
+                        points_value.setText(String.valueOf(clickcount));
+                    }
+                } else {
+                    word10.setBackgroundColor(teal_dark);
+                    clickcount++;
+                    points_value.setText(String.valueOf(clickcount));
+                    pageChangingColor5();
+                }
+                if (word10.getBackground() instanceof ColorDrawable) {
+                    int color4 = ((ColorDrawable) word10.getBackground()).getColor();
+                    if ( color4 == blooming_dahlia ) {
+                        word10.setBackgroundColor(blooming_dahlia_dark);
+                        clickcount++;
+                        points_value.setText(String.valueOf(clickcount));
+                        pageChangingColor6();
+                    } else if (color4 == blooming_dahlia_dark) {
+                        word10.setBackgroundColor(blooming_dahlia);
+                        clickcount--;
+                        points_value.setText(String.valueOf(clickcount));
+                    }
+                } else {
+                    word10.setBackgroundColor(teal_dark);
+                    clickcount++;
+                    points_value.setText(String.valueOf(clickcount));
+                    pageChangingColor6();
+                }
+                if (word10.getBackground() instanceof ColorDrawable) {
+                    int color4 = ((ColorDrawable) word10.getBackground()).getColor();
+                    if ( color4 == orange ) {
+                        word10.setBackgroundColor(orange_dark);
+                        clickcount++;
+                        points_value.setText(String.valueOf(clickcount));
+                        pageChangingColor7();
+                    } else if (color4 == orange_dark) {
+                        word10.setBackgroundColor(orange);
+                        clickcount--;
+                        points_value.setText(String.valueOf(clickcount));
+                    }
+                } else {
+                    word10.setBackgroundColor(orange_dark);
+                    clickcount++;
+                    points_value.setText(String.valueOf(clickcount));
+                    pageChangingColor7();
+                }
+                if (word10.getBackground() instanceof ColorDrawable) {
+                    int color4 = ((ColorDrawable) word10.getBackground()).getColor();
+                    if ( color4 == light_blue ) {
+                        word10.setBackgroundColor(light_blue_dark);
+                        clickcount++;
+                        points_value.setText(String.valueOf(clickcount));
+                        pageChangingColor8();
+                    } else if (color4 == light_blue_dark) {
+                        word10.setBackgroundColor(light_blue);
+                        clickcount--;
+                        points_value.setText(String.valueOf(clickcount));
+                    }
+                } else {
+                    word10.setBackgroundColor(light_blue_dark);
+                    clickcount++;
+                    points_value.setText(String.valueOf(clickcount));
+                    pageChangingColor8();
                 }
             }
 
-            private void resetWords() {
-                word1.setText(getRandomArray(words_cwa)); word1.setBackgroundColor(Color.WHITE);
-                word2.setText(getRandomArray(words_cwa)); word2.setBackgroundColor(Color.WHITE);
-                word3.setText(getRandomArray(words_cwa)); word3.setBackgroundColor(Color.WHITE);
-                word4.setText(getRandomArray(words_cwa)); word4.setBackgroundColor(Color.WHITE);
-                word5.setText(getRandomArray(words_cwa)); word5.setBackgroundColor(Color.WHITE);
-                word6.setText(getRandomArray(words_cwa)); word6.setBackgroundColor(Color.WHITE);
-                word7.setText(getRandomArray(words_cwa)); word7.setBackgroundColor(Color.WHITE);
-                word8.setText(getRandomArray(words_cwa)); word8.setBackgroundColor(Color.WHITE);
-                word9.setText(getRandomArray(words_cwa)); word9.setBackgroundColor(Color.WHITE);
-                word10.setText(getRandomArray(words_cwa)); word10.setBackgroundColor(Color.WHITE);
+            private void resetWordsColor1() {
+                word1.setText(getRandomArray(words_cwa)); word1.setBackgroundColor(white);
+                word2.setText(getRandomArray(words_cwa)); word2.setBackgroundColor(white);
+                word3.setText(getRandomArray(words_cwa)); word3.setBackgroundColor(white);
+                word4.setText(getRandomArray(words_cwa)); word4.setBackgroundColor(white);
+                word5.setText(getRandomArray(words_cwa)); word5.setBackgroundColor(white);
+                word6.setText(getRandomArray(words_cwa)); word6.setBackgroundColor(white);
+                word7.setText(getRandomArray(words_cwa)); word7.setBackgroundColor(white);
+                word8.setText(getRandomArray(words_cwa)); word8.setBackgroundColor(white);
+                word9.setText(getRandomArray(words_cwa)); word9.setBackgroundColor(white);
+                word10.setText(getRandomArray(words_cwa)); word10.setBackgroundColor(white);
             }
 
-            private void pageChanging() {
-                if (clickcount == 10) {
-                    resetWords();
-                } else if (clickcount == 20) {
-                    resetWords();
-                } else if (clickcount == 30) {
-                    resetWords();
-                } else if (clickcount == 40) {
-                    resetWords();
-                } else if (clickcount == 50) {
-                    resetWords();
+            private void resetWordsColor2() {
+                word1.setText(getRandomArray(words_cwa)); word1.setBackgroundColor(dark_emerald_green);
+                word2.setText(getRandomArray(words_cwa)); word2.setBackgroundColor(dark_emerald_green);
+                word3.setText(getRandomArray(words_cwa)); word3.setBackgroundColor(dark_emerald_green);
+                word4.setText(getRandomArray(words_cwa)); word4.setBackgroundColor(dark_emerald_green);
+                word5.setText(getRandomArray(words_cwa)); word5.setBackgroundColor(dark_emerald_green);
+                word6.setText(getRandomArray(words_cwa)); word6.setBackgroundColor(dark_emerald_green);
+                word7.setText(getRandomArray(words_cwa)); word7.setBackgroundColor(dark_emerald_green);
+                word8.setText(getRandomArray(words_cwa)); word8.setBackgroundColor(dark_emerald_green);
+                word9.setText(getRandomArray(words_cwa)); word9.setBackgroundColor(dark_emerald_green);
+                word10.setText(getRandomArray(words_cwa)); word10.setBackgroundColor(dark_emerald_green);
+            }
+
+            private void resetWordsColor3() {
+                word1.setText(getRandomArray(words_cwa)); word1.setBackgroundColor(yellow);
+                word2.setText(getRandomArray(words_cwa)); word2.setBackgroundColor(yellow);
+                word3.setText(getRandomArray(words_cwa)); word3.setBackgroundColor(yellow);
+                word4.setText(getRandomArray(words_cwa)); word4.setBackgroundColor(yellow);
+                word5.setText(getRandomArray(words_cwa)); word5.setBackgroundColor(yellow);
+                word6.setText(getRandomArray(words_cwa)); word6.setBackgroundColor(yellow);
+                word7.setText(getRandomArray(words_cwa)); word7.setBackgroundColor(yellow);
+                word8.setText(getRandomArray(words_cwa)); word8.setBackgroundColor(yellow);
+                word9.setText(getRandomArray(words_cwa)); word9.setBackgroundColor(yellow);
+                word10.setText(getRandomArray(words_cwa)); word10.setBackgroundColor(yellow);
+            }
+
+            private void resetWordsColor4() {
+                word1.setText(getRandomArray(words_cwa)); word1.setBackgroundColor(red);
+                word2.setText(getRandomArray(words_cwa)); word2.setBackgroundColor(red);
+                word3.setText(getRandomArray(words_cwa)); word3.setBackgroundColor(red);
+                word4.setText(getRandomArray(words_cwa)); word4.setBackgroundColor(red);
+                word5.setText(getRandomArray(words_cwa)); word5.setBackgroundColor(red);
+                word6.setText(getRandomArray(words_cwa)); word6.setBackgroundColor(red);
+                word7.setText(getRandomArray(words_cwa)); word7.setBackgroundColor(red);
+                word8.setText(getRandomArray(words_cwa)); word8.setBackgroundColor(red);
+                word9.setText(getRandomArray(words_cwa)); word9.setBackgroundColor(red);
+                word10.setText(getRandomArray(words_cwa)); word10.setBackgroundColor(red);
+            }
+
+            private void resetWordsColor5() {
+                word1.setText(getRandomArray(words_cwa)); word1.setBackgroundColor(teal);
+                word2.setText(getRandomArray(words_cwa)); word2.setBackgroundColor(teal);
+                word3.setText(getRandomArray(words_cwa)); word3.setBackgroundColor(teal);
+                word4.setText(getRandomArray(words_cwa)); word4.setBackgroundColor(teal);
+                word5.setText(getRandomArray(words_cwa)); word5.setBackgroundColor(teal);
+                word6.setText(getRandomArray(words_cwa)); word6.setBackgroundColor(teal);
+                word7.setText(getRandomArray(words_cwa)); word7.setBackgroundColor(teal);
+                word8.setText(getRandomArray(words_cwa)); word8.setBackgroundColor(teal);
+                word9.setText(getRandomArray(words_cwa)); word9.setBackgroundColor(teal);
+                word10.setText(getRandomArray(words_cwa)); word10.setBackgroundColor(teal);
+            }
+
+            private void resetWordsColor6() {
+                word1.setText(getRandomArray(words_cwa)); word1.setBackgroundColor(blooming_dahlia);
+                word2.setText(getRandomArray(words_cwa)); word2.setBackgroundColor(blooming_dahlia);
+                word3.setText(getRandomArray(words_cwa)); word3.setBackgroundColor(blooming_dahlia);
+                word4.setText(getRandomArray(words_cwa)); word4.setBackgroundColor(blooming_dahlia);
+                word5.setText(getRandomArray(words_cwa)); word5.setBackgroundColor(blooming_dahlia);
+                word6.setText(getRandomArray(words_cwa)); word6.setBackgroundColor(blooming_dahlia);
+                word7.setText(getRandomArray(words_cwa)); word7.setBackgroundColor(blooming_dahlia);
+                word8.setText(getRandomArray(words_cwa)); word8.setBackgroundColor(blooming_dahlia);
+                word9.setText(getRandomArray(words_cwa)); word9.setBackgroundColor(blooming_dahlia);
+                word10.setText(getRandomArray(words_cwa)); word10.setBackgroundColor(blooming_dahlia);
+            }
+
+            private void resetWordsColor7() {
+                word1.setText(getRandomArray(words_cwa)); word1.setBackgroundColor(orange);
+                word2.setText(getRandomArray(words_cwa)); word2.setBackgroundColor(orange);
+                word3.setText(getRandomArray(words_cwa)); word3.setBackgroundColor(orange);
+                word4.setText(getRandomArray(words_cwa)); word4.setBackgroundColor(orange);
+                word5.setText(getRandomArray(words_cwa)); word5.setBackgroundColor(orange);
+                word6.setText(getRandomArray(words_cwa)); word6.setBackgroundColor(orange);
+                word7.setText(getRandomArray(words_cwa)); word7.setBackgroundColor(orange);
+                word8.setText(getRandomArray(words_cwa)); word8.setBackgroundColor(orange);
+                word9.setText(getRandomArray(words_cwa)); word9.setBackgroundColor(orange);
+                word10.setText(getRandomArray(words_cwa)); word10.setBackgroundColor(orange);
+            }
+
+            private void resetWordsColor8() {
+                word1.setText(getRandomArray(words_cwa)); word1.setBackgroundColor(light_blue);
+                word2.setText(getRandomArray(words_cwa)); word2.setBackgroundColor(light_blue);
+                word3.setText(getRandomArray(words_cwa)); word3.setBackgroundColor(light_blue);
+                word4.setText(getRandomArray(words_cwa)); word4.setBackgroundColor(light_blue);
+                word5.setText(getRandomArray(words_cwa)); word5.setBackgroundColor(light_blue);
+                word6.setText(getRandomArray(words_cwa)); word6.setBackgroundColor(light_blue);
+                word7.setText(getRandomArray(words_cwa)); word7.setBackgroundColor(light_blue);
+                word8.setText(getRandomArray(words_cwa)); word8.setBackgroundColor(light_blue);
+                word9.setText(getRandomArray(words_cwa)); word9.setBackgroundColor(light_blue);
+                word10.setText(getRandomArray(words_cwa)); word10.setBackgroundColor(light_blue);
+            }
+
+            private void pageChangingColor1() {
+                if (clickcount == 10 || clickcount == 20 || clickcount == 30  || clickcount == 40 || clickcount == 50) {
+                    resetWordsColor1();
+                }
+            }
+
+            private void pageChangingColor2() {
+                if (clickcount == 10 || clickcount == 20 || clickcount == 30  || clickcount == 40 || clickcount == 50) {
+                    resetWordsColor2();
+                }
+            }
+
+            private void pageChangingColor3() {
+                if (clickcount == 10 || clickcount == 20 || clickcount == 30  || clickcount == 40 || clickcount == 50) {
+                    resetWordsColor3();
+                }
+            }
+
+            private void pageChangingColor4() {
+                if (clickcount == 10 || clickcount == 20 || clickcount == 30  || clickcount == 40 || clickcount == 50) {
+                    resetWordsColor4();
+                }
+            }
+
+            private void pageChangingColor5() {
+                if (clickcount == 10 || clickcount == 20 || clickcount == 30  || clickcount == 40 || clickcount == 50) {
+                    resetWordsColor5();
+                }
+            }
+
+            private void pageChangingColor6() {
+                if (clickcount == 10 || clickcount == 20 || clickcount == 30  || clickcount == 40 || clickcount == 50) {
+                    resetWordsColor6();
+                }
+            }
+
+            private void pageChangingColor7() {
+                if (clickcount == 10 || clickcount == 20 || clickcount == 30  || clickcount == 40 || clickcount == 50) {
+                    resetWordsColor7();
+                }
+            }
+
+            private void pageChangingColor8() {
+                if (clickcount == 10 || clickcount == 20 || clickcount == 30  || clickcount == 40 || clickcount == 50) {
+                    resetWordsColor8();
                 }
             }
         });
