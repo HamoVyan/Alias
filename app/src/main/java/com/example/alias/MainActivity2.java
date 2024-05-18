@@ -51,6 +51,21 @@ public class MainActivity2 extends AppCompatActivity {
     ArrayList<String> words_cwa = new ArrayList<>();
     ArrayList<String> words_cwr = new ArrayList<>();
     ArrayList<String> words_cwe = new ArrayList<>();
+    ArrayList<String> famouse_peples_arm = new ArrayList<>();
+    ArrayList<String> famouse_peples_rus = new ArrayList<>();
+    ArrayList<String> famouse_peples_eng = new ArrayList<>();
+    ArrayList<String> city_countries_arm = new ArrayList<>();
+    ArrayList<String> city_countries_rus = new ArrayList<>();
+    ArrayList<String> city_countries_eng = new ArrayList<>();
+    ArrayList<String> pantomime_arm = new ArrayList<>();
+    ArrayList<String> pantomime_rus = new ArrayList<>();
+    ArrayList<String> pantomime_eng = new ArrayList<>();
+    ArrayList<String> films_arm = new ArrayList<>();
+    ArrayList<String> films_rus = new ArrayList<>();
+    ArrayList<String> films_eng = new ArrayList<>();
+    ArrayList<String> all_arm = new ArrayList<>();
+    ArrayList<String> all_rus = new ArrayList<>();
+    ArrayList<String> all_eng = new ArrayList<>();
     Map<String, Object> data;
 
     @SuppressLint("MissingInflatedId")
@@ -79,7 +94,7 @@ public class MainActivity2 extends AppCompatActivity {
         LinearLayout linearlayout = findViewById(R.id.linearlayout);
         ConstraintLayout main2 = findViewById(R.id.main2);
 
-        /*Common Words*/
+        /*Sections*/
         if ( MainActivity5.is_common_words_selected ) {
             if ( MainActivity6.Armenian ) {
                 db.collection("Common Words-arm").get()
@@ -163,8 +178,425 @@ public class MainActivity2 extends AppCompatActivity {
                             }
                         });
             }
+        } else if ( MainActivity5.is_famous_peoples_selected ) {
+            if ( MainActivity6.Armenian ) {
+                db.collection("Famous Peoples-arm").get()
+                        .addOnCompleteListener(new OnCompleteListener<QuerySnapshot>() {
+                            @Override
+                            public void onComplete(@NonNull Task<QuerySnapshot> task) {
+                                if (task.isSuccessful()) {
+                                    for (QueryDocumentSnapshot document : task.getResult()) {
+                                        Log.d(TAG,  "" + document.getData());
+                                        data = document.getData();
+                                        famouse_peples_arm.add((String) data.get("fpa"));
+                                    }
+                                    word1.setText(getRandomArray(famouse_peples_arm));
+                                    word2.setText(getRandomArray(famouse_peples_arm));
+                                    word3.setText(getRandomArray(famouse_peples_arm));
+                                    word4.setText(getRandomArray(famouse_peples_arm));
+                                    word5.setText(getRandomArray(famouse_peples_arm));
+                                    word6.setText(getRandomArray(famouse_peples_arm));
+                                    word7.setText(getRandomArray(famouse_peples_arm));
+                                    word8.setText(getRandomArray(famouse_peples_arm));
+                                    word9.setText(getRandomArray(famouse_peples_arm));
+                                    word10.setText(getRandomArray(famouse_peples_arm));
+                                } else {
+                                    Log.w(TAG, "Error getting documents.", task.getException());
+                                    Toast.makeText(MainActivity2.this, "error", Toast.LENGTH_SHORT).show();
+                                }
+                            }
+                        });
+            } else if ( MainActivity6.Russian ) {
+                db.collection("Famous Peoples-rus").get()
+                        .addOnCompleteListener(new OnCompleteListener<QuerySnapshot>() {
+                            @Override
+                            public void onComplete(@NonNull Task<QuerySnapshot> task) {
+                                if (task.isSuccessful()) {
+                                    for (QueryDocumentSnapshot document : task.getResult()) {
+                                        Log.d(TAG,  "" + document.getData());
+                                        data = document.getData();
+                                        famouse_peples_rus.add((String) data.get("fpr"));
+                                    }
+                                    word1.setText(getRandomArray(famouse_peples_rus));
+                                    word2.setText(getRandomArray(famouse_peples_rus));
+                                    word3.setText(getRandomArray(famouse_peples_rus));
+                                    word4.setText(getRandomArray(famouse_peples_rus));
+                                    word5.setText(getRandomArray(famouse_peples_rus));
+                                    word6.setText(getRandomArray(famouse_peples_rus));
+                                    word7.setText(getRandomArray(famouse_peples_rus));
+                                    word8.setText(getRandomArray(famouse_peples_rus));
+                                    word9.setText(getRandomArray(famouse_peples_rus));
+                                    word10.setText(getRandomArray(famouse_peples_rus));
+                                } else {
+                                    Log.w(TAG, "Error getting documents.", task.getException());
+                                    Toast.makeText(MainActivity2.this, "error", Toast.LENGTH_SHORT).show();
+                                }
+                            }
+                        });
+            } else if ( MainActivity6.English ) {
+                db.collection("Famous Peoples-eng").get()
+                        .addOnCompleteListener(new OnCompleteListener<QuerySnapshot>() {
+                            @Override
+                            public void onComplete(@NonNull Task<QuerySnapshot> task) {
+                                if (task.isSuccessful()) {
+                                    for (QueryDocumentSnapshot document : task.getResult()) {
+                                        Log.d(TAG,  "" + document.getData());
+                                        data = document.getData();
+                                        famouse_peples_eng.add((String) data.get("fpe"));
+                                    }
+                                    word1.setText(getRandomArray(famouse_peples_eng));
+                                    word2.setText(getRandomArray(famouse_peples_eng));
+                                    word3.setText(getRandomArray(famouse_peples_eng));
+                                    word4.setText(getRandomArray(famouse_peples_eng));
+                                    word5.setText(getRandomArray(famouse_peples_eng));
+                                    word6.setText(getRandomArray(famouse_peples_eng));
+                                    word7.setText(getRandomArray(famouse_peples_eng));
+                                    word8.setText(getRandomArray(famouse_peples_eng));
+                                    word9.setText(getRandomArray(famouse_peples_eng));
+                                    word10.setText(getRandomArray(famouse_peples_eng));
+                                } else {
+                                    Log.w(TAG, "Error getting documents.", task.getException());
+                                    Toast.makeText(MainActivity2.this, "error", Toast.LENGTH_SHORT).show();
+                                }
+                            }
+                        });
+            }
+        } else if ( MainActivity5.is_city_countries_selected ) {
+            if ( MainActivity6.Armenian ) {
+                db.collection("City Countries-arm").get()
+                        .addOnCompleteListener(new OnCompleteListener<QuerySnapshot>() {
+                            @Override
+                            public void onComplete(@NonNull Task<QuerySnapshot> task) {
+                                if (task.isSuccessful()) {
+                                    for (QueryDocumentSnapshot document : task.getResult()) {
+                                        Log.d(TAG,  "" + document.getData());
+                                        data = document.getData();
+                                        city_countries_arm.add((String) data.get("cca"));
+                                    }
+                                    word1.setText(getRandomArray(city_countries_arm));
+                                    word2.setText(getRandomArray(city_countries_arm));
+                                    word3.setText(getRandomArray(city_countries_arm));
+                                    word4.setText(getRandomArray(city_countries_arm));
+                                    word5.setText(getRandomArray(city_countries_arm));
+                                    word6.setText(getRandomArray(city_countries_arm));
+                                    word7.setText(getRandomArray(city_countries_arm));
+                                    word8.setText(getRandomArray(city_countries_arm));
+                                    word9.setText(getRandomArray(city_countries_arm));
+                                    word10.setText(getRandomArray(city_countries_arm));
+                                } else {
+                                    Log.w(TAG, "Error getting documents.", task.getException());
+                                    Toast.makeText(MainActivity2.this, "error", Toast.LENGTH_SHORT).show();
+                                }
+                            }
+                        });
+            } else if ( MainActivity6.Russian ) {
+                db.collection("City Countries-rus").get()
+                        .addOnCompleteListener(new OnCompleteListener<QuerySnapshot>() {
+                            @Override
+                            public void onComplete(@NonNull Task<QuerySnapshot> task) {
+                                if (task.isSuccessful()) {
+                                    for (QueryDocumentSnapshot document : task.getResult()) {
+                                        Log.d(TAG,  "" + document.getData());
+                                        data = document.getData();
+                                        city_countries_rus.add((String) data.get("ccr"));
+                                    }
+                                    word1.setText(getRandomArray(city_countries_rus));
+                                    word2.setText(getRandomArray(city_countries_rus));
+                                    word3.setText(getRandomArray(city_countries_rus));
+                                    word4.setText(getRandomArray(city_countries_rus));
+                                    word5.setText(getRandomArray(city_countries_rus));
+                                    word6.setText(getRandomArray(city_countries_rus));
+                                    word7.setText(getRandomArray(city_countries_rus));
+                                    word8.setText(getRandomArray(city_countries_rus));
+                                    word9.setText(getRandomArray(city_countries_rus));
+                                    word10.setText(getRandomArray(city_countries_rus));
+                                } else {
+                                    Log.w(TAG, "Error getting documents.", task.getException());
+                                    Toast.makeText(MainActivity2.this, "error", Toast.LENGTH_SHORT).show();
+                                }
+                            }
+                        });
+            } else if ( MainActivity6.English ) {
+                db.collection("City Countries-eng").get()
+                        .addOnCompleteListener(new OnCompleteListener<QuerySnapshot>() {
+                            @Override
+                            public void onComplete(@NonNull Task<QuerySnapshot> task) {
+                                if (task.isSuccessful()) {
+                                    for (QueryDocumentSnapshot document : task.getResult()) {
+                                        Log.d(TAG,  "" + document.getData());
+                                        data = document.getData();
+                                        city_countries_eng.add((String) data.get("cce"));
+                                    }
+                                    word1.setText(getRandomArray(city_countries_eng));
+                                    word2.setText(getRandomArray(city_countries_eng));
+                                    word3.setText(getRandomArray(city_countries_eng));
+                                    word4.setText(getRandomArray(city_countries_eng));
+                                    word5.setText(getRandomArray(city_countries_eng));
+                                    word6.setText(getRandomArray(city_countries_eng));
+                                    word7.setText(getRandomArray(city_countries_eng));
+                                    word8.setText(getRandomArray(city_countries_eng));
+                                    word9.setText(getRandomArray(city_countries_eng));
+                                    word10.setText(getRandomArray(city_countries_eng));
+                                } else {
+                                    Log.w(TAG, "Error getting documents.", task.getException());
+                                    Toast.makeText(MainActivity2.this, "error", Toast.LENGTH_SHORT).show();
+                                }
+                            }
+                        });
+            }
+        } else if ( MainActivity5.is_pantomime_selected ) {
+            if ( MainActivity6.Armenian ) {
+                db.collection("Pantomime-arm").get()
+                        .addOnCompleteListener(new OnCompleteListener<QuerySnapshot>() {
+                            @Override
+                            public void onComplete(@NonNull Task<QuerySnapshot> task) {
+                                if (task.isSuccessful()) {
+                                    for (QueryDocumentSnapshot document : task.getResult()) {
+                                        Log.d(TAG,  "" + document.getData());
+                                        data = document.getData();
+                                        pantomime_arm.add((String) data.get("pa"));
+                                    }
+                                    word1.setText(getRandomArray(pantomime_arm));
+                                    word2.setText(getRandomArray(pantomime_arm));
+                                    word3.setText(getRandomArray(pantomime_arm));
+                                    word4.setText(getRandomArray(pantomime_arm));
+                                    word5.setText(getRandomArray(pantomime_arm));
+                                    word6.setText(getRandomArray(pantomime_arm));
+                                    word7.setText(getRandomArray(pantomime_arm));
+                                    word8.setText(getRandomArray(pantomime_arm));
+                                    word9.setText(getRandomArray(pantomime_arm));
+                                    word10.setText(getRandomArray(pantomime_arm));
+                                } else {
+                                    Log.w(TAG, "Error getting documents.", task.getException());
+                                    Toast.makeText(MainActivity2.this, "error", Toast.LENGTH_SHORT).show();
+                                }
+                            }
+                        });
+            } else if ( MainActivity6.Russian ) {
+                db.collection("Pantomime-rus").get()
+                        .addOnCompleteListener(new OnCompleteListener<QuerySnapshot>() {
+                            @Override
+                            public void onComplete(@NonNull Task<QuerySnapshot> task) {
+                                if (task.isSuccessful()) {
+                                    for (QueryDocumentSnapshot document : task.getResult()) {
+                                        Log.d(TAG,  "" + document.getData());
+                                        data = document.getData();
+                                        pantomime_rus.add((String) data.get("pr"));
+                                    }
+                                    word1.setText(getRandomArray(pantomime_rus));
+                                    word2.setText(getRandomArray(pantomime_rus));
+                                    word3.setText(getRandomArray(pantomime_rus));
+                                    word4.setText(getRandomArray(pantomime_rus));
+                                    word5.setText(getRandomArray(pantomime_rus));
+                                    word6.setText(getRandomArray(pantomime_rus));
+                                    word7.setText(getRandomArray(pantomime_rus));
+                                    word8.setText(getRandomArray(pantomime_rus));
+                                    word9.setText(getRandomArray(pantomime_rus));
+                                    word10.setText(getRandomArray(pantomime_rus));
+                                } else {
+                                    Log.w(TAG, "Error getting documents.", task.getException());
+                                    Toast.makeText(MainActivity2.this, "error", Toast.LENGTH_SHORT).show();
+                                }
+                            }
+                        });
+            } else if ( MainActivity6.English ) {
+                db.collection("Pantomime-eng").get()
+                        .addOnCompleteListener(new OnCompleteListener<QuerySnapshot>() {
+                            @Override
+                            public void onComplete(@NonNull Task<QuerySnapshot> task) {
+                                if (task.isSuccessful()) {
+                                    for (QueryDocumentSnapshot document : task.getResult()) {
+                                        Log.d(TAG,  "" + document.getData());
+                                        data = document.getData();
+                                        pantomime_eng.add((String) data.get("pe"));
+                                    }
+                                    word1.setText(getRandomArray(pantomime_eng));
+                                    word2.setText(getRandomArray(pantomime_eng));
+                                    word3.setText(getRandomArray(pantomime_eng));
+                                    word4.setText(getRandomArray(pantomime_eng));
+                                    word5.setText(getRandomArray(pantomime_eng));
+                                    word6.setText(getRandomArray(pantomime_eng));
+                                    word7.setText(getRandomArray(pantomime_eng));
+                                    word8.setText(getRandomArray(pantomime_eng));
+                                    word9.setText(getRandomArray(pantomime_eng));
+                                    word10.setText(getRandomArray(pantomime_eng));
+                                } else {
+                                    Log.w(TAG, "Error getting documents.", task.getException());
+                                    Toast.makeText(MainActivity2.this, "error", Toast.LENGTH_SHORT).show();
+                                }
+                            }
+                        });
+            }
+        } else if ( MainActivity5.is_films_selected ) {
+            if ( MainActivity6.Armenian ) {
+                db.collection("Films-arm").get()
+                        .addOnCompleteListener(new OnCompleteListener<QuerySnapshot>() {
+                            @Override
+                            public void onComplete(@NonNull Task<QuerySnapshot> task) {
+                                if (task.isSuccessful()) {
+                                    for (QueryDocumentSnapshot document : task.getResult()) {
+                                        Log.d(TAG,  "" + document.getData());
+                                        data = document.getData();
+                                        films_arm.add((String) data.get("fa"));
+                                    }
+                                    word1.setText(getRandomArray(films_arm));
+                                    word2.setText(getRandomArray(films_arm));
+                                    word3.setText(getRandomArray(films_arm));
+                                    word4.setText(getRandomArray(films_arm));
+                                    word5.setText(getRandomArray(films_arm));
+                                    word6.setText(getRandomArray(films_arm));
+                                    word7.setText(getRandomArray(films_arm));
+                                    word8.setText(getRandomArray(films_arm));
+                                    word9.setText(getRandomArray(films_arm));
+                                    word10.setText(getRandomArray(films_arm));
+                                } else {
+                                    Log.w(TAG, "Error getting documents.", task.getException());
+                                    Toast.makeText(MainActivity2.this, "error", Toast.LENGTH_SHORT).show();
+                                }
+                            }
+                        });
+            } else if ( MainActivity6.Russian ) {
+                db.collection("Films-rus").get()
+                        .addOnCompleteListener(new OnCompleteListener<QuerySnapshot>() {
+                            @Override
+                            public void onComplete(@NonNull Task<QuerySnapshot> task) {
+                                if (task.isSuccessful()) {
+                                    for (QueryDocumentSnapshot document : task.getResult()) {
+                                        Log.d(TAG,  "" + document.getData());
+                                        data = document.getData();
+                                        films_rus.add((String) data.get("fr"));
+                                    }
+                                    word1.setText(getRandomArray(films_rus));
+                                    word2.setText(getRandomArray(films_rus));
+                                    word3.setText(getRandomArray(films_rus));
+                                    word4.setText(getRandomArray(films_rus));
+                                    word5.setText(getRandomArray(films_rus));
+                                    word6.setText(getRandomArray(films_rus));
+                                    word7.setText(getRandomArray(films_rus));
+                                    word8.setText(getRandomArray(films_rus));
+                                    word9.setText(getRandomArray(films_rus));
+                                    word10.setText(getRandomArray(films_rus));
+                                } else {
+                                    Log.w(TAG, "Error getting documents.", task.getException());
+                                    Toast.makeText(MainActivity2.this, "error", Toast.LENGTH_SHORT).show();
+                                }
+                            }
+                        });
+            } else if ( MainActivity6.English ) {
+                db.collection("Films-eng").get()
+                        .addOnCompleteListener(new OnCompleteListener<QuerySnapshot>() {
+                            @Override
+                            public void onComplete(@NonNull Task<QuerySnapshot> task) {
+                                if (task.isSuccessful()) {
+                                    for (QueryDocumentSnapshot document : task.getResult()) {
+                                        Log.d(TAG,  "" + document.getData());
+                                        data = document.getData();
+                                        films_eng.add((String) data.get("fe"));
+                                    }
+                                    word1.setText(getRandomArray(films_eng));
+                                    word2.setText(getRandomArray(films_eng));
+                                    word3.setText(getRandomArray(films_eng));
+                                    word4.setText(getRandomArray(films_eng));
+                                    word5.setText(getRandomArray(films_eng));
+                                    word6.setText(getRandomArray(films_eng));
+                                    word7.setText(getRandomArray(films_eng));
+                                    word8.setText(getRandomArray(films_eng));
+                                    word9.setText(getRandomArray(films_eng));
+                                    word10.setText(getRandomArray(films_eng));
+                                } else {
+                                    Log.w(TAG, "Error getting documents.", task.getException());
+                                    Toast.makeText(MainActivity2.this, "error", Toast.LENGTH_SHORT).show();
+                                }
+                            }
+                        });
+            }
+        } else if ( MainActivity5.is_all_selected ) {
+            if ( MainActivity6.Armenian ) {
+                db.collection("All-arm").get()
+                        .addOnCompleteListener(new OnCompleteListener<QuerySnapshot>() {
+                            @Override
+                            public void onComplete(@NonNull Task<QuerySnapshot> task) {
+                                if (task.isSuccessful()) {
+                                    for (QueryDocumentSnapshot document : task.getResult()) {
+                                        Log.d(TAG,  "" + document.getData());
+                                        data = document.getData();
+                                        all_arm.add((String) data.get("aa"));
+                                    }
+                                    word1.setText(getRandomArray(all_arm));
+                                    word2.setText(getRandomArray(all_arm));
+                                    word3.setText(getRandomArray(all_arm));
+                                    word4.setText(getRandomArray(all_arm));
+                                    word5.setText(getRandomArray(all_arm));
+                                    word6.setText(getRandomArray(all_arm));
+                                    word7.setText(getRandomArray(all_arm));
+                                    word8.setText(getRandomArray(all_arm));
+                                    word9.setText(getRandomArray(all_arm));
+                                    word10.setText(getRandomArray(all_arm));
+                                } else {
+                                    Log.w(TAG, "Error getting documents.", task.getException());
+                                    Toast.makeText(MainActivity2.this, "error", Toast.LENGTH_SHORT).show();
+                                }
+                            }
+                        });
+            } else if ( MainActivity6.Russian ) {
+                db.collection("All-rus").get()
+                        .addOnCompleteListener(new OnCompleteListener<QuerySnapshot>() {
+                            @Override
+                            public void onComplete(@NonNull Task<QuerySnapshot> task) {
+                                if (task.isSuccessful()) {
+                                    for (QueryDocumentSnapshot document : task.getResult()) {
+                                        Log.d(TAG,  "" + document.getData());
+                                        data = document.getData();
+                                        all_rus.add((String) data.get("ar"));
+                                    }
+                                    word1.setText(getRandomArray(all_rus));
+                                    word2.setText(getRandomArray(all_rus));
+                                    word3.setText(getRandomArray(all_rus));
+                                    word4.setText(getRandomArray(all_rus));
+                                    word5.setText(getRandomArray(all_rus));
+                                    word6.setText(getRandomArray(all_rus));
+                                    word7.setText(getRandomArray(all_rus));
+                                    word8.setText(getRandomArray(all_rus));
+                                    word9.setText(getRandomArray(all_rus));
+                                    word10.setText(getRandomArray(all_rus));
+                                } else {
+                                    Log.w(TAG, "Error getting documents.", task.getException());
+                                    Toast.makeText(MainActivity2.this, "error", Toast.LENGTH_SHORT).show();
+                                }
+                            }
+                        });
+            } else if ( MainActivity6.English ) {
+                db.collection("All-eng").get()
+                        .addOnCompleteListener(new OnCompleteListener<QuerySnapshot>() {
+                            @Override
+                            public void onComplete(@NonNull Task<QuerySnapshot> task) {
+                                if (task.isSuccessful()) {
+                                    for (QueryDocumentSnapshot document : task.getResult()) {
+                                        Log.d(TAG,  "" + document.getData());
+                                        data = document.getData();
+                                        all_eng.add((String) data.get("ae"));
+                                    }
+                                    word1.setText(getRandomArray(all_eng));
+                                    word2.setText(getRandomArray(all_eng));
+                                    word3.setText(getRandomArray(all_eng));
+                                    word4.setText(getRandomArray(all_eng));
+                                    word5.setText(getRandomArray(all_eng));
+                                    word6.setText(getRandomArray(all_eng));
+                                    word7.setText(getRandomArray(all_eng));
+                                    word8.setText(getRandomArray(all_eng));
+                                    word9.setText(getRandomArray(all_eng));
+                                    word10.setText(getRandomArray(all_eng));
+                                } else {
+                                    Log.w(TAG, "Error getting documents.", task.getException());
+                                    Toast.makeText(MainActivity2.this, "error", Toast.LENGTH_SHORT).show();
+                                }
+                            }
+                        });
+            }
         }
-        /*Common Words*/
+        /*Sections*/
+
+
 
         /*Colors*/
         int black = ContextCompat.getColor(this, R.color.black);
